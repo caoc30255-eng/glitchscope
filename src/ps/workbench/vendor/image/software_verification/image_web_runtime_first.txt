@@ -1,0 +1,11 @@
+test_actual_session24_reproduced_repair_cannot_open_source_files (__main__.Integration.test_actual_session24_reproduced_repair_cannot_open_source_files) ... ok
+test_arbitrary_source_config_crc_and_exact65_plan (__main__.Integration.test_arbitrary_source_config_crc_and_exact65_plan) ... ok
+test_new_source_modeled_capture_reconstructs_and_repairs (__main__.Integration.test_new_source_modeled_capture_reconstructs_and_repairs) ... ok
+test_partial_image_keeps_missing_and_no_lossless_claim (__main__.Integration.test_partial_image_keeps_missing_and_no_lossless_claim) ... ok
+test_tampered_upload_source_blocks_before_record (__main__.Integration.test_tampered_upload_source_blocks_before_record) ... ok
+test_wrong_source_schedule_rejected_and_old4_limit_unchanged (__main__.Integration.test_wrong_source_schedule_rejected_and_old4_limit_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 12.335s
+
+OK

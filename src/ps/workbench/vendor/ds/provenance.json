@@ -1,0 +1,14 @@
+{
+  "b_receiver.py": {
+    "original_sha256": "323e857ac0394168a5976cf351c68024e9542d76b7d86ae0d19399c8f4310a3a",
+    "new_sha256": "323e857ac0394168a5976cf351c68024e9542d76b7d86ae0d19399c8f4310a3a"
+  },
+  "window_audit.py": {
+    "original_sha256": "164296e5e3c7102a9593eb17d00517dc6cef3c2f24c36afae724f1587d7ecb8a",
+    "new_sha256": "10c629010339aa03f70a68686c2da797ad43676750693223c0aacb1c1deeb49c"
+  },
+  "phase_envelope.py": {
+    "original_sha256": "496709ccee395b849fd4be5bd3caf89cbea2629e299d5ca1e7fceb024a1d28cc",
+    "new_sha256": "931a38cbc5aaea28910720e74e7cd5555de17ece306d588df65cd3badf4a0079"
+  }
+}

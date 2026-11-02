@@ -1,0 +1,88 @@
+{
+  "schema": "FRESH_SD_RETURNED_FUNCTIONAL_ACCEPTANCE_V1",
+  "date": "2026-11-01",
+  "status": "PASS_RETURNED_FRESH_RUNS_IMAGE_AND_DS_SCOPE",
+  "cold_boot_and_clean_filesystem_setup": {
+    "source": "Operator serial-console transcript and prior software/bootstrap outputs",
+    "operator_reported_spare_SD": true,
+    "initial_registry_records": 0,
+    "initial_trial_records": 0,
+    "initial_approved_budget": 0
+  },
+  "installation_id": "6d60a9b1befa4f27906c8f7adb9bd0af",
+  "installation_mode": "fresh",
+  "session": "session_00000007",
+  "runs_directory": "/home/xilinx/jupyter_notebooks/test_10_14/fresh_install_check_cEblUFuT/fresh_runs",
+  "image": {
+    "attempts": 65,
+    "valid_strict_retired_records": 65,
+    "unknown": 0,
+    "cleanup_confirmed": true,
+    "all64_ITEMs_received": true,
+    "multilane_crc_repair_error_pixels": 0,
+    "multilane_crc_repair_SHA_verified": true,
+    "image_sha256": "96775ebf4229b9203e51d244ff05a030702873fdc9068b144df32bca658660a8"
+  },
+  "ds_analysis": {
+    "actual_target_machine": "armv7l",
+    "python_major_minor": [
+      3,
+      8
+    ],
+    "provided_ITEMS": 64,
+    "usable_windows": 64,
+    "uniform_global_software_candidate": [
+      {
+        "d": 4,
+        "s": -2
+      }
+    ],
+    "local_compared_bits": 1024,
+    "candidate_bit_error_bounds": [
+      15,
+      27
+    ],
+    "candidate_framing_error_bounds": [
+      0,
+      0
+    ],
+    "threshold_candidate_region": [],
+    "hardware_verified_recommendation": false,
+    "full_image_optimal_ds_proven": false,
+    "unmeasured_reference_prefix_assumption": true
+  },
+  "independent_checks": {
+    "original_files": 3067,
+    "original_bytes": 28182661,
+    "committed_manifests_checked": 782,
+    "waveforms_rechecked": 64,
+    "ds_original_input_files_matched": 1432,
+    "repair_methods_exact_byte_match": [
+      "crc_select",
+      "crc_burst_B",
+      "crc_burst_multi",
+      "visual_median_B"
+    ],
+    "ds_profiles_and_bounds_reproduced": 14,
+    "latest_fresh_workbench_manifest_sha256": "ce7727382aa51c2d33898fbd30a21fc2ee4bcaad4bd4494db58e77cb19df70b8"
+  },
+  "artifacts": {
+    "image_export_sha256": "da2fa08e9cddc105f1873729e9000aabb3d7f7386d89b53aa60d0066fe360d20",
+    "ds_export_sha256": "b12947b965147d02099b04c282c176d61ed67bfb130852299e46736c8b602b81",
+    "raw_manifest_sha256": "88f805b204ed13d069a5b3fb7a35921e4b3303aca53f8245cdf16c0827f8eecf",
+    "target_software_receipt_hash_in_grant": "5011de8a431aa1fec7f4a09f28dd4d9232d4abb28978274c0ce9afbc455c922d"
+  },
+  "evidence_provenance": {
+    "raw_and_exports": "Archived originals with byte hashes; no rewriting of producer flags",
+    "target_software_receipt_file": "Separate original report file not retrieved; receipt hash and matching code version are recorded in original task grant",
+    "other_fresh_scans": "Earlier exported session1 complete44 and configured-AI session2 complete14; full original scan lifecycles are not re-audited by this session7 review"
+  },
+  "prior_UNKNOWN_records_reclassified": false,
+  "review_hardware_access": false,
+  "new_STARTs_by_review": 0,
+  "assessment_original_archive": {
+    "name": "submission_evidence/fresh_sd_session7_20261101.zip",
+    "bytes": 8799804,
+    "sha256": "a8e05dbd4fc3942c0f5d0df48a180968f8f6c2105b08f49c1eed1e251332cc48"
+  }
+}

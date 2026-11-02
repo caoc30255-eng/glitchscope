@@ -1,0 +1,11 @@
+test_ai_selection_boundary_without_execution_costs_nothing (__main__.LoopModels.test_ai_selection_boundary_without_execution_costs_nothing) ... ok
+test_complete44_claims_exactly44 (__main__.LoopModels.test_complete44_claims_exactly44) ... ok
+test_image_wrapper_calls_credit_guard_before_writer (__main__.LoopModels.test_image_wrapper_calls_credit_guard_before_writer) ... ok
+test_operator_stop_releases_only_unstarted (__main__.LoopModels.test_operator_stop_releases_only_unstarted) ... ok
+test_original_scan_dispatch_calls_credit_guard_before_writer (__main__.LoopModels.test_original_scan_dispatch_calls_credit_guard_before_writer) ... ok
+test_unknown_attempt_not_refunded (__main__.LoopModels.test_unknown_attempt_not_refunded) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 13.512s
+
+OK

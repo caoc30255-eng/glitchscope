@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "version": "0.2.1",
+  "files": {
+    "LICENSE": {
+      "bytes": 1081,
+      "sha256": "66bb46171bb8fa5b1d73cb2dd31013ef153b7e99129d91b12ba8e331b4b598e4"
+    },
+    "README.md": {
+      "bytes": 4261,
+      "sha256": "7bc147fc0735bc497767508ef4436416fe0738044728f6bc08807579b614c266"
+    },
+    "SKILL.md": {
+      "bytes": 5115,
+      "sha256": "64d32394c0fe13d78035fe7649617fa8746ee32a91eb28eab5dd0456edfb4fd4"
+    },
+    "examples/ax7010_pynq24_snapshot_excerpt.json": {
+      "bytes": 1344,
+      "sha256": "caf4f9e1baead26aeb61674e7b9435be52037d571491c0f22049e41f7ecf7811"
+    },
+    "examples/generic_clock_tree.json": {
+      "bytes": 921,
+      "sha256": "93a356d746a8189519bda27fff5c3935d252b0c6cf870534e3e71cae8f2f62e1"
+    },
+    "examples/navigator_collector_snapshot_excerpt.json": {
+      "bytes": 1160,
+      "sha256": "f35be68ddd19a0e656655cf0e2327abc8df744d66c32940edf5cf31e1b750656"
+    },
+    "examples/navigator_snapshot.json": {
+      "bytes": 1054,
+      "sha256": "9a6e1b231215828e0261dce6d48247ba2a237a9716b0664b858fefe569a6850e"
+    },
+    "references/case_study.md": {
+      "bytes": 3455,
+      "sha256": "b9c53a248e0e757e02d67b642210eb26d42e6612f7156c132b91dd0737cdc0de"
+    },
+    "references/generalization.md": {
+      "bytes": 4031,
+      "sha256": "43ef787a9e7634f83fb384e9081598efe86c7de5995c6f878bbd0322c68605d8"
+    },
+    "references/provenance.json": {
+      "bytes": 1913,
+      "sha256": "9ecddecc8548ebe9c91d1d3fa15d016b9bcc4c8f9563566e47959ba822c81a0b"
+    },
+    "references/workflow.md": {
+      "bytes": 3413,
+      "sha256": "8edd074b3f9b72894e916054874b3a0201c2eb46d0614b22c7b06de6b7ad0bb4"
+    },
+    "scripts/audit_clock.py": {
+      "bytes": 5491,
+      "sha256": "2ab16af032ee2eac30e7fd6642f635aae59f35beed31c3d0f02ab9b515a7e2aa"
+    },
+    "scripts/collect_clock.py": {
+      "bytes": 3377,
+      "sha256": "208b2cc632f1788b495a36b9b0f106772c5a451765d27a07c085828014993962"
+    },
+    "scripts/diagnose_clock_tree.py": {
+      "bytes": 7682,
+      "sha256": "4dc88d630bca9e77ad67683de181f8aeceb44abb2c8da02f8cdd4683027dbfc2"
+    },
+    "scripts/inspect_platform.py": {
+      "bytes": 2759,
+      "sha256": "72e359fd8a33711ae2cf44c3b9083d5f17c88e49f8eab19182988fdf003a5e24"
+    },
+    "tests/test_clock_audit.py": {
+      "bytes": 6311,
+      "sha256": "99fb49960ce1e1ebfc8808d9cdce13de0b507004a5cdaffe1012e9e3b01f68e7"
+    },
+    "tests/test_clock_compat.py": {
+      "bytes": 2497,
+      "sha256": "a724d7a946424951c41aec77c72eb8ba3bcb4f6e121c2d35302adab2276ad105"
+    },
+    "tests/test_generic_clock_tree.py": {
+      "bytes": 4811,
+      "sha256": "539547e5d2c83aed69cee0f9c72a4d2d46242550e9f252983e458fcd8b71f0d5"
+    },
+    "verification/ax7010_pynq24_case_result.json": {
+      "bytes": 1095,
+      "sha256": "9a02ba58b6c96a34e3851ca0390cdcf9afc166283b670b9d933c295b9ce95ea3"
+    },
+    "verification/case_result.json": {
+      "bytes": 1016,
+      "sha256": "d408809f9cc64188cd46040dc60c261abdc1a18a4ac1abaf20ecbb8a05a8389e"
+    },
+    "verification/generic_cli_result.json": {
+      "bytes": 1252,
+      "sha256": "aeea478e7625e166b251c069a47d20e6271d3d6036142f178fb912b714bb40df"
+    },
+    "verification/host_discovery_result.json": {
+      "bytes": 574,
+      "sha256": "8de689bf2205edc7c7a5b3de3bccca19deb5e3aaeef77bf1408538babf3d8a13"
+    },
+    "verification/new_collector_case_result.json": {
+      "bytes": 1019,
+      "sha256": "fb80863d493cc19f621f10666b7ff62d78005def23b56d04260b3e9eac746d5a"
+    },
+    "verification/relocated_result.json": {
+      "bytes": 989,
+      "sha256": "fff2e9efca64516f5b6174912b22b846e96933560a85cd5fb10d3004c5e4a533"
+    },
+    "verification/report.json": {
+      "bytes": 1869,
+      "sha256": "e021003522c5931ab7375beac7df48ad17312772c5c2b550abd879d09c63e570"
+    },
+    "verification/tests.log": {
+      "bytes": 2418,
+      "sha256": "3da9ba3bf966d6a55f4b8326c9552cebaed31b23f43b6faacafc6ca37579be06"
+    },
+    "verification/tests_v0_1_2.log": {
+      "bytes": 3212,
+      "sha256": "21bd9de3e88e5493fc1268c07f230aeb901233e338729584d27af6c321aabbe8"
+    },
+    "verification/tests_v0_2.log": {
+      "bytes": 5129,
+      "sha256": "1fb1f5c89a5316d2eaeb3a12740ac5dcdc61dd62125ccd1c9c6b96a2279854a3"
+    },
+    "references/historical/clock_readonly_probe.py": {
+      "bytes": 2925,
+      "sha256": "764fd81cbd431e0b908f84804042f89d87ae3d900a648b5181d43daff5d0f820"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "records": 50,
+  "results": {
+    "strict": {
+      "wall_seconds": 2.7769714999994903,
+      "artifact_verification_calls": 2550,
+      "final_audit": {
+        "status": "PASS_JOURNAL_AND_FILE_INTEGRITY",
+        "state": "STOPPED_BUDGET",
+        "session_id": "e489a0e3dbdf48a3b52d88aac6a74a0c",
+        "origin": "SYNTHETIC",
+        "plan_sha256": "a1a71c297cbcd9ad034810d94223fdd71eab9a39074c3eb5dae1b1d578669570",
+        "occupied": 50,
+        "recorded_completions": 50,
+        "unknown_or_unresolved": 0,
+        "reserved_unstarted": 0,
+        "cancelled_unstarted": 0,
+        "cleanup_adapter_reported": false,
+        "hardware_authenticity_verified": false,
+        "physical_starts_not_inferred": true,
+        "scope": "Append-only local metadata and referenced-file integrity; no FPGA protocol decoder, external signature or OS liveness measurement"
+      }
+    },
+    "incremental": {
+      "wall_seconds": 0.20220419999895967,
+      "artifact_verification_calls": 100,
+      "final_audit": {
+        "status": "PASS_JOURNAL_AND_FILE_INTEGRITY",
+        "state": "STOPPED_BUDGET",
+        "session_id": "bfcf6ac21fb2457399219a1af9a35886",
+        "origin": "SYNTHETIC",
+        "plan_sha256": "a1a71c297cbcd9ad034810d94223fdd71eab9a39074c3eb5dae1b1d578669570",
+        "occupied": 50,
+        "recorded_completions": 50,
+        "unknown_or_unresolved": 0,
+        "reserved_unstarted": 0,
+        "cancelled_unstarted": 0,
+        "cleanup_adapter_reported": false,
+        "hardware_authenticity_verified": false,
+        "physical_starts_not_inferred": true,
+        "scope": "Append-only local metadata and referenced-file integrity; no FPGA protocol decoder, external signature or OS liveness measurement"
+      }
+    }
+  },
+  "scope": "Measured host temporary-file IO; incremental assumes owned immutable evidence and checks whole history on close. Not hardware speedup or adversarial anti-tamper proof",
+  "hardware_access": false
+}

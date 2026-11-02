@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "asset_kind": "MOCK",
+  "assets": {
+    "bit": {
+      "path": "mock_fir.bit",
+      "sha256": "4abfcfad2743b4db26065a368a12f828bb80755f8fc6be4a6a88fd3c70037a4d"
+    },
+    "hwh": {
+      "path": "mock_fir.hwh",
+      "sha256": "6ab89da86c00c5021a9d589002f56fdd4cc793e3071b563ce72eec175b110fff"
+    }
+  },
+  "registers": [
+    {
+      "name": "identity",
+      "base": "0x50010000",
+      "span": 8192,
+      "offset": 0,
+      "access": "RO",
+      "read_effect": "none",
+      "expected": "0x46495232",
+      "ip_name": "fir_0",
+      "hwh_interface": "S_AXI"
+    }
+  ],
+  "clock": {
+    "attribute": "fclk0_mhz",
+    "expected_mhz": 100,
+    "tolerance_mhz": 0.01
+  }
+}

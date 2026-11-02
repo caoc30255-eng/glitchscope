@@ -1,0 +1,20 @@
+'use strict';
+// Node DOM contracts only: no browser or board is operated.
+const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert');
+const nodes=new Map(),node=q=>{if(!nodes.has(q))nodes.set(q,{innerHTML:'',hidden:false,style:{},dataset:{},textContent:'',classList:{toggle(){},remove(){}},showModal(){},close(){},closest(){return null;}});return nodes.get(q)};
+const requests=[];const ctx=vm.createContext({console,document:{querySelector:node,querySelectorAll:()=>[],addEventListener(){},body:{classList:{toggle(){},remove(){}}}},window:{addEventListener(){}},location:{hash:'#overview'},fetch:url=>{requests.push(url);return new Promise(()=>{})},setTimeout(){},clearTimeout(){},FormData:function(){return []},crypto:require('crypto').webcrypto,URL,Blob,Uint8Array,TextEncoder});
+for(const n of ['presentation.js','interaction.js','authorization.js','demo-ui.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'web',n),'utf8'),ctx);
+const run=s=>vm.runInContext(s,ctx);ctx.catalog=JSON.parse(fs.readFileSync(path.join(__dirname,'samples/catalog.json'),'utf8'));ctx.saved=JSON.parse(fs.readFileSync(path.join(__dirname,'checks/regression_saved_plan.json'),'utf8'));
+run("S.catalog=catalog;S.status={live_configured:false,sessions:[],assets:[],jobs:[],demo:{mode:'PREVIEW',active_round:null}};updateQuotaHUD()");
+assert(node('#quota-hud').innerHTML.includes('尚未确认本轮'));assert(!requests.some(x=>String(x).includes('create')));
+run("roundModal()");assert(node('#modal-body').innerHTML.includes('不授予板卡执行权限'));assert(node('#modal-body').innerHTML.includes('CONFIG'));assert(node('#modal-body').innerHTML.includes('65条'));assert(node('#modal-body').innerHTML.includes('0条'));
+ctx.round={id:'r'.repeat(32),operator:'合成预览操作者',total:100,available:56,reserved:34,occupied:10,completed:10,unknown:0,in_flight:0,state:'OPEN',active_tasks:[],unsettled_tasks:[]};
+run('S.status.demo.active_round=round;S.quotaExpanded=true;updateQuotaHUD()');const hud=node('#quota-hud').innerHTML;assert(hud.includes('56'));assert(hud.includes('预留未执行'));assert(hud.includes('已占用'));assert(hud.includes('包含在已占用'));assert(hud.includes('不消耗硬件额度'));
+ctx.hardware={id:'a'.repeat(32),action:'live_scan',state:'RUNNING',session_alias:'现场扫描01',session_name:'session_00000050',events:[{completed_records:10,max_records:44}]};
+run('trackJob(hardware,true);updateDock()');assert(node('#task-dock').innerHTML.includes('session_00000050'));assert(node('#task-dock').innerHTML.includes('现场扫描01'));
+assert(run("sessionText({action:'live_scan',session_alias:'准备中的扫描'})").startsWith('会话尚未分配'));
+assert.strictEqual(run("sessionText({action:'ds_analysis',source_session:'session_00000049'})"),'来源会话 session_00000049');
+run('S.status.jobs=[hardware]');assert(run('jobList()').includes('session_00000050'));
+const plan=run("demoPlanView({plan:saved},'scan')");assert(plan.includes('任务预留上限'));assert(plan.includes('尚未分配'));assert(plan.includes('CONFIG / 参照'));assert(!plan.includes('导出审批资料'));
+const css=fs.readFileSync(path.join(__dirname,'web/demo.css'),'utf8');assert(css.includes('position:fixed'));assert(css.includes('right:16px'));assert(css.includes('z-index:75'));
+console.log(JSON.stringify({status:'PASS_FORMAL_DEMO_UI_CONTRACT',right_floating_quota_hud:true,no_automatic_consent:true,consumption_rules_visible:true,real_session_before_alias_in_task_dock:true,source_session_for_free_analysis:true,no_per_plan_approval_export_in_normal_flow:true,browser_started:false,hardware_access:false},null,2));

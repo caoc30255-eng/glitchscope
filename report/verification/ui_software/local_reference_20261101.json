@@ -1,0 +1,89 @@
+{
+  "status": "PASS_LOCAL_WEB_AND_DYNAMIC_REFERENCE_SCOPE",
+  "date": "2026-11-01",
+  "software_tests": [
+    {
+      "returncode": 0,
+      "test": "tests_feedback_fix.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_demo_authority.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_live_accounting_models.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_integration.py"
+    },
+    {
+      "returncode": 0,
+      "test": "test_forwarded_host.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_ds_frozen_model.py"
+    }
+  ],
+  "ui_manifest_sha256": "57c6880dafcaed05ea048f885ad1db79bcc98cf6469f04dc997a30bd83a28ab2",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "dynamic_reference_tested_counts": [
+    0,
+    1,
+    2,
+    7,
+    20,
+    32,
+    63,
+    64
+  ],
+  "browser_display": {
+    "status": "PASS_NATIVE_AND_STANDALONE_LOCAL_REFERENCE",
+    "page_errors": [],
+    "dynamic_counts": [
+      0,
+      1,
+      7,
+      20,
+      32,
+      63
+    ],
+    "hardware_access": false
+  },
+  "archived_real_HTTP_validation": {
+    "status": "PASS_HTTP_WORKER_NATIVE_DS_PAYLOAD",
+    "job": "8fcb9bbc2c3c4f3f943a5e871175a40a",
+    "viewer_items": 64,
+    "local_reference": [
+      {
+        "d": 4,
+        "s": -2
+      }
+    ],
+    "local_coverage": 64,
+    "usable_windows": 64,
+    "analysis_state": "COMPLETE",
+    "new_STARTs": 0,
+    "live_configured": false,
+    "actual_target_ARM_run": false
+  },
+  "session5a_cached_envelope_replay": {
+    "covered_windows": 63,
+    "expected_windows": 64,
+    "candidate_set": [
+      {
+        "d": 4,
+        "s": -2
+      }
+    ],
+    "excluded_item_index": 42,
+    "full64_candidate_set": []
+  },
+  "target_ARM_installation_of_latest_display_revision": "PENDING_OPERATOR_REPORT",
+  "source_media_or_raw_frames_included": false,
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "historical_acceptance_or_UNKNOWN_rewritten": false
+}

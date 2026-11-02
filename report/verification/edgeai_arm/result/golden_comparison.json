@@ -1,0 +1,896 @@
+{
+  "passed": true,
+  "queries": 45,
+  "results": [
+    {
+      "index": 0,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 1,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 2,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 3,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 4,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 5,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 6,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 7,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 8,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 9,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 10,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": [
+          {
+            "field": "score",
+            "expected": 0.9069764464925755,
+            "actual": 0.9069764464925757,
+            "abs_difference": 2.220446049250313e-16
+          },
+          {
+            "field": "uncertainty_entropy",
+            "expected": 0.44648232493883555,
+            "actual": 0.44648232493883483,
+            "abs_difference": 7.216449660063518e-16
+          }
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 12,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 13,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 14,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 15,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 16,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 17,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 18,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 19,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 20,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 21,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 22,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 23,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 24,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 25,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 26,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 27,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 28,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 29,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 30,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 31,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 32,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 33,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 34,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 35,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 36,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 37,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 38,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 39,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 40,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 41,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 42,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 43,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    },
+    {
+      "index": 44,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": []
+      }
+    }
+  ],
+  "numeric_fields": [
+    "score",
+    "uncertainty_entropy"
+  ],
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 0,
+  "all_non_numeric_fields_and_types_exact": true,
+  "actual_predictions": [
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ESTIMATE",
+      "prediction": null,
+      "score": 0.9069764464925757,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "UNCALIBRATED_SKLEARN_FOREST_SCORE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "MEASUREMENT_REQUIRED",
+      "support": "EXACT_CONTEXT_COORDINATE_HULL",
+      "uncertainty_entropy": 0.44648232493883483
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ESTIMATE",
+      "prediction": null,
+      "score": 0.996415770609319,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "UNCALIBRATED_SKLEARN_FOREST_SCORE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "MEASUREMENT_REQUIRED",
+      "support": "EXACT_CONTEXT_COORDINATE_HULL",
+      "uncertainty_entropy": 0.034280386319743165
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ESTIMATE",
+      "prediction": null,
+      "score": 1.0,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "UNCALIBRATED_SKLEARN_FOREST_SCORE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "MEASUREMENT_REQUIRED",
+      "support": "EXACT_CONTEXT_COORDINATE_HULL",
+      "uncertainty_entropy": 0.0
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ESTIMATE",
+      "prediction": null,
+      "score": 1.0,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "UNCALIBRATED_SKLEARN_FOREST_SCORE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "MEASUREMENT_REQUIRED",
+      "support": "EXACT_CONTEXT_COORDINATE_HULL",
+      "uncertainty_entropy": 0.0
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ESTIMATE",
+      "prediction": null,
+      "score": 0.9786342689568496,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "UNCALIBRATED_SKLEARN_FOREST_SCORE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "MEASUREMENT_REQUIRED",
+      "support": "EXACT_CONTEXT_COORDINATE_HULL",
+      "uncertainty_entropy": 0.1490415599279156
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ESTIMATE",
+      "prediction": null,
+      "score": 0.9786342689568496,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "UNCALIBRATED_SKLEARN_FOREST_SCORE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "MEASUREMENT_REQUIRED",
+      "support": "EXACT_CONTEXT_COORDINATE_HULL",
+      "uncertainty_entropy": 0.1490415599279156
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    },
+    {
+      "schema": "EDGE_AI_OSS_PREDICTION_V1",
+      "action": "ABSTAIN",
+      "prediction": null,
+      "score": null,
+      "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+      "score_type": "NONE",
+      "measurement_claim": false,
+      "hardware_permission": false,
+      "reason": "UNLEARNED_CONFIGURATION_REQUIRES_SAMPLING"
+    }
+  ],
+  "original_golden_sha256": "afa281c2cbf08e1f6761e86353269d0669380645ae90d71b04b6fb7b418f6a11"
+}

@@ -1,0 +1,124 @@
+{
+  "schema": 2,
+  "origin": "SYNTHETIC_ONLY",
+  "run_id": "confirm_mixed_202610307",
+  "plan": {
+    "context": {
+      "target": "noisy_synthetic_sensor",
+      "condition": "frozen_v1"
+    },
+    "domain": [
+      {
+        "id": "p0",
+        "coordinates": [
+          0
+        ]
+      },
+      {
+        "id": "p1",
+        "coordinates": [
+          1
+        ]
+      },
+      {
+        "id": "p2",
+        "coordinates": [
+          2
+        ]
+      },
+      {
+        "id": "p3",
+        "coordinates": [
+          3
+        ]
+      },
+      {
+        "id": "p4",
+        "coordinates": [
+          4
+        ]
+      },
+      {
+        "id": "p5",
+        "coordinates": [
+          5
+        ]
+      },
+      {
+        "id": "p6",
+        "coordinates": [
+          6
+        ]
+      },
+      {
+        "id": "p7",
+        "coordinates": [
+          7
+        ]
+      },
+      {
+        "id": "p8",
+        "coordinates": [
+          8
+        ]
+      }
+    ],
+    "budget": 14,
+    "setup_records": 2,
+    "repeats": 3,
+    "max_groups_per_point": 2
+  },
+  "plan_sha256": "6c3f8172dd9512ee0d6a9748e91c74d32956073d6bf695d8b06db27f11c6802a",
+  "occupied": 2,
+  "completed_records": 1,
+  "unknown_records": 1,
+  "observed": {},
+  "groups_per_point": {},
+  "records": [
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610307",
+        "record_id": "r00000",
+        "kind": "SETUP",
+        "point_id": null,
+        "repeat_index": 0,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "ca465fb9b36615a87ceaebb39657ffa2c8e2a7fc94d59b423f61b3615cba145d",
+      "status": "VALID",
+      "outcome": null,
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "receipt": {
+        "record_id": "r00000",
+        "request_sha256": "ca465fb9b36615a87ceaebb39657ffa2c8e2a7fc94d59b423f61b3615cba145d",
+        "status": "VALID",
+        "outcome": null,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 2.0200001017656177e-05,
+      "sha256": "3d32f708012612852b57789cbec5d348bbb7616acf13b68330a6df019312f72d"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610307",
+        "record_id": "r00001",
+        "kind": "SETUP",
+        "point_id": null,
+        "repeat_index": 1,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "165604be9369c000dbea5a9455016fb5d1b42608827474ae059e6dd3b08691f9",
+      "status": "UNKNOWN",
+      "outcome": null,
+      "previous": "3d32f708012612852b57789cbec5d348bbb7616acf13b68330a6df019312f72d",
+      "error": "UNKNOWN_OR_INVALID_RECEIPT",
+      "collector_and_journal_seconds": 1.720000000204891e-05,
+      "sha256": "a21c46457eb1007da66c4f25617e55f461862c74c91715537b945d0baa5b7238"
+    }
+  ],
+  "decisions": [],
+  "terminal": "BLOCKED_UNKNOWN",
+  "full_run_wall_seconds": 8.489999891025946e-05,
+  "physical_start_count_verified": false,
+  "hardware_speedup_accepted": false
+}

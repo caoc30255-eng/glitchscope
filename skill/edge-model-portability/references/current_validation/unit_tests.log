@@ -1,0 +1,30 @@
+test_benchmark_does_not_claim_unknown_runner_is_pure (test_loading_fields.LoadingTests.test_benchmark_does_not_claim_unknown_runner_is_pure) ... ok
+test_declaring_artifact_without_loader_rejected (test_loading_fields.LoadingTests.test_declaring_artifact_without_loader_rejected) ... ok
+test_exact_semantic_path_cannot_be_toleranced (test_loading_fields.LoadingTests.test_exact_semantic_path_cannot_be_toleranced) ... ok
+test_loaded_predict_does_not_read_model_each_call (test_loading_fields.LoadingTests.test_loaded_predict_does_not_read_model_each_call) ... ok
+test_model_file_changes_real_predictions (test_loading_fields.LoadingTests.test_model_file_changes_real_predictions) ... ok
+test_per_field_absolute_and_relative_tolerance (test_loading_fields.LoadingTests.test_per_field_absolute_and_relative_tolerance) ... ok
+test_threshold_class_flip_refused_within_score_tolerance (test_loading_fields.LoadingTests.test_threshold_class_flip_refused_within_score_tolerance) ... ok
+test_tolerance_typo_or_empty_unit_rejected (test_loading_fields.LoadingTests.test_tolerance_typo_or_empty_unit_rejected) ... ok
+test_unknown_model_format_refused (test_loading_fields.LoadingTests.test_unknown_model_format_refused) ... ok
+test_action_change_refused (test_skill.GoldenTests.test_action_change_refused) ... ok
+test_benchmark_separates_warmup_memory_and_timing (test_skill.GoldenTests.test_benchmark_separates_warmup_memory_and_timing) ... ok
+test_declared_c_float_profile (test_skill.GoldenTests.test_declared_c_float_profile) ... ok
+test_demo_model_source_identity_bound_to_golden (test_skill.GoldenTests.test_demo_model_source_identity_bound_to_golden) ... ok
+test_exact_pass (test_skill.GoldenTests.test_exact_pass) ... ok
+test_example_runner_refuses_unsupported_domain (test_skill.GoldenTests.test_example_runner_refuses_unsupported_domain) ... ok
+test_explicit_artifact_binding_export (test_skill.GoldenTests.test_explicit_artifact_binding_export) ... ok
+test_input_float_change_refused (test_skill.GoldenTests.test_input_float_change_refused) ... ok
+test_known_tiny_score_drift_passes (test_skill.GoldenTests.test_known_tiny_score_drift_passes) ... ok
+test_large_drift_refused (test_skill.GoldenTests.test_large_drift_refused) ... ok
+test_missing_result_key_refused (test_skill.GoldenTests.test_missing_result_key_refused) ... ok
+test_model_binding_refused (test_skill.GoldenTests.test_model_binding_refused) ... ok
+test_nonfinite_and_duplicate_json_rejected_at_load (test_skill.GoldenTests.test_nonfinite_and_duplicate_json_rejected_at_load) ... ok
+test_nonfinite_refused_even_at_allowed_path (test_skill.GoldenTests.test_nonfinite_refused_even_at_allowed_path) ... ok
+test_permissions_never_toleranced (test_skill.GoldenTests.test_permissions_never_toleranced) ... ok
+test_short_queries_refused (test_skill.GoldenTests.test_short_queries_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.304s
+
+OK

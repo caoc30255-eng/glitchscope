@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+.venv/
+web_data/
+board_runs/
+*.jou
+*.str
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+src/pl/**/build/
+src/pl/**/rebuild/
+*.zip
+*.pending
+*.partial
+live_config.json
+
+# Private submission/identity/debug material
+submission_evidence/
+*_private.json
+*_private.txt
+*.axf
+*.docx
+*.uvoptx
+*.uvguix.*
+
+# Regression outputs are not release source
+src/ps/demo_ledger_test_*/
+src/ps/record_guard_model_*/
+src/ps/synthetic_live_loop_*/
+
+# Software regression retained output directories
+src/ps/*_test_*/
+src/ps/*_check_*/

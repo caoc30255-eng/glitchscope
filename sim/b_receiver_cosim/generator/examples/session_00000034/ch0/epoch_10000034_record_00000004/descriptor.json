@@ -1,0 +1,23 @@
+{
+  "a_count": 278,
+  "a_errors": 0,
+  "a_first_error": 0,
+  "b_count": 278,
+  "b_errors": 0,
+  "b_first_error": 0,
+  "binding": {
+    "deadline": 22265718826,
+    "epoch": 268435508,
+    "identity": 157968447703126100238629978748809011738276603218614852249184239616,
+    "kind": 1,
+    "peer_epoch": 536870964,
+    "record_id": 4,
+    "request_length": 278,
+    "start": 21265718826
+  },
+  "first_fault": 0,
+  "rejected_tick": 0,
+  "rejected_word": 0,
+  "release_count": 3,
+  "status": 3
+}

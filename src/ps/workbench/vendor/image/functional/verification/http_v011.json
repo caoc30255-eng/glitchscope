@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "exports": [
+    "SVG",
+    "CSV",
+    "image ZIP"
+  ],
+  "idempotent_start": true,
+  "stop_cancelled_unstarted": 43,
+  "UNKNOWN_blocks_and_consumes": true,
+  "live_entry_rejected": true,
+  "target": "http://127.0.0.1:8767",
+  "hardware_access": false
+}

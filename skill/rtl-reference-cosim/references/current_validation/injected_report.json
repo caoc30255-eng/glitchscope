@@ -1,0 +1,21 @@
+{
+  "status": "PASS_INJECTED_FAILURE_DETECTED",
+  "returncode": 0,
+  "process_wall_seconds": 15.568864200002281,
+  "injected_bug": true,
+  "source_sha256": {
+    "run_vivado.tcl": "674da0df9f943b0ac777143d7f150a380412ece54c155e1003f827005ecf9317",
+    "accumulator.sv": "76fc41cd83c9657295ecdc3868844aa81318e9174e3980effa9950b75c5189c4",
+    "tb_accumulator.sv": "16665b51096b7630af2b9c2ab519156a815701deb7541760a1b0dd05291697d4"
+  },
+  "environment_adjustments": [
+    "PROCESSOR_ARCHITECTURE set from actual platform.machine",
+    "removed conda entries from child PATH only"
+  ],
+  "hardware_access": false,
+  "scope": "Behavioral simulation of bundled ready/valid accumulator, not implementation/timing/hardware proof",
+  "comparison": {
+    "passed": false,
+    "message": "TRACE_LENGTH_MISMATCH"
+  }
+}

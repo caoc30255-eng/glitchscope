@@ -1,0 +1,8 @@
+{
+  "status": "CONFIRMED_BY_USER",
+  "recorded_date": "2026-10-26",
+  "question": "是否已体验两份报告，确认64个ITEM切换、统一d/s与相位查看、三轨迹及表决点、SVG/CSV/JSON导出均正常？",
+  "direct_user_answer": "已体验，以上操作均正常",
+  "scope": "Manual report interaction and exports; no additional hardware operation",
+  "original_producer_pending_flags_preserved": true
+}

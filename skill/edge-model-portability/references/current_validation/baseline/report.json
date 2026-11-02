@@ -1,0 +1,56 @@
+{
+  "status": "PASS_NATIVE_PYTHON_C",
+  "comparison": {
+    "passed": true,
+    "errors": [],
+    "changed_queries": [],
+    "queries": 470,
+    "absolute_tolerance": null,
+    "relative_tolerance": "per_field",
+    "field_policy": {
+      "/score": {
+        "abs": 2e-06,
+        "rel": 0,
+        "unit": "normalized_score",
+        "rationale": "Frozen double-model comparison tolerance"
+      },
+      "/uncertainty_entropy": {
+        "abs": 2e-06,
+        "rel": 0,
+        "unit": "bits",
+        "rationale": "Base-2 entropy output tolerance"
+      }
+    },
+    "scope": "Declared finite outputs only; not model accuracy, calibration, target identity or hardware speedup acceptance"
+  },
+  "queries": 470,
+  "compiler": "C:\\AMDDesignTools\\2026.1\\tps\\mingw\\8.3.0\\win64.o\\nt\\bin\\gcc.exe",
+  "compile_command": [
+    "C:\\AMDDesignTools\\2026.1\\tps\\mingw\\8.3.0\\win64.o\\nt\\bin\\gcc.exe",
+    "-std=c99",
+    "-static-libgcc",
+    "-O2",
+    "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\relocated\\edge-model-portability\\examples\\demo_model.c",
+    "-o",
+    "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\native_c\\demo_model.exe",
+    "-lm"
+  ],
+  "compiler_version_returncode": 0,
+  "c_source_sha256": "0ec6f4dcd764dc2d18bf175e40ad3861fb4092c1ad2225f4bf09a2f483604684",
+  "binary_sha256": "c68651366327e22f3bd956abe70b57857d63b27db729e5c5b24609ba62879fa2",
+  "model_sha256": "d5fa0f1207c7b485f18dcc8051a380f760cfe4c7c5ac8e76d2f23ffcf21a7e58",
+  "python_loader_receipt": {
+    "runner_source_sha256": "16bada6ac446d46fc8c0134f633a8287127f51b1c0ad39dff6eb0baa4abad969",
+    "model_sha256": "d5fa0f1207c7b485f18dcc8051a380f760cfe4c7c5ac8e76d2f23ffcf21a7e58",
+    "model_load_hook_verified": true,
+    "binding_scope": "FILE_LOAD_HOOK_AND_HASH_CHECK_NOT_MEMORY_ATTESTATION"
+  },
+  "machine": "AMD64",
+  "python": "3.13.9",
+  "c_process_wall_seconds": 0.06275129999994533,
+  "c_time_includes_startup_and_io": true,
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "actual_ARM_run": false,
+  "scope": "Real compiled C example on this host; synthetic model, not accuracy or physical scan speedup"
+}

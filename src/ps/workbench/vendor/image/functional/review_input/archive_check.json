@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "07996a8e0d3d141934d9a6587a1308219c79acd3e43805b2d3b90a5fb596002a",
+  "archive_bytes": 1198364,
+  "zip_crc": "PASS",
+  "manifest_files": 300,
+  "python38_syntax": "PASS",
+  "task_document_unchanged": true,
+  "hardware_access": false
+}

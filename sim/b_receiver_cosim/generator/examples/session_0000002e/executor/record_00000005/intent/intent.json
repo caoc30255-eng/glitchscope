@@ -1,0 +1,19 @@
+{
+  "actual_START_confirmed": false,
+  "attempt_ordinal": 5,
+  "client_request_id": "reference_d3_r2",
+  "d": 3,
+  "fault": {
+    "bit": 0,
+    "byte": 20,
+    "phase": 15,
+    "width": 20
+  },
+  "inner_sha256": "5c9f3881e9e7eda8fb864016baf6f1b57286fb5e70dfe7f9f3a50fd5a179f232",
+  "kind": "ITEM",
+  "production_cost_finalized": false,
+  "record_id": 5,
+  "s": -1,
+  "schema": "CONTROLLED_TRIAL_ATTEMPT_V0_2",
+  "trial_id": 491
+}

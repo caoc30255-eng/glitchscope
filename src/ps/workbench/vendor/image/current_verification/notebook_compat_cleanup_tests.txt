@@ -1,0 +1,45 @@
+test_active_image_plan_rejected_before_close (__main__.Cleanup.test_active_image_plan_rejected_before_close) ... ok
+test_nonzero_physical_counters_rejected_before_close (__main__.Cleanup.test_nonzero_physical_counters_rejected_before_close) ... ok
+test_preserves_notebook_then_closes_idle_failed_session (__main__.Cleanup.test_preserves_notebook_then_closes_idle_failed_session) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.025s
+
+OK
+{
+  "session": "session_00000026",
+  "reason": "NOTEBOOK_CODE_DIFFERS_FROM_FIXED_CELLS",
+  "code_cells": 3,
+  "comparison": [
+    {
+      "cell": 1,
+      "exact_text_match": true,
+      "AST_match": true
+    },
+    {
+      "cell": 2,
+      "exact_text_match": true,
+      "AST_match": true
+    },
+    {
+      "cell": 3,
+      "exact_text_match": true,
+      "AST_match": true
+    }
+  ],
+  "session_fault": false,
+  "receiver_fault": true,
+  "image_executor_created": false,
+  "counts": {
+    "retire_count": 0,
+    "grant_count": 0
+  },
+  "actual_notebook_sha256": "5843b164c31ff92d9758690e1b8a518d9900bafd04747ab2d81400990c4507c5",
+  "automatic_retry": false,
+  "receiver_snapshot": {
+    "buffered_words": [],
+    "receiver_running": false
+  }
+}
+失败现场和原Notebook已保存，接收器及日志已关闭: C:/workspace\AppData\Local\Temp\tmpkqnqhfhl\session_00000026\WEB_START_FAILURE_7fefc7d273d340099f8a922b687cf503
+不要重跑第2步；保持STM32运行，后续用新内核、新会话。

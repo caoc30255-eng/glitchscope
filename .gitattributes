@@ -1,0 +1,10 @@
+# Distribution hashes and frozen models bind exact bytes.
+* -text
+*.bit binary
+*.bin binary
+*.so binary
+*.pdf binary
+*.jpg binary
+*.png binary
+*.woff2 binary
+*.ttf binary

@@ -1,0 +1,102 @@
+{
+  "scope": "OFFLINE GOLDENS; RTL SIMULATION PENDING USER",
+  "clock_hz": 100000000,
+  "baud": 1000000,
+  "simulation_idle_guard_ticks": 2000,
+  "simulation_interbyte_ticks": 10000,
+  "fixtures": {
+    "abort.mem": {
+      "bytes": 5,
+      "sha256_bytes": "449ee3a2f0242578758e02d549568a6f464a4d3b77ed6096ace8f7ce8b90958a"
+    },
+    "ack_extra.mem": {
+      "bytes": 13,
+      "sha256_bytes": "d9a49eba70c301b881ba85e216654af56ac8d943d5488e938f2c02a23f85df78"
+    },
+    "ack_truncated.mem": {
+      "bytes": 8,
+      "sha256_bytes": "ef44b8e36829015e447c037a1f4b0bbff01ac339684b1cdb9b0129352f71e8de"
+    },
+    "bad_ack_crc.mem": {
+      "bytes": 12,
+      "sha256_bytes": "5c9001374c023e2f9211e1780e37f94c03adf99ea7039550e79e4c3ec90222d6"
+    },
+    "bad_ack_version.mem": {
+      "bytes": 12,
+      "sha256_bytes": "e4427b7773c290208f3b2c1fc68c63928156bd2a42167b702da7f09e27ea9eb6"
+    },
+    "bad_crc.mem": {
+      "bytes": 27,
+      "sha256_bytes": "7a52b0e9709e198a981d90c3ae00151d89b8d6192cea5ce2bfb5bb3e1498da80"
+    },
+    "bad_flags.mem": {
+      "bytes": 27,
+      "sha256_bytes": "627298989d3e0d2e91170eb1dd3c7eb338765814c9f23b52482352beb26007d8"
+    },
+    "bad_length.mem": {
+      "bytes": 20,
+      "sha256_bytes": "d6699a1ed690e4b61e42762ba82bb70e317e16c6222f24bbdc5646d646ca53c8"
+    },
+    "bad_status.mem": {
+      "bytes": 27,
+      "sha256_bytes": "b9fa060ff8e6538c9683844a3924b25724b93f884b7865793602b1bb40f2f175"
+    },
+    "cleanup_ack.mem": {
+      "bytes": 12,
+      "sha256_bytes": "81710a6faae83c32ea09e88685acc1c8f4bd32187b162dd543792716f4e05a24"
+    },
+    "config_ack.mem": {
+      "bytes": 12,
+      "sha256_bytes": "868e0819a79cc6328bda056f2bf5ba1dd9aa21dc94a3c4b215fe4f1c23a57eef"
+    },
+    "config_ack_error.mem": {
+      "bytes": 12,
+      "sha256_bytes": "73b2666016a4899674e7dbb79ffee722b2c4055bd84450e29db3ed076a15476e"
+    },
+    "extra.mem": {
+      "bytes": 28,
+      "sha256_bytes": "7fce14e4faeb70570c0409215e7459394841d85283295dfc0fa87be9ec059463"
+    },
+    "max.mem": {
+      "bytes": 532,
+      "sha256_bytes": "14bd920640b30226a40a97630cf9c39b1f2c73b4d3cc0190e03cee5061a932d1"
+    },
+    "normal.mem": {
+      "bytes": 276,
+      "sha256_bytes": "5785fe9f1553a1b94d48450fd2b11b09e9bf2c56d7db54ce147e7cc74b4fce4f"
+    },
+    "overflow.mem": {
+      "bytes": 545,
+      "sha256_bytes": "52d6e509eb24632fbfc49a0b10e85ce6ee57b8ff1ebf33604f7a16da4a6b7513"
+    },
+    "partial_error.mem": {
+      "bytes": 27,
+      "sha256_bytes": "14cbab8394b9affabd6ea062a90a58d8341cc2cbbfd97cee570306fc9ee45c11"
+    },
+    "same_tick.mem": {
+      "bytes": 28,
+      "sha256_bytes": "7fce14e4faeb70570c0409215e7459394841d85283295dfc0fa87be9ec059463"
+    },
+    "truncated.mem": {
+      "bytes": 12,
+      "sha256_bytes": "0d3648c098bd36b85b973fffd86f252e85af40711dc50d88e22dde59aae468ea"
+    },
+    "wrong_ack_id.mem": {
+      "bytes": 12,
+      "sha256_bytes": "e14ea4af47dcf0b1ce639d507d3fd1ba1d35ac668c0e9b95ac626e054603ac4d"
+    },
+    "wrong_id.mem": {
+      "bytes": 27,
+      "sha256_bytes": "0db82aefb48ada796d23d0af74e10697caf1373c6708dfca458982e70979c713"
+    },
+    "zero.mem": {
+      "bytes": 20,
+      "sha256_bytes": "599b97270550a198bf400a86bca65ddb885c2af1def1ac6158e5afe4e6dd894e"
+    },
+    "dut_error.mem": {
+      "bytes": 20,
+      "sha256_bytes": "2909707a3504d95c5dfac8a6a619d5cb2999693ad91e7313d34561cb8a8b3eab",
+      "provenance": "derived offline from frozen zero REPORT with result_status=3, uart_flags=2, recomputed CRC; not hardware evidence"
+    }
+  }
+}

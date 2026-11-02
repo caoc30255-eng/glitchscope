@@ -1,0 +1,72 @@
+{
+  "files": {
+    "readme_first.md": {
+      "bytes": 1312,
+      "sha256": "fe8c398ec1c6f9e8cdc2a38b23cb1f82c7c8d1be28ebe9f054b3e94affb56d5f"
+    },
+    "archive_check.json": {
+      "bytes": 257,
+      "sha256": "1dfc30d449ea234ba3afe9abe891907b0cf704de5b0309880803a16f921462df"
+    },
+    "expected_regressions_before_fix.txt": {
+      "bytes": 4751,
+      "sha256": "56f428840c066fa46d8d89a59bbe800520b4ad35cb4975cb6227efabae05e315"
+    },
+    "independent_host_inference.json": {
+      "bytes": 11738,
+      "sha256": "3cbcd6a8b488a7e1c4eec7659f65afd5b30ebd1749e9cdaaddc537f35bb4319c"
+    },
+    "independent_http_check.json": {
+      "bytes": 291,
+      "sha256": "1f7967821efafea9104a276987dd7bac0a0c9f0471478e1137d3f11a9b99e424"
+    },
+    "independent_tests.txt": {
+      "bytes": 2600,
+      "sha256": "aaa1d4e8d8f94e494d7bdc20596f660167d628cdd14b5bff0b5effa7161d7161"
+    },
+    "review_summary.json": {
+      "bytes": 1970,
+      "sha256": "5af07bcd9537e1c5c3f38d361b7520f75b35f105adf0b8dccee061293142094a"
+    },
+    "reviewer_adversarial.py": {
+      "bytes": 3997,
+      "sha256": "30cfa7f623f2ebc3eb58ccbf2353ee483c1ed4ffe814de3ec922ac851f1c93f8"
+    },
+    "reviewer_adversarial_results.json": {
+      "bytes": 1567,
+      "sha256": "49dd3e1dd7ebd2088785f8f6ba841ef75c4cb975933ad3ac2e620db6a11dc84f"
+    },
+    "reviewer_adversarial_results_empty_b_first.json": {
+      "bytes": 1569,
+      "sha256": "c2dccc80501a7e706dc4677686c4cd2d20d1912a8f79a09cfc7c7ddb40900ba9"
+    },
+    "reviewer_repair_and_model.json": {
+      "bytes": 4258,
+      "sha256": "333f1552e876cc0c9ab6ba05e9cfc21f704a3c5434acca82e621b76efd001e98"
+    },
+    "reviewer_ui_check.json": {
+      "bytes": 717,
+      "sha256": "daaca4d91fb4a17bab6c0530324b773b47c5cb6dc0cc0e4a32229f7e62b811e9"
+    },
+    "test_expected_regressions.py": {
+      "bytes": 3142,
+      "sha256": "0001fd69d68a725cd48b433eb38be70a1c79dcd5ce7d43dee60042c8651f6750"
+    },
+    "ui_multi_repair.txt": {
+      "bytes": 3171,
+      "sha256": "02215e78f32c0b16822f0795bcddf002007ae0f0097b460cadcb536c67fd7709"
+    },
+    "ui_refresh_mismatch.txt": {
+      "bytes": 19749,
+      "sha256": "a656600937b05016a57a7a084056aa03d13d2d796aa6f15df3109ac807c36e88"
+    },
+    "review_feedback.md": {
+      "bytes": 2226,
+      "sha256": "d7be5018af1ddc9904495c6593b9f625db07b7530b5dc5944556f01d58c271eb"
+    },
+    "acceptance_notes.md": {
+      "bytes": 7946,
+      "sha256": "d48284459b8c253f1a1b877050464551b5973eab1bbabed2477b9300794fc465"
+    }
+  }
+}

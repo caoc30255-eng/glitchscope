@@ -1,0 +1,58 @@
+{
+  "status": "PASS_REVIEWED_ARM_OSS_SOFTWARE",
+  "source": "\\\\192.168.2.99\\xilinx\\jupyter_notebooks\\test_10_14\\edgeai_oss_compat_zRGEmawD",
+  "source_files": {
+    "console.log": {
+      "bytes": 1659,
+      "sha256": "eecf4d2a25729094283980103447ada3ac369f61863e90102202fb9663014640"
+    },
+    "result/report.json": {
+      "bytes": 9771,
+      "sha256": "2d841add8a0077ecda0401f3d4e12aca4ff171ff93cf6f321c081a1e7aa8716b"
+    },
+    "result/golden_comparison.json": {
+      "bytes": 24921,
+      "sha256": "c97f4d19979bad1b2fea196493049802a4a5dd501c0f659d17786b425818abe8"
+    },
+    "result/repair_contracts.log": {
+      "bytes": 728,
+      "sha256": "5bc9beae3fae5d5c410323bf551e35475a9545a6e9311b12d9059ab8de0c6964"
+    },
+    "result/C_compile.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "result/C_probe.c": {
+      "bytes": 452,
+      "sha256": "c37c1508392c2f16b833cb71aa993c8a5d683999bb1f1244996740874d8e35ad"
+    },
+    "result/C_probe": {
+      "bytes": 20944,
+      "sha256": "d2320d5ceb22889ebc086a24a5ef8ba2793f909b4fc5f8249ea9ba1800e5342e"
+    }
+  },
+  "environment": {
+    "machine": "armv7l",
+    "pointer_bits": 32,
+    "python": "3.8.2 (default, Mar 13 2020, 10:14:16) \n[GCC 9.3.0]"
+  },
+  "contracts": 110,
+  "repair_checks": 8,
+  "golden_queries": 45,
+  "C_comparisons": 450,
+  "C_binary_ARM_ELF32_verified": true,
+  "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+  "model_file_sha256": "e4aad6913776c6886547639f88451502f96bfdd452d485ba7ff42e44b0440764",
+  "mean_inference_ms": 10.946572113377139,
+  "p95_inference_ms": 18.992901000274287,
+  "C_process_time_is_not_pure_inference": true,
+  "new_STARTs": 0,
+  "hardware_access": false,
+  "hardware_selection_loop_accepted": false,
+  "real_scan_speedup_accepted": false,
+  "benchmark_scope": "300 mixed query calls including support guards and abstention; not only forest evaluation",
+  "benchmark_action_counts": {
+    "ABSTAIN": 260,
+    "ESTIMATE": 40
+  }
+}

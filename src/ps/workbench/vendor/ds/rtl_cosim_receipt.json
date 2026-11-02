@@ -1,0 +1,14 @@
+{
+  "status": "PASS_USER_EXECUTED_RTL_COSIM_LOG_AND_INPUT_REVIEW",
+  "cases": 1125,
+  "compared_clocks": 11389950,
+  "model_sha256": "323e857ac0394168a5976cf351c68024e9542d76b7d86ae0d19399c8f4310a3a",
+  "scoreboard_sha256": "82b507b05288d360d74ef1487826bff1b0f2cea083b1ae9ec143ecdd7f11c340",
+  "runtime_vectors_verified": 1125,
+  "rtl_sha256": {
+    "uart_rx_b_7020_observe_v0_1.v": "38c16b9be6b8f59392d894589d01603719d53effb80987fdbb713bd1839c304c",
+    "rx_ce_gen_7020_v2_2.v": "2bf88b67041b7a0f0241ee745e1c84c52c322f19823a72fc991cadfa68e27535"
+  },
+  "hardware_access": false,
+  "not_an_all_input_proof": true
+}

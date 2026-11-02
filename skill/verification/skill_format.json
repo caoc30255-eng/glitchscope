@@ -1,0 +1,32 @@
+[
+  {
+    "skill": "axi-lite-contract-check",
+    "valid": true,
+    "message": "Skill is valid!"
+  },
+  {
+    "skill": "bounded-active-benchmark",
+    "valid": true,
+    "message": "Skill is valid!"
+  },
+  {
+    "skill": "edge-model-portability",
+    "valid": true,
+    "message": "Skill is valid!"
+  },
+  {
+    "skill": "hardware-session-evidence",
+    "valid": true,
+    "message": "Skill is valid!"
+  },
+  {
+    "skill": "pynq-bringup",
+    "valid": true,
+    "message": "Skill is valid!"
+  },
+  {
+    "skill": "rtl-reference-cosim",
+    "valid": true,
+    "message": "Skill is valid!"
+  }
+]

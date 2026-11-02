@@ -1,0 +1,13 @@
+{
+  "status": "PASS_COMPATIBILITY_FIX_PC",
+  "old_error_reproduced": "NOTEBOOK_CODE_DIFFERS_FROM_FIXED_CELLS; outputs may change, code must match",
+  "formatting_only_reproduced_by": "Removed trailing newlines from saved code cells only; fixed sources unchanged",
+  "revised_check_accepts_same_AST": true,
+  "changed_executable_code_rejected": true,
+  "compatibility_tests": 11,
+  "guarded_cleanup_tests": 3,
+  "gateway_tests": 47,
+  "hardware_access": false,
+  "target_session26_not_resumed": true,
+  "root_cause_of_actual_target_Notebook_requires_saved_AST_comparison": true
+}

@@ -1,0 +1,2645 @@
+{
+  "schema": "GLITCHSCOPE_DS_WORKBENCH_V0_2",
+  "state": "GLOBAL_SOFTWARE_CANDIDATES_AVAILABLE",
+  "expected_ITEMS": 64,
+  "provided_ITEMS": 64,
+  "usable_windows": 64,
+  "complete64": true,
+  "one_ds_for_all_ITEMS": true,
+  "per_ITEM_ds_selection_allowed": false,
+  "profiles": [
+    {
+      "d": 1,
+      "s": -2,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 34,
+      "bit_errors_upper_bound": 41,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 1,
+      "s": -1,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 37,
+      "bit_errors_upper_bound": 39,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 1,
+      "s": 0,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 39,
+      "bit_errors_upper_bound": 49,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 1,
+      "s": 1,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 42,
+      "bit_errors_upper_bound": 53,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 1,
+      "s": 2,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 43,
+      "bit_errors_upper_bound": 49,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 2,
+      "s": -2,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 32,
+      "bit_errors_upper_bound": 36,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 2,
+      "s": -1,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 35,
+      "bit_errors_upper_bound": 38,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 2,
+      "s": 0,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 38,
+      "bit_errors_upper_bound": 45,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 2,
+      "s": 1,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 37,
+      "bit_errors_upper_bound": 46,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 3,
+      "s": -2,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 27,
+      "bit_errors_upper_bound": 30,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 3,
+      "s": -1,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 28,
+      "bit_errors_upper_bound": 31,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 3,
+      "s": 0,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 30,
+      "bit_errors_upper_bound": 38,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 4,
+      "s": -2,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 19,
+      "bit_errors_upper_bound": 24,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    },
+    {
+      "d": 4,
+      "s": -1,
+      "evaluated_windows": 64,
+      "unresolved_windows": 0,
+      "compared_local_bits": 1024,
+      "bit_errors_lower_bound": 22,
+      "bit_errors_upper_bound": 25,
+      "framing_errors_lower_bound": 0,
+      "framing_errors_upper_bound": 0,
+      "eligible_for_global_software_ranking": true,
+      "robust_zero_on_all64_local_windows": false,
+      "scope": "PER_WINDOW_PHASE_EXTREMES_SUM_CONSERVATIVE_BOUNDS_NOT_JOINTLY_ATTAINABLE_EXTREMA"
+    }
+  ],
+  "global_minimax_candidate_set": [
+    {
+      "d": 4,
+      "s": -2
+    }
+  ],
+  "robust_zero_candidate_set": [],
+  "ranking_rule": "Predeclared: first minimize summed worst-case local framing errors, then summed worst-case local bit errors; retain ties",
+  "ranking_uses_source_reference": true,
+  "phase_fitting_uses_held_out_target_value": false,
+  "initial_phase_not_forced_unique": true,
+  "unmeasured_prefix_assumption": true,
+  "full_ITEM_BER_evaluated": false,
+  "full_image_optimal_ds_proven": false,
+  "hardware_verified_recommendation": false,
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "AI_used": false,
+  "acceptance_thresholds": {
+    "max_local_bit_errors": 0,
+    "max_local_framing_errors": 0
+  },
+  "threshold_candidate_region": [],
+  "hardware_verified_region": [],
+  "job_state": "COMPLETE",
+  "alignment_policy": "reference_prefix",
+  "session": "session_00000049",
+  "source_sha256": "7e3a11c306653f3bd8c1881bd77840b68da67bbbd91c9fc48832b2530a9c6f34",
+  "actual_profile": {
+    "d": 3,
+    "s": -1
+  },
+  "actual_full_frame_observations": {
+    "A": {
+      "retired_items_with_bytes": 64,
+      "frame_correct": 37,
+      "equal_length_items": 64,
+      "positional_frame_bit_errors": 3427,
+      "payload_comparable_items": 64,
+      "payload_bit_errors": 3427,
+      "flagged_bytes": 0,
+      "scope": "Actual saved receiver bytes at one actual profile; no candidate full-image prediction"
+    },
+    "B": {
+      "retired_items_with_bytes": 64,
+      "frame_correct": 44,
+      "equal_length_items": 64,
+      "positional_frame_bit_errors": 2398,
+      "payload_comparable_items": 64,
+      "payload_bit_errors": 2398,
+      "flagged_bytes": 0,
+      "scope": "Actual saved receiver bytes at one actual profile; no candidate full-image prediction"
+    }
+  },
+  "stimulus_origin": "SAVED_PS_RANDOM_PLAN",
+  "random_seed": 20261024,
+  "actual_local_bit_errors_from_saved_bytes": 30,
+  "current_target_all_phase_matches": 61,
+  "items": [
+    {
+      "record_id": 2,
+      "item_index": 0,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 22,
+        "first_byte": 147,
+        "phase": 16,
+        "width": 12
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 21,
+          "payload_bit_errors": 21,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 3,
+      "item_index": 1,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 1,
+        "count": 15,
+        "first_byte": 140,
+        "phase": 18,
+        "width": 22
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 15,
+          "payload_bit_errors": 15,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 15,
+          "payload_bit_errors": 15,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 3,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 4,
+      "item_index": 2,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 2,
+        "count": 74,
+        "first_byte": 179,
+        "phase": 34,
+        "width": 4
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 5,
+      "item_index": 3,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 1,
+        "count": 213,
+        "first_byte": 51,
+        "phase": 10,
+        "width": 20
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 213,
+          "payload_bit_errors": 213,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 213,
+          "payload_bit_errors": 213,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 6,
+      "item_index": 4,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 2,
+        "count": 138,
+        "first_byte": 69,
+        "phase": 15,
+        "width": 29
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 138,
+          "payload_bit_errors": 138,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 138,
+          "payload_bit_errors": 138,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 7,
+      "item_index": 5,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 135,
+        "first_byte": 25,
+        "phase": 5,
+        "width": 29
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 135,
+          "payload_bit_errors": 135,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 135,
+          "payload_bit_errors": 135,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 8,
+      "item_index": 6,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 135,
+        "first_byte": 37,
+        "phase": 22,
+        "width": 21
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 135,
+          "payload_bit_errors": 135,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 129,
+          "payload_bit_errors": 129,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": false
+    },
+    {
+      "record_id": 9,
+      "item_index": 7,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 193,
+        "first_byte": 74,
+        "phase": 16,
+        "width": 10
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 57,
+          "payload_bit_errors": 57,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 2,
+          "payload_bit_errors": 2,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 10,
+      "item_index": 8,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 1,
+        "count": 34,
+        "first_byte": 167,
+        "phase": 37,
+        "width": 3
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 11,
+      "item_index": 9,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 250,
+        "first_byte": 20,
+        "phase": 6,
+        "width": 23
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 250,
+          "payload_bit_errors": 250,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 250,
+          "payload_bit_errors": 250,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 12,
+      "item_index": 10,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 67,
+        "first_byte": 193,
+        "phase": 38,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 13,
+      "item_index": 11,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 24,
+        "first_byte": 216,
+        "phase": 27,
+        "width": 9
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 9,
+          "payload_bit_errors": 9,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 14,
+      "item_index": 12,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 2,
+        "count": 192,
+        "first_byte": 58,
+        "phase": 30,
+        "width": 11
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 15,
+      "item_index": 13,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 241,
+        "first_byte": 34,
+        "phase": 33,
+        "width": 11
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 3,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 16,
+      "item_index": 14,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 6,
+        "count": 125,
+        "first_byte": 142,
+        "phase": 13,
+        "width": 7
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 17,
+      "item_index": 15,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 46,
+        "first_byte": 139,
+        "phase": 14,
+        "width": 6
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 18,
+      "item_index": 16,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 147,
+        "first_byte": 78,
+        "phase": 35,
+        "width": 9
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 19,
+      "item_index": 17,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 131,
+        "first_byte": 128,
+        "phase": 27,
+        "width": 8
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 48,
+          "payload_bit_errors": 48,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 20,
+      "item_index": 18,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 0,
+        "count": 201,
+        "first_byte": 25,
+        "phase": 23,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 21,
+      "item_index": 19,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 2,
+        "count": 120,
+        "first_byte": 137,
+        "phase": 6,
+        "width": 3
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 22,
+      "item_index": 20,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 197,
+        "first_byte": 78,
+        "phase": 42,
+        "width": 2
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 23,
+      "item_index": 21,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 1,
+        "count": 154,
+        "first_byte": 99,
+        "phase": 36,
+        "width": 8
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 24,
+      "item_index": 22,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 111,
+        "first_byte": 102,
+        "phase": 26,
+        "width": 11
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 79,
+          "payload_bit_errors": 79,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 25,
+      "item_index": 23,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 146,
+        "first_byte": 86,
+        "phase": 37,
+        "width": 8
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 26,
+      "item_index": 24,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 140,
+        "first_byte": 69,
+        "phase": 33,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 27,
+      "item_index": 25,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 112,
+        "first_byte": 157,
+        "phase": 44,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 3,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 28,
+      "item_index": 26,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 6,
+        "count": 108,
+        "first_byte": 26,
+        "phase": 9,
+        "width": 4
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 17,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 29,
+      "item_index": 27,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 0,
+        "count": 85,
+        "first_byte": 21,
+        "phase": 40,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 30,
+      "item_index": 28,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 0,
+        "count": 250,
+        "first_byte": 20,
+        "phase": 7,
+        "width": 22
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 250,
+          "payload_bit_errors": 250,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 250,
+          "payload_bit_errors": 250,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 31,
+      "item_index": 29,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 6,
+        "count": 68,
+        "first_byte": 60,
+        "phase": 18,
+        "width": 5
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 32,
+      "item_index": 30,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 2,
+        "count": 250,
+        "first_byte": 26,
+        "phase": 17,
+        "width": 17
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 250,
+          "payload_bit_errors": 250,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 214,
+          "payload_bit_errors": 214,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": false
+    },
+    {
+      "record_id": 33,
+      "item_index": 31,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 168,
+        "first_byte": 39,
+        "phase": 28,
+        "width": 17
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 11,
+          "payload_bit_errors": 11,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 34,
+      "item_index": 32,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 171,
+        "first_byte": 75,
+        "phase": 14,
+        "width": 30
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 171,
+          "payload_bit_errors": 171,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 171,
+          "payload_bit_errors": 171,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 35,
+      "item_index": 33,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 209,
+        "first_byte": 58,
+        "phase": 14,
+        "width": 4
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 36,
+      "item_index": 34,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 42,
+        "first_byte": 181,
+        "phase": 33,
+        "width": 5
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 37,
+      "item_index": 35,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 67,
+        "first_byte": 185,
+        "phase": 13,
+        "width": 30
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 67,
+          "payload_bit_errors": 67,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 67,
+          "payload_bit_errors": 67,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 38,
+      "item_index": 36,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 7,
+        "count": 210,
+        "first_byte": 46,
+        "phase": 9,
+        "width": 7
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 39,
+      "item_index": 37,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 90,
+        "first_byte": 105,
+        "phase": 26,
+        "width": 5
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 65,
+          "payload_bit_errors": 65,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 40,
+      "item_index": 38,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 64,
+        "first_byte": 57,
+        "phase": 7,
+        "width": 15
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 2,
+          "payload_bit_errors": 2,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 41,
+      "item_index": 39,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 75,
+        "first_byte": 39,
+        "phase": 17,
+        "width": 4
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 42,
+      "item_index": 40,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 171,
+        "first_byte": 83,
+        "phase": 12,
+        "width": 27
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 171,
+          "payload_bit_errors": 171,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 171,
+          "payload_bit_errors": 171,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 43,
+      "item_index": 41,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 160,
+        "first_byte": 68,
+        "phase": 26,
+        "width": 6
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 114,
+          "payload_bit_errors": 114,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 44,
+      "item_index": 42,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 253,
+        "first_byte": 20,
+        "phase": 30,
+        "width": 13
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 45,
+      "item_index": 43,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 6,
+        "count": 110,
+        "first_byte": 82,
+        "phase": 26,
+        "width": 14
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 81,
+          "payload_bit_errors": 81,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 46,
+      "item_index": 44,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 181,
+        "first_byte": 92,
+        "phase": 43,
+        "width": 2
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 47,
+      "item_index": 45,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 0,
+        "count": 186,
+        "first_byte": 50,
+        "phase": 11,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 48,
+      "item_index": 46,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 6,
+        "count": 148,
+        "first_byte": 106,
+        "phase": 20,
+        "width": 25
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 148,
+          "payload_bit_errors": 148,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 148,
+          "payload_bit_errors": 148,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 49,
+      "item_index": 47,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 161,
+        "first_byte": 25,
+        "phase": 25,
+        "width": 16
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 161,
+          "payload_bit_errors": 161,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 5,
+          "payload_bit_errors": 5,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 50,
+      "item_index": 48,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 137,
+        "first_byte": 27,
+        "phase": 29,
+        "width": 9
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 51,
+      "item_index": 49,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 35,
+        "first_byte": 107,
+        "phase": 36,
+        "width": 6
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 52,
+      "item_index": 50,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 1,
+        "count": 72,
+        "first_byte": 132,
+        "phase": 32,
+        "width": 8
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 53,
+      "item_index": 51,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 7,
+        "count": 245,
+        "first_byte": 29,
+        "phase": 39,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 54,
+      "item_index": 52,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 6,
+        "count": 64,
+        "first_byte": 176,
+        "phase": 29,
+        "width": 14
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 55,
+      "item_index": 53,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 4,
+        "count": 212,
+        "first_byte": 36,
+        "phase": 18,
+        "width": 14
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 212,
+          "payload_bit_errors": 212,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 41,
+          "payload_bit_errors": 41,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 9,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 56,
+      "item_index": 54,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 7,
+        "count": 127,
+        "first_byte": 116,
+        "phase": 33,
+        "width": 2
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 57,
+      "item_index": 55,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 6,
+        "count": 63,
+        "first_byte": 109,
+        "phase": 15,
+        "width": 13
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 57,
+          "payload_bit_errors": 57,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 13,
+          "payload_bit_errors": 13,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 2,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 58,
+      "item_index": 56,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 125,
+        "first_byte": 129,
+        "phase": 9,
+        "width": 29
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 125,
+          "payload_bit_errors": 125,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 125,
+          "payload_bit_errors": 125,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 17,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 59,
+      "item_index": 57,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 0,
+        "count": 65,
+        "first_byte": 44,
+        "phase": 41,
+        "width": 4
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 60,
+      "item_index": 58,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 1,
+        "count": 254,
+        "first_byte": 21,
+        "phase": 22,
+        "width": 11
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 254,
+          "payload_bit_errors": 254,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 119,
+          "payload_bit_errors": 119,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 7,
+      "actual_target_all_phases": false
+    },
+    {
+      "record_id": 61,
+      "item_index": 59,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 0,
+        "count": 190,
+        "first_byte": 29,
+        "phase": 12,
+        "width": 18
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 190,
+          "payload_bit_errors": 190,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": false,
+          "positional_frame_bit_errors": 190,
+          "payload_bit_errors": 190,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 62,
+      "item_index": 60,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 226,
+        "first_byte": 20,
+        "phase": 31,
+        "width": 3
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 63,
+      "item_index": 61,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 0,
+        "count": 241,
+        "first_byte": 21,
+        "phase": 30,
+        "width": 13
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 4,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 64,
+      "item_index": 62,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 5,
+        "count": 247,
+        "first_byte": 26,
+        "phase": 35,
+        "width": 1
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 14,
+      "actual_target_all_phases": true
+    },
+    {
+      "record_id": 65,
+      "item_index": 63,
+      "state": "LOCAL_ENVELOPE_AVAILABLE",
+      "reason": null,
+      "stimulus": {
+        "bit": 3,
+        "count": 218,
+        "first_byte": 37,
+        "phase": 36,
+        "width": 4
+      },
+      "metrics": {
+        "A": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        },
+        "B": {
+          "expected_bytes": 278,
+          "received_bytes": 278,
+          "flagged_bytes": 0,
+          "frame_correct": true,
+          "positional_frame_bit_errors": 0,
+          "payload_bit_errors": 0,
+          "payload_comparison_valid": true,
+          "positional_comparison_scope": "Equal-length ordered byte comparison; not a candidate full-frame prediction"
+        }
+      },
+      "phase_count": 3,
+      "actual_target_all_phases": true
+    }
+  ],
+  "errors": [],
+  "input_gate": "OFFLINE_FILE_COPY_NO_POSIX_GATE",
+  "elapsed_seconds": 21.89877400000114,
+  "package_manifest_sha256": "13244461c2fcc0687b8c46d7ee33401a837944a56573c4e40bd09059d49a8a3b",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "machine": "",
+  "analysis_only": true,
+  "evidence_audit_scope": "Committed plan/config/CH0/MARK/result/admission subset; not a new full lifecycle audit",
+  "candidate_full_frame_prediction_available": false
+}

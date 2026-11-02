@@ -1,0 +1,12 @@
+test_actual_feedback_shape_passes_without_translated_fields (__main__.FixTests.test_actual_feedback_shape_passes_without_translated_fields) ... ok
+test_atomic_publication_no_overwrite_or_partial_target (__main__.FixTests.test_atomic_publication_no_overwrite_or_partial_target) ... ok
+test_audit_preserves_occupied_and_blocked_round (__main__.FixTests.test_audit_preserves_occupied_and_blocked_round) ... ok
+test_missing_strict_ready_and_bad_index_refused (__main__.FixTests.test_missing_strict_ready_and_bad_index_refused) ... ok
+test_original_recheck_failure_propagates (__main__.FixTests.test_original_recheck_failure_propagates) ... ok
+test_translated_record_not_feedback (__main__.FixTests.test_translated_record_not_feedback) ... ok
+test_unproven_worker_or_raw_proof_does_not_release (__main__.FixTests.test_unproven_worker_or_raw_proof_does_not_release) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.997s
+
+OK

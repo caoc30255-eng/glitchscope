@@ -1,0 +1,64 @@
+{
+  "analysis": {
+    "expected_nominal_samples": 20,
+    "expected_source_bit": 0,
+    "inversion_start_sample": 2048,
+    "inverted_samples": 20,
+    "mark_high_samples": 2,
+    "mark_sample": 2048,
+    "mark_to_inversion_samples": 0,
+    "nominal_sample_clock_hz": 100000000,
+    "physical_inversion_verified": true
+  },
+  "arm": {
+    "arm_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000034/MARK/epoch_10000034_record_00000009/arm",
+    "epoch": 268435508,
+    "expected_bit": 0,
+    "hardware_identity_embedded": false,
+    "identity": 157968447703126100466989609581762592709149783379640799435522768896,
+    "profile": {
+      "bit": 0,
+      "byte": 20,
+      "phase": 15,
+      "width": 10
+    },
+    "record_id": 9,
+    "replaces_retired_snapshot": {
+      "actual_READY_consumed": true,
+      "next_ARM_only": true,
+      "old_manifest_sha256": "3452ab32f592c4b644a8f2c39e9d9b3941c98033028b1609451af70d6e1b12a9",
+      "proof": {
+        "epoch": 268435508,
+        "evidence_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000034/MARK/epoch_10000034_record_00000008/saved",
+        "identity": 157968447703126100421317683415171876514975147347435609998255063040,
+        "mark_record_id": 8,
+        "physical_mark_snapshot_saved": true
+      },
+      "scope": "software permission to replace completed raw snapshot; not hardware epoch",
+      "soft_reset_allowed": false,
+      "three_party_retired": true
+    },
+    "source_sha256": "d8f86be202f703e9a8ecd3ff45454e4405dea7477f848174d7636bd95061d436"
+  },
+  "binding": {
+    "epoch": 268435508,
+    "identity": 157968447703126100466989609581762592709149783379640799435522768896,
+    "record_id": 9
+  },
+  "mark_event": {
+    "identity": 157968447703126100466989609581762592709149783379640799435522768896,
+    "payload_hex": "3000003400000009200000340000000009100000340102230007000000000000",
+    "raw_hex": "a55a0133203000003400000009200000340000000009100000340102230007000000000000a78b",
+    "record_id": 0,
+    "type": 51
+  },
+  "metadata": [
+    513,
+    12,
+    4096,
+    2048,
+    221578549
+  ],
+  "raw_hardware_has_identity_register": false,
+  "read_indices_delivered": 4096
+}

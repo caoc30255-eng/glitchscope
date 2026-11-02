@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "word_bits": 32,
+  "base": "0x50010000",
+  "span": 8192,
+  "addressing": "absolute",
+  "read_method": "read",
+  "write_method": "write",
+  "registers": [
+    {
+      "name": "identity",
+      "offset": 0,
+      "access": "RO",
+      "read_effect": "none",
+      "expected": "0x46495232"
+    },
+    {
+      "name": "scratch",
+      "offset": 4,
+      "access": "RW",
+      "read_effect": "none",
+      "write_mask": "0xff"
+    },
+    {
+      "name": "irq",
+      "offset": 8,
+      "access": "W1C",
+      "read_effect": "none",
+      "write_mask": "0xf"
+    },
+    {
+      "name": "events",
+      "offset": 12,
+      "access": "RO",
+      "read_effect": "clear"
+    }
+  ]
+}

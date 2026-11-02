@@ -1,0 +1,18 @@
+{
+  "controls_only.jsonl": {
+    "bytes": 46170,
+    "sha256": "00348dcc9113f8fddd4c24526340d93d8b3592e085380fe556db0798fcfb149e"
+  },
+  "historical_test.jsonl": {
+    "bytes": 100239,
+    "sha256": "afae475b0d0194a15a9855b6454ea2e2baaec95e95577d3fe7dd5e1eab36106e"
+  },
+  "train.jsonl": {
+    "bytes": 279934,
+    "sha256": "c2a7c4dd69a3815e00f8091b8c010641c5bc1cc80fe7e08108db8584598d8ace"
+  },
+  "validation.jsonl": {
+    "bytes": 133607,
+    "sha256": "74fad11d7257dd68ed43fe5c14fbb1309731543b962f0ddf94c616e7670500ba"
+  }
+}

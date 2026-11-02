@@ -1,0 +1,14 @@
+[
+  {
+    "source_relative_to_project": "docs/reproduction.md",
+    "included_file": "1_reproduction.md",
+    "sha256": "b0e0cb08148bfb81db132669b5a819cbbfd4d40202faf5464b843a7cbe49120e",
+    "kind": "HISTORICAL_PROJECT_ARTIFACT_NOT_NEW_SKILL_OR_CROSS_BOARD_ACCEPTANCE"
+  },
+  {
+    "source_relative_to_project": "src/ps/workbench/vendor/image/recovery_notes.md",
+    "included_file": "2_recovery_notes.md",
+    "sha256": "fb175bc9a9a06c52c865a0538fc7ccec38828afa1b1dc0947690ffc1e11c4e35",
+    "kind": "HISTORICAL_PROJECT_ARTIFACT_NOT_NEW_SKILL_OR_CROSS_BOARD_ACCEPTANCE"
+  }
+]

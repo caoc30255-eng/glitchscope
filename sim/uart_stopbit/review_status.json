@@ -1,0 +1,11 @@
+{
+  "status": "STATIC_REVIEW_AND_RTL_FIXTURE_READY_SIMULATION_PENDING",
+  "synthesis_snapshot_rtl_matches": {
+    "h1_uart_tx_byte_v0_2.v": true,
+    "h1_w19_frame_tx_v0_3.v": true
+  },
+  "actual_RTL_simulation_pass": false,
+  "host_cli_launch_failed": true,
+  "hardware_access": false,
+  "bitstream_generated": false
+}

@@ -1,0 +1,107 @@
+{
+  "status": "PASS_APPROVAL_CODE_DATA_DECISION_EXPORT_BINDINGS",
+  "fixed_files": 102,
+  "runtime_files_unchanged": 49,
+  "notebook_checks": [
+    {
+      "group": "A_portrait_baseline",
+      "exact_text": true,
+      "AST_match": true
+    },
+    {
+      "group": "B_portrait_selected",
+      "exact_text": true,
+      "AST_match": true
+    },
+    {
+      "group": "C_dinosaur_baseline",
+      "exact_text": true,
+      "AST_match": true
+    },
+    {
+      "group": "D_dinosaur_selected",
+      "exact_text": true,
+      "AST_match": true
+    }
+  ],
+  "groups": [
+    {
+      "group": "A_portrait_baseline",
+      "session": "session_00000049",
+      "profile": {
+        "d": 3,
+        "s": -1
+      },
+      "resources_closed": true,
+      "approval_binding": true,
+      "metrics_match_independent_raw": true
+    },
+    {
+      "group": "B_portrait_selected",
+      "session": "session_0000004a",
+      "profile": {
+        "d": 4,
+        "s": -2
+      },
+      "resources_closed": true,
+      "approval_binding": true,
+      "metrics_match_independent_raw": true
+    },
+    {
+      "group": "C_dinosaur_baseline",
+      "session": "session_0000004b",
+      "profile": {
+        "d": 3,
+        "s": -1
+      },
+      "resources_closed": true,
+      "approval_binding": true,
+      "metrics_match_independent_raw": true
+    },
+    {
+      "group": "D_dinosaur_selected",
+      "session": "session_0000004c",
+      "profile": {
+        "d": 4,
+        "s": -2
+      },
+      "resources_closed": true,
+      "approval_binding": true,
+      "metrics_match_independent_raw": true
+    }
+  ],
+  "trial_bindings": 276,
+  "namespace_prefix_count": 76,
+  "model_output_manifests_verified": 2,
+  "model_files_verified": 398,
+  "final_report_files_verified": 10,
+  "target_software_report": "PASS",
+  "approval_authorization_text": "批准新一轮260条，累计上限635",
+  "prior_occupied": 375,
+  "new_occupied": 260,
+  "cumulative_occupied": 635,
+  "UI_manual_checklist": [
+    {
+      "item": "两组报告的64个ITEM均可切换，统一d/s在切换ITEM后保持一致",
+      "status": "PENDING_USER_CHECK"
+    },
+    {
+      "item": "参考、实际CAP、软件重建三种轨迹及表决点含义清晰，缺失区不补造",
+      "status": "PENDING_USER_CHECK"
+    },
+    {
+      "item": "14组d/s和保留相位可查看，零错区域为空时如实显示",
+      "status": "PENDING_USER_CHECK"
+    },
+    {
+      "item": "SVG/CSV/JSON导出可用且与页面指标一致",
+      "status": "PENDING_USER_CHECK"
+    },
+    {
+      "item": "无外网依赖；对未知、未测、模型拒答和软件推演范围标识清楚",
+      "status": "PENDING_USER_CHECK"
+    }
+  ],
+  "hardware_access": false,
+  "new_STARTs": 0
+}

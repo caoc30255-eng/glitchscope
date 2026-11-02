@@ -1,0 +1,36 @@
+test_actual_wire_contract (test_adapter_writer.AdapterTests.test_actual_wire_contract) ... ok
+test_crc_bad_or_partial_rejected (test_adapter_writer.AdapterTests.test_crc_bad_or_partial_rejected) ... ok
+test_cross_process_lease_and_persistent_inode (test_adapter_writer.AdapterTests.test_cross_process_lease_and_persistent_inode) ... ok
+test_fast_writer_detects_raw_tampering_on_close (test_adapter_writer.AdapterTests.test_fast_writer_detects_raw_tampering_on_close) ... ok
+test_fast_writer_external_append_blocks_next_event (test_adapter_writer.AdapterTests.test_fast_writer_external_append_blocks_next_event) ... ok
+test_incremental_final_audit_visits_all_evidence (test_adapter_writer.AdapterTests.test_incremental_final_audit_visits_all_evidence) ... ok
+test_unconfirmed_close_quarantines_device (test_adapter_writer.AdapterTests.test_unconfirmed_close_quarantines_device) ... ok
+test_unknown_consumes_attempt_and_preserves_bytes (test_adapter_writer.AdapterTests.test_unknown_consumes_attempt_and_preserves_bytes) ... ok
+test_unknown_raw_capture_is_hash_bound (test_adapter_writer.AdapterTests.test_unknown_raw_capture_is_hash_bound) ... ok
+test_write_request_not_accepted (test_adapter_writer.AdapterTests.test_write_request_not_accepted) ... ok
+test_wrong_transaction_or_parameter_rejected (test_adapter_writer.AdapterTests.test_wrong_transaction_or_parameter_rejected) ... ok
+test_complete_peer_sequence (test_lifecycle.LifecycleTests.test_complete_peer_sequence) ... ok
+test_done_before_start_rejected (test_lifecycle.LifecycleTests.test_done_before_start_rejected) ... ok
+test_missing_retired_is_unknown (test_lifecycle.LifecycleTests.test_missing_retired_is_unknown) ... ok
+test_required_mark_and_disabled_mark (test_lifecycle.LifecycleTests.test_required_mark_and_disabled_mark) ... ok
+test_start_ack_is_not_done (test_lifecycle.LifecycleTests.test_start_ack_is_not_done) ... ok
+test_wrong_identity_rejected (test_lifecycle.LifecycleTests.test_wrong_identity_rejected) ... ok
+test_wrong_retirement_record_rejected (test_lifecycle.LifecycleTests.test_wrong_retirement_record_rejected) ... ok
+test_budget_end_no_fourth_record (test_skill.LedgerTests.test_budget_end_no_fourth_record) ... ok
+test_charge_before_completion (test_skill.LedgerTests.test_charge_before_completion) ... ok
+test_crashed_pending_cannot_start_next (test_skill.LedgerTests.test_crashed_pending_cannot_start_next) ... ok
+test_existing_session_not_overwritten (test_skill.LedgerTests.test_existing_session_not_overwritten) ... ok
+test_existing_writer_lock_not_removed (test_skill.LedgerTests.test_existing_writer_lock_not_removed) ... ok
+test_external_evidence_path_refused (test_skill.LedgerTests.test_external_evidence_path_refused) ... ok
+test_file_tampering_blocks_audit (test_skill.LedgerTests.test_file_tampering_blocks_audit) ... ok
+test_incomplete_cleanup_rejected (test_skill.LedgerTests.test_incomplete_cleanup_rejected) ... ok
+test_out_of_order_id_rejected_before_append (test_skill.LedgerTests.test_out_of_order_id_rejected_before_append) ... ok
+test_record_then_hash_audit (test_skill.LedgerTests.test_record_then_hash_audit) ... ok
+test_reservation_held_without_cleanup (test_skill.LedgerTests.test_reservation_held_without_cleanup) ... ok
+test_timeout_is_not_refunded (test_skill.LedgerTests.test_timeout_is_not_refunded) ... ok
+test_truncated_journal_refused (test_skill.LedgerTests.test_truncated_journal_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.614s
+
+OK

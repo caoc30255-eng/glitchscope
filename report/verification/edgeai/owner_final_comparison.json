@@ -1,0 +1,49 @@
+{
+  "status": "FRESH_SAME_BUDGET_DESCRIPTIVE_COMPARISON",
+  "primary_target": "B_frame_correct",
+  "results": {
+    "A_rule14": {
+      "unique_conditions": 4,
+      "grid_condition_coverage": 0.2857142857142857,
+      "fresh_reference_boundary_touched": 2,
+      "fresh_reference_boundary_total": 6,
+      "fresh_reference_mixed_touched": 0,
+      "observed_mixed_conditions": [],
+      "nominal_ITEM_repeat_budget": 12,
+      "extra_repeats": 0,
+      "reference_vote_ties": [],
+      "reference_majority_disagreements": []
+    },
+    "B_AI14": {
+      "unique_conditions": 4,
+      "grid_condition_coverage": 0.2857142857142857,
+      "fresh_reference_boundary_touched": 2,
+      "fresh_reference_boundary_total": 6,
+      "fresh_reference_mixed_touched": 0,
+      "observed_mixed_conditions": [],
+      "nominal_ITEM_repeat_budget": 12,
+      "extra_repeats": 0,
+      "reference_vote_ties": [],
+      "reference_majority_disagreements": []
+    }
+  },
+  "relation": "EQUAL_BOUNDARY_COVERAGE",
+  "fresh_reference_is_noisy_triplet_observation": true,
+  "statistical_superiority_proven": false,
+  "complete14_point_map_produced_by_reference_only": true,
+  "AI_full_map_reconstruction_claimed": false,
+  "learned_model_only_causal_benefit_proven": false,
+  "hardware_speedup_accepted": false,
+  "note": "Compare whole frozen strategies, including coverage/repeat behavior. Reference runs last and is not passed into either selector. One noisy campaign is not a universal guarantee.",
+  "batch_seconds": {
+    "A_rule14": 406.953601833,
+    "B_AI14": 410.0611168039977,
+    "C_reference44": 2029.6541067649996
+  },
+  "owner_raw_reviews_passed": true,
+  "actual_valid_completed_records": 72,
+  "cumulative_occupied": 707,
+  "new_STARTs_by_review": 0,
+  "hardware_selection_feedback_loop_verified": true,
+  "all_custom_configurations_trained": false
+}

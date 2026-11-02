@@ -1,0 +1,54 @@
+{
+  "status": "PASS_INTERNAL_TIMING_AND_ROUTE_WITH_RECORDED_WARNINGS",
+  "timing": {
+    "wns_ns": 0.22,
+    "tns_ns": 0.0,
+    "setup_failing": 0.0,
+    "setup_total": 59612.0,
+    "whs_ns": 0.008,
+    "ths_ns": 0.0,
+    "hold_failing": 0.0,
+    "hold_total": 59548.0,
+    "wpws_ns": 3.75,
+    "tpws_ns": 0.0,
+    "pulse_failing": 0.0,
+    "pulse_total": 20104.0
+  },
+  "route_fully_routed": 30192,
+  "route_routable": 30192,
+  "routing_errors": 0,
+  "drc_warnings": 17,
+  "drc_warning_rules": {
+    "DPIP-1": 4,
+    "DPOP-1": 6,
+    "DPOP-2": 6,
+    "ZPS7-1": 1
+  },
+  "unconstrained_internal_endpoints": 0,
+  "unclocked_register_pins": 0,
+  "external_outputs_without_delay": [
+    "ctrl_tx_pin",
+    "fault_mark",
+    "h1_tx_pin",
+    "w19_tx"
+  ],
+  "external_outputs_closed_by_this_run": false,
+  "new_bitstream_generated": false,
+  "hardware_access": false,
+  "scope": "Fresh source synthesis plus restored historical dense-device implementation; external IO timing warnings retained",
+  "report_files": {
+    "bitstream_checks.txt": "898afb774ef2a13a7ee2e424244e0aac1f680161865e9f1613a73ddac2478926",
+    "bus_skew.txt": "adf467882fe26ab41103ee57c10ea5ca39065bf6fe809e30ffc733aaa525f101",
+    "check_timing.txt": "c3e720ce090dec132c25f54f93c7353d561b02177ee8d0e79fc162cc28cb5de4",
+    "clocks.txt": "0458d73c9d2318fa85685b5ed1f55fea2c24fa930ec739fa4669a6525e477754",
+    "clocks_before.txt": "5c139b887799e6e8756c80dd0e8981226ac704f37aa125a3dfff89d0ea7ae4e5",
+    "drc.txt": "0d1662ea78fc3a6a8e4fae2e68d17a649233137eca8cac53f6084bac55d1c197",
+    "exceptions.txt": "b2e940668443c2178c131e909f81a8ab297b45059ba4f1642c080e0fa5cada40",
+    "methodology.txt": "e546988e278b740d66c6dd36a025dfd34cf8cdcdb2cc199bc90bc13b72c732fd",
+    "optimized_control_sets.txt": "5d01a1d391bb646accfd10114189efe77ff605a5bd21a04beb92b9f27c6f464b",
+    "optimized_utilization.txt": "6dc92f02aa90633ac67800920ed75342417b9a63d83120288055a36f114d16ae",
+    "route_status.txt": "2b0e56fc85419b3deaac653f9c4a357c7da05605d68f55aa2345e7f14579b2c2",
+    "timing.txt": "16a6ebf53f04afb8ba91b5df9707678691819678b3ffa0116796e7a2337934d9",
+    "utilization.txt": "b61d198df2169c7d9bf41f42d5d030e9eb808652d63cf1128302f8bc60a376a6"
+  }
+}

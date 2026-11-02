@@ -1,0 +1,222 @@
+Browser tab: 3, Title: "三板实验工作台", URL: "http://127.0.0.1:8767/".
+1 AXWebArea 三板实验工作台, URL: 127.0.0.1:8767/
+	2 container
+		3 text 7010 发送/毛刺 · STM32 被测 · 7020 接收/分析
+		4 heading 三板实验工作台 软件功能候选 v0.1.1, Value: 1
+			5 text 三板实验工作台  软件功能候选 v0.1.1
+		6 text 硬件执行入口未连接
+	7 text 当前支持：开发模拟、已审核真实证据回放、真实接收图片修复。模拟和预测均不代表新实测；真实数据训练关闭。
+	8 container
+		9 button 扫描与热力图
+		10 button 选点与算法对照
+		11 button 接收与图片修复
+		12 button 证据与运行记录
+	13 container scan
+		14 container
+			15 heading 1 · 不可变计划预览, Value: 2
+				16 text 1 · 不可变计划预览
+			17 text 被测判据
+			18 pop up button (collapsed, settable) 被测判据, Value: STM 业务成功, ID: target, Secondary Actions: Expand
+				19 menu
+					20 B / STM 分别评估
+					21 B 完整帧正确
+					22 (selected) STM 业务成功
+			23 text B 参数 d
+			24 stepper (settable, integer) B 参数 d, Value: 4, ID: d
+			25 text s
+			26 stepper (settable, integer) s, Value: -1
+			27 text 载荷帧字节
+			28 stepper (settable, integer) 载荷帧字节, Value: 20, ID: byte
+			29 text 位号
+			30 stepper (settable, integer) 位号, Value: 0, ID: bit
+			31 text 相位网格（tick）
+			32 text field (settable) 相位网格（tick）, Value: 5,15,25,35, ID: phases
+			33 text 宽度网格（tick）
+			34 text field (settable) 宽度网格（tick）, Value: 1,10,20,30,40, ID: widths
+			35 text 每点重复
+			36 stepper (settable, integer) 每点重复, Value: 2, ID: repeats
+			37 text 显式总次数上限
+			38 stepper (settable, integer) 显式总次数上限, Value: 30, ID: budget
+			39 text 固定 256 字节载荷 00…ff。phase ≥ 5、width ≥ 1、和 ≤ 45。发生器 tick 名义 20ns；CAP 样本名义 10ns。
+			40 button 生成预览，不执行, ID: preview
+			213 text 表单与当前不可变计划一致
+			42 text 当前不可变计划：d=4 / s=-1 / byte=20 / bit=0 / count=1
+phase=[5,15,25,35] / width=[1,10,20,30,40]
+每点重复 2 / 判据 STM_business_success
+合法 14 / 非法 6
+CONFIG 1 + 参照 1 + ITEM 28 = 30 次
+上限 30（软件建议，未授予硬件预算）
+计划 SHA256 abe0007c2a416f516de8dd47f630305ccc168bd58fab07ca1803db5a4942e2c9
+载荷 SHA256 40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880
+		43 container
+			44 heading 2 · 运行与停止, Value: 2
+				45 text 2 · 运行与停止
+			46 text 开发模拟策略
+			47 pop up button (collapsed, settable) 开发模拟策略, Value: 全网格顺序, ID: strategy, Secondary Actions: Expand
+				48 menu
+					49 (selected) 全网格顺序
+					50 更新后验的不确定度选点
+			51 text 模拟种子
+			52 stepper (settable, integer) 模拟种子, Value: 11, ID: seed
+			53 text 模拟 UNKNOWN 率
+			54 stepper (settable, integer) 模拟 UNKNOWN 率, Value: 0, ID: unknownRate
+			55 button 启动明确标识的模拟, ID: start
+			56 button 停止未执行项, ID: stop
+			57 button 显示同条件真实回放（含 session25）, ID: replay
+			58 button 检查主线执行器依赖, ID: submitMainline
+			59 text 未启动 · 不自动执行
+			60 text 同一操作键幂等；独占模拟运行。UNKNOWN 占用次数并阻断该运行，不退款、不重试。真实扫描需主线新执行器及另批预算。
+			61 heading 主线补采建议, Value: 3
+				62 text 主线补采建议
+			63 text 默认 20 格中 14 个合法点，每点 3 次，另含 CONFIG 1 次、参照 1 次，共  44 次 。d3、d4 分开计划，不能沿用旧四条或 65 条额度。
+		64 container
+			65 heading 3 · B / STM 独立热力图, Value: 2
+				66 text 3 · B / STM 独立热力图
+			67 text 已审核真实证据回放
+			68 checkbox (settable, integer) Description: 显示模拟模型预测层, Value: 0, ID: prediction
+			69 button 导出逐点 CSV, ID: exportCSV
+			70 text 🟩 成功比例 ≥ 0.5 🟥 成功比例 < 0.5 🟨 UNKNOWN ⬛ 未测 ▧ 非法 🟣 预测（非测量）
+			71 heading B 完整帧正确 SVG, Value: 3
+				72 text B 完整帧正确 
+				73 button SVG
+			74 table
+				75 row
+					76 cell
+						77 text 相位↓ / 宽度→
+					78 cell
+						79 text 1
+					80 cell
+						81 text 10
+					82 cell
+						83 text 20
+					84 cell
+						85 text 30
+					86 cell
+						87 text 40
+				88 row
+					89 cell
+						90 text 5
+					91 cell
+						92 text 未测
+					93 cell
+						94 text 未测
+					95 cell
+						96 text 未测
+					97 cell
+						98 text 未测
+					99 cell
+						100 text 未测
+				101 row
+					102 cell
+						103 text 15
+					104 cell
+						105 text 未测
+					106 cell
+						107 text 未测
+					108 cell
+						109 text 1/1
+					110 cell
+						111 text 未测
+					112 cell
+						113 text 非法
+				114 row
+					115 cell
+						116 text 25
+					117 cell
+						118 text 未测
+					119 cell
+						120 text 未测
+					121 cell
+						122 text 未测
+					123 cell
+						124 text 非法
+					125 cell
+						126 text 非法
+				127 row
+					128 cell
+						129 text 35
+					130 cell
+						131 text 未测
+					132 cell
+						133 text 未测
+					134 cell
+						135 text 非法
+					136 cell
+						137 text 非法
+					138 cell
+						139 text 非法
+			140 heading STM 业务成功 SVG, Value: 3
+				141 text STM 业务成功 
+				142 button SVG
+			143 table
+				144 row
+					145 cell
+						146 text 相位↓ / 宽度→
+					147 cell
+						148 text 1
+					149 cell
+						150 text 10
+					151 cell
+						152 text 20
+					153 cell
+						154 text 30
+					155 cell
+						156 text 40
+				157 row
+					158 cell
+						159 text 5
+					160 cell
+						161 text 未测
+					162 cell
+						163 text 未测
+					164 cell
+						165 text 未测
+					166 cell
+						167 text 未测
+					168 cell
+						169 text 未测
+				170 row
+					171 cell
+						172 text 15
+					173 cell
+						174 text 未测
+					175 cell
+						176 text 未测
+					177 cell
+						178 text 0/1
+					179 cell
+						180 text 未测
+					181 cell
+						182 text 非法
+				183 row
+					184 cell
+						185 text 25
+					186 cell
+						187 text 未测
+					188 cell
+						189 text 未测
+					190 cell
+						191 text 未测
+					192 cell
+						193 text 非法
+					194 cell
+						195 text 非法
+				196 row
+					197 cell
+						198 text 35
+					199 cell
+						200 text 未测
+					201 cell
+						202 text 未测
+					203 cell
+						204 text 非法
+					205 cell
+						206 text 非法
+					207 cell
+						208 text 非法
+			209 text 声明合法网格 14；有测量 1；含 UNKNOWN 0。不同 d/s 分图。真实数据仅有稀疏点，不是完整边界。
+			210 heading 格点追溯（点击格点）, Value: 3
+				211 text 格点追溯（点击格点）
+			212 text 未测不补零；UNKNOWN 不变成失败；不同 d/s 或载荷分图。
+
+The focused UI element is 1 AXWebArea 三板实验工作台, URL: 127.0.0.1:8767/

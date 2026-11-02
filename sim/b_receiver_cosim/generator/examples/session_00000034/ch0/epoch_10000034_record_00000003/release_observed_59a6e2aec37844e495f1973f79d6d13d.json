@@ -1,0 +1,17 @@
+{
+  "CH0_hardware_release_verified": true,
+  "binding": {
+    "deadline": 20386924514,
+    "epoch": 268435508,
+    "identity": 157968447703126100192958052582218295544101967186409662811916533760,
+    "kind": 1,
+    "peer_epoch": 536870964,
+    "record_id": 3,
+    "request_length": 278,
+    "start": 19386924514
+  },
+  "evidence_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000034/CH0/epoch_10000034_record_00000003",
+  "next_item_allowed": false,
+  "peer_retirement_verified": false,
+  "release_count": 3
+}

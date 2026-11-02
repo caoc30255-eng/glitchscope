@@ -1,0 +1,10 @@
+{
+  "status": "PASS_GUI_SIM_LOG_AND_RUNTIME_INPUTS",
+  "cases": 2,
+  "bytes": 556,
+  "zero_marks": true,
+  "zero_inversions": true,
+  "full_board_verified": false,
+  "root_cause_resolved": false,
+  "hardware_access": false
+}

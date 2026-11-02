@@ -1,0 +1,40 @@
+{
+  "schema": "CLOCK_CASE_PROVENANCE_V1",
+  "case": "Navigator V2 Zynq7020 PYNQ2.7",
+  "recorded_date": "2026-10-29",
+  "raw_source": "User-provided complete clock probe output; packaged file is the existing selected-field excerpt",
+  "files": {
+    "examples/navigator_snapshot.json": {
+      "sha256": "9a6e1b231215828e0261dce6d48247ba2a237a9716b0664b858fefe569a6850e",
+      "bytes": 1054
+    },
+    "references/historical/clock_readonly_probe.py": {
+      "sha256": "764fd81cbd431e0b908f84804042f89d87ae3d900a648b5181d43daff5d0f820",
+      "bytes": 2925
+    },
+    "examples/navigator_collector_snapshot_excerpt.json": {
+      "bytes": 1160,
+      "sha256": "f35be68ddd19a0e656655cf0e2327abc8df744d66c32940edf5cf31e1b750656"
+    },
+    "examples/ax7010_pynq24_snapshot_excerpt.json": {
+      "bytes": 1344,
+      "sha256": "caf4f9e1baead26aeb61674e7b9435be52037d571491c0f22049e41f7ecf7811"
+    }
+  },
+  "original_target_probe_used": true,
+  "new_hardened_collector_target_run": true,
+  "second_board_skill_run": true,
+  "physical_measurement": false,
+  "hardware_operations_by_packaging": 0,
+  "target_collector_receipt": {
+    "source": "User-pasted target collector stdout, relevant fields reserialized; installed PYNQ function source strings omitted",
+    "target_original_file": "/home/xilinx/jupyter_notebooks/test_10_14/clock_audit_v01_yB4PVWF3.json",
+    "target_board": "Navigator V2 Zynq7020",
+    "physical_measurement": false,
+    "original_target_file_hash_available": false
+  },
+  "second_board": "AX7010, operator-identified",
+  "pynq24_fixed_collector_target_run": true,
+  "ax7010_evidence_source": "User-pasted stdout; reserialized relevant fields; installed getter source strings omitted; original file bytes/hash not supplied",
+  "ax7010_clock_reference_scope": "PYNQ configuration and DT declarations, not independent crystal/physical measurement"
+}

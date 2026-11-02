@@ -1,0 +1,38 @@
+{
+  "ui_source": "Tri_Board_Demo_UI_v0_2_2026-10-25.zip",
+  "scan_ai_source": "GLITCHSCOPE_EdgeAI_OSS_v1_1_Candidate_2026-10-26",
+  "replay_compat_source": "EdgeAI_Prospective72_Proposal_v0_1_2026-10-26/backend",
+  "replay_compat_delta": [
+    "custom_replay.py",
+    "custom_selection_compat.py"
+  ],
+  "image_execution_source": "B_DS_Replacement65_Proposal_v0_1_2026-10-24",
+  "image_repair_source": "PYNQ_Image_Web_v0_2_1_2026-10-19",
+  "ds_analysis_source": "B_RX_Workbench_v0_2_2026-10-24",
+  "runtime_adaptation": "New image_plan validation is injected into isolated executor/monitor modules only. Existing source files and hardware assets unchanged.",
+  "adapted_vendor_files": {
+    "image/image_results.py": "Adds explicit capture_origin parameter so offline replay is not labelled new live capture. Repair math and source input boundary unchanged."
+  },
+  "original_workspace_packages_changed": false,
+  "presentation_version": "2.0-demo",
+  "presentation_changes": [
+    "New single design stylesheet replaces conflicting prototype styles",
+    "Native DS renderer reuses reviewed waveform/vote math; no iframe",
+    "Local OFL fonts, renamed Noto glyph subset; original license retained",
+    "AI selection integrated into scan strategies"
+  ],
+  "interaction_changes": [
+    "Global fixed bottom task dock, persistent across routes",
+    "No analysis data or recommendations before explicit task/history selection",
+    "Independent left/right comparison of same-session images with wipe slider"
+  ],
+  "authorization_model": "Explicit operator round consent + bounded child plan permits",
+  "execution_boundary_changes": [
+    "demo_authority.py append-only quota ledger",
+    "custom_authorization.py accepts and verifies parent-derived permits",
+    "custom_executor.py checks per-record quota before original writer",
+    "image executor wrapper checks per-record quota before unchanged original image writer"
+  ],
+  "hardware_firmware_bitstreams_modified": false,
+  "training_performed": false
+}

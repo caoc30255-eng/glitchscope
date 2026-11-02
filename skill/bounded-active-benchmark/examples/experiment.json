@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "origin": "SYNTHETIC_ONLY",
+  "domain": [
+    {
+      "id": "p0",
+      "coordinates": [
+        0
+      ]
+    },
+    {
+      "id": "p1",
+      "coordinates": [
+        1
+      ]
+    },
+    {
+      "id": "p2",
+      "coordinates": [
+        2
+      ]
+    },
+    {
+      "id": "p3",
+      "coordinates": [
+        3
+      ]
+    },
+    {
+      "id": "p4",
+      "coordinates": [
+        4
+      ]
+    },
+    {
+      "id": "p5",
+      "coordinates": [
+        5
+      ]
+    },
+    {
+      "id": "p6",
+      "coordinates": [
+        6
+      ]
+    },
+    {
+      "id": "p7",
+      "coordinates": [
+        7
+      ]
+    },
+    {
+      "id": "p8",
+      "coordinates": [
+        8
+      ]
+    }
+  ],
+  "budget": 14,
+  "setup_records": 2,
+  "repeats": 3,
+  "max_groups_per_point": 1,
+  "reference": {
+    "p0": [
+      true,
+      true,
+      true
+    ],
+    "p1": [
+      true,
+      true,
+      true
+    ],
+    "p2": [
+      true,
+      true,
+      true
+    ],
+    "p3": [
+      true,
+      true,
+      true
+    ],
+    "p4": [
+      true,
+      false,
+      true
+    ],
+    "p5": [
+      false,
+      false,
+      false
+    ],
+    "p6": [
+      false,
+      false,
+      false
+    ],
+    "p7": [
+      false,
+      false,
+      false
+    ],
+    "p8": [
+      false,
+      false,
+      false
+    ]
+  },
+  "adjacency": [
+    [
+      "p0",
+      "p1"
+    ],
+    [
+      "p1",
+      "p2"
+    ],
+    [
+      "p2",
+      "p3"
+    ],
+    [
+      "p3",
+      "p4"
+    ],
+    [
+      "p4",
+      "p5"
+    ],
+    [
+      "p5",
+      "p6"
+    ],
+    [
+      "p6",
+      "p7"
+    ],
+    [
+      "p7",
+      "p8"
+    ]
+  ]
+}

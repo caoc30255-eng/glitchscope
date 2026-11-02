@@ -1,0 +1,54 @@
+{
+  "status": "PASS_OFFLINE_SKILL_TESTS",
+  "results": [
+    {
+      "skill": "axi-lite-contract-check",
+      "returncode": 0,
+      "tests": 29,
+      "seconds": 0.6098710000005667,
+      "log_sha256": "39a7b3574b41add52bd6e3dc6b16c360f656a839caa1888205c3ddc02e7ba775"
+    },
+    {
+      "skill": "bounded-active-benchmark",
+      "returncode": 0,
+      "tests": 28,
+      "seconds": 0.2128177999984473,
+      "log_sha256": "084197ed74b993bf14840afa09452dc68d1f2783a4e6f20a259c4fe36dffcf97"
+    },
+    {
+      "skill": "edge-model-portability",
+      "returncode": 0,
+      "tests": 25,
+      "seconds": 0.5709587999990617,
+      "log_sha256": "8c4801a3021d58846ea38f891b7807db63a09e4d3d92ae917ecc8da89ebfbf95"
+    },
+    {
+      "skill": "hardware-session-evidence",
+      "returncode": 0,
+      "tests": 31,
+      "seconds": 0.891119300002174,
+      "log_sha256": "bcb3a68085df1db636fd93d0967a4f5bac18378da821713ea15f9d93d5ba52f1"
+    },
+    {
+      "skill": "pynq-bringup",
+      "returncode": 0,
+      "tests": 26,
+      "seconds": 0.476201299999957,
+      "log_sha256": "39d5346fef8acdd1efae073397c10e9fc85062fe963a9a7317e360201c6d0c43"
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "returncode": 0,
+      "tests": 16,
+      "seconds": 0.3536292999997386,
+      "log_sha256": "c4585c5521845e2da863929c7403242cbd49b536237d79217fcc39aca5c15b42"
+    }
+  ],
+  "total_tests": 155,
+  "python38_syntax_files": 37,
+  "hardware_access": false,
+  "new_physical_STARTs": 0,
+  "models_trained": false,
+  "physical_cross_board_portability_verified": false,
+  "scope": "Temporary-file, fake-bus and synthetic policy tests; historical project artifacts are separate"
+}

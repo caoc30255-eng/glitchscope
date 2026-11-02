@@ -1,0 +1,8 @@
+SKILL_STUMPS_V1
+max_feature=32
+threshold_width=12
+threshold_gap=16
+left_score=0.8
+right_score=0.2
+gap_left_delta=0.1
+gap_right_delta=-0.1

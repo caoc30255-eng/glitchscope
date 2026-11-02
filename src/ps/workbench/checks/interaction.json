@@ -1,0 +1,10 @@
+{
+  "status": "PASS_UI_V1_2_INTERACTION",
+  "analysis_empty_running_failure_guards": true,
+  "comparison_source_pairs": 64,
+  "comparison_pointer_keyboard_and_edges": true,
+  "global_dock_across_pages": 6,
+  "unknown_not_shown_as_success": true,
+  "browser_started": false,
+  "hardware_access": false
+}

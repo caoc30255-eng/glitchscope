@@ -1,0 +1,23 @@
+test_44_reservation_early_stop_and_completed_subset (__main__.DemoLedger.test_44_reservation_early_stop_and_completed_subset) ... ok
+test_canonical_plan_tamper_rejected (__main__.DemoLedger.test_canonical_plan_tamper_rejected) ... ok
+test_cleanup_uncertain_holds_unused_reservation (__main__.DemoLedger.test_cleanup_uncertain_holds_unused_reservation) ... ok
+test_concurrent_submission_single_hardware_lease (__main__.DemoLedger.test_concurrent_submission_single_hardware_lease) ... ok
+test_image65_uniform_profile_matches_round_scope (__main__.DemoLedger.test_image65_uniform_profile_matches_round_scope) ... ok
+test_insufficient_budget_scope_and_stale_round (__main__.DemoLedger.test_insufficient_budget_scope_and_stale_round) ... ok
+test_ledger_corruption_fails_closed (__main__.DemoLedger.test_ledger_corruption_fails_closed) ... ok
+test_missing_ledger_cannot_restart_budget (__main__.DemoLedger.test_missing_ledger_cannot_restart_budget) ... ok
+test_new_round_and_topup_are_explicit (__main__.DemoLedger.test_new_round_and_topup_are_explicit) ... ok
+test_no_implicit_or_inexact_consent (__main__.DemoLedger.test_no_implicit_or_inexact_consent) ... ok
+test_permit_hash_plan_and_once_only (__main__.DemoLedger.test_permit_hash_plan_and_once_only) ... ok
+test_profile_scope_cannot_be_expanded (__main__.DemoLedger.test_profile_scope_cannot_be_expanded) ... ok
+test_record_gate_requires_credit_and_same_session (__main__.DemoLedger.test_record_gate_requires_credit_and_same_session) ... ok
+test_restart_preserves_reservation_and_never_resumes (__main__.DemoLedger.test_restart_preserves_reservation_and_never_resumes) ... ok
+test_session_identity_only_after_real_allocation (__main__.DemoLedger.test_session_identity_only_after_real_allocation) ... ok
+test_small_fixed_scan_does_not_reserve_unused_configured_cap (__main__.DemoLedger.test_small_fixed_scan_does_not_reserve_unused_configured_cap) ... ok
+test_software_rejection_before_hardware_costs_zero (__main__.DemoLedger.test_software_rejection_before_hardware_costs_zero) ... ok
+test_unknown_occupies_and_blocks (__main__.DemoLedger.test_unknown_occupies_and_blocks) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 26.665s
+
+OK

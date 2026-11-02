@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "raw_packets_redecoded": 192,
+  "reverse_order_assembly_matches": true,
+  "repair_with_all_file_reads_disabled": true,
+  "source_used_only_after_repairs_by_evaluator": true,
+  "methods": {
+    "crc_select": {
+      "output_sha256": "f90af7d8b8ed795b634446d5e322bd44b2d2be6b9c2ea1cc6d1bf1b20a9d6134",
+      "receiver_config_SHA_verified": false,
+      "known_pixels": 16384,
+      "missing": 0,
+      "error_pixels": 3174,
+      "MAE": 6.64898681640625,
+      "PSNR": 21.56020712939169
+    },
+    "crc_burst_B": {
+      "output_sha256": "5a0b243e61e541faa68c45d605f8c4e1a1426293af5a8aed840f2d867ab138de",
+      "receiver_config_SHA_verified": false,
+      "known_pixels": 16384,
+      "missing": 0,
+      "error_pixels": 497,
+      "MAE": 2.0675048828125,
+      "PSNR": 24.469479972967733
+    },
+    "crc_burst_multi": {
+      "output_sha256": "6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330",
+      "receiver_config_SHA_verified": true,
+      "known_pixels": 16384,
+      "missing": 0,
+      "error_pixels": 0,
+      "MAE": 0.0,
+      "PSNR": "INF"
+    },
+    "visual_median_B": {
+      "output_sha256": "74f1e1704cb7e21a9fe4ece20062bb3e759e9066671c713feb6aa8ff64f764ef",
+      "receiver_config_SHA_verified": false,
+      "known_pixels": 16384,
+      "missing": 0,
+      "error_pixels": 3102,
+      "MAE": 3.22418212890625,
+      "PSNR": 26.960331192212816
+    }
+  }
+}

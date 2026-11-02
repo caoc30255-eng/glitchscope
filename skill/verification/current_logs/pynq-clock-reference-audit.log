@@ -1,0 +1,45 @@
+test_actual_case_recomputed_not_measured (test_clock_audit.ClockTests.test_actual_case_recomputed_not_measured) ... ok
+test_all_source_selectors (test_clock_audit.ClockTests.test_all_source_selectors) ... ok
+test_change_during_metadata_collection_detected (test_clock_audit.ClockTests.test_change_during_metadata_collection_detected) ... ok
+test_cli_does_not_overwrite_evidence (test_clock_audit.ClockTests.test_cli_does_not_overwrite_evidence) ... ok
+test_collector_reads_only_declared_registers_twice (test_clock_audit.ClockTests.test_collector_reads_only_declared_registers_twice) ... ok
+test_forced_bypass_uses_reference_not_multiplied_rate (test_clock_audit.ClockTests.test_forced_bypass_uses_reference_not_multiplied_rate) ... ok
+test_invalid_register_and_wrong_architecture_rejected (test_clock_audit.ClockTests.test_invalid_register_and_wrong_architecture_rejected) ... ok
+test_json_duplicate_and_nan_rejected (test_clock_audit.ClockTests.test_json_duplicate_and_nan_rejected) ... ok
+test_native50_reference_is_not_universally_wrong (test_clock_audit.ClockTests.test_native50_reference_is_not_universally_wrong) ... ok
+test_nonfinite_bool_and_nonpositive_reference_rejected (test_clock_audit.ClockTests.test_nonfinite_bool_and_nonpositive_reference_rejected) ... ok
+test_qualified_bypass_requires_boot_strap_not_lock_guess (test_clock_audit.ClockTests.test_qualified_bypass_requires_boot_strap_not_lock_guess) ... ok
+test_raw_second_snapshot_overrides_false_stability_claim (test_clock_audit.ClockTests.test_raw_second_snapshot_overrides_false_stability_claim) ... ok
+test_reference_evidence_conflict (test_clock_audit.ClockTests.test_reference_evidence_conflict) ... ok
+test_reported_rate_not_rewritten_to_fit (test_clock_audit.ClockTests.test_reported_rate_not_rewritten_to_fit) ... ok
+test_reset_and_powerdown_rejected (test_clock_audit.ClockTests.test_reset_and_powerdown_rejected) ... ok
+test_stable_bit_is_not_lock_bit (test_clock_audit.ClockTests.test_stable_bit_is_not_lock_bit) ... ok
+test_unknown_pynq_reference_remains_unknown (test_clock_audit.ClockTests.test_unknown_pynq_reference_remains_unknown) ... ok
+test_unstable_flag (test_clock_audit.ClockTests.test_unstable_flag) ... ok
+test_zero_divisors_rejected (test_clock_audit.ClockTests.test_zero_divisors_rejected) ... ok
+test_24_real_metaclass_shape_not_type_name (test_clock_compat.CompatTests.test_24_real_metaclass_shape_not_type_name) ... ok
+test_27_instance_reference_not_default_is_used (test_clock_compat.CompatTests.test_27_instance_reference_not_default_is_used) ... ok
+test_foreign_legacy_class_is_not_accepted (test_clock_compat.CompatTests.test_foreign_legacy_class_is_not_accepted) ... ok
+test_foreign_same_named_instance_is_not_accepted (test_clock_compat.CompatTests.test_foreign_same_named_instance_is_not_accepted) ... ok
+test_legacy_runtime_constant_override_is_read_not_assumed (test_clock_compat.CompatTests.test_legacy_runtime_constant_override_is_read_not_assumed) ... ok
+test_missing_base_fails_without_guess (test_clock_compat.CompatTests.test_missing_base_fails_without_guess) ... ok
+test_cycle_rejected_even_when_unused (test_generic_clock_tree.GenericTests.test_cycle_rejected_even_when_unused) ... ok
+test_device_getter_can_model_different_ratio (test_generic_clock_tree.GenericTests.test_device_getter_can_model_different_ratio) ... ok
+test_disabled_not_reported_as_running (test_generic_clock_tree.GenericTests.test_disabled_not_reported_as_running) ... ok
+test_duplicate_clock_id_rejected (test_generic_clock_tree.GenericTests.test_duplicate_clock_id_rejected) ... ok
+test_inputs_immutable_and_no_physical_claim (test_generic_clock_tree.GenericTests.test_inputs_immutable_and_no_physical_claim) ... ok
+test_missing_reference_returns_evidence_request (test_generic_clock_tree.GenericTests.test_missing_reference_returns_evidence_request) ... ok
+test_multiple_domains_and_source_selection_export (test_generic_clock_tree.GenericTests.test_multiple_domains_and_source_selection_export) ... ok
+test_nan_and_unexplained_tolerance_rejected (test_generic_clock_tree.GenericTests.test_nan_and_unexplained_tolerance_rejected) ... ok
+test_not_33_or50_reference_and_fractional_pll (test_generic_clock_tree.GenericTests.test_not_33_or50_reference_and_fractional_pll) ... ok
+test_readback_not_explained_by_reference_model (test_generic_clock_tree.GenericTests.test_readback_not_explained_by_reference_model) ... ok
+test_reference_mismatch (test_generic_clock_tree.GenericTests.test_reference_mismatch) ... ok
+test_request_and_declaration_mismatch_diagnosed_separately (test_generic_clock_tree.GenericTests.test_request_and_declaration_mismatch_diagnosed_separately) ... ok
+test_unknown_parent_rejected (test_generic_clock_tree.GenericTests.test_unknown_parent_rejected) ... ok
+test_unstable_rejected (test_generic_clock_tree.GenericTests.test_unstable_rejected) ... ok
+test_zero_negative_bool_ratio_rejected (test_generic_clock_tree.GenericTests.test_zero_negative_bool_ratio_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.105s
+
+OK

@@ -1,0 +1,14 @@
+[
+  {
+    "source_relative_to_project": "report/verification/edgeai_arm/result/report.json",
+    "included_file": "1_report.json",
+    "sha256": "2d841add8a0077ecda0401f3d4e12aca4ff171ff93cf6f321c081a1e7aa8716b",
+    "kind": "HISTORICAL_PROJECT_ARTIFACT_NOT_NEW_SKILL_OR_CROSS_BOARD_ACCEPTANCE"
+  },
+  {
+    "source_relative_to_project": "report/verification/edgeai_arm/result/golden_comparison.json",
+    "included_file": "2_golden_comparison.json",
+    "sha256": "c97f4d19979bad1b2fea196493049802a4a5dd501c0f659d17786b425818abe8",
+    "kind": "HISTORICAL_PROJECT_ARTIFACT_NOT_NEW_SKILL_OR_CROSS_BOARD_ACCEPTANCE"
+  }
+]

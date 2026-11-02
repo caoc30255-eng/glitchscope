@@ -1,0 +1,20 @@
+{
+  "schema": "SPARSE_SELECTION_POSITIONING_V1",
+  "methods": [
+    "rule",
+    "edge_ai"
+  ],
+  "primary_reference": "comparable_full_grid",
+  "AI_superiority_over_rule_required": false,
+  "report": [
+    "unique_measured_points",
+    "actual_records_including_setup_and_repeats",
+    "coverage",
+    "boundary_touched",
+    "unknown_and_unmeasured",
+    "observed_reference_comparison"
+  ],
+  "full_measured_map_required_for_sparse_mode": false,
+  "algorithms_changed": false,
+  "historical_results_changed": false
+}

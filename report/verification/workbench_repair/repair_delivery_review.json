@@ -1,0 +1,58 @@
+{
+  "status": "PASS_LOCAL_REPAIR_NOT_TARGET_ACCEPTANCE",
+  "software_report": {
+    "bits": 64,
+    "browser_automation_used": false,
+    "fixed_files": 1102,
+    "hardware_access": false,
+    "machine": "",
+    "new_STARTs": 0,
+    "new_UI_hardware_acceptance": false,
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "real_demo_consent_created": false,
+    "status": "PASS_LOCAL_DEMO_SOFTWARE",
+    "test_scope": "Synthetic PREVIEW ledgers, fake devices and local HTTP contracts; not physical measurements",
+    "tests": [
+      {
+        "returncode": 0,
+        "test": "tests_feedback_fix.py"
+      },
+      {
+        "returncode": 0,
+        "test": "tests_demo_authority.py"
+      },
+      {
+        "returncode": 0,
+        "test": "tests_live_accounting_models.py"
+      },
+      {
+        "returncode": 0,
+        "test": "tests_integration.py"
+      },
+      {
+        "returncode": 0,
+        "test": "test_forwarded_host.py"
+      }
+    ],
+    "training_performed": false,
+    "ui_manifest_sha256": "0eddc3d3d2e9545b10718785466a071dd1d2be0cdc09f6020428595a3b6a51fd"
+  },
+  "tests_per_group": {
+    "tests_demo_authority.py.log": 18,
+    "tests_feedback_fix.py.log": 7,
+    "tests_integration.py.log": 13,
+    "tests_live_accounting_models.py.log": 6,
+    "test_forwarded_host.py.log": 4
+  },
+  "production_raw_contract": {
+    "status": "PASS_PRODUCTION_RAW_FEEDBACK_CONTRACT",
+    "session": "session_0000004e",
+    "records": 14,
+    "raw_MMIO_verified": true,
+    "hardware_access": false,
+    "new_STARTs": 0
+  },
+  "repair_script_sha256": "7d55171f4c05696ca3baff724fcd365b005a8f25d1d4c836acad76bd576eacff",
+  "target_repair_executed": false,
+  "new_STARTs": 0
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PASS_NODE_UI_CONTRACT",
+  "browser_started": false,
+  "checks": [
+    {
+      "page": "overview",
+      "rendered": true,
+      "characters": 2503
+    },
+    {
+      "page": "scan",
+      "rendered": true,
+      "characters": 10434
+    },
+    {
+      "page": "images",
+      "rendered": true,
+      "characters": 3694
+    },
+    {
+      "page": "evaluate",
+      "rendered": true,
+      "characters": 1608
+    },
+    {
+      "page": "ai",
+      "rendered": true,
+      "characters": 10376
+    },
+    {
+      "page": "sessions",
+      "rendered": true,
+      "characters": 761
+    },
+    {
+      "page": "reports",
+      "rendered": true,
+      "characters": 1198
+    },
+    {
+      "native_ds_no_iframe": true,
+      "ai_integrated": true,
+      "configuration_round_trip": true,
+      "all_14_profiles": true,
+      "original_demo_runtime_not_loaded": true
+    },
+    {
+      "pending_plan_start_disabled": true,
+      "saved_44_record_plan_restored_without_execution": true
+    }
+  ]
+}

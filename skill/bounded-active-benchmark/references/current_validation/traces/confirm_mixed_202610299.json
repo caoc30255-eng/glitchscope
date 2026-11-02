@@ -1,0 +1,772 @@
+{
+  "schema": 2,
+  "origin": "SYNTHETIC_ONLY",
+  "run_id": "confirm_mixed_202610299",
+  "plan": {
+    "context": {
+      "target": "noisy_synthetic_sensor",
+      "condition": "frozen_v1"
+    },
+    "domain": [
+      {
+        "id": "p0",
+        "coordinates": [
+          0
+        ]
+      },
+      {
+        "id": "p1",
+        "coordinates": [
+          1
+        ]
+      },
+      {
+        "id": "p2",
+        "coordinates": [
+          2
+        ]
+      },
+      {
+        "id": "p3",
+        "coordinates": [
+          3
+        ]
+      },
+      {
+        "id": "p4",
+        "coordinates": [
+          4
+        ]
+      },
+      {
+        "id": "p5",
+        "coordinates": [
+          5
+        ]
+      },
+      {
+        "id": "p6",
+        "coordinates": [
+          6
+        ]
+      },
+      {
+        "id": "p7",
+        "coordinates": [
+          7
+        ]
+      },
+      {
+        "id": "p8",
+        "coordinates": [
+          8
+        ]
+      }
+    ],
+    "budget": 14,
+    "setup_records": 2,
+    "repeats": 3,
+    "max_groups_per_point": 2
+  },
+  "plan_sha256": "6c3f8172dd9512ee0d6a9748e91c74d32956073d6bf695d8b06db27f11c6802a",
+  "occupied": 14,
+  "completed_records": 14,
+  "unknown_records": 0,
+  "observed": {
+    "p0": [
+      true,
+      true,
+      true
+    ],
+    "p1": [
+      true,
+      true,
+      true
+    ],
+    "p2": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "groups_per_point": {
+    "p0": 1,
+    "p1": 1,
+    "p2": 2
+  },
+  "records": [
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00000",
+        "kind": "SETUP",
+        "point_id": null,
+        "repeat_index": 0,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "f3b5d3dedaaad7d887ef6298f9ecdcb99650f1188b00bd069c1809a36cf291e9",
+      "status": "VALID",
+      "outcome": null,
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "receipt": {
+        "record_id": "r00000",
+        "request_sha256": "f3b5d3dedaaad7d887ef6298f9ecdcb99650f1188b00bd069c1809a36cf291e9",
+        "status": "VALID",
+        "outcome": null,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.979999797185883e-05,
+      "sha256": "d9687da5fbe2071d8728ea83a230576126d0a6b03e60e2834fd7f796dbd98936"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00001",
+        "kind": "SETUP",
+        "point_id": null,
+        "repeat_index": 1,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "4ea8db9ef87aaa9da09120dd9f61d9ff59cb5257169368968c12f50b91938584",
+      "status": "VALID",
+      "outcome": null,
+      "previous": "d9687da5fbe2071d8728ea83a230576126d0a6b03e60e2834fd7f796dbd98936",
+      "receipt": {
+        "record_id": "r00001",
+        "request_sha256": "4ea8db9ef87aaa9da09120dd9f61d9ff59cb5257169368968c12f50b91938584",
+        "status": "VALID",
+        "outcome": null,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.6299996786983684e-05,
+      "sha256": "c719817946294c7c15bf071fc5a146679686783494685f34a78017e2fad1b0e2"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00002",
+        "kind": "ITEM",
+        "point_id": "p0",
+        "repeat_index": 0,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "df589e25093b66c320764f6a71d50b2f19d1ac6ac2eaacff4d7660a3eee63967",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "c719817946294c7c15bf071fc5a146679686783494685f34a78017e2fad1b0e2",
+      "receipt": {
+        "record_id": "r00002",
+        "request_sha256": "df589e25093b66c320764f6a71d50b2f19d1ac6ac2eaacff4d7660a3eee63967",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.6900001355679706e-05,
+      "sha256": "5622b3d0d06f5140dcdf521058b8f0927f245ea2d74f8f7000d0dba4d12c4a4e"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00003",
+        "kind": "ITEM",
+        "point_id": "p0",
+        "repeat_index": 1,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "9664bf046d1646f217b85c5ce0c55992f3f7f2c35f314e3a13d0febc60151f76",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "5622b3d0d06f5140dcdf521058b8f0927f245ea2d74f8f7000d0dba4d12c4a4e",
+      "receipt": {
+        "record_id": "r00003",
+        "request_sha256": "9664bf046d1646f217b85c5ce0c55992f3f7f2c35f314e3a13d0febc60151f76",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.5400000847876072e-05,
+      "sha256": "614a3b235e50d82fe3cc0930bff02ba04d9cf1891487c80edea38592f31fcac0"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00004",
+        "kind": "ITEM",
+        "point_id": "p0",
+        "repeat_index": 2,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "779e385c5053052ee6a924908af76d7f743e918811c411ab73607c4f3baab421",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "614a3b235e50d82fe3cc0930bff02ba04d9cf1891487c80edea38592f31fcac0",
+      "receipt": {
+        "record_id": "r00004",
+        "request_sha256": "779e385c5053052ee6a924908af76d7f743e918811c411ab73607c4f3baab421",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.4599998394260183e-05,
+      "sha256": "3dff6716198f88011c74ab07d901551dee9ec8eae98bfe66573baa143439b07c"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00005",
+        "kind": "ITEM",
+        "point_id": "p1",
+        "repeat_index": 0,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "cc75ef21c9725f474436f824a43fbe337bb67d646481f554d11b0f2db77eca68",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "3dff6716198f88011c74ab07d901551dee9ec8eae98bfe66573baa143439b07c",
+      "receipt": {
+        "record_id": "r00005",
+        "request_sha256": "cc75ef21c9725f474436f824a43fbe337bb67d646481f554d11b0f2db77eca68",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.5199999324977398e-05,
+      "sha256": "9433b6c3c1aed233e224cae02d17a7b2275658bbd6bba02926bebd5730bc0f21"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00006",
+        "kind": "ITEM",
+        "point_id": "p1",
+        "repeat_index": 1,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "4f93024d9ef960767a67a9f44d4f2ac1ec5e6e5c905edc46811608f22434de68",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "9433b6c3c1aed233e224cae02d17a7b2275658bbd6bba02926bebd5730bc0f21",
+      "receipt": {
+        "record_id": "r00006",
+        "request_sha256": "4f93024d9ef960767a67a9f44d4f2ac1ec5e6e5c905edc46811608f22434de68",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.469999915570952e-05,
+      "sha256": "f5bf40a8378241ace5702e49a60450c47522a3861c5388905d89756e2fc0eccd"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00007",
+        "kind": "ITEM",
+        "point_id": "p1",
+        "repeat_index": 2,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "20d91788c8f817acc60a678e15f082afe5b2704cf62bdef2c911dbdc859983cd",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "f5bf40a8378241ace5702e49a60450c47522a3861c5388905d89756e2fc0eccd",
+      "receipt": {
+        "record_id": "r00007",
+        "request_sha256": "20d91788c8f817acc60a678e15f082afe5b2704cf62bdef2c911dbdc859983cd",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.4599998394260183e-05,
+      "sha256": "113e889adbb30a3d4458be908cca3a6d57c60d4afbe18f9789bed02ec4df9231"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00008",
+        "kind": "ITEM",
+        "point_id": "p2",
+        "repeat_index": 0,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "ab42f7675ff710aabd7b50c84be4b8b2c8f55bce7f5602704a2d1e9a8aee249e",
+      "status": "VALID",
+      "outcome": false,
+      "previous": "113e889adbb30a3d4458be908cca3a6d57c60d4afbe18f9789bed02ec4df9231",
+      "receipt": {
+        "record_id": "r00008",
+        "request_sha256": "ab42f7675ff710aabd7b50c84be4b8b2c8f55bce7f5602704a2d1e9a8aee249e",
+        "status": "VALID",
+        "outcome": false,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.469999915570952e-05,
+      "sha256": "350dedb46b1e603c91d725131f112b3c7a5a92ea4d32998abe7332e25b8e2ab9"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00009",
+        "kind": "ITEM",
+        "point_id": "p2",
+        "repeat_index": 1,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "aa40b874c43ee8c8dbab6acca73e81cd4ed24858335424b0f6c53dbc02e934be",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "350dedb46b1e603c91d725131f112b3c7a5a92ea4d32998abe7332e25b8e2ab9",
+      "receipt": {
+        "record_id": "r00009",
+        "request_sha256": "aa40b874c43ee8c8dbab6acca73e81cd4ed24858335424b0f6c53dbc02e934be",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.4400000509340316e-05,
+      "sha256": "a684d2ab0bd8aa1ed7e31ba11aa1ac2de8752beccaa8b9ea9d929d7595a9726f"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00010",
+        "kind": "ITEM",
+        "point_id": "p2",
+        "repeat_index": 2,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "fc30fdc6dcdb9d200ee82b7408ddd36c8a48f5243f7d40ae02af2089f7116f88",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "a684d2ab0bd8aa1ed7e31ba11aa1ac2de8752beccaa8b9ea9d929d7595a9726f",
+      "receipt": {
+        "record_id": "r00010",
+        "request_sha256": "fc30fdc6dcdb9d200ee82b7408ddd36c8a48f5243f7d40ae02af2089f7116f88",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.4299999747890979e-05,
+      "sha256": "fcc11ab70b95f894cf735be1e88ac946a46c25262df2cadd6b15a35274d0d59f"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00011",
+        "kind": "ITEM",
+        "point_id": "p2",
+        "repeat_index": 3,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "799bf79fce0a01ddf25bfd123a4405380cd07630be01cb264e25e674c00be926",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "fcc11ab70b95f894cf735be1e88ac946a46c25262df2cadd6b15a35274d0d59f",
+      "receipt": {
+        "record_id": "r00011",
+        "request_sha256": "799bf79fce0a01ddf25bfd123a4405380cd07630be01cb264e25e674c00be926",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.4599998394260183e-05,
+      "sha256": "ac0eebb30e6b7fc217157c0e594e071c87f411cbdec6796729c62a9df7eb7891"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00012",
+        "kind": "ITEM",
+        "point_id": "p2",
+        "repeat_index": 4,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "aaa96e485ae1f0e6df72c8610b2d2746e23f584ca9b75e39f9c05d316e3b5ab1",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "ac0eebb30e6b7fc217157c0e594e071c87f411cbdec6796729c62a9df7eb7891",
+      "receipt": {
+        "record_id": "r00012",
+        "request_sha256": "aaa96e485ae1f0e6df72c8610b2d2746e23f584ca9b75e39f9c05d316e3b5ab1",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.4499997632810846e-05,
+      "sha256": "c15f14c6d948f9c2ee7a81525d174becb62d93eec47f44af4e17ccd7823608ce"
+    },
+    {
+      "request": {
+        "run_id": "confirm_mixed_202610299",
+        "record_id": "r00013",
+        "kind": "ITEM",
+        "point_id": "p2",
+        "repeat_index": 5,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "ef8969a90ed757b6b7d653d96f41be181e95742ca37a18202aa5c17519456072",
+      "status": "VALID",
+      "outcome": true,
+      "previous": "c15f14c6d948f9c2ee7a81525d174becb62d93eec47f44af4e17ccd7823608ce",
+      "receipt": {
+        "record_id": "r00013",
+        "request_sha256": "ef8969a90ed757b6b7d653d96f41be181e95742ca37a18202aa5c17519456072",
+        "status": "VALID",
+        "outcome": true,
+        "source": "FRESH_SYNTHETIC_DRAW"
+      },
+      "collector_and_journal_seconds": 1.4599998394260183e-05,
+      "sha256": "5c6493b6fe9479f7fa0f446a984cb3ce9c5f4207186a1f25beb5b8cccdfbcb97"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "input": {
+        "context": {
+          "target": "noisy_synthetic_sensor",
+          "condition": "frozen_v1"
+        },
+        "domain": [
+          {
+            "id": "p0",
+            "coordinates": [
+              0
+            ]
+          },
+          {
+            "id": "p1",
+            "coordinates": [
+              1
+            ]
+          },
+          {
+            "id": "p2",
+            "coordinates": [
+              2
+            ]
+          },
+          {
+            "id": "p3",
+            "coordinates": [
+              3
+            ]
+          },
+          {
+            "id": "p4",
+            "coordinates": [
+              4
+            ]
+          },
+          {
+            "id": "p5",
+            "coordinates": [
+              5
+            ]
+          },
+          {
+            "id": "p6",
+            "coordinates": [
+              6
+            ]
+          },
+          {
+            "id": "p7",
+            "coordinates": [
+              7
+            ]
+          },
+          {
+            "id": "p8",
+            "coordinates": [
+              8
+            ]
+          }
+        ],
+        "observed": {},
+        "groups_per_point": {},
+        "remaining_records": 12,
+        "repeats": 3,
+        "max_groups_per_point": 2
+      },
+      "input_sha256": "3c224a0efd96f3ebb9186cbd8a94bee9a40e2fd2c4c558e82fc3391ae694e21c",
+      "chosen": "p0",
+      "policy_seconds": 2.5400000595254824e-05,
+      "records_before": 2,
+      "sha256": "5ec3cc6bc99a29e35014b24be6fed9e7f897ebe8ef466c1e89678cd374ed9a11"
+    },
+    {
+      "index": 1,
+      "input": {
+        "context": {
+          "target": "noisy_synthetic_sensor",
+          "condition": "frozen_v1"
+        },
+        "domain": [
+          {
+            "id": "p0",
+            "coordinates": [
+              0
+            ]
+          },
+          {
+            "id": "p1",
+            "coordinates": [
+              1
+            ]
+          },
+          {
+            "id": "p2",
+            "coordinates": [
+              2
+            ]
+          },
+          {
+            "id": "p3",
+            "coordinates": [
+              3
+            ]
+          },
+          {
+            "id": "p4",
+            "coordinates": [
+              4
+            ]
+          },
+          {
+            "id": "p5",
+            "coordinates": [
+              5
+            ]
+          },
+          {
+            "id": "p6",
+            "coordinates": [
+              6
+            ]
+          },
+          {
+            "id": "p7",
+            "coordinates": [
+              7
+            ]
+          },
+          {
+            "id": "p8",
+            "coordinates": [
+              8
+            ]
+          }
+        ],
+        "observed": {
+          "p0": [
+            true,
+            true,
+            true
+          ]
+        },
+        "groups_per_point": {
+          "p0": 1
+        },
+        "remaining_records": 9,
+        "repeats": 3,
+        "max_groups_per_point": 2
+      },
+      "input_sha256": "01fbdb5073f793ac8a0358473ecceebbdba2b9cc53c6d233cd870461b147421e",
+      "chosen": "p1",
+      "policy_seconds": 2.7800000680144876e-05,
+      "records_before": 5,
+      "sha256": "389bee64622b92840a03ec95572b502127498db4550c14527f09d7cd00e5edde"
+    },
+    {
+      "index": 2,
+      "input": {
+        "context": {
+          "target": "noisy_synthetic_sensor",
+          "condition": "frozen_v1"
+        },
+        "domain": [
+          {
+            "id": "p0",
+            "coordinates": [
+              0
+            ]
+          },
+          {
+            "id": "p1",
+            "coordinates": [
+              1
+            ]
+          },
+          {
+            "id": "p2",
+            "coordinates": [
+              2
+            ]
+          },
+          {
+            "id": "p3",
+            "coordinates": [
+              3
+            ]
+          },
+          {
+            "id": "p4",
+            "coordinates": [
+              4
+            ]
+          },
+          {
+            "id": "p5",
+            "coordinates": [
+              5
+            ]
+          },
+          {
+            "id": "p6",
+            "coordinates": [
+              6
+            ]
+          },
+          {
+            "id": "p7",
+            "coordinates": [
+              7
+            ]
+          },
+          {
+            "id": "p8",
+            "coordinates": [
+              8
+            ]
+          }
+        ],
+        "observed": {
+          "p0": [
+            true,
+            true,
+            true
+          ],
+          "p1": [
+            true,
+            true,
+            true
+          ]
+        },
+        "groups_per_point": {
+          "p0": 1,
+          "p1": 1
+        },
+        "remaining_records": 6,
+        "repeats": 3,
+        "max_groups_per_point": 2
+      },
+      "input_sha256": "fb2f8d3079c12dcb2270ab217c84895e479977ff8c650ec5a3c0bcaf4a0122ef",
+      "chosen": "p2",
+      "policy_seconds": 2.7900001441594213e-05,
+      "records_before": 8,
+      "sha256": "e64aed77720dc7638d178d42a1f5565cefa64e033c4a2944ff8b7cb3883c0aff"
+    },
+    {
+      "index": 3,
+      "input": {
+        "context": {
+          "target": "noisy_synthetic_sensor",
+          "condition": "frozen_v1"
+        },
+        "domain": [
+          {
+            "id": "p0",
+            "coordinates": [
+              0
+            ]
+          },
+          {
+            "id": "p1",
+            "coordinates": [
+              1
+            ]
+          },
+          {
+            "id": "p2",
+            "coordinates": [
+              2
+            ]
+          },
+          {
+            "id": "p3",
+            "coordinates": [
+              3
+            ]
+          },
+          {
+            "id": "p4",
+            "coordinates": [
+              4
+            ]
+          },
+          {
+            "id": "p5",
+            "coordinates": [
+              5
+            ]
+          },
+          {
+            "id": "p6",
+            "coordinates": [
+              6
+            ]
+          },
+          {
+            "id": "p7",
+            "coordinates": [
+              7
+            ]
+          },
+          {
+            "id": "p8",
+            "coordinates": [
+              8
+            ]
+          }
+        ],
+        "observed": {
+          "p0": [
+            true,
+            true,
+            true
+          ],
+          "p1": [
+            true,
+            true,
+            true
+          ],
+          "p2": [
+            false,
+            true,
+            true
+          ]
+        },
+        "groups_per_point": {
+          "p0": 1,
+          "p1": 1,
+          "p2": 1
+        },
+        "remaining_records": 3,
+        "repeats": 3,
+        "max_groups_per_point": 2
+      },
+      "input_sha256": "c536124d0f2382cbe5fbae9a3f7e268670e963a497c949d2561a60c12681282d",
+      "chosen": "p2",
+      "policy_seconds": 3.0100000003585592e-05,
+      "records_before": 11,
+      "sha256": "f6f3f16efb442402fd316044a28a6107ec56ea4527e720d454843e7747ef26e9"
+    }
+  ],
+  "terminal": "STOPPED_BUDGET",
+  "full_run_wall_seconds": 0.0007110000005923212,
+  "physical_start_count_verified": false,
+  "hardware_speedup_accepted": false
+}

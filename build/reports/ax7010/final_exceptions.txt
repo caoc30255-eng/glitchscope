@@ -1,0 +1,68 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sat Oct 17 23:33:16 2026
+| Host         : arhi running 64-bit major release  (build 9200)
+| Command      : report_exceptions -file /path/to/glitchscope_source/AX7010_MultiPoint_Timing_v0_12_2026-10-17/exports/candidate12_1792251179450/final_exceptions.txt
+| Design       : h1_ax7010_uart_cdc_sync_board_top_v0_7
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  From                          Through         To                                                                                Setup           Hold            Status           
+--------  ----------------------------  --------------  --------------------------------------------------------------------------------  --------------  --------------  -----------------
+2         [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+4         [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+6         [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+8         [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+10        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+12        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+14        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+16        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+18        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+20        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+22        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+24        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+26        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+28        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+30        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=20      -               
+32        [get_cells src_gray_ff_reg*]  *               [get_cells {dest_graysync_ff_reg[0]*}]                                            max_dpo=10      -               
+66        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+67        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+68        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+69        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+70        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+71        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+72        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+73        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+74        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+75        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+76        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+77        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+78        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+79        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+80        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+81        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+82        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+83        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+84        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+85        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+86        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+87        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+88        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+89        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+90        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+91        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+92        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+93        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+94        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+95        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+96        *                             *               [get_cells {syncstages_ff_reg[0]}]                                                false           false           
+100       [get_ports h1_rx_pin]         *               [get_pins -quiet image/core/u_rx/rx_ff1_reg/D]                                    false           false           
+101       [get_ports ctrl_rx_pin]       *               [get_pins -quiet image/ctrl_rx/rx_ff1_reg/D]                                      false           false           
+102       [get_ports key_n]             *               [get_pins -hier -quiet -filter {NAME =~ *life_release_reg*/CLR || NAME =~ *ctrl_  false           false           
+                                                        release_reg*/CLR}]                                                                                                
+

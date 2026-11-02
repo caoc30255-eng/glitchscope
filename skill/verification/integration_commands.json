@@ -1,0 +1,123 @@
+{
+  "status": "PASS_RELOCATED_INTEGRATION_EXAMPLES",
+  "commands": [
+    {
+      "skill": "hardware-session-evidence",
+      "args": [
+        "scripts/run_protocol_demo.py",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\protocol"
+      ],
+      "returncode": 0,
+      "log_sha256": "046a09b9129e3c04b5042b1f89c713bff9d657c359e6493781856487fe23f222"
+    },
+    {
+      "skill": "hardware-session-evidence",
+      "args": [
+        "scripts/run_protocol_demo.py",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\protocol_unknown",
+        "--corrupt-reply"
+      ],
+      "returncode": 0,
+      "log_sha256": "b20939690cd18d7e8e16535fd5e936ec876079453eae50cd421243593894cc05"
+    },
+    {
+      "skill": "hardware-session-evidence",
+      "args": [
+        "scripts/benchmark_ledger.py",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\pressure",
+        "--records",
+        "50"
+      ],
+      "returncode": 0,
+      "log_sha256": "b9ac9df3d8afd032d3402de8c3baafa06757d9efba005e03054e18fd29e299ea"
+    },
+    {
+      "skill": "bounded-active-benchmark",
+      "args": [
+        "scripts/campaign.py",
+        "--config",
+        "examples/noisy_campaign.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\campaign"
+      ],
+      "returncode": 0,
+      "log_sha256": "60a4165d1009c7d7f1341f8e0925d3d4a4a54a629fdac82b9ebff869124c58bf"
+    },
+    {
+      "skill": "bounded-active-benchmark",
+      "args": [
+        "examples/ledger_bridge.py",
+        "--ledger-scripts",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\relocated\\hardware-session-evidence\\scripts",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\bridge"
+      ],
+      "returncode": 0,
+      "log_sha256": "72a3e1261073987ecd1645dfe9fddb1de1e055eb4acba588248f63be0cf9255f"
+    },
+    {
+      "skill": "bounded-active-benchmark",
+      "args": [
+        "examples/ledger_bridge.py",
+        "--ledger-scripts",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\relocated\\hardware-session-evidence\\scripts",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\bridge_unknown",
+        "--unknown-at",
+        "4"
+      ],
+      "returncode": 0,
+      "log_sha256": "7be7a54c13a5e9e799f692f9f7767e4557ebd73b5ab64f4dbb2e38eedf92f3fe"
+    },
+    {
+      "skill": "edge-model-portability",
+      "args": [
+        "scripts/build_and_compare.py",
+        "--compiler",
+        "C:\\AMDDesignTools\\2026.1\\tps\\mingw\\8.3.0\\win64.o\\nt\\bin\\gcc.exe",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\native_c"
+      ],
+      "returncode": 0,
+      "log_sha256": "a147bf46391a4c01915fb5bc012b5003a1d5ff80560597411100ef975fdca2e6"
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "args": [
+        "scripts/run_simulation.py",
+        "--vivado",
+        "C:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\rtl_positive",
+        "--isolate-python-env"
+      ],
+      "returncode": 0,
+      "log_sha256": "ee32d8cd797dd244ea743e698ee79ed8617d8688b8141c436d77a121dca8c251"
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "args": [
+        "scripts/run_simulation.py",
+        "--vivado",
+        "C:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\release_integrations\\results\\rtl_injected",
+        "--inject-stall-bug",
+        "--isolate-python-env"
+      ],
+      "returncode": 0,
+      "log_sha256": "32bb2dd81e62b2f25467cfa893327fbfc2deb3aa6e99116fa4ee6c3542586a42"
+    }
+  ],
+  "command_count": 9,
+  "compiler_run": true,
+  "vivado_run": true,
+  "hardware_access": false,
+  "new_physical_STARTs": 0,
+  "models_trained": false,
+  "physical_cross_board_migration": false,
+  "scope": "Host processes, localhost emulator and real behavioral/C tools; not PYNQ or DUT hardware acceptance"
+}

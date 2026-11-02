@@ -1,0 +1,40 @@
+{
+  "scans": [
+    {
+      "id": "A_rule14",
+      "title": "规则选点 · 14条",
+      "session": "session_0000004d",
+      "url": "/samples/a_rule14.json",
+      "sha256": "00aa0f32fba0abb3bcb38fbe1e7582f234529993dc9feb3199e459e18aac5bc8",
+      "origin": "REVIEWED_HISTORICAL_RESULT",
+      "raw_evidence_included": false
+    },
+    {
+      "id": "B_AI14",
+      "title": "边缘AI选点 · 14条",
+      "session": "session_0000004e",
+      "url": "/samples/b_ai14.json",
+      "sha256": "00915cee5ad421f57b207a93ef4e002e8a01b965525f0500132ca3a8a2e6c5c1",
+      "origin": "REVIEWED_HISTORICAL_RESULT",
+      "raw_evidence_included": false
+    },
+    {
+      "id": "C_reference44",
+      "title": "完整参照 · 44条",
+      "session": "session_0000004f",
+      "url": "/samples/c_reference44.json",
+      "sha256": "b30075b8f26fa85b8aba87db125f806d95d714feae8e07eb1b089cedf67dce06",
+      "origin": "REVIEWED_HISTORICAL_RESULT",
+      "raw_evidence_included": false
+    }
+  ],
+  "analysis": {
+    "title": "统一d/s · 64个ITEM历史分析",
+    "url": "/samples/ds64/report.html",
+    "origin": "SOFTWARE_REPLAY_OF_REAL_CAPTURE",
+    "raw_evidence_included": false,
+    "data": "/samples/ds64/viewer_data.json"
+  },
+  "images": null,
+  "excluded_media": "Historical portrait assets omitted from public release; upload your own licensed image."
+}

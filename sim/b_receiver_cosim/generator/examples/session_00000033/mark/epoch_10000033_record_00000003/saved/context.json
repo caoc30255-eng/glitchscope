@@ -1,0 +1,49 @@
+{
+  "analysis": {
+    "expected_nominal_samples": 2,
+    "expected_source_bit": 0,
+    "inversion_start_sample": 2048,
+    "inverted_samples": 2,
+    "mark_high_samples": 2,
+    "mark_sample": 2048,
+    "mark_to_inversion_samples": 0,
+    "nominal_sample_clock_hz": 100000000,
+    "physical_inversion_verified": true
+  },
+  "arm": {
+    "arm_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000033/MARK/epoch_10000033_record_00000003/arm",
+    "epoch": 268435507,
+    "expected_bit": 0,
+    "hardware_identity_embedded": false,
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "profile": {
+      "bit": 0,
+      "byte": 20,
+      "phase": 15,
+      "width": 1
+    },
+    "record_id": 3,
+    "source_sha256": "f8de749c860153e68e97030786bd75be5c2aec8307167c57d37450c0384ebfea"
+  },
+  "binding": {
+    "epoch": 268435507,
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "record_id": 3
+  },
+  "mark_event": {
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "payload_hex": "3000003300000003200000330000000003100000330102100001000000000000",
+    "raw_hex": "a55a0133203000003300000003200000330000000003100000330102100001000000000000fbb5",
+    "record_id": 0,
+    "type": 51
+  },
+  "metadata": [
+    513,
+    12,
+    4096,
+    2048,
+    233833968
+  ],
+  "raw_hardware_has_identity_register": false,
+  "read_indices_delivered": 4096
+}

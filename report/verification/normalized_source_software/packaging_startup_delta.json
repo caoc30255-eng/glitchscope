@@ -1,0 +1,6 @@
+{
+  "scope": "After46 passing software checks, replace two launcher wrappers with repository-relative generic Python preview entry; core Python/JS/RTL/weights unchanged",
+  "new_manifest_sha256": "726effa260c43769b160bfa6a753c10d63f5c918cd0279d375a91da4198601a2",
+  "hardware_access": false,
+  "new_STARTs": 0
+}

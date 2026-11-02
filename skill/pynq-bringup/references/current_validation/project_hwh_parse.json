@@ -1,0 +1,88 @@
+{
+  "hwh_sha256": "8d65319fd06ccafb9acdabe1c19868106cd1945f085b2fa03d55b89d238bd2bc",
+  "parsed": {
+    "system": {
+      "ARCH": "zynq",
+      "DEVICE": "7z020",
+      "NAME": "system",
+      "PACKAGE": "clg400",
+      "SPEEDGRADE": "-2"
+    },
+    "ranges": [
+      {
+        "ip_name": "axi_uartlite_0",
+        "interface": "S_AXI",
+        "base": 1119879168,
+        "span": 65536
+      },
+      {
+        "ip_name": "raw_snapshot_axi_lite_0",
+        "interface": "S_AXI",
+        "base": 1136656384,
+        "span": 65536
+      },
+      {
+        "ip_name": "dut_response_axi_lite_0",
+        "interface": "S_AXI",
+        "base": 1136721920,
+        "span": 65536
+      },
+      {
+        "ip_name": "receiver_axi_lite_0",
+        "interface": "S_AXI",
+        "base": 1136787456,
+        "span": 65536
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_H1",
+        "base": 1136852992,
+        "span": 4096
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_CTRL",
+        "base": 1136918528,
+        "span": 4096
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_MAIN",
+        "base": 1136984064,
+        "span": 16384
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_AUX",
+        "base": 1137049600,
+        "span": 4096
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_MAP",
+        "base": 1137115136,
+        "span": 4096
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_CH0",
+        "base": 1137180672,
+        "span": 32768
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_PROFILE",
+        "base": 1137246208,
+        "span": 4096
+      },
+      {
+        "ip_name": "h1_evidence_system_0",
+        "interface": "S_SYS",
+        "base": 1137311744,
+        "span": 4096
+      }
+    ]
+  },
+  "hardware_access": false,
+  "scope": "Real project HWH parsing only, not MMIO or current loaded bitstream proof"
+}

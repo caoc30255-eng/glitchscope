@@ -1,0 +1,9 @@
+{
+  "runs": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs",
+  "assets": {
+    "bit": "/home/xilinx/jupyter_notebooks/test_10_14/h1_7020_evidence_candidate_v0_1.bit",
+    "hwh": "/home/xilinx/jupyter_notebooks/test_10_14/h1_7020_evidence_candidate_v0_1.hwh",
+    "native": "/home/xilinx/jupyter_notebooks/test_10_14/PS_UART_RT_v5_2026-10-15/host/libuartlite_service_v5_rt.so"
+  },
+  "software_receipt": "/home/xilinx/jupyter_notebooks/test_10_14/本次部署目录/report/report.json"
+}

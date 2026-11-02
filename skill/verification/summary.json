@@ -1,0 +1,46 @@
+{
+  "version": "1.1",
+  "date": "2026-10-28",
+  "skills": 6,
+  "unit_tests": 155,
+  "unit_tests_passed": true,
+  "relocated_core_commands": 16,
+  "relocated_integration_commands": 9,
+  "metadata_checks": 6,
+  "vivado_generic_positive": true,
+  "vivado_injected_bug_detected": true,
+  "vivado_cases": 6,
+  "vivado_cycles": 384,
+  "native_c_variants": [
+    {
+      "variant": "baseline",
+      "queries": 470,
+      "passed": true
+    },
+    {
+      "variant": "changed",
+      "queries": 470,
+      "passed": true
+    },
+    {
+      "variant": "halfscore",
+      "queries": 470,
+      "passed": true
+    }
+  ],
+  "native_c_total_queries": 1410,
+  "local_protocol_success": true,
+  "local_protocol_unknown_stop": true,
+  "ledger_collector_bridge_passed": true,
+  "noisy_campaigns_per_policy": 30,
+  "noisy_policies": 2,
+  "ledger_artifact_checks": {
+    "strict_50_records": 2550,
+    "incremental_50_records": 100
+  },
+  "new_physical_STARTs": 0,
+  "new_PYNQ_hardware_execution": false,
+  "models_trained": false,
+  "new_ARM_execution": false,
+  "physical_cross_board_or_new_operator_migration_verified": false
+}

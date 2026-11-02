@@ -1,0 +1,101 @@
+{
+  "schema": 2,
+  "origin": "SYNTHETIC_ONLY",
+  "run_id": "coverage_202610308",
+  "plan": {
+    "context": {
+      "target": "noisy_synthetic_sensor",
+      "condition": "frozen_v1"
+    },
+    "domain": [
+      {
+        "id": "p0",
+        "coordinates": [
+          0
+        ]
+      },
+      {
+        "id": "p1",
+        "coordinates": [
+          1
+        ]
+      },
+      {
+        "id": "p2",
+        "coordinates": [
+          2
+        ]
+      },
+      {
+        "id": "p3",
+        "coordinates": [
+          3
+        ]
+      },
+      {
+        "id": "p4",
+        "coordinates": [
+          4
+        ]
+      },
+      {
+        "id": "p5",
+        "coordinates": [
+          5
+        ]
+      },
+      {
+        "id": "p6",
+        "coordinates": [
+          6
+        ]
+      },
+      {
+        "id": "p7",
+        "coordinates": [
+          7
+        ]
+      },
+      {
+        "id": "p8",
+        "coordinates": [
+          8
+        ]
+      }
+    ],
+    "budget": 14,
+    "setup_records": 2,
+    "repeats": 3,
+    "max_groups_per_point": 2
+  },
+  "plan_sha256": "6c3f8172dd9512ee0d6a9748e91c74d32956073d6bf695d8b06db27f11c6802a",
+  "occupied": 1,
+  "completed_records": 0,
+  "unknown_records": 1,
+  "observed": {},
+  "groups_per_point": {},
+  "records": [
+    {
+      "request": {
+        "run_id": "coverage_202610308",
+        "record_id": "r00000",
+        "kind": "SETUP",
+        "point_id": null,
+        "repeat_index": 0,
+        "context_sha256": "8b8d3b7709e0ea367e53d9ac2fd6665c21efb8bb83413ee48234049d9bf5ee21"
+      },
+      "request_sha256": "70caad680b5f531719c3058db80a75f2a43c220118703d9a844a4fe41c87a470",
+      "status": "UNKNOWN",
+      "outcome": null,
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "error": "UNKNOWN_OR_INVALID_RECEIPT",
+      "collector_and_journal_seconds": 2.0200001017656177e-05,
+      "sha256": "fd38a53cc82727f4b15efe82c834b4a1cddfc929b88db93e19bf3784bd8249d5"
+    }
+  ],
+  "decisions": [],
+  "terminal": "BLOCKED_UNKNOWN",
+  "full_run_wall_seconds": 5.059999966761097e-05,
+  "physical_start_count_verified": false,
+  "hardware_speedup_accepted": false
+}

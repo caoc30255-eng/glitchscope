@@ -1,0 +1,6 @@
+H3_UART_CASE_PASS case=0 bytes=278 full_stop_clocks=50
+H3_UART_CASE_PASS case=1 bytes=278 full_stop_clocks=50
+H3_UART_CASE_PASS case=2 bytes=278 full_stop_clocks=50
+H3_UART_CASE_PASS case=3 bytes=278 full_stop_clocks=50
+H3_UART_CASE_PASS case=4 bytes=278 full_stop_clocks=50
+H3_UART_STOPBIT_RTL_PASS cases=5 bytes=1390 checked_cycles=695000

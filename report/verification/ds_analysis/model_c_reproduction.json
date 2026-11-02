@@ -1,0 +1,22 @@
+{
+  "status": "PASS_INDEPENDENT_REPRODUCTION",
+  "items": 64,
+  "item_documents": 192,
+  "profiles": 14,
+  "minimax": [
+    {
+      "d": 4,
+      "s": -2
+    }
+  ],
+  "differences": [
+    "machine",
+    "input_gate",
+    "elapsed_seconds",
+    "python"
+  ],
+  "actual_local_errors": 33,
+  "all_phase_match_windows": 61,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

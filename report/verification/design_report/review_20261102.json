@@ -1,0 +1,83 @@
+{
+  "schema": "DESIGN_REPORT_PDF_FINAL_REVIEW_V1",
+  "date": "2026-11-02",
+  "status": "PASS_REVIEWED_CONTENT_LOGIC_AND_LAYOUT",
+  "document": "report/design_report/design_report.pdf",
+  "pages": 39,
+  "source_filename": "embedded_c.pdf",
+  "source_sha256": "eeeb50650bdcb8c45691d63cad29c9584bdc9b06605755aab37ea7070fc3691f",
+  "accepted_pdf_sha256": "dcd7cd29ba4a5d355a9896d71c680e43dc08a5caccd0da222086793cd3c02d6b",
+  "content_review": [
+    {
+      "topic": "System causality",
+      "result": "PASS",
+      "finding": "7010 stimulus; 7020 parallel A/B observation and PS analysis; independent STM32 DUT feedback are distinguished. Current Direct topology does not claim an inline B gateway."
+    },
+    {
+      "topic": "Heatmap and sparse selection",
+      "result": "PASS",
+      "finding": "44=1 CONFIG+1 reference+14*3; 14=1+1+4*3. 68.18% fewer records is accompanied by 4/14 coverage and 2/6 boundary reach. No equal-quality reconstruction or AI superiority inferred."
+    },
+    {
+      "topic": "CRC repair inputs",
+      "result": "PASS",
+      "finding": "Receiver CONFIG/checksums and real received blocks generate candidates; source pixels and fault schedules are excluded. Error-model candidates, uncertainty masks and final SHA are separated."
+    },
+    {
+      "topic": "Image comparison",
+      "result": "PASS",
+      "finding": "Original session7 export: B/CRC selection2596 error pixels; B candidate repair425; multilane candidate repair0 with received CONFIG SHA match. All methods have16384 known and0 missing pixels."
+    },
+    {
+      "topic": "Uniform ds ranking",
+      "result": "PASS",
+      "finding": "Code sums per-window conservative phase extrema on identical windows, ranks framing before bit errors and retains ties. One ds is used for all64 ITEMs.1024 local bits do not constitute full-frame BER or a hardware-global optimum."
+    },
+    {
+      "topic": "Paired hardware improvements",
+      "result": "PASS",
+      "finding": "Four archived sessions,260 records:2398->1672 and1855->1199 B full-frame bit errors;30.28% and35.36% recomputed. No STM business improvement substituted."
+    },
+    {
+      "topic": "Clock and resources",
+      "result": "PASS",
+      "finding": "PYNQ display150MHz, register/reference derivation approximately100MHz, and failed150MHz STA are distinguished.100MHz implementation WNS+0.048ns is the reported basis."
+    },
+    {
+      "topic": "AI and evidence scope",
+      "result": "PASS",
+      "finding": "Frozen OSS strategy, training domain, ARM compatibility and prospective hardware feedback are distinct. Software tests and hardware records are not pooled."
+    },
+    {
+      "topic": "Fresh SD and historical identity",
+      "result": "PASS",
+      "finding": "Fresh session7 image/ds acceptance is distinct from previous paired-image and scan campaigns; old UNKNOWN records remain preserved."
+    },
+    {
+      "topic": "Reproduction and claims",
+      "result": "PASS",
+      "finding": "Known finite test scope and unmeasured assumptions remain explicit. Report does not assert first-ever CRC correction, universal repair, or14-profile hardware global optimality."
+    }
+  ],
+  "visual_review": {
+    "pages_inspected": 39,
+    "numbered_tables": 14,
+    "figures": 11,
+    "references": 10,
+    "missing_glyphs_or_clipped_tables_observed": false,
+    "toc_page_numbers_checked": true
+  },
+  "metadata_fix": {
+    "field": "Subject",
+    "old": "AMD自主选题初级组设计报告",
+    "new": "AMD FPGA创新设计赛道自主选题设计报告",
+    "reason": "Remove stale unconfirmed track grade",
+    "visible_text_unchanged": true,
+    "all39_rendered_pages_pixel_identical": true
+  },
+  "blocking_findings": [],
+  "review_scope": "Document logic, current code contracts and archived evidence. No new board trial, formal proof or new RTL simulation.",
+  "runtime_code_modified": false,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

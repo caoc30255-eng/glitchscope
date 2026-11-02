@@ -1,0 +1,859 @@
+test_actual_gp_fit_predict_select_save_load (test_functions.Functions.test_actual_gp_fit_predict_select_save_load) ... ERROR
+test_actual_gp_fit_predict_select_save_load (test_functions.Functions.test_actual_gp_fit_predict_select_save_load) ... ERROR
+test_aggregate_distinguishes_conditions_and_unknown (test_functions.Functions.test_aggregate_distinguishes_conditions_and_unknown) ... ERROR
+test_all_illegal_rejected (test_functions.Functions.test_all_illegal_rejected) ... ERROR
+test_assembler_order_duplicate_conflict_missing_stop (test_functions.Functions.test_assembler_order_duplicate_conflict_missing_stop) ... ERROR
+test_contract_mock_and_wrong_budget (test_functions.Functions.test_contract_mock_and_wrong_budget) ... ERROR
+test_crc_burst_without_source_input (test_functions.Functions.test_crc_burst_without_source_input) ... ERROR
+test_crc_valid_not_automatically_lossless (test_functions.Functions.test_crc_valid_not_automatically_lossless) ... ERROR
+test_duplicate_record_and_conflict (test_functions.Functions.test_duplicate_record_and_conflict) ... ERROR
+test_exclusive_stop_no_refund (test_functions.Functions.test_exclusive_stop_no_refund) ... ERROR
+test_exclusive_stop_no_refund (test_functions.Functions.test_exclusive_stop_no_refund) ... ERROR
+test_grid_budget_legal_units (test_functions.Functions.test_grid_budget_legal_units) ... ERROR
+test_history_wrong_binding_rejected (test_functions.Functions.test_history_wrong_binding_rejected) ... ERROR
+test_idempotent_refresh_and_conflict (test_functions.Functions.test_idempotent_refresh_and_conflict) ... ERROR
+test_idempotent_refresh_and_conflict (test_functions.Functions.test_idempotent_refresh_and_conflict) ... ERROR
+test_live_disabled (test_functions.Functions.test_live_disabled) ... ERROR
+test_lossless_view_conversions (test_functions.Functions.test_lossless_view_conversions) ... ERROR
+test_model_tamper_denied (test_functions.Functions.test_model_tamper_denied) ... ERROR
+test_model_tamper_denied (test_functions.Functions.test_model_tamper_denied) ... ERROR
+test_mutable_plan_detected (test_functions.Functions.test_mutable_plan_detected) ... ERROR
+test_python38_syntax (test_functions.Functions.test_python38_syntax) ... ERROR
+test_real_training_denied (test_functions.Functions.test_real_training_denied) ... ERROR
+test_restart_blocks_not_resumes (test_functions.Functions.test_restart_blocks_not_resumes) ... ERROR
+test_restart_blocks_not_resumes (test_functions.Functions.test_restart_blocks_not_resumes) ... ERROR
+test_schedule_empty_and_unknown_STOP (test_functions.Functions.test_schedule_empty_and_unknown_STOP) ... ERROR
+test_synthetic_evaluation_no_real_claim (test_functions.Functions.test_synthetic_evaluation_no_real_claim) ... ERROR
+test_synthetic_evaluation_no_real_claim (test_functions.Functions.test_synthetic_evaluation_no_real_claim) ... ERROR
+test_unknown_blocked_no_auto_retry (test_functions.Functions.test_unknown_blocked_no_auto_retry) ... ERROR
+test_unknown_blocked_no_auto_retry (test_functions.Functions.test_unknown_blocked_no_auto_retry) ... ERROR
+test_unmeasured_and_predictions_separate (test_functions.Functions.test_unmeasured_and_predictions_separate) ... ERROR
+
+======================================================================
+ERROR: test_actual_gp_fit_predict_select_save_load (test_functions.Functions.test_actual_gp_fit_predict_select_save_load)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 50, in test_actual_gp_fit_predict_select_save_load
+    m.save(self.root/'model.json');loaded=Estimator.load(self.root/'model.json');self.assertEqual(pred,loaded.predict(cells))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\learner.py", line 57, in save
+    model['sha256']=digest(model);write(path,model)
+                                  ^^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\labutil.py", line 13, in write
+    temp.write_bytes(canonical(value)+b'\n');os.replace(str(temp),str(path))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1036, in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpw9356wcc\\model.json.tmp'
+
+======================================================================
+ERROR: test_actual_gp_fit_predict_select_save_load (test_functions.Functions.test_actual_gp_fit_predict_select_save_load)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpw9356wcc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpw9356wcc'
+
+======================================================================
+ERROR: test_aggregate_distinguishes_conditions_and_unknown (test_functions.Functions.test_aggregate_distinguishes_conditions_and_unknown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp1kakhsrj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp1kakhsrj'
+
+======================================================================
+ERROR: test_all_illegal_rejected (test_functions.Functions.test_all_illegal_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpobudp5a5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpobudp5a5'
+
+======================================================================
+ERROR: test_assembler_order_duplicate_conflict_missing_stop (test_functions.Functions.test_assembler_order_duplicate_conflict_missing_stop)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpj2_mxcd9'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpj2_mxcd9'
+
+======================================================================
+ERROR: test_contract_mock_and_wrong_budget (test_functions.Functions.test_contract_mock_and_wrong_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp8z2jtmrm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp8z2jtmrm'
+
+======================================================================
+ERROR: test_crc_burst_without_source_input (test_functions.Functions.test_crc_burst_without_source_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpwkn7vrbr'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpwkn7vrbr'
+
+======================================================================
+ERROR: test_crc_valid_not_automatically_lossless (test_functions.Functions.test_crc_valid_not_automatically_lossless)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp3z195usw'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp3z195usw'
+
+======================================================================
+ERROR: test_duplicate_record_and_conflict (test_functions.Functions.test_duplicate_record_and_conflict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpur86c6ky'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpur86c6ky'
+
+======================================================================
+ERROR: test_exclusive_stop_no_refund (test_functions.Functions.test_exclusive_stop_no_refund)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 69, in test_exclusive_stop_no_refund
+    s=Store(self.root);p=default_plan();s.plan(p);r=s.start(p['plan_sha256'],1,'grid','first-key-123');s.step(r['run_id'])
+      ^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 11, in __init__
+    with closing(self.connect()) as c:
+                 ^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 18, in connect
+    c=sqlite3.connect(str(self.path),timeout=15);c.execute('PRAGMA synchronous=FULL');return c
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+======================================================================
+ERROR: test_exclusive_stop_no_refund (test_functions.Functions.test_exclusive_stop_no_refund)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpob1tj3o3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpob1tj3o3'
+
+======================================================================
+ERROR: test_grid_budget_legal_units (test_functions.Functions.test_grid_budget_legal_units)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp21hcwago'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp21hcwago'
+
+======================================================================
+ERROR: test_history_wrong_binding_rejected (test_functions.Functions.test_history_wrong_binding_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmprsbw3smy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmprsbw3smy'
+
+======================================================================
+ERROR: test_idempotent_refresh_and_conflict (test_functions.Functions.test_idempotent_refresh_and_conflict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 64, in test_idempotent_refresh_and_conflict
+    s=Store(self.root);p=default_plan();s.plan(p);r=s.start(p['plan_sha256'],1,'grid','same-key-123')
+      ^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 11, in __init__
+    with closing(self.connect()) as c:
+                 ^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 18, in connect
+    c=sqlite3.connect(str(self.path),timeout=15);c.execute('PRAGMA synchronous=FULL');return c
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+======================================================================
+ERROR: test_idempotent_refresh_and_conflict (test_functions.Functions.test_idempotent_refresh_and_conflict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmprtzx4a77'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmprtzx4a77'
+
+======================================================================
+ERROR: test_live_disabled (test_functions.Functions.test_live_disabled)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpo37z5umj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpo37z5umj'
+
+======================================================================
+ERROR: test_lossless_view_conversions (test_functions.Functions.test_lossless_view_conversions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpnoxb7mma'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpnoxb7mma'
+
+======================================================================
+ERROR: test_model_tamper_denied (test_functions.Functions.test_model_tamper_denied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 56, in test_model_tamper_denied
+    m=Estimator().fit([],'SIMULATED_DEVELOPMENT');m.save(self.root/'m.json');v=read(self.root/'m.json');v['target']='STM_business_success';write(self.root/'m.json',v)
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\learner.py", line 57, in save
+    model['sha256']=digest(model);write(path,model)
+                                  ^^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\labutil.py", line 13, in write
+    temp.write_bytes(canonical(value)+b'\n');os.replace(str(temp),str(path))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1036, in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp0z1z16gz\\m.json.tmp'
+
+======================================================================
+ERROR: test_model_tamper_denied (test_functions.Functions.test_model_tamper_denied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp0z1z16gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp0z1z16gz'
+
+======================================================================
+ERROR: test_mutable_plan_detected (test_functions.Functions.test_mutable_plan_detected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpgay3plxh'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpgay3plxh'
+
+======================================================================
+ERROR: test_python38_syntax (test_functions.Functions.test_python38_syntax)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp205i74xc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp205i74xc'
+
+======================================================================
+ERROR: test_real_training_denied (test_functions.Functions.test_real_training_denied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp94nt6l_n'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp94nt6l_n'
+
+======================================================================
+ERROR: test_restart_blocks_not_resumes (test_functions.Functions.test_restart_blocks_not_resumes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 80, in test_restart_blocks_not_resumes
+    s=Store(self.root);p=default_plan();s.plan(p);r=s.start(p['plan_sha256'],1,'grid','restart-key-123');s.step(r['run_id'])
+      ^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 11, in __init__
+    with closing(self.connect()) as c:
+                 ^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 18, in connect
+    c=sqlite3.connect(str(self.path),timeout=15);c.execute('PRAGMA synchronous=FULL');return c
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+======================================================================
+ERROR: test_restart_blocks_not_resumes (test_functions.Functions.test_restart_blocks_not_resumes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpv1mxud32'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpv1mxud32'
+
+======================================================================
+ERROR: test_schedule_empty_and_unknown_STOP (test_functions.Functions.test_schedule_empty_and_unknown_STOP)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp4733yg1h'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp4733yg1h'
+
+======================================================================
+ERROR: test_synthetic_evaluation_no_real_claim (test_functions.Functions.test_synthetic_evaluation_no_real_claim)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 59, in test_synthetic_evaluation_no_real_claim
+    e=evaluate(default_plan(),seeds=(1,2));self.assertFalse(e['real_AI_acceleration_accepted'])
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: evaluate() got an unexpected keyword argument 'seeds'
+
+======================================================================
+ERROR: test_synthetic_evaluation_no_real_claim (test_functions.Functions.test_synthetic_evaluation_no_real_claim)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpux31uily'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmpux31uily'
+
+======================================================================
+ERROR: test_unknown_blocked_no_auto_retry (test_functions.Functions.test_unknown_blocked_no_auto_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 74, in test_unknown_blocked_no_auto_retry
+    s=Store(self.root);p=default_plan();s.plan(p);r=s.start(p['plan_sha256'],1,'grid','unknown-key-123',.5)
+      ^^^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 11, in __init__
+    with closing(self.connect()) as c:
+                 ^^^^^^^^^^^^^^
+  File "F:\FPGA\10.19\functional_lab_v0_1\controller.py", line 18, in connect
+    c=sqlite3.connect(str(self.path),timeout=15);c.execute('PRAGMA synchronous=FULL');return c
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+======================================================================
+ERROR: test_unknown_blocked_no_auto_retry (test_functions.Functions.test_unknown_blocked_no_auto_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp9nnus3ll'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp9nnus3ll'
+
+======================================================================
+ERROR: test_unmeasured_and_predictions_separate (test_functions.Functions.test_unmeasured_and_predictions_separate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp44fkic19'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\FPGA\10.19\functional_lab_v0_1\tests\test_functions.py", line 14, in tearDown
+    def tearDown(self):self.temp.cleanup()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 906, in onexc
+    _resetperms(path)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:/workspace\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] �ܾ����ʡ�: 'C:/workspace\\AppData\\Local\\Packages\\sandbox.{61b64f7c-18df-4964-bdaf-c757d6c72bb1}\\AC\\Temp\\tmp44fkic19'
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.109s
+
+FAILED (errors=30)

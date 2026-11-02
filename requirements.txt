@@ -1,0 +1,3 @@
+# Inference/UI dependencies; training versions are recorded in vendor/edge/oss.
+numpy>=1.19
+Pillow>=8

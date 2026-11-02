@@ -1,0 +1,426 @@
+[
+  {
+    "source": "samples/image49/A_blocks.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/A_missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/A_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/A_received.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/A_received.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/B_blocks.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/B_missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/B_received.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/B_received.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/algorithm.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/data.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/estimated.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/modified.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/original_B_missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/uncertain.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_B/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/algorithm.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/data.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/estimated.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/modified.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/original_B_missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/uncertain.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_burst_multi/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/algorithm.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/data.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/estimated.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/modified.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/original_B_missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/uncertain.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/crc_select/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/evaluation_reference.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/received_config.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/report.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/STM_blocks.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/STM_missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/STM_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/STM_received.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/STM_received.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/algorithm.json",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/data.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/estimated.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/modified.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/original_B_missing.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/uncertain.bin",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49/visual_median_B/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "samples/image49_results.zip",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/A_received.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/B_received.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_B/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_B/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_B/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_B/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_B/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_B/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_multi/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_multi/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_multi/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_multi/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_multi/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_burst_multi/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_select/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_select/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_select/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_select/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_select/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/crc_select/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/evaluation_reference.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/STM_received.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/visual_median_B/data.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/visual_median_B/estimated.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/visual_median_B/missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/visual_median_B/modified.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/visual_median_B/original_B_missing.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/results/image_repair/visual_median_B/uncertain.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/review_input/ui_before_refresh.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/review_input/ui_multi_repair.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/review_input/ui_refresh_mismatch.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/verification/UI_image_repair.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/verification/ui_refresh_fixed.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/functional/verification/ui_refresh_form_fixed.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  },
+  {
+    "source": "vendor/image/软件验证/image_web_preview.png",
+    "reason": "Uncleared demonstration image/screenshot; source data retained outside public repository"
+  }
+]

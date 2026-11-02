@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "model_sha256": "f68b338b5a68981a5fab0de2a521541e921f02b9479127e37b33a635c55ff6e5",
+  "queries": [
+    {
+      "id": "q0",
+      "input": {
+        "width": 1,
+        "gap": 2
+      },
+      "result": {
+        "action": "PREDICT",
+        "score": 0.9,
+        "uncertainty_entropy": 0.4689955935892811,
+        "execution_allowed": false
+      }
+    },
+    {
+      "id": "q1",
+      "input": {
+        "width": 9,
+        "gap": 22
+      },
+      "result": {
+        "action": "PREDICT",
+        "score": 0.1,
+        "uncertainty_entropy": 0.4689955935892812,
+        "execution_allowed": false
+      }
+    },
+    {
+      "id": "q2",
+      "input": {
+        "width": 8,
+        "gap": 16
+      },
+      "result": {
+        "action": "PREDICT",
+        "score": 0.9,
+        "uncertainty_entropy": 0.4689955935892811,
+        "execution_allowed": false
+      }
+    },
+    {
+      "id": "q3",
+      "input": {
+        "width": 33,
+        "gap": 1
+      },
+      "result": {
+        "action": "ABSTAIN",
+        "score": null,
+        "uncertainty_entropy": null,
+        "execution_allowed": false
+      }
+    }
+  ]
+}

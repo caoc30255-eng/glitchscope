@@ -1,0 +1,10 @@
+test_actual_feedback_shape_passes_without_translated_fields (__main__.FixTests) ... ok
+test_atomic_publication_no_overwrite_or_partial_target (__main__.FixTests) ... ok
+test_missing_strict_ready_and_bad_index_refused (__main__.FixTests) ... ok
+test_original_recheck_failure_propagates (__main__.FixTests) ... ok
+test_translated_record_not_feedback (__main__.FixTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.042s
+
+OK

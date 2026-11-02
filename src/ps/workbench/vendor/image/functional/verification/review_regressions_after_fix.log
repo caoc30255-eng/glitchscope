@@ -1,0 +1,10 @@
+test_current_receiver_illegal_profile_rejected (__main__.ExpectedBehavior.test_current_receiver_illegal_profile_rejected) ... ok
+test_diagnostic_only_unknown_returns_structured_stop (__main__.ExpectedBehavior.test_diagnostic_only_unknown_returns_structured_stop) ... ok
+test_duplicate_identity_cannot_advance_schedule (__main__.ExpectedBehavior.test_duplicate_identity_cannot_advance_schedule) ... ok
+test_one_audited_measurement_is_not_three_repetitions_complete (__main__.ExpectedBehavior.test_one_audited_measurement_is_not_three_repetitions_complete) ... ok
+test_unavailable_B_and_bad_A_must_not_become_known_zero_block (__main__.ExpectedBehavior.test_unavailable_B_and_bad_A_must_not_become_known_zero_block) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK

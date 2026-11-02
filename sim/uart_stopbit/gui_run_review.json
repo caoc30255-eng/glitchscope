@@ -1,0 +1,17 @@
+{
+  "status": "PASS_USER_VIVADO_RTL_LOG_AND_INPUT_REVIEW",
+  "cases": 5,
+  "bytes": 1390,
+  "checked_cycles": 695000,
+  "actual_runtime_vectors_verified": {
+    "vector0.mem": true,
+    "vector1.mem": true,
+    "vector2.mem": true,
+    "vector3.mem": true,
+    "vector4.mem": true
+  },
+  "scoreboard_sha256": "934057c17aa4af863ff1440d5463bd656f8fc38d549306fcffebeddbbce723a3",
+  "physical_hardware_acceptance": false,
+  "root_cause_resolved": false,
+  "scope": "Two sender components plus one-cycle RAM; excludes full owner/control/CDC/clock/pin chain and analog hardware"
+}

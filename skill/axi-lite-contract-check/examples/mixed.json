@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "word_bits": 32,
+  "base": "0x40000000",
+  "span": 4096,
+  "addressing": "offset",
+  "read_method": "read",
+  "write_method": "write",
+  "registers": [
+    {
+      "name": "identity",
+      "offset": 0,
+      "access": "RO",
+      "read_effect": "none",
+      "expected": "0x434e5431"
+    },
+    {
+      "name": "scratch",
+      "offset": 4,
+      "access": "RW",
+      "read_effect": "none",
+      "write_mask": "0xff"
+    },
+    {
+      "name": "irq",
+      "offset": 8,
+      "access": "W1C",
+      "read_effect": "none",
+      "write_mask": "0xf"
+    },
+    {
+      "name": "events",
+      "offset": 12,
+      "access": "RO",
+      "read_effect": "clear"
+    },
+    {
+      "name": "control_status",
+      "offset": 16,
+      "access": "MIXED",
+      "read_effect": "none",
+      "fields": [
+        {
+          "name": "gain",
+          "lsb": 0,
+          "width": 8,
+          "access": "RW"
+        },
+        {
+          "name": "irq",
+          "lsb": 8,
+          "width": 4,
+          "access": "W1C"
+        },
+        {
+          "name": "trigger",
+          "lsb": 12,
+          "width": 1,
+          "access": "PULSE"
+        },
+        {
+          "name": "reserved",
+          "lsb": 13,
+          "width": 11,
+          "access": "RESERVED",
+          "write_value": 0
+        },
+        {
+          "name": "status",
+          "lsb": 24,
+          "width": 8,
+          "access": "RO",
+          "write_value": 0
+        }
+      ]
+    }
+  ]
+}

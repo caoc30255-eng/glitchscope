@@ -1,0 +1,13 @@
+test_changed_action_model_reason_or_permission_rejected (__main__.CompareContracts) ... ok
+test_exact_output (__main__.CompareContracts) ... ok
+test_larger_score_or_entropy_change_rejected (__main__.CompareContracts) ... ok
+test_missing_extra_or_type_changed_rejected (__main__.CompareContracts) ... ok
+test_none_is_not_zero_and_bool_is_not_number (__main__.CompareContracts) ... ok
+test_nonfinite_rejected (__main__.CompareContracts) ... ok
+test_reproduced_python38_sum_difference_accepted_and_retained (__main__.CompareContracts) ... ok
+test_truncated_duplicate_length_or_extra_query_rejected (__main__.CompareContracts) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.009s
+
+OK

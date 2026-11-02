@@ -1,0 +1,68 @@
+{
+  "result": "PASS_FIRST_RANDOM_IMAGE_HARDWARE_PILOT_ORIGINALS_AUDIT",
+  "session": "session_00000024",
+  "manifest_count": 785,
+  "manifest_file_hashes_checked": 2037,
+  "original_file_count": 3314,
+  "application_files": 65,
+  "application_rows": 49439,
+  "completion_rows": 846,
+  "runtime_fixed_files_verified": 67,
+  "completed_records": 65,
+  "START_DONE_RETIRED_each": 65,
+  "actual_TYPE3C_exact_ACKs": 64,
+  "actual_counter_identity_replies": 845,
+  "planned_and_emitted_points": 8394,
+  "seed": 20261018,
+  "schedule_reproduced": true,
+  "first_point_snapshots_verified": 64,
+  "successor_links_verified": 63,
+  "all_8394_external_waveforms_verified": false,
+  "record66_denied_saved": true,
+  "receivers": {
+    "A": {
+      "pixels": 16384,
+      "changed_pixels": 4402,
+      "pixel_error_rate": 0.2686767578125,
+      "bit_errors": 4402,
+      "mean_absolute_gray_error": 10.5299072265625,
+      "maximum_absolute_gray_error": 128,
+      "received_sha256": "9243f7a52daefef75b0d9f4f71f089b5e7fc0fbf9ad980cc3b6148a4a762a8b2",
+      "source_sha256": "6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330",
+      "changed_outside_planned_target_pixels": 0
+    },
+    "B": {
+      "pixels": 16384,
+      "changed_pixels": 3174,
+      "pixel_error_rate": 0.1937255859375,
+      "bit_errors": 3174,
+      "mean_absolute_gray_error": 6.64898681640625,
+      "maximum_absolute_gray_error": 128,
+      "received_sha256": "f90af7d8b8ed795b634446d5e322bd44b2d2be6b9c2ea1cc6d1bf1b20a9d6134",
+      "source_sha256": "6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330",
+      "changed_outside_planned_target_pixels": 0
+    },
+    "STM": {
+      "pixels": 16384,
+      "changed_pixels": 4296,
+      "pixel_error_rate": 0.26220703125,
+      "bit_errors": 4296,
+      "mean_absolute_gray_error": 11.22601318359375,
+      "maximum_absolute_gray_error": 128,
+      "received_sha256": "589f1e2d1aec1333d4078dc8b2c784396428a92e7970b5ce5ce73c528f00dc47",
+      "source_sha256": "6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330",
+      "changed_outside_planned_target_pixels": 0
+    }
+  },
+  "ITEM_uart_flags_counts": {
+    "0": 42,
+    "4": 22
+  },
+  "ITEM_result_status_counts": {
+    "0": 28,
+    "3": 22,
+    "1": 14
+  },
+  "original_files_unchanged": true,
+  "scope": "One seeded random contiguous-range-per-ITEM Direct image experiment. Images independently reconstructed from actual A/B and valid STM report payload originals; not image repair, complete boundary, statistical reliability or AI acceleration acceptance."
+}

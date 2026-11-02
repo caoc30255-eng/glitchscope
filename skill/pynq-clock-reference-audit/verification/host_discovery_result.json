@@ -1,0 +1,15 @@
+{
+  "schema": "PYNQ_PLATFORM_DISCOVERY_V1",
+  "machine": "",
+  "python": "3.13.9",
+  "pynq_imported": false,
+  "MMIO_mapped": false,
+  "hardware_writes": 0,
+  "physical_measurement": false,
+  "suggested_adapter": "device_specific_clock_profile_required",
+  "next_steps": [
+    "Confirm the exact hardware model and reference clock from its documentation.",
+    "Choose a reviewed device-specific read-only adapter or export a normalized clock tree.",
+    "Do not infer the runtime reference from an on-disk default or OS device-tree declaration alone."
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schema": "V1_BASELINE_SUPPLEMENT_SOURCE_MAP_V1",
+  "date": "2026-11-01",
+  "cases": [
+    {
+      "id": "v1_01",
+      "title": "共享接收前端与核心验证边界",
+      "historical_work_date": "2026-09-08",
+      "sources": [
+        {
+          "kind": "cached",
+          "record_id": "v1_20260908_01_02",
+          "source_parent_item_id": "01a08143-53b8-7b30-b3a8-aaefe9496f44",
+          "source_thread_id": "01a08143-48fd-7de0-aba8-fd86ac7a88f3",
+          "text_sha256": "4a79255c504ecafb97d56da5f38bf2c1a98ba57a2291d8ccb6625a1a7954985b",
+          "individual_message_time": null,
+          "snapshot_label": "2026-09-08",
+          "possibly_truncated": true
+        },
+        {
+          "kind": "engineering_document",
+          "id": "d07",
+          "file": "document_07.docx",
+          "original_filename": "通信容错边界智能测试与调优平台_项目总交接文档_V1.0_2026-09-14.docx",
+          "original_path": "C:/workspace\\Desktop\\claude_code\\竞赛\\分阶段交接文档\\通信容错边界智能测试与调优平台_项目总交接文档_V1.0_2026-09-14.docx",
+          "sha256": "2a2ea508bf64ad08fb0f5f7b8de4bc92c2658b6b32ce95a4d16b6e6117bc51a5",
+          "bytes": 75472,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        }
+      ]
+    },
+    {
+      "id": "v1_02",
+      "title": "从控制UART仿真到双板字节回环",
+      "historical_work_date": "2026-09-08 至 2026-09-10",
+      "sources": [
+        {
+          "kind": "cached",
+          "record_id": "v1_20260908_01_01",
+          "source_parent_item_id": "01a08143-53b8-7b30-b3a8-aaefe9496f44",
+          "source_thread_id": "01a08143-48fd-7de0-aba8-fd86ac7a88f3",
+          "text_sha256": "912c1459acbee6fb9be3c815c52448a85ff741847e2b4f1e222f87dd295b87e4",
+          "individual_message_time": null,
+          "snapshot_label": "2026-09-08",
+          "possibly_truncated": false
+        },
+        {
+          "kind": "cached",
+          "record_id": "v1_20260910_04_01",
+          "source_parent_item_id": "01a08b28-8bcc-7aa1-9606-a81177fa7135",
+          "source_thread_id": "01a08b28-7eec-7ad3-a303-ea7701b13eaf",
+          "text_sha256": "a19047f407b4f59535016ad6f1f8c85883155de7995ec09831493d2d8c88f2e8",
+          "individual_message_time": null,
+          "snapshot_label": "2026-09-10",
+          "possibly_truncated": false
+        },
+        {
+          "kind": "engineering_document",
+          "id": "d01",
+          "file": "document_01.docx",
+          "original_filename": "2026-09-09_FPGA工程工作日志.docx",
+          "original_path": "C:/workspace\\Documents\\Codex\\2026-09-09\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\2026-09-09_FPGA工程工作日志.docx",
+          "sha256": "d30b0ca368d6dcfa9630f177485dbddbddc8d199e8235a812e529d730259f173",
+          "bytes": 46909,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        },
+        {
+          "kind": "engineering_document",
+          "id": "log0910",
+          "file": "engineering_log_20260910.md",
+          "original_path": "C:/workspace\\Documents\\Codex\\2026-09-10\\referenced-chatgpt-conversation-this-is-an\\work\\source.md",
+          "sha256": "d987429fb4635efba4a13927489bc0f3e977da9b479a3e7ea1990ec639fa4fb4",
+          "bytes": 9963,
+          "scope": "existing engineering log working text"
+        }
+      ]
+    },
+    {
+      "id": "v1_03",
+      "title": "配置隔离与重复ABORT生命周期修复",
+      "historical_work_date": "2026-09-11 至 2026-09-14",
+      "sources": [
+        {
+          "kind": "cached",
+          "record_id": "v1_20260911_05_03",
+          "source_parent_item_id": "01a09018-3bc8-7fe2-bc8b-8593755ee017",
+          "source_thread_id": "01a09018-2b56-7cc2-bc4d-3e84d4653d89",
+          "text_sha256": "2a6fea3a136f651725c22831a69483b9ed26ea061bec83409f7228446acf333b",
+          "individual_message_time": null,
+          "snapshot_label": "2026-09-11",
+          "possibly_truncated": false
+        },
+        {
+          "kind": "cached",
+          "record_id": "v1_20260914_07_03",
+          "source_parent_item_id": "01a09ee2-be7a-7d51-86c7-d3bfbbe85744",
+          "source_thread_id": "01a09ee2-b3d9-73b2-ae00-9e772e3637c0",
+          "text_sha256": "fd7126a559d5924b34516a9c1c0cf1556439df243ba66b580e412236aec32544",
+          "individual_message_time": null,
+          "snapshot_label": "2026-09-14",
+          "possibly_truncated": false
+        },
+        {
+          "kind": "engineering_document",
+          "id": "d02",
+          "file": "document_02.docx",
+          "original_filename": "FPGA项目测试日志_2026-09-11.docx",
+          "original_path": "C:/workspace\\Documents\\Codex\\2026-09-11\\referenced-chatgpt-conversation-this-is-an\\outputs\\FPGA项目测试日志_2026-09-11.docx",
+          "sha256": "dbc61f1a1a58eb8d5b12f11d04c05c9b238a4734891d42d56b03ccf0eda0d71e",
+          "bytes": 44410,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        },
+        {
+          "kind": "engineering_document",
+          "id": "d03",
+          "file": "document_03.docx",
+          "original_filename": "工程日志_通信容错边界智能测试与调优平台_2026-09-12.docx",
+          "original_path": "C:/workspace\\Documents\\Codex\\2026-09-12\\referenced-chatgpt-conversation-this-is-an\\outputs\\工程日志_通信容错边界智能测试与调优平台_2026-09-12.docx",
+          "sha256": "d19b5a5f1380856ac4390525f8316ff5099946d4d15470b95bf452542d75c6fc",
+          "bytes": 41054,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        },
+        {
+          "kind": "engineering_document",
+          "id": "d07",
+          "file": "document_07.docx",
+          "original_filename": "通信容错边界智能测试与调优平台_项目总交接文档_V1.0_2026-09-14.docx",
+          "original_path": "C:/workspace\\Desktop\\claude_code\\竞赛\\分阶段交接文档\\通信容错边界智能测试与调优平台_项目总交接文档_V1.0_2026-09-14.docx",
+          "sha256": "2a2ea508bf64ad08fb0f5f7b8de4bc92c2658b6b32ce95a4d16b6e6117bc51a5",
+          "bytes": 75472,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        }
+      ]
+    },
+    {
+      "id": "v1_04",
+      "title": "十四候选筛选与H2预封存验证",
+      "historical_work_date": "2026-09-15 至 2026-09-16",
+      "sources": [
+        {
+          "kind": "engineering_document",
+          "id": "d04",
+          "file": "document_04.docx",
+          "original_filename": "通信容错边界智能测试与调优平台_开发日志_2026-09-15.docx",
+          "original_path": "C:/workspace\\Desktop\\claude_code\\竞赛\\分阶段交接文档\\通信容错边界智能测试与调优平台_开发日志_2026-09-15.docx",
+          "sha256": "799cd36379ba9d354e33db1c79b8972c454a64a735ba8997bc1c982c3859fd36",
+          "bytes": 44265,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        },
+        {
+          "kind": "engineering_document",
+          "id": "d05",
+          "file": "document_05.docx",
+          "original_filename": "通信容错边界智能测试与调优平台_开发日志_2026-09-16.docx",
+          "original_path": "C:/workspace\\Desktop\\claude_code\\竞赛\\分阶段交接文档\\通信容错边界智能测试与调优平台_开发日志_2026-09-16.docx",
+          "sha256": "291bae17a6963270e2eed999b199c48228b2c2d12a61e82827de61df3739c3cb",
+          "bytes": 47382,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        }
+      ]
+    },
+    {
+      "id": "v1_05",
+      "title": "Raw Snapshot从参考测试到AXI与BRAM",
+      "historical_work_date": "2026-09-16 至 2026-09-17",
+      "sources": [
+        {
+          "kind": "engineering_document",
+          "id": "d05",
+          "file": "document_05.docx",
+          "original_filename": "通信容错边界智能测试与调优平台_开发日志_2026-09-16.docx",
+          "original_path": "C:/workspace\\Desktop\\claude_code\\竞赛\\分阶段交接文档\\通信容错边界智能测试与调优平台_开发日志_2026-09-16.docx",
+          "sha256": "291bae17a6963270e2eed999b199c48228b2c2d12a61e82827de61df3739c3cb",
+          "bytes": 47382,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        },
+        {
+          "kind": "engineering_document",
+          "id": "d06",
+          "file": "document_06.docx",
+          "original_filename": "通信容错边界智能测试与调优平台_开发日志_2026-09-17.docx",
+          "original_path": "C:/workspace\\Desktop\\claude_code\\竞赛\\分阶段交接文档\\通信容错边界智能测试与调优平台_开发日志_2026-09-17.docx",
+          "sha256": "f45baad10670215ed2f4061ddcedfb3d0371380e5c8ff7e7a350dda2b152c587",
+          "bytes": 46486,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        }
+      ]
+    },
+    {
+      "id": "v1_06",
+      "title": "首次双板受扰采样与三次重复",
+      "historical_work_date": "2026-09-18",
+      "sources": [
+        {
+          "kind": "engineering_document",
+          "id": "d08",
+          "file": "document_08.docx",
+          "original_filename": "通信容错边界智能测试与调优平台_项目总交接文档_V1.1_2026-09-18.docx",
+          "original_path": "C:/workspace\\Desktop\\claude_code\\竞赛\\分阶段交接文档\\通信容错边界智能测试与调优平台_项目总交接文档_V1.1_2026-09-18.docx",
+          "sha256": "b923bc9766bf2a31b85b588f450a14bdc4fe0d838b0d6a847ee248d10de6db25",
+          "bytes": 69837,
+          "scope": "existing engineering log or handover, not original chat transcript"
+        }
+      ]
+    }
+  ],
+  "early_sources_not_full_original_chat": true,
+  "individual_cached_message_timestamps_known": false,
+  "old_message_ids_unchanged": true,
+  "new_STARTs": 0
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "CTRL A5 5A 01 TYPE LEN32 PAYLOAD32 CRC16_CCITT_BE; CRC covers version through payload",
+  "operation": "READ32 identity offset0, txn1, expected H5E1=0x48354531",
+  "epochs": [
+    1895825409,
+    1895825410
+  ],
+  "goldens": {
+    "probe_request_epoch1.mem": "a55a013b2071000001000000010001000000000000000000000000000000000000000000005509",
+    "probe_reply_epoch1.mem": "a55a017b2071000001000000010001000000000100483545310000000000000000000000005044",
+    "probe_request_epoch2.mem": "a55a013b2071000002000000010001000000000000000000000000000000000000000000005402",
+    "probe_reply_epoch2.mem": "a55a017b207100000200000001000100000000010048354531000000000000000000000000514f"
+  },
+  "source": "Independent protocol construction, no DUT-derived golden",
+  "clock_hz": 50000000,
+  "ctrl_bit_ns": 4340,
+  "ctrl_baud_parameter": 230400
+}

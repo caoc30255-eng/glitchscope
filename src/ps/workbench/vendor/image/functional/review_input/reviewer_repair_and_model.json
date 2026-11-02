@@ -1,0 +1,155 @@
+{
+  "status": "PASS_REPRODUCED_REAL_REPAIR_AND_SYNTHETIC_MODEL",
+  "actual_raw_packets_checked": 192,
+  "receiver_config_from_actual_B_packet": true,
+  "reverse_order_reassembly_matches_actual_bytes": true,
+  "repairs_reproduced_with_file_reads_disabled": true,
+  "ground_truth_used_only_after_repair": true,
+  "methods": {
+    "crc_select": {
+      "error_pixels": 3174,
+      "MAE": 6.64898681640625,
+      "output_sha256": "f90af7d8b8ed795b634446d5e322bd44b2d2be6b9c2ea1cc6d1bf1b20a9d6134",
+      "receiver_config_SHA_verified": false
+    },
+    "crc_burst_B": {
+      "error_pixels": 497,
+      "MAE": 2.0675048828125,
+      "output_sha256": "5a0b243e61e541faa68c45d605f8c4e1a1426293af5a8aed840f2d867ab138de",
+      "receiver_config_SHA_verified": false
+    },
+    "crc_burst_multi": {
+      "error_pixels": 0,
+      "MAE": 0.0,
+      "output_sha256": "6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330",
+      "receiver_config_SHA_verified": true
+    },
+    "visual_median_B": {
+      "error_pixels": 3102,
+      "MAE": 3.22418212890625,
+      "output_sha256": "74f1e1704cb7e21a9fe4ece20062bb3e759e9066671c713feb6aa8ff64f764ef",
+      "receiver_config_SHA_verified": false
+    }
+  },
+  "model_reference": {
+    "mean_max_absolute_error": 1.1102230246251565e-16,
+    "uncertainty_max_absolute_error": 2.7755575615628914e-16,
+    "reference": "Independent NumPy linear solve on development samples only"
+  },
+  "synthetic_runs_reproduced": [
+    {
+      "target": "B_frame_correct",
+      "seed": 11,
+      "baseline": 46,
+      "selected": 29,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "B_frame_correct",
+      "seed": 22,
+      "baseline": 46,
+      "selected": 29,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "B_frame_correct",
+      "seed": 33,
+      "baseline": 46,
+      "selected": 29,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "B_frame_correct",
+      "seed": 44,
+      "baseline": 46,
+      "selected": 28,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "B_frame_correct",
+      "seed": 55,
+      "baseline": 46,
+      "selected": 29,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "STM_business_success",
+      "seed": 11,
+      "baseline": 46,
+      "selected": 30,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "STM_business_success",
+      "seed": 22,
+      "baseline": 46,
+      "selected": 30,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "STM_business_success",
+      "seed": 33,
+      "baseline": 46,
+      "selected": 30,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "STM_business_success",
+      "seed": 44,
+      "baseline": 46,
+      "selected": 28,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    },
+    {
+      "target": "STM_business_success",
+      "seed": 55,
+      "baseline": 46,
+      "selected": 30,
+      "boundary_error": {
+        "classification_error": 0.0,
+        "max_discrete_boundary_tick_error": 0,
+        "misclassified": 0
+      }
+    }
+  ],
+  "real_AI_speedup_accepted": false,
+  "ARM_run_performed": false,
+  "hardware_access": false,
+  "repair_claim_scope": "One previously acquired image and specified burst model; not arbitrary-lossless/live acceptance"
+}

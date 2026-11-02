@@ -1,0 +1,39 @@
+{
+  "pynq_version": "2.7.0",
+  "ps_module": "/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/ps.py",
+  "clock_class": "_ClocksZynq",
+  "pynq_instance_reference_mhz": 50.0,
+  "reported_fclk0_mhz": 150.0,
+  "reported_cpu_mhz": 1150.0,
+  "device_tree_declarations": [
+    {
+      "path": "/sys/firmware/devicetree/base/amba/slcr@f8000000/clkc@100/ps-clk-frequency",
+      "declared_hz": 33333333
+    }
+  ],
+  "schema": "ZYNQ_CLOCK_REFERENCE_SNAPSHOT_V1",
+  "raw_registers": {
+    "ARM_PLL_CTRL": "0x2e000",
+    "DDR_PLL_CTRL": "0x20000",
+    "IO_PLL_CTRL": "0x1e000",
+    "PLL_STATUS": "0x3f",
+    "ARM_CLK_CTRL": "0x1f000200",
+    "FPGA0_CLK_CTRL": "0x200500",
+    "BOOT_MODE": "0x5"
+  },
+  "raw_registers_second": {
+    "ARM_PLL_CTRL": "0x2e000",
+    "DDR_PLL_CTRL": "0x20000",
+    "IO_PLL_CTRL": "0x1e000",
+    "PLL_STATUS": "0x3f",
+    "ARM_CLK_CTRL": "0x1f000200",
+    "FPGA0_CLK_CTRL": "0x200500",
+    "BOOT_MODE": "0x5"
+  },
+  "raw_second_read_matches": true,
+  "hardware_register_writes": 0,
+  "Overlay_loaded": false,
+  "clock_setter_called": false,
+  "new_STARTs": 0,
+  "physical_measurement": false
+}

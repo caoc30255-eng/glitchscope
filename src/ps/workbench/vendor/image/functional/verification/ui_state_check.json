@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "full_form_restore": true,
+  "dirty_blocks_start": true,
+  "pending_preview_blocks_start": true,
+  "stale_preview_discarded": true,
+  "start_double_click_single_POST": true,
+  "start_locks_preview_and_fields": true,
+  "failed_preview_stays_blocked": true
+}

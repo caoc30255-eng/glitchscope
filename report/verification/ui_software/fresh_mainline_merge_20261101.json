@@ -1,0 +1,49 @@
+{
+  "status": "PASS_VALIDATED_FRESH_BRANCH_PROMOTED",
+  "date": "2026-11-01",
+  "workbench_manifest_sha256": "ce7727382aa51c2d33898fbd30a21fc2ee4bcaad4bd4494db58e77cb19df70b8",
+  "matches_successful_fresh_session7": true,
+  "software_tests": [
+    {
+      "returncode": 0,
+      "test": "tests_feedback_fix.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_demo_authority.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_live_accounting_models.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_integration.py"
+    },
+    {
+      "returncode": 0,
+      "test": "test_forwarded_host.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_fresh_install.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_ds_frozen_model.py"
+    }
+  ],
+  "local_python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "new_files": [
+    "bootstrap_fresh_install.py",
+    "installation_state.py",
+    "runtime_lease.py",
+    "tests_fresh_install.py"
+  ],
+  "fresh_bootstrap_supported": true,
+  "old_history_preserved": true,
+  "UNKNOWN_reclassified": false,
+  "long_FPGA_rebuild_repeated": false,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

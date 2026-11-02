@@ -1,0 +1,16 @@
+{
+  "tcl_syntax_complete": true,
+  "compile": [
+    {
+      "tool": "xvlog",
+      "returncode": 0
+    },
+    {
+      "tool": "xelab",
+      "returncode": 0
+    }
+  ],
+  "simulation_run": false,
+  "simulation_status": "PENDING_USER_VIVADO_RUN",
+  "hardware_access": false
+}

@@ -1,0 +1,557 @@
+{
+  "status": "PASS_NOISY_CAMPAIGN_FRAMEWORK",
+  "config_sha256": "a69a860746c0f1501c817be88f196ed1b9f0edda57b203a3786daed844b7883a",
+  "code_sha256": "26cc4d358ab839531dfb5ba36dd284569c73b08068a69e3d09a134f1c9b79fdc",
+  "confidence_level": 0.95,
+  "probability_classification": {
+    "fail_le": 0.1,
+    "pass_ge": 0.9
+  },
+  "boundary_points_total": 4,
+  "equal_actual_spend_all_pairs": true,
+  "campaign_count_per_policy": 30,
+  "results": {
+    "coverage": {
+      "campaigns": [
+        {
+          "seed": 202610280,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610281,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610282,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610283,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 1,
+          "unknown": 1
+        },
+        {
+          "seed": 202610284,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610285,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610286,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610287,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 5,
+          "unknown": 1
+        },
+        {
+          "seed": 202610288,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610289,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610290,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610291,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610292,
+          "unique_conditions": 3,
+          "boundary_points_touched": 1,
+          "mixed_touched": 0,
+          "occupied": 14,
+          "unknown": 1
+        },
+        {
+          "seed": 202610293,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610294,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610295,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 4,
+          "unknown": 1
+        },
+        {
+          "seed": 202610296,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610297,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610298,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610299,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610300,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610301,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610302,
+          "unique_conditions": 2,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 10,
+          "unknown": 1
+        },
+        {
+          "seed": 202610303,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610304,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610305,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610306,
+          "unique_conditions": 3,
+          "boundary_points_touched": 1,
+          "mixed_touched": 0,
+          "occupied": 14,
+          "unknown": 1
+        },
+        {
+          "seed": 202610307,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 2,
+          "unknown": 1
+        },
+        {
+          "seed": 202610308,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 1,
+          "unknown": 1
+        },
+        {
+          "seed": 202610309,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        }
+      ],
+      "mixed_touch_rate": 0.7333333333333333,
+      "mixed_touch_wilson95": [
+        0.555520383048111,
+        0.8581733668040368
+      ],
+      "unknown_campaigns": 8
+    },
+    "confirm_mixed": {
+      "campaigns": [
+        {
+          "seed": 202610280,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610281,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610282,
+          "unique_conditions": 3,
+          "boundary_points_touched": 1,
+          "mixed_touched": 0,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610283,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 1,
+          "unknown": 1
+        },
+        {
+          "seed": 202610284,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610285,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610286,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610287,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 5,
+          "unknown": 1
+        },
+        {
+          "seed": 202610288,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610289,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610290,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610291,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610292,
+          "unique_conditions": 3,
+          "boundary_points_touched": 1,
+          "mixed_touched": 0,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610293,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610294,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610295,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 4,
+          "unknown": 1
+        },
+        {
+          "seed": 202610296,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610297,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610298,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610299,
+          "unique_conditions": 3,
+          "boundary_points_touched": 1,
+          "mixed_touched": 0,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610300,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610301,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610302,
+          "unique_conditions": 2,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 10,
+          "unknown": 1
+        },
+        {
+          "seed": 202610303,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610304,
+          "unique_conditions": 3,
+          "boundary_points_touched": 1,
+          "mixed_touched": 0,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610305,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        },
+        {
+          "seed": 202610306,
+          "unique_conditions": 3,
+          "boundary_points_touched": 1,
+          "mixed_touched": 0,
+          "occupied": 14,
+          "unknown": 1
+        },
+        {
+          "seed": 202610307,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 2,
+          "unknown": 1
+        },
+        {
+          "seed": 202610308,
+          "unique_conditions": 0,
+          "boundary_points_touched": 0,
+          "mixed_touched": 0,
+          "occupied": 1,
+          "unknown": 1
+        },
+        {
+          "seed": 202610309,
+          "unique_conditions": 4,
+          "boundary_points_touched": 2,
+          "mixed_touched": 1,
+          "occupied": 14,
+          "unknown": 0
+        }
+      ],
+      "mixed_touch_rate": 0.6333333333333333,
+      "mixed_touch_wilson95": [
+        0.4551356365479487,
+        0.7812607919389929
+      ],
+      "unknown_campaigns": 7
+    }
+  },
+  "paired_confirm_minus_coverage": {
+    "unique_conditions": {
+      "mean_difference": -0.1,
+      "ci95": [
+        -0.23333333333333334,
+        0
+      ],
+      "method": "paired percentile bootstrap across campaigns",
+      "campaigns": 30
+    },
+    "boundary_points_touched": {
+      "mean_difference": -0.1,
+      "ci95": [
+        -0.23333333333333334,
+        0
+      ],
+      "method": "paired percentile bootstrap across campaigns",
+      "campaigns": 30
+    },
+    "mixed_touched": {
+      "mean_difference": -0.1,
+      "ci95": [
+        -0.23333333333333334,
+        0
+      ],
+      "method": "paired percentile bootstrap across campaigns",
+      "campaigns": 30
+    },
+    "occupied": {
+      "mean_difference": 0,
+      "ci95": [
+        0,
+        0
+      ],
+      "method": "paired percentile bootstrap across campaigns",
+      "campaigns": 30
+    }
+  },
+  "hardware_access": false,
+  "statistical_hardware_superiority_proven": false,
+  "wall_gain_not_evaluated": true,
+  "scope": "Fresh independent synthetic draws per campaign/point/index; paired bootstrap across campaigns, not individual UART items"
+}

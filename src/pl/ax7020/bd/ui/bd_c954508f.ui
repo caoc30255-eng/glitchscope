@@ -1,0 +1,54 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.520265",
+   "Default View_TopLeft":"-1086,4",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1190 -y 1210 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1190 -y 1240 -defaultsOSRD
+preplace port GPIO -pg 1 -lvl 4 -x 1190 -y 1180 -defaultsOSRD
+preplace port uart_rtl_0 -pg 1 -lvl 4 -x 1190 -y 230 -defaultsOSRD
+preplace port port-id_h1_rx_pin -pg 1 -lvl 0 -x 0 -y 890 -defaultsOSRD
+preplace port port-id_h1_tx_pin -pg 1 -lvl 4 -x 1190 -y 640 -defaultsOSRD
+preplace portBus raw_snapshot_async_i -pg 1 -lvl 0 -x 0 -y 1090 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 960 -y 1240 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 3 -x 960 -y 240 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 530 -y 550 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 190 -y 990 -defaultsOSRD
+preplace inst raw_snapshot_axi_lite_0 -pg 1 -lvl 3 -x 960 -y 390 -defaultsOSRD
+preplace inst dut_response_axi_lite_0 -pg 1 -lvl 3 -x 960 -y 90 -defaultsOSRD
+preplace inst receiver_axi_lite_0 -pg 1 -lvl 3 -x 960 -y 890 -defaultsOSRD
+preplace inst h1_evidence_system_0 -pg 1 -lvl 3 -x 960 -y 640 -defaultsOSRD
+preplace inst ch0_evidence_slice -pg 1 -lvl 2 -x 530 -y 950 -defaultsOSRD
+preplace inst ch1_evidence_slice -pg 1 -lvl 2 -x 530 -y 1050 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 810 370 210 710 1350 1150
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 20 1130 NJ 1130 NJ 1130 1160
+preplace netloc raw_snapshot_async_i_1 1 0 3 NJ 1090 380 1120 730
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 360 200 750
+preplace netloc ch0_evidence_slice_Dout 1 2 1 740J 720n
+preplace netloc ch1_evidence_slice_Dout 1 2 1 760J 740n
+preplace netloc h1_rx_pin_1 1 0 3 NJ 890 370J 1110 770J
+preplace netloc h1_evidence_system_0_h1_tx_pin 1 3 1 NJ 640
+preplace netloc axi_uartlite_0_UART 1 3 1 NJ 230
+preplace netloc processing_system7_0_DDR 1 3 1 NJ 1210
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 1170J 1230n
+preplace netloc processing_system7_0_GPIO_0 1 3 1 1170J 1180n
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 3 380 890 680J 980 1150
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 690 220n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 700 360n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 680 60n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 720 500n
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 N 520
+preplace netloc ps7_0_axi_periph_M05_AXI 1 2 1 N 540
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 N 560
+preplace netloc ps7_0_axi_periph_M07_AXI 1 2 1 N 580
+preplace netloc ps7_0_axi_periph_M08_AXI 1 2 1 N 600
+preplace netloc ps7_0_axi_periph_M09_AXI 1 2 1 N 620
+preplace netloc ps7_0_axi_periph_M10_AXI 1 2 1 N 640
+preplace netloc ps7_0_axi_periph_M11_AXI 1 2 1 N 660
+levelinfo -pg 1 0 190 530 960 1190
+pagesize -pg 1 -db -bbox -sgen -230 0 1310 1360
+"
+}
+

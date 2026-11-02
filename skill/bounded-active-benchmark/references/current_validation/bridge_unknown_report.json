@@ -1,0 +1,200 @@
+{
+  "run": {
+    "schema": 2,
+    "origin": "ADAPTER_REPORTED",
+    "run_id": "local_read32",
+    "plan": {
+      "context": {
+        "protocol": "H5E1_READ32",
+        "epoch": 268435457,
+        "source": "LOCAL_EMULATOR_NOT_BOARD"
+      },
+      "domain": [
+        {
+          "id": "a",
+          "coordinates": [
+            36
+          ]
+        },
+        {
+          "id": "b",
+          "coordinates": [
+            40
+          ]
+        }
+      ],
+      "budget": 8,
+      "setup_records": 2,
+      "repeats": 3,
+      "max_groups_per_point": 1
+    },
+    "plan_sha256": "c1ee9c9261cfb09f41e20810f8703cd48b41674c7407a19ca6533e4a9e81fe5c",
+    "occupied": 4,
+    "completed_records": 3,
+    "unknown_records": 1,
+    "observed": {},
+    "groups_per_point": {},
+    "records": [
+      {
+        "request": {
+          "run_id": "local_read32",
+          "record_id": "r00000",
+          "kind": "SETUP",
+          "point_id": null,
+          "repeat_index": 0,
+          "context_sha256": "093042cbd5c68ceb67d9582423e7f0ac173737537863c6c6329ee1b55da0b955"
+        },
+        "request_sha256": "e9e7d017ba3d5aec01bf090054746f5703389c9ff1f86d8633807eb4edbbf9c9",
+        "status": "VALID",
+        "outcome": null,
+        "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+        "receipt": {
+          "record_id": "r00000",
+          "request_sha256": "e9e7d017ba3d5aec01bf090054746f5703389c9ff1f86d8633807eb4edbbf9c9",
+          "status": "VALID",
+          "outcome": null,
+          "evidence_files": {
+            "raw/r00000_tx.bin": "91fbba0377d7df6b604d4388ac3c0b2dcc6e3c4dbbe3ab909b0237c878fcc859",
+            "raw/r00000_rx.bin": "b8e363ee49b6f8dc2be62eb7e6e1fec252fc4b1b90e017496586007dbbb36225"
+          },
+          "tx_path": "raw/r00000_tx.bin",
+          "rx_path": "raw/r00000_rx.bin"
+        },
+        "collector_and_journal_seconds": 0.006849000001238892,
+        "sha256": "af31103a35a20e6f8c03598baa46735e2acf627e3b739b327105bbbbeeba891e"
+      },
+      {
+        "request": {
+          "run_id": "local_read32",
+          "record_id": "r00001",
+          "kind": "SETUP",
+          "point_id": null,
+          "repeat_index": 1,
+          "context_sha256": "093042cbd5c68ceb67d9582423e7f0ac173737537863c6c6329ee1b55da0b955"
+        },
+        "request_sha256": "a7c9f4691c9fa09f7317464969f09a8bd86a6ebc5df3b5e7d5a8bfa073daa91d",
+        "status": "VALID",
+        "outcome": null,
+        "previous": "af31103a35a20e6f8c03598baa46735e2acf627e3b739b327105bbbbeeba891e",
+        "receipt": {
+          "record_id": "r00001",
+          "request_sha256": "a7c9f4691c9fa09f7317464969f09a8bd86a6ebc5df3b5e7d5a8bfa073daa91d",
+          "status": "VALID",
+          "outcome": null,
+          "evidence_files": {
+            "raw/r00001_tx.bin": "782450651cc43d1bf1db908c2ea9f7983d2cf1bb97e0893cabfb23763c2cb18b",
+            "raw/r00001_rx.bin": "e2d2c425c8f948c9fdf95cb77f5085cd68d244a50eeb2efb93738d12fee6ceb3"
+          },
+          "tx_path": "raw/r00001_tx.bin",
+          "rx_path": "raw/r00001_rx.bin"
+        },
+        "collector_and_journal_seconds": 0.006870699999126373,
+        "sha256": "0dbb4349b23a5049900124e5dbc56d8e2063bd7dea22a873b4d35db2b4bf0e99"
+      },
+      {
+        "request": {
+          "run_id": "local_read32",
+          "record_id": "r00002",
+          "kind": "ITEM",
+          "point_id": "a",
+          "repeat_index": 0,
+          "context_sha256": "093042cbd5c68ceb67d9582423e7f0ac173737537863c6c6329ee1b55da0b955"
+        },
+        "request_sha256": "3d3f531360f3694a229e740ba2f8946c8ca8ba4b5fbace9529ce6cd45f156163",
+        "status": "VALID",
+        "outcome": true,
+        "previous": "0dbb4349b23a5049900124e5dbc56d8e2063bd7dea22a873b4d35db2b4bf0e99",
+        "receipt": {
+          "record_id": "r00002",
+          "request_sha256": "3d3f531360f3694a229e740ba2f8946c8ca8ba4b5fbace9529ce6cd45f156163",
+          "status": "VALID",
+          "outcome": true,
+          "evidence_files": {
+            "raw/r00002_tx.bin": "438d09099f3f0b569a9ad0b9f67db464cd74f6ddb9d7ffafc35904578b11dabc",
+            "raw/r00002_rx.bin": "e12c018a9d4318d28a8e8b54c3b7837bf6aae398e0a0169203f42b67c83dc398"
+          },
+          "tx_path": "raw/r00002_tx.bin",
+          "rx_path": "raw/r00002_rx.bin"
+        },
+        "collector_and_journal_seconds": 0.007225499997730367,
+        "sha256": "d920034e8071282199a56ed19b5fd38cd039210428faedf1d4ebe9d1f98ff448"
+      },
+      {
+        "request": {
+          "run_id": "local_read32",
+          "record_id": "r00003",
+          "kind": "ITEM",
+          "point_id": "a",
+          "repeat_index": 1,
+          "context_sha256": "093042cbd5c68ceb67d9582423e7f0ac173737537863c6c6329ee1b55da0b955"
+        },
+        "request_sha256": "598ab867e1c5cf05b0f2d76563c7db5816a4493580a4d8bbc02d93c12f268c86",
+        "status": "UNKNOWN",
+        "outcome": null,
+        "previous": "d920034e8071282199a56ed19b5fd38cd039210428faedf1d4ebe9d1f98ff448",
+        "error": "SOF_VERSION_LENGTH_CRC",
+        "collector_and_journal_seconds": 0.007260300000780262,
+        "sha256": "458bd1d5ee7ca8891b42cda43462408d715a0d7db63beecea98b7c4814222b3f"
+      }
+    ],
+    "decisions": [
+      {
+        "index": 0,
+        "input": {
+          "context": {
+            "protocol": "H5E1_READ32",
+            "epoch": 268435457,
+            "source": "LOCAL_EMULATOR_NOT_BOARD"
+          },
+          "domain": [
+            {
+              "id": "a",
+              "coordinates": [
+                36
+              ]
+            },
+            {
+              "id": "b",
+              "coordinates": [
+                40
+              ]
+            }
+          ],
+          "observed": {},
+          "groups_per_point": {},
+          "remaining_records": 6,
+          "repeats": 3,
+          "max_groups_per_point": 1
+        },
+        "input_sha256": "8f7efb2fc9ba84bd1041b9c24f1be142aac7ecdeffde7391df58743e37c83785",
+        "chosen": "a",
+        "policy_seconds": 3.18000020342879e-05,
+        "records_before": 2,
+        "sha256": "2e773f81c0b30447d53df50ccb459b7a29f89eee8b4b5d674df1b392d508d8a2"
+      }
+    ],
+    "terminal": "BLOCKED_UNKNOWN",
+    "full_run_wall_seconds": 0.028556100001878804,
+    "physical_start_count_verified": false,
+    "hardware_speedup_accepted": false
+  },
+  "ledger": {
+    "status": "PASS_JOURNAL_AND_FILE_INTEGRITY",
+    "state": "BLOCKED_UNKNOWN",
+    "session_id": "8bd42369a0b04f91b78e750214fd054e",
+    "origin": "ADAPTER_REPORTED",
+    "plan_sha256": "e206399bd4b92d291a3d30ce18649c54a6a25dba7485257b5a9245cb6692df9a",
+    "occupied": 4,
+    "recorded_completions": 3,
+    "unknown_or_unresolved": 1,
+    "reserved_unstarted": 0,
+    "cancelled_unstarted": 4,
+    "cleanup_adapter_reported": true,
+    "hardware_authenticity_verified": false,
+    "physical_starts_not_inferred": true,
+    "scope": "Append-only local metadata and referenced-file integrity; no FPGA protocol decoder, external signature or OS liveness measurement"
+  },
+  "source": "LOCAL_EMULATOR_REAL_WIRE_FORMAT_NOT_BOARD",
+  "hardware_access": false,
+  "physical_STARTs": 0
+}

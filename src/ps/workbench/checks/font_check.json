@@ -1,0 +1,12 @@
+{
+  "family": "Glitchscope CN",
+  "navigation_characters_covered": true,
+  "weight_axes": [
+    {
+      "tag": "wght",
+      "min": 100.0,
+      "max": 900.0
+    }
+  ],
+  "local_fonts": true
+}

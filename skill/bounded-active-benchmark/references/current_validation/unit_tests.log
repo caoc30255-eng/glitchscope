@@ -1,0 +1,33 @@
+test_attempt_hook_precedes_collect_and_result_hook (test_campaign.CampaignTests.test_attempt_hook_precedes_collect_and_result_hook) ... ok
+test_bootstrap_invalid_counts_rejected (test_campaign.CampaignTests.test_bootstrap_invalid_counts_rejected) ... ok
+test_fresh_repeats_use_new_index (test_campaign.CampaignTests.test_fresh_repeats_use_new_index) ... ok
+test_partial_group_not_used_for_next_decision (test_campaign.CampaignTests.test_partial_group_not_used_for_next_decision) ... ok
+test_policy_does_not_receive_truth (test_campaign.CampaignTests.test_policy_does_not_receive_truth) ... ok
+test_predeclared_seed_reproducibility (test_campaign.CampaignTests.test_predeclared_seed_reproducibility) ... ok
+test_real_adapter_requires_full_hooks (test_campaign.CampaignTests.test_real_adapter_requires_full_hooks) ... ok
+test_receiver_echo_mismatch_is_unknown (test_campaign.CampaignTests.test_receiver_echo_mismatch_is_unknown) ... ok
+test_rehashed_bool_integer_receipt_and_counter_types_rejected (test_campaign.CampaignTests.test_rehashed_bool_integer_receipt_and_counter_types_rejected) ... ok
+test_replay_rejects_fake_counters (test_campaign.CampaignTests.test_replay_rejects_fake_counters) ... ok
+test_unknown_at_setup_cannot_hide_extra_decisions (test_campaign.CampaignTests.test_unknown_at_setup_cannot_hide_extra_decisions) ... ok
+test_unknown_stops_immediately_not_false (test_campaign.CampaignTests.test_unknown_stops_immediately_not_false) ... ok
+test_wilson_interval_and_paired_campaign_unit (test_campaign.CampaignTests.test_wilson_interval_and_paired_campaign_unit) ... ok
+test_boolean_budget_refused (test_skill.BenchmarkTests.test_boolean_budget_refused) ... ok
+test_counter_change_refused (test_skill.BenchmarkTests.test_counter_change_refused) ... ok
+test_duplicate_limit_refused (test_skill.BenchmarkTests.test_duplicate_limit_refused) ... ok
+test_early_stop_does_not_claim_equal_actual_spend (test_skill.BenchmarkTests.test_early_stop_does_not_claim_equal_actual_spend) ... ok
+test_equal_budget_counts_preparation (test_skill.BenchmarkTests.test_equal_budget_counts_preparation) ... ok
+test_fake_feedback_before_selection_refused (test_skill.BenchmarkTests.test_fake_feedback_before_selection_refused) ... ok
+test_hardware_input_cannot_enter_demo (test_skill.BenchmarkTests.test_hardware_input_cannot_enter_demo) ... ok
+test_out_of_domain_refused (test_skill.BenchmarkTests.test_out_of_domain_refused) ... ok
+test_reference_not_modified_or_shared_as_observed (test_skill.BenchmarkTests.test_reference_not_modified_or_shared_as_observed) ... ok
+test_rehashed_bool_integer_prefix_forgery_refused (test_skill.BenchmarkTests.test_rehashed_bool_integer_prefix_forgery_refused) ... ok
+test_schema_bool_refused (test_skill.BenchmarkTests.test_schema_bool_refused) ... ok
+test_selector_receives_prefix_only (test_skill.BenchmarkTests.test_selector_receives_prefix_only) ... ok
+test_synthetic_results_never_accept_hardware_gain (test_skill.BenchmarkTests.test_synthetic_results_never_accept_hardware_gain) ... ok
+test_tampered_decision_detected (test_skill.BenchmarkTests.test_tampered_decision_detected) ... ok
+test_unknown_not_a_failure_label (test_skill.BenchmarkTests.test_unknown_not_a_failure_label) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.029s
+
+OK

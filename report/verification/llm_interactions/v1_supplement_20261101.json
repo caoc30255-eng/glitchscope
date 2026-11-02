@@ -1,0 +1,19 @@
+{
+  "status": "PASS_V1_SUPPLEMENT_SOURCES_AND_DOCUMENT",
+  "date": "2026-11-01",
+  "pages": 26,
+  "total_cases": 22,
+  "added_V1_cases": 6,
+  "cached_conversation_snapshots": 7,
+  "cached_visible_fragments": 35,
+  "engineering_documents": 9,
+  "cached_fragments_may_be_truncated": true,
+  "complete_early_chat_claimed": false,
+  "original_message_times_inferred": false,
+  "original_sixteen_case_titles_preserved": true,
+  "all26_pages_visually_reviewed": true,
+  "font": "SimSun embedded; black-and-white tables",
+  "hardware_tests_rerun": false,
+  "runtime_changed": false,
+  "new_STARTs": 0
+}

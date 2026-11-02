@@ -1,0 +1,15 @@
+{
+  "predict_calls": 50,
+  "cells_per_call": 44,
+  "mean_seconds": 0.0029274539998732506,
+  "python_traced_peak_bytes": 16448,
+  "model_version": "RBF_POSTERIOR_ACTIVE_V0_1",
+  "scope": "Actual current interpreter timing; not automatically an ARM result or hardware speedup",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "machine": "AMD64",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "model_load_seconds": 0.008817599969916046,
+  "actual_ARM_run": false,
+  "dependencies": "Python standard library; does not upgrade NumPy/PYNQ",
+  "real_training_performed": false
+}

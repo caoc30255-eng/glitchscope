@@ -1,0 +1,16 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_b_receiver_cosim -s b_rx_cosim 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.rx_ce_gen_7020_v2_2
+Compiling module work.uart_rx_b_7020_observe_v0_1(INPU...
+Compiling module work.tb_b_receiver_cosim
+Built simulation snapshot b_rx_cosim
+ot b_rx_cosim

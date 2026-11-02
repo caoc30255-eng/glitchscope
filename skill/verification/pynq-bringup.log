@@ -1,0 +1,31 @@
+test_all_downloads_need_clock_effect_scope (test_hardening.HardeningTests.test_all_downloads_need_clock_effect_scope) ... ok
+test_board_model_mismatch_before_mmio (test_hardening.HardeningTests.test_board_model_mismatch_before_mmio) ... ok
+test_clock_mismatch_blocks_before_mmio (test_hardening.HardeningTests.test_clock_mismatch_blocks_before_mmio) ... ok
+test_explicit_clock_setter_partial_failure_preserved (test_hardening.HardeningTests.test_explicit_clock_setter_partial_failure_preserved) ... ok
+test_failure_after_implicit_clock_preserved (test_hardening.HardeningTests.test_failure_after_implicit_clock_preserved) ... ok
+test_hwh_wrong_address_rejected (test_hardening.HardeningTests.test_hwh_wrong_address_rejected) ... ok
+test_hwh_wrong_span_rejected (test_hardening.HardeningTests.test_hwh_wrong_span_rejected) ... ok
+test_implicit_clock_never_reported_false (test_hardening.HardeningTests.test_implicit_clock_never_reported_false) ... ok
+test_wrong_ip_rejected (test_hardening.HardeningTests.test_wrong_ip_rejected) ... ok
+test_xml_entities_rejected (test_hardening.HardeningTests.test_xml_entities_rejected) ... ok
+test_zero_clock_config_rejected (test_hardening.HardeningTests.test_zero_clock_config_rejected) ... ok
+test_zero_mask_rejected (test_hardening.HardeningTests.test_zero_mask_rejected) ... ok
+test_all_flags_checked_before_fake_download (test_skill.BringupTests.test_all_flags_checked_before_fake_download) ... ok
+test_bool_word_rejected (test_skill.BringupTests.test_bool_word_rejected) ... ok
+test_empty_identity_list_rejected (test_skill.BringupTests.test_empty_identity_list_rejected) ... ok
+test_fake_target_records_effects_and_readback_scope (test_skill.BringupTests.test_fake_target_records_effects_and_readback_scope) ... ok
+test_mock_cannot_be_loaded (test_skill.BringupTests.test_mock_cannot_be_loaded) ... ok
+test_notebook_added_code_cell (test_skill.BringupTests.test_notebook_added_code_cell) ... ok
+test_notebook_format_only (test_skill.BringupTests.test_notebook_format_only) ... ok
+test_notebook_value_change (test_skill.BringupTests.test_notebook_value_change) ... ok
+test_offline_never_imports_pynq (test_skill.BringupTests.test_offline_never_imports_pynq) ... ok
+test_offset_alignment_rejected (test_skill.BringupTests.test_offset_alignment_rejected) ... ok
+test_read_clear_cannot_enter_preflight (test_skill.BringupTests.test_read_clear_cannot_enter_preflight) ... ok
+test_schema_bool_refused (test_skill.BringupTests.test_schema_bool_refused) ... ok
+test_tampered_asset_rejected (test_skill.BringupTests.test_tampered_asset_rejected) ... ok
+test_two_ip_profiles_offline (test_skill.BringupTests.test_two_ip_profiles_offline) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.219s
+
+OK

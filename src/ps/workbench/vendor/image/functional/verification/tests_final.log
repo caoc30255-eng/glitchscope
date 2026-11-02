@@ -1,0 +1,29 @@
+test_actual_gp_fit_predict_select_save_load (test_functions.Functions.test_actual_gp_fit_predict_select_save_load) ... ok
+test_aggregate_distinguishes_conditions_and_unknown (test_functions.Functions.test_aggregate_distinguishes_conditions_and_unknown) ... ok
+test_all_illegal_rejected (test_functions.Functions.test_all_illegal_rejected) ... ok
+test_assembler_order_duplicate_conflict_missing_stop (test_functions.Functions.test_assembler_order_duplicate_conflict_missing_stop) ... ok
+test_contract_mock_and_wrong_budget (test_functions.Functions.test_contract_mock_and_wrong_budget) ... ok
+test_crc_burst_without_source_input (test_functions.Functions.test_crc_burst_without_source_input) ... ok
+test_crc_valid_not_automatically_lossless (test_functions.Functions.test_crc_valid_not_automatically_lossless) ... ok
+test_duplicate_record_and_conflict (test_functions.Functions.test_duplicate_record_and_conflict) ... ok
+test_exclusive_stop_no_refund (test_functions.Functions.test_exclusive_stop_no_refund) ... ok
+test_grid_budget_legal_units (test_functions.Functions.test_grid_budget_legal_units) ... ok
+test_history_wrong_binding_rejected (test_functions.Functions.test_history_wrong_binding_rejected) ... ok
+test_idempotent_refresh_and_conflict (test_functions.Functions.test_idempotent_refresh_and_conflict) ... ok
+test_live_disabled (test_functions.Functions.test_live_disabled) ... ok
+test_lossless_view_conversions (test_functions.Functions.test_lossless_view_conversions) ... ok
+test_model_tamper_denied (test_functions.Functions.test_model_tamper_denied) ... ok
+test_mutable_plan_detected (test_functions.Functions.test_mutable_plan_detected) ... ok
+test_package_and_source_output_guards (test_functions.Functions.test_package_and_source_output_guards) ... ok
+test_python38_syntax (test_functions.Functions.test_python38_syntax) ... ok
+test_real_training_denied (test_functions.Functions.test_real_training_denied) ... ok
+test_restart_blocks_not_resumes (test_functions.Functions.test_restart_blocks_not_resumes) ... ok
+test_schedule_empty_and_unknown_STOP (test_functions.Functions.test_schedule_empty_and_unknown_STOP) ... ok
+test_synthetic_evaluation_no_real_claim (test_functions.Functions.test_synthetic_evaluation_no_real_claim) ... ok
+test_unknown_blocked_no_auto_retry (test_functions.Functions.test_unknown_blocked_no_auto_retry) ... ok
+test_unmeasured_and_predictions_separate (test_functions.Functions.test_unmeasured_and_predictions_separate) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.390s
+
+OK

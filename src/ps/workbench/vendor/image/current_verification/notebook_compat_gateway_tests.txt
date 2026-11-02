@@ -1,0 +1,78 @@
+上位机：http://127.0.0.1:21600/pilot；真实联调连接=False
+上传图片页面：http://127.0.0.1:21600/upload；整图会话连接=False
+test_bad_token_cannot_upload_or_start (test_image_http.ImageHTTP.test_bad_token_cannot_upload_or_start) ... ok
+上位机：http://127.0.0.1:21604/pilot；真实联调连接=False
+上传图片页面：http://127.0.0.1:21604/upload；整图会话连接=False
+test_sealed_plan_start_uses_only_uploaded_source (test_image_http.ImageHTTP.test_sealed_plan_start_uses_only_uploaded_source) ... ok
+上位机：http://127.0.0.1:21611/pilot；真实联调连接=False
+上传图片页面：http://127.0.0.1:21611/upload；整图会话连接=False
+test_unready_results_are_not_faked_and_traversal_rejected (test_image_http.ImageHTTP.test_unready_results_are_not_faked_and_traversal_rejected) ... ok
+上位机：http://127.0.0.1:21616/pilot；真实联调连接=False
+上传图片页面：http://127.0.0.1:21616/upload；整图会话连接=False
+test_upload_and_preview_exact_saved_bytes_offline (test_image_http.ImageHTTP.test_upload_and_preview_exact_saved_bytes_offline) ... ok
+上位机：http://127.0.0.1:21622/pilot；真实联调连接=False
+上传图片页面：http://127.0.0.1:21622/upload；整图会话连接=False
+test_wrong_plan_and_arbitrary_fields_rejected (test_image_http.ImageHTTP.test_wrong_plan_and_arbitrary_fields_rejected) ... ok
+test_complete_requires_65_actual_count_receipts (test_image_owner_stop.OwnerStop.test_complete_requires_65_actual_count_receipts) ... ok
+test_missing_point_receipt_blocks_final_completion (test_image_owner_stop.OwnerStop.test_missing_point_receipt_blocks_final_completion) ... ok
+test_stop_cancels_only_remainder_with_real_counter_check (test_image_owner_stop.OwnerStop.test_stop_cancels_only_remainder_with_real_counter_check) ... ok
+test_stop_counter_mismatch_not_accepted (test_image_owner_stop.OwnerStop.test_stop_counter_mismatch_not_accepted) ... ok
+test_concurrent_start_creates_one_worker (test_pilot_service.Tests.test_concurrent_start_creates_one_worker) ... ok
+test_constructor_and_status_do_not_execute (test_pilot_service.Tests.test_constructor_and_status_do_not_execute) ... ok
+test_feedback_is_snapshotted (test_pilot_service.Tests.test_feedback_is_snapshotted) ... ok
+test_full_four_and_repeat_start_idempotent (test_pilot_service.Tests.test_full_four_and_repeat_start_idempotent) ... ok
+test_owner_diagnostic_failure_still_blocks (test_pilot_service.Tests.test_owner_diagnostic_failure_still_blocks) ... ok
+test_persisted_receipts_and_result_counts (test_pilot_service.Tests.test_persisted_receipts_and_result_counts) ... ok
+test_restart_same_directory_denied (test_pilot_service.Tests.test_restart_same_directory_denied) ... ok
+test_same_key_different_command_rejected (test_pilot_service.Tests.test_same_key_different_command_rejected) ... ok
+test_status_copy_cannot_change_owner_or_budget (test_pilot_service.Tests.test_status_copy_cannot_change_owner_or_budget) ... ok
+test_stop_before_start_cancels_all_without_record (test_pilot_service.Tests.test_stop_before_start_cancels_all_without_record) ... ok
+test_stop_during_record_waits_boundary_and_no_next_record (test_pilot_service.Tests.test_stop_during_record_waits_boundary_and_no_next_record) ... ok
+test_storage_failure_between_records_does_not_repeat (test_pilot_service.Tests.test_storage_failure_between_records_does_not_repeat) ... ok
+test_storage_failure_prevents_first_record (test_pilot_service.Tests.test_storage_failure_prevents_first_record) ... ok
+test_unknown_action_or_short_key_rejected (test_pilot_service.Tests.test_unknown_action_or_short_key_rejected) ... ok
+test_unknown_has_null_label_and_never_retries (test_pilot_service.Tests.test_unknown_has_null_label_and_never_retries) ... ok
+test_wrong_plan_rejected_before_execution (test_pilot_service.Tests.test_wrong_plan_rejected_before_execution) ... ok
+test_relocated_runtime_and_lazy_codec_use_packaged_sources (test_runtime_layout.Layout.test_relocated_runtime_and_lazy_codec_use_packaged_sources) ... ok
+test_65_limit_and_duplicate_start_does_not_repeat (test_upload_images.Uploads.test_65_limit_and_duplicate_start_does_not_repeat) ... ok
+test_asset_path_escape_rejected (test_upload_images.Uploads.test_asset_path_escape_rejected) ... ok
+test_bad_raw_length_and_invalid_image_magic (test_upload_images.Uploads.test_bad_raw_length_and_invalid_image_magic) ... ok
+test_corrupted_upload_rejected_on_read (test_upload_images.Uploads.test_corrupted_upload_rejected_on_read) ... ok
+test_different_source_has_different_id_and_preserves_old (test_upload_images.Uploads.test_different_source_has_different_id_and_preserves_old) ... ok
+test_dimensions_and_conversion_policy_checked (test_upload_images.Uploads.test_dimensions_and_conversion_policy_checked) ... ok
+test_file_name_is_metadata_never_path (test_upload_images.Uploads.test_file_name_is_metadata_never_path) ... ok
+test_offline_upload_never_prepares_hardware (test_upload_images.Uploads.test_offline_upload_never_prepares_hardware) ... ok
+test_prepare_binds_source_and_no_physical_attempt (test_upload_images.Uploads.test_prepare_binds_source_and_no_physical_attempt) ... ok
+test_seed_bound_and_setup_error_no_retry (test_upload_images.Uploads.test_seed_bound_and_setup_error_no_retry) ... ok
+test_shared_upload_repository_carries_exact_image_to_fresh_session (test_upload_images.Uploads.test_shared_upload_repository_carries_exact_image_to_fresh_session) ... ok
+test_stop_during_item_waits_boundary (test_upload_images.Uploads.test_stop_during_item_waits_boundary) ... ok
+test_unknown_occupies_and_no_retry (test_upload_images.Uploads.test_unknown_occupies_and_no_retry) ... ok
+test_upload_exact_bytes_preview_and_idempotence (test_upload_images.Uploads.test_upload_exact_bytes_preview_and_idempotence) ... ok
+上位机：http://127.0.0.1:21628/pilot；真实联调连接=True
+上传图片页面：http://127.0.0.1:21628/upload；整图会话连接=False
+test_arbitrary_parameters_rejected (test_web_http.HTTP.test_arbitrary_parameters_rejected) ... ok
+上位机：http://127.0.0.1:21631/pilot；真实联调连接=True
+上传图片页面：http://127.0.0.1:21631/upload；整图会话连接=False
+test_duplicate_POST_does_not_repeat (test_web_http.HTTP.test_duplicate_POST_does_not_repeat) ... ok
+上位机：http://127.0.0.1:21636/pilot；真实联调连接=True
+上传图片页面：http://127.0.0.1:21636/upload；整图会话连接=False
+上位机：http://127.0.0.1:21638/pilot；真实联调连接=False
+上传图片页面：http://127.0.0.1:21638/upload；整图会话连接=False
+test_offline_service_has_no_live_entry (test_web_http.HTTP.test_offline_service_has_no_live_entry) ... ok
+上位机：http://127.0.0.1:21641/pilot；真实联调连接=True
+上传图片页面：http://127.0.0.1:21641/upload；整图会话连接=False
+test_read_and_refresh_do_not_execute (test_web_http.HTTP.test_read_and_refresh_do_not_execute) ... ok
+上位机：http://127.0.0.1:21649/pilot；真实联调连接=True
+上传图片页面：http://127.0.0.1:21649/upload；整图会话连接=False
+test_simulation_and_general_scan_denied_when_linked (test_web_http.HTTP.test_simulation_and_general_scan_denied_when_linked) ... ok
+上位机：http://127.0.0.1:21654/pilot；真实联调连接=True
+上传图片页面：http://127.0.0.1:21654/upload；整图会话连接=False
+test_terminal_evidence_download_has_session_only (test_web_http.HTTP.test_terminal_evidence_download_has_session_only) ... ok
+上位机：http://127.0.0.1:21658/pilot；真实联调连接=True
+上传图片页面：http://127.0.0.1:21658/upload；整图会话连接=False
+test_token_and_origin_required_before_start (test_web_http.HTTP.test_token_and_origin_required_before_start) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 12.972s
+
+OK

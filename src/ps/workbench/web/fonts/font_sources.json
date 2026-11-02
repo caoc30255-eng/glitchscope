@@ -1,0 +1,40 @@
+{
+  "intervariable.woff2": {
+    "url": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/intervariable.woff2",
+    "bytes": 352240,
+    "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+  },
+  "inter-ofl.txt": {
+    "url": "https://raw.githubusercontent.com/rsms/inter/master/license.txt",
+    "bytes": 4380,
+    "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+  },
+  "NotoSansSC.ttf": {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "bytes": 17772300,
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  "noto-ofl.txt": {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+    "bytes": 4388,
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  "jetbrainsmono-regular.woff2": {
+    "url": "https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/jetbrainsmono-regular.woff2",
+    "bytes": 92380,
+    "sha256": "f1a7a03672cdd494ce0d5543fac6e4360fe22403c6de297fdc2e55a815f7baff"
+  },
+  "jetbrains-ofl.txt": {
+    "url": "https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/OFL.txt",
+    "bytes": 4399,
+    "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
+  },
+  "Chinese_subset": {
+    "family": "Glitchscope CN",
+    "source": "NotoSansSC.ttf",
+    "requested_unicode_characters": 8460,
+    "glyphs": 8352,
+    "bytes": 4123240,
+    "modification": "Glyph subset including GB2312 and application text, renamed family. Original OFL and copyright retained."
+  }
+}

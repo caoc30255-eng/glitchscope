@@ -1,0 +1,94 @@
+{
+  "CH0_binding": {
+    "deadline": 26003739364,
+    "epoch": 268435508,
+    "identity": 157968447703126100329973831081990444126625875283025231123719651328,
+    "kind": 1,
+    "peer_epoch": 536870964,
+    "record_id": 6,
+    "request_length": 278,
+    "start": 25003739364
+  },
+  "START_executed": false,
+  "binding": {
+    "deadline": 28748583882,
+    "epoch": 268435508,
+    "identity": 157968447703126100329973831081990444126625875283025231123719651328,
+    "kind": 1,
+    "record_id": 6,
+    "start": 24748583882
+  },
+  "context": {
+    "epoch": 268435508,
+    "identity": 157968447703126100329973831081990444126625875283025231123719651328,
+    "kind": 1,
+    "record_id": 6
+  },
+  "flight_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000034/flight/epoch_10000034_record_00000006",
+  "mark_arm_receipt": {
+    "arm_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000034/MARK/epoch_10000034_record_00000006/arm",
+    "epoch": 268435508,
+    "expected_bit": 0,
+    "hardware_identity_embedded": false,
+    "identity": 157968447703126100329973831081990444126625875283025231123719651328,
+    "profile": {
+      "bit": 0,
+      "byte": 20,
+      "phase": 15,
+      "width": 10
+    },
+    "record_id": 6,
+    "replaces_retired_snapshot": {
+      "actual_READY_consumed": true,
+      "next_ARM_only": true,
+      "old_manifest_sha256": "afd881a04d6d6e5e5dbaaa70dd86c3379d535a6f5edef6aee9535be38edb7f47",
+      "proof": {
+        "epoch": 268435508,
+        "evidence_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000034/MARK/epoch_10000034_record_00000005/saved",
+        "identity": 157968447703126100284301904915399727932451239250820041686451945472,
+        "mark_record_id": 5,
+        "physical_mark_snapshot_saved": true
+      },
+      "scope": "software permission to replace completed raw snapshot; not hardware epoch",
+      "soft_reset_allowed": false,
+      "three_party_retired": true
+    },
+    "source_sha256": "235f1396429862206e9080cda4c70374b13e8826980282a43b19eae23626f9dc"
+  },
+  "peer_archive": {
+    "cached": false,
+    "capture_generation": 7,
+    "crc": 22348,
+    "directory": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000034/peer/epoch_20000034_session_30000034_seq_00000006",
+    "epoch": 536870964,
+    "kind": 3,
+    "len": 278,
+    "peer_store_verified": true,
+    "route": 0,
+    "seq": 6,
+    "session": 805306420,
+    "store_record_id": 6,
+    "ticket": 7
+  },
+  "peer_snapshot": {
+    "current": true,
+    "identity": 157968447703126100329973831081990444126625875283025231123719651328,
+    "kind": 3,
+    "length": 278,
+    "next_generation": 6,
+    "peer_epoch": 536870964,
+    "session": 805306420,
+    "snapshot_seq": 12,
+    "source": "HPQ1 actual W19 core snapshot"
+  },
+  "phase": "SEALED_WAIT_FOR_LOCAL_WINDOWS",
+  "profile": {
+    "RX_profile_verified": true,
+    "complete_START_admission": false,
+    "d": 3,
+    "profile_seq": 6,
+    "s": -1,
+    "source": "HRP1 applied d/s + actual RX idle"
+  },
+  "token": "4b56bf7b1b994a14b97d34d99a06b831"
+}

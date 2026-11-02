@@ -1,0 +1,52 @@
+{
+  "premature_real_grid_completion": {
+    "reproduced": true,
+    "planned_repetitions": 3,
+    "valid_audited_measurements": 1,
+    "reported_real_hardware_complete": true,
+    "data_source": "Supplied audited real_records.json; d4 p15 w20 has one real observation"
+  },
+  "unsupported_current_receiver_profile": {
+    "reproduced": true,
+    "d": 0,
+    "s": 127,
+    "plan_validation_passed": true,
+    "current_hardware_rule": "d in 1..4 and -2 <= s <= 3-d"
+  },
+  "duplicate_integer_identity_accepted": {
+    "reproduced": true,
+    "identical_identity": 1,
+    "history_records": 2,
+    "action": "CONTINUE_PREDECLARED",
+    "next_request": {
+      "kind": "ITEM",
+      "request_index": 2,
+      "point_id": "p15_w20",
+      "phase": 15,
+      "width": 20,
+      "repeat": 0
+    }
+  },
+  "unknown_without_result_file": {
+    "reproduced": true,
+    "error": "KeyError('result_sha256')"
+  },
+  "missing_block_cleared_without_data": {
+    "reproduced": true,
+    "item_index": 2,
+    "actual_A_payload_SHA256": "6ad0a3978d237cbeba3f7dd999b42d851b9dc43dab59d379d5f4f7e5b41bf72e",
+    "B_blocks_received": 0,
+    "A_payload_crc_ok": false,
+    "original_missing_pixels": 16384,
+    "reported_missing_pixels": 16128,
+    "falsely_known_zero_pixels": 256,
+    "repair_note": {
+      "item_index": 2,
+      "selection": "B_UNREPAIRED",
+      "candidate_count": 0,
+      "crc_matches": false,
+      "lossless_per_block_claimed": false
+    },
+    "explanation": "No B block and no CRC-valid A block; crc_select emits B placeholders but clears their missing mask"
+  }
+}

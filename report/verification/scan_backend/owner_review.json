@@ -1,0 +1,1010 @@
+{
+  "status": "PASS_COMBINED4_TESTED_SCOPE_PENDING_USER_FINAL_ACCEPTANCE",
+  "sessions": [
+    {
+      "session": "session_00000041",
+      "group": "A_disabled",
+      "status": "PASS_WITH_TESTED_SCOPE",
+      "plan_sha256": "6344a5c3b0d7c89740d5f5b76962f0fb2a09b41ffd6df4350a000503a28cd5fb",
+      "original_files": 201,
+      "committed_directories": 57,
+      "application_journals": 3,
+      "attempts": 3,
+      "valid": 3,
+      "unknown": 0,
+      "lifecycle_events": {
+        "START_ACCEPT": 3,
+        "W19_DONE": 3,
+        "RETIRED": 3
+      },
+      "raw_READ32_bindings": 39,
+      "terminal": "STOPPED_PLAN_COMPLETE",
+      "cancelled": 0,
+      "resources_closed": true,
+      "terminal_operations_refused": true,
+      "heatmaps": [
+        {
+          "target": "B_frame_correct",
+          "cells": 1,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_payload_correct",
+          "cells": 1,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_business_success",
+          "cells": 1,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        }
+      ],
+      "multipoint_counts": [
+        {
+          "record_id": 3,
+          "condition_id": "c_7758aae729bbb3b5",
+          "fault": {
+            "bit": 2,
+            "byte": 24,
+            "phase": 7,
+            "width": 3
+          },
+          "configured": 0,
+          "emitted": 0,
+          "waveform_scope": "UNARMED"
+        }
+      ],
+      "confirmation_groups": [],
+      "measured_conditions": [
+        {
+          "condition": {
+            "condition_id": "c_7758aae729bbb3b5",
+            "condition_sha256": "7758aae729bbb3b58118b8ba2a067faeecde7141cc0281fca6713989af289f1e",
+            "count": 0,
+            "fault": {
+              "bit": 2,
+              "byte": 24,
+              "phase": 7,
+              "width": 3
+            },
+            "mode": "DISABLED",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3A_DISABLED",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "session": "session_00000042",
+      "group": "B_multipoint5",
+      "status": "PASS_WITH_TESTED_SCOPE",
+      "plan_sha256": "d3d5c32bb0d9dbf3d1064fac236ed051b6ceb408637ab6b827fd958dab9b345e",
+      "original_files": 455,
+      "committed_directories": 137,
+      "application_journals": 7,
+      "attempts": 7,
+      "valid": 7,
+      "unknown": 0,
+      "lifecycle_events": {
+        "START_ACCEPT": 7,
+        "W19_DONE": 7,
+        "RETIRED": 7
+      },
+      "raw_READ32_bindings": 91,
+      "terminal": "STOPPED_PLAN_COMPLETE",
+      "cancelled": 0,
+      "resources_closed": true,
+      "terminal_operations_refused": true,
+      "heatmaps": [
+        {
+          "target": "B_frame_correct",
+          "cells": 5,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_payload_correct",
+          "cells": 5,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_business_success",
+          "cells": 5,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        }
+      ],
+      "multipoint_counts": [
+        {
+          "record_id": 3,
+          "condition_id": "c_7eaddd7d0ca8595c",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 7,
+            "width": 3
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 4,
+          "condition_id": "c_b84352e9be6dfe86",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 7,
+            "width": 3
+          },
+          "configured": 4,
+          "emitted": 4,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 5,
+          "condition_id": "c_2540d35680e11713",
+          "fault": {
+            "bit": 0,
+            "byte": 21,
+            "phase": 7,
+            "width": 3
+          },
+          "configured": 255,
+          "emitted": 255,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 6,
+          "condition_id": "c_f15fe58e21aac647",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 7,
+            "width": 3
+          },
+          "configured": 256,
+          "emitted": 256,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 7,
+          "condition_id": "c_22297a02662c22b1",
+          "fault": {
+            "bit": 0,
+            "byte": 275,
+            "phase": 7,
+            "width": 3
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        }
+      ],
+      "confirmation_groups": [],
+      "measured_conditions": [
+        {
+          "condition": {
+            "condition_id": "c_7eaddd7d0ca8595c",
+            "condition_sha256": "7eaddd7d0ca8595ca85aaa192cb7a7af0b94425e6229764afbb968108e8219a6",
+            "count": 1,
+            "fault": {
+              "bit": 0,
+              "byte": 20,
+              "phase": 7,
+              "width": 3
+            },
+            "mode": "TYPE3C_CONTIGUOUS",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3C",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            }
+          }
+        },
+        {
+          "condition": {
+            "condition_id": "c_b84352e9be6dfe86",
+            "condition_sha256": "b84352e9be6dfe86efbcb0d36bce5129a32567f0d0d803a94d65e50c66e56401",
+            "count": 4,
+            "fault": {
+              "bit": 0,
+              "byte": 20,
+              "phase": 7,
+              "width": 3
+            },
+            "mode": "TYPE3C_CONTIGUOUS",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3C",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            }
+          }
+        },
+        {
+          "condition": {
+            "condition_id": "c_2540d35680e11713",
+            "condition_sha256": "2540d35680e11713a26c736e519d252e7d876d8277220ddeb13371fac216961d",
+            "count": 255,
+            "fault": {
+              "bit": 0,
+              "byte": 21,
+              "phase": 7,
+              "width": 3
+            },
+            "mode": "TYPE3C_CONTIGUOUS",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3C",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            }
+          }
+        },
+        {
+          "condition": {
+            "condition_id": "c_f15fe58e21aac647",
+            "condition_sha256": "f15fe58e21aac64715ac58838c8e679a927659ffeb30d5ec8f00624f287c7032",
+            "count": 256,
+            "fault": {
+              "bit": 0,
+              "byte": 20,
+              "phase": 7,
+              "width": 3
+            },
+            "mode": "TYPE3C_CONTIGUOUS",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3C",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            }
+          }
+        },
+        {
+          "condition": {
+            "condition_id": "c_22297a02662c22b1",
+            "condition_sha256": "22297a02662c22b1f942e84f40ce4154102e7951b7b237d824d1e258d4e30c82",
+            "count": 1,
+            "fault": {
+              "bit": 0,
+              "byte": 275,
+              "phase": 7,
+              "width": 3
+            },
+            "mode": "TYPE3C_CONTIGUOUS",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3C",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "session": "session_00000043",
+      "group": "C_refine_then_stop",
+      "status": "PASS_WITH_TESTED_SCOPE",
+      "plan_sha256": "b66dbf8e82070017eacbecc7bf1028c36ed040509310c6222e74f66825fc35c1",
+      "original_files": 764,
+      "committed_directories": 234,
+      "application_journals": 12,
+      "attempts": 12,
+      "valid": 12,
+      "unknown": 0,
+      "lifecycle_events": {
+        "START_ACCEPT": 12,
+        "W19_DONE": 12,
+        "RETIRED": 12
+      },
+      "raw_READ32_bindings": 156,
+      "terminal": "STOPPED",
+      "cancelled": 2,
+      "resources_closed": true,
+      "terminal_operations_refused": true,
+      "heatmaps": [
+        {
+          "target": "B_frame_correct",
+          "cells": 14,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_payload_correct",
+          "cells": 14,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_business_success",
+          "cells": 14,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        }
+      ],
+      "multipoint_counts": [
+        {
+          "record_id": 3,
+          "condition_id": "c_8f8bc33be0a4f2ba",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 1
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 4,
+          "condition_id": "c_8f8bc33be0a4f2ba",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 1
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 5,
+          "condition_id": "c_8f8bc33be0a4f2ba",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 1
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 6,
+          "condition_id": "c_ba8cdda9cd838dd4",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 30
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 7,
+          "condition_id": "c_ba8cdda9cd838dd4",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 30
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 8,
+          "condition_id": "c_ba8cdda9cd838dd4",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 30
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 9,
+          "condition_id": "c_691b68e941abda59",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 20
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 10,
+          "condition_id": "c_691b68e941abda59",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 20
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 11,
+          "condition_id": "c_691b68e941abda59",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 15,
+            "width": 20
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        },
+        {
+          "record_id": 12,
+          "condition_id": "c_693ac7b8e23c61b0",
+          "fault": {
+            "bit": 0,
+            "byte": 20,
+            "phase": 5,
+            "width": 10
+          },
+          "configured": 1,
+          "emitted": 1,
+          "waveform_scope": "FIRST_POINT_ONLY"
+        }
+      ],
+      "confirmation_groups": [
+        {
+          "selection_sha256": "7cc45c88b72811bffe5170a5450180f7c984b1bc876ca8d96383dd0b509857d6",
+          "condition_id": "c_691b68e941abda59",
+          "required": 3,
+          "executed": 3,
+          "valid": 3,
+          "unknown": 0,
+          "cancelled": 0,
+          "complete": true
+        },
+        {
+          "selection_sha256": "e74b5d697b57ca2d61c565ebf21ca27287c739234aa6746798d688f06239daa1",
+          "condition_id": "c_693ac7b8e23c61b0",
+          "required": 3,
+          "executed": 1,
+          "valid": 1,
+          "unknown": 0,
+          "cancelled": 2,
+          "complete": false
+        }
+      ],
+      "measured_conditions": [
+        {
+          "condition": {
+            "condition_id": "c_8f8bc33be0a4f2ba",
+            "condition_sha256": "8f8bc33be0a4f2ba1d934ff7912228f8ff4006b24e73043cbbc3ecb0a4642c2f",
+            "count": 1,
+            "fault": {
+              "bit": 0,
+              "byte": 20,
+              "phase": 15,
+              "width": 1
+            },
+            "mode": "TYPE3A_SINGLE",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3A",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 3,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 3,
+              "unknown": 0,
+              "valid": 3
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 3,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 3,
+              "unknown": 0,
+              "valid": 3
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 3,
+              "state": "OBSERVED_ALL_PASS",
+              "success": 3,
+              "unknown": 0,
+              "valid": 3
+            }
+          }
+        },
+        {
+          "condition": {
+            "condition_id": "c_ba8cdda9cd838dd4",
+            "condition_sha256": "ba8cdda9cd838dd4f3e2ce643367b736f870c4cbd426ac11b6fdfedfc2e26394",
+            "count": 1,
+            "fault": {
+              "bit": 0,
+              "byte": 20,
+              "phase": 15,
+              "width": 30
+            },
+            "mode": "TYPE3A_SINGLE",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3A",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 3,
+              "required": 3,
+              "state": "OBSERVED_ALL_FAIL",
+              "success": 0,
+              "unknown": 0,
+              "valid": 3
+            },
+            "STM_business_success": {
+              "failure": 3,
+              "required": 3,
+              "state": "OBSERVED_ALL_FAIL",
+              "success": 0,
+              "unknown": 0,
+              "valid": 3
+            },
+            "STM_payload_correct": {
+              "failure": 3,
+              "required": 3,
+              "state": "OBSERVED_ALL_FAIL",
+              "success": 0,
+              "unknown": 0,
+              "valid": 3
+            }
+          }
+        },
+        {
+          "condition": {
+            "condition_id": "c_693ac7b8e23c61b0",
+            "condition_sha256": "693ac7b8e23c61b066bb404fdc3216864e5d8e3770740df7fb546451dd4d9627",
+            "count": 1,
+            "fault": {
+              "bit": 0,
+              "byte": 20,
+              "phase": 5,
+              "width": 10
+            },
+            "mode": "TYPE3A_SINGLE",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3A",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 3,
+              "state": "PARTIAL",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 3,
+              "state": "PARTIAL",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 3,
+              "state": "PARTIAL",
+              "success": 1,
+              "unknown": 0,
+              "valid": 1
+            }
+          }
+        },
+        {
+          "condition": {
+            "condition_id": "c_691b68e941abda59",
+            "condition_sha256": "691b68e941abda590dc47f815a2286582e52f376530f239d2d726f6d102e31d8",
+            "count": 1,
+            "fault": {
+              "bit": 0,
+              "byte": 20,
+              "phase": 15,
+              "width": 20
+            },
+            "mode": "TYPE3A_SINGLE",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3A",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 3,
+              "required": 3,
+              "state": "OBSERVED_ALL_FAIL",
+              "success": 0,
+              "unknown": 0,
+              "valid": 3
+            },
+            "STM_business_success": {
+              "failure": 3,
+              "required": 3,
+              "state": "OBSERVED_ALL_FAIL",
+              "success": 0,
+              "unknown": 0,
+              "valid": 3
+            },
+            "STM_payload_correct": {
+              "failure": 3,
+              "required": 3,
+              "state": "OBSERVED_ALL_FAIL",
+              "success": 0,
+              "unknown": 0,
+              "valid": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "session": "session_00000044",
+      "group": "D_controlled_UNKNOWN",
+      "status": "PASS_WITH_TESTED_SCOPE",
+      "plan_sha256": "53237415fadb64950500134ee7427dc295f209a2f0a9fe5267cfd62ad1fd0bf6",
+      "original_files": 176,
+      "committed_directories": 51,
+      "application_journals": 3,
+      "attempts": 3,
+      "valid": 2,
+      "unknown": 1,
+      "lifecycle_events": {
+        "START_ACCEPT": 3,
+        "W19_DONE": 3,
+        "RETIRED": 2
+      },
+      "raw_READ32_bindings": 26,
+      "terminal": "BLOCKED_UNKNOWN",
+      "cancelled": 0,
+      "resources_closed": true,
+      "terminal_operations_refused": true,
+      "heatmaps": [
+        {
+          "target": "B_frame_correct",
+          "cells": 1,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_payload_correct",
+          "cells": 1,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        },
+        {
+          "target": "STM_business_success",
+          "cells": 1,
+          "counts_and_record_references_match": true,
+          "SVG_visible_counts_and_titles_match": true,
+          "CSV_counts_and_state_match": true
+        }
+      ],
+      "multipoint_counts": [],
+      "confirmation_groups": [],
+      "measured_conditions": [
+        {
+          "condition": {
+            "condition_id": "c_3aaa7011d5262add",
+            "condition_sha256": "3aaa7011d5262addc490ba3c1e38130b6a62df2b9b31daf6aa428f2cc60d283d",
+            "count": 1,
+            "fault": {
+              "bit": 2,
+              "byte": 24,
+              "phase": 7,
+              "width": 3
+            },
+            "mode": "TYPE3A_SINGLE",
+            "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+            "protocol": "TYPE3A",
+            "receiver_B": {
+              "d": 3,
+              "s": -1
+            },
+            "route_mode": 0
+          },
+          "per_target": {
+            "B_frame_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "UNKNOWN",
+              "success": 0,
+              "unknown": 1,
+              "valid": 0
+            },
+            "STM_business_success": {
+              "failure": 0,
+              "required": 1,
+              "state": "UNKNOWN",
+              "success": 0,
+              "unknown": 1,
+              "valid": 0
+            },
+            "STM_payload_correct": {
+              "failure": 0,
+              "required": 1,
+              "state": "UNKNOWN",
+              "success": 0,
+              "unknown": 1,
+              "valid": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "original_files": 1596,
+  "committed_directories": 479,
+  "raw_READ32_bindings": 312,
+  "attempts_occupied": 25,
+  "valid": 24,
+  "unknown": 1,
+  "raw_confirmed_STARTs": 25,
+  "prior_occupied": 161,
+  "cumulative_occupied": 186,
+  "approved_cumulative_limit": 188,
+  "cancelled_unused_allowance": 2,
+  "cancelled_allowance_reusable": false,
+  "controlled_unknown": {
+    "record_id": 3,
+    "identity_hex": "000000000180000220000000190000022000000003100000440102d200010000",
+    "trial_id": 722,
+    "raw_lifecycle": [
+      {
+        "effect": "START_ACCEPT",
+        "journal": "application_segments/before_record_00000003_8009d91f9d2140c99c14b219458f4864/application_10000044.jsonl",
+        "journal_index": 274,
+        "raw_hex": "a55a0131203000004400000003200000440000000003100000440102d20001000000000000c4b6"
+      },
+      {
+        "effect": "FAULT_MARK",
+        "journal": "application_segments/before_record_00000003_8009d91f9d2140c99c14b219458f4864/application_10000044.jsonl",
+        "journal_index": 277,
+        "raw_hex": "a55a0133203000004400000003200000440000000003100000440102d20001000000000000ecdd"
+      },
+      {
+        "effect": "W19_DONE",
+        "journal": "application_segments/before_record_00000003_8009d91f9d2140c99c14b219458f4864/application_10000044.jsonl",
+        "journal_index": 280,
+        "raw_hex": "a55a0132203000004400000003200000440000000003100000440102d2000100000000000070f8"
+      }
+    ],
+    "exact_START_ack_verified": true,
+    "retired": false,
+    "valid_result_exists": false,
+    "labels": null,
+    "original_new_physical_STARTs_preserved": null,
+    "raw_confirmed_physical_STARTs_in_session": 3,
+    "summary_lower_bound_is_valid_retired_scope": true
+  },
+  "long_zero_issue_resolved": false,
+  "all_payloads_accepted": false,
+  "all_ds_generalization_proven": false,
+  "AI_acceleration_accepted": false,
+  "web_integration_accepted": false,
+  "overall_unrestricted_product_acceptance": false,
+  "review_hardware_access": false,
+  "new_physical_STARTs_by_review": 0,
+  "limits": [
+    "Incrementing 00..FF payload domain; previous long-zero failures remain unresolved",
+    "Multi-point waveform verifies first point only; all-point count uses raw CSR transaction binding",
+    "STOP is at a safe record boundary, not arbitrary mid-record interruption latency",
+    "UNKNOWN test is a controlled Python exception, not power-loss or SIGKILL survival",
+    "Resource close is host close-return evidence, not independent OS liveness measurement",
+    "Historical H1/H2 and incrementing H3 reports retained separately; no broad H3 pass claim"
+  ]
+}

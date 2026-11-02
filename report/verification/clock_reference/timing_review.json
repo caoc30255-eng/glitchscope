@@ -1,0 +1,62 @@
+{
+  "status": "FAIL_RUNTIME150_TIMING",
+  "source_checkpoint": {
+    "source": "C:/workspace\\Desktop\\claude_code\\AX7020_PL_2026-10-13\\qualified_controlled_route_1791889593354\\03_clock_clean_route.dcp",
+    "sha256": "e5a6648ad7429e5954db4de67da64db1c472fa9f2fce3b5accd7c93f2d8e2933",
+    "export_review": "AX7020_PL_2026-10-13/bit_hwh/export_review.json",
+    "accepted_bit_sha256": "0c0b686e80e37e49e64ab07b719a0c1ea3387451f3ceebdba5dcf38b8c68b61c",
+    "matched_historical_route_receipt": true,
+    "hardware_access": false
+  },
+  "runtime_constraint_period_ns": 6.666,
+  "requested_runtime_mhz": 150,
+  "period_conservatively_rounded_to_tool_1ps": true,
+  "original_100mhz": {
+    "wns_ns": 0.048,
+    "tns_ns": 0.0,
+    "setup_failing": 0.0,
+    "setup_total": 63875.0,
+    "whs_ns": 0.057,
+    "ths_ns": 0.0,
+    "hold_failing": 0.0,
+    "hold_total": 63875.0,
+    "wpws_ns": 3.87,
+    "tpws_ns": 0.0,
+    "pulse_failing": 0.0,
+    "pulse_total": 20805.0
+  },
+  "runtime150": {
+    "wns_ns": -3.286,
+    "tns_ns": -47112.5,
+    "setup_failing": 28303.0,
+    "setup_total": 63875.0,
+    "whs_ns": 0.057,
+    "ths_ns": 0.0,
+    "hold_failing": 0.0,
+    "hold_total": 63875.0,
+    "wpws_ns": 2.203,
+    "tpws_ns": 0.0,
+    "pulse_failing": 0.0,
+    "pulse_total": 20805.0
+  },
+  "clock_configuration_changed": false,
+  "hardware_access": false,
+  "bitstream_changed": false,
+  "scope": "Static requalification of the checkpoint bound by the historical export receipt; not a physical clock measurement",
+  "reports": {
+    "metrics.txt": "74a6150d9ecda8f36a039095e07325bfc638a92cf5381f653a13225e6d5c1df3",
+    "original_clocks.txt": "0bd45c9d70f8df09baa6743b8dd0437c78559680452ecd32eb291321a6f899a3",
+    "original_timing.txt": "16532fdf3ece8592705d8e5527b47a6999134bb2f6d84da56e5f58e7543ffd38",
+    "runtime150_check_timing.txt": "bfee84077d08d0632fc491672bb19d89791a53829b2c8c8f38f4e2c4d843e869",
+    "runtime150_clocks.txt": "f9f63f75dfc316bb77f3c5ec4c5db5cb36595992a58029ffb7f8af6899fea83b",
+    "runtime150_drc.txt": "a07008265abf027e826491561b51d1c55f90cc0573b8d17a7c684943638d6ccc",
+    "runtime150_exceptions.txt": "88142e0fb43449b74730f1adc7ff4cfb60a7288ecfd2f62f063282f47cd19671",
+    "runtime150_hold.txt": "24f086a4c59361a3e6bce3e213bf0e3a0d3042d5e7c40194d85fac086b249d78",
+    "runtime150_methodology.txt": "cedad041b41465c7f78126a1a13ccc525ad4ad3e65b386e324289f83e9cafbf8",
+    "runtime150_route_status.txt": "7d9d8fa9f16c66062aed91108397442ee7eb1c759c15eb315f8c3d5f6e3024b6",
+    "runtime150_setup.txt": "eb51889bc7629f3f2431349c199b72ea6b475be68217fb5e47a450fbb7487351",
+    "runtime150_timing.txt": "e014622cb34eaa49fc6b354956d86e7cecd6a059db93c1e695d8c37ec315f389",
+    "runtime150_utilization.txt": "2c078527b049cab2996b6aab47282e28e5541843021566eb8d0afa038d848489"
+  },
+  "interpretation_update": "2026-10-29: 150 MHz is a hypothetical higher-frequency STA condition. Current board configuration derives ~100 MHz from the 33.333333 MHz reference; not physically measured."
+}

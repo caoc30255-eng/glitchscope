@@ -1,0 +1,25 @@
+{
+  "schema": "CROSS_BOARD_EXPERIMENT_RESULT_V1",
+  "recorded_on": "2026-10-28",
+  "status": "PASS_CROSS_BOARD_EXPERIMENT",
+  "source_board": "Zynq-7020",
+  "target_board": "AX7010",
+  "skills": {
+    "pynq-bringup": "PASS",
+    "axi-lite-contract-check": "PASS",
+    "rtl-reference-cosim": "PASS",
+    "hardware-session-evidence": "PASS",
+    "edge-model-portability": "PASS",
+    "bounded-active-benchmark": "PASS"
+  },
+  "evidence_source": "user_reported_experiment_in_conversation",
+  "statements": [
+    "我在ax7010上试过了 跨板可以使用 审批为跨板验证通过",
+    "全部通过"
+  ],
+  "raw_experiment_logs_supplied": false,
+  "independently_reexecuted_by_assistant": false,
+  "additional_experiment_details_supplied": false,
+  "scope": "Six-skill migration usability; does not establish physical clock accuracy, timing closure, model accuracy or general superiority",
+  "new_hardware_operations_by_this_update": 0
+}

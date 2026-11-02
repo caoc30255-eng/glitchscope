@@ -1,0 +1,8 @@
+{
+  "a_reception_success": true,
+  "a_source_match": true,
+  "b_reception_success": true,
+  "b_source_match": true,
+  "faulted": false,
+  "source_provided": true
+}

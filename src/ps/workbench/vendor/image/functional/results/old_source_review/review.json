@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED",
+  "source_manifest_sha256": "1d7e2c83d9c765cda31233e77fcfe6e8bc66281cb666d4b6c2f17cfea2f160d9",
+  "records": 73,
+  "audits": {
+    "result": "PASS",
+    "old_full_audits": [
+      "session_0000001d",
+      "session_0000001f",
+      "session_00000020"
+    ],
+    "new_full_audits": [
+      "session_00000022",
+      "session_00000023",
+      "session_00000024"
+    ],
+    "old_policy_decisions": {
+      "read_only": true,
+      "hardware_access": false,
+      "sessions": [
+        {
+          "session": "session_0000001d",
+          "saved_decisions_reproduced": 5,
+          "result": "PASS"
+        },
+        {
+          "session": "session_0000001f",
+          "saved_decisions_reproduced": 3,
+          "result": "PASS"
+        },
+        {
+          "session": "session_00000020",
+          "saved_decisions_reproduced": 2,
+          "result": "PASS"
+        }
+      ]
+    },
+    "original_audit_scripts_unchanged": true,
+    "hardware_access": false
+  },
+  "live_execution_authorized": false,
+  "training_authorized": false,
+  "production_billing_finalized": false
+}

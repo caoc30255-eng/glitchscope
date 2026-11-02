@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/workspace/Desktop/claude_code/GLITCHSCOPE_Skills_v1_1_20261028/work/release_integrations/relocated/rtl-reference-cosim/examples/accumulator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/workspace/Desktop/claude_code/GLITCHSCOPE_Skills_v1_1_20261028/work/release_integrations/relocated/rtl-reference-cosim/examples/tb_accumulator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_accumulator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/workspace/Desktop/claude_code/GLITCHSCOPE_Skills_v1_1_20261028/work/release_integrations/results/rtl_positive/project/skill_demo.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

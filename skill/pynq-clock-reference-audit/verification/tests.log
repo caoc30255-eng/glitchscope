@@ -1,0 +1,24 @@
+test_actual_case_recomputed_not_measured (test_clock_audit.ClockTests.test_actual_case_recomputed_not_measured) ... ok
+test_all_source_selectors (test_clock_audit.ClockTests.test_all_source_selectors) ... ok
+test_change_during_metadata_collection_detected (test_clock_audit.ClockTests.test_change_during_metadata_collection_detected) ... ok
+test_cli_does_not_overwrite_evidence (test_clock_audit.ClockTests.test_cli_does_not_overwrite_evidence) ... ok
+test_collector_reads_only_declared_registers_twice (test_clock_audit.ClockTests.test_collector_reads_only_declared_registers_twice) ... ok
+test_forced_bypass_uses_reference_not_multiplied_rate (test_clock_audit.ClockTests.test_forced_bypass_uses_reference_not_multiplied_rate) ... ok
+test_invalid_register_and_wrong_architecture_rejected (test_clock_audit.ClockTests.test_invalid_register_and_wrong_architecture_rejected) ... ok
+test_json_duplicate_and_nan_rejected (test_clock_audit.ClockTests.test_json_duplicate_and_nan_rejected) ... ok
+test_native50_reference_is_not_universally_wrong (test_clock_audit.ClockTests.test_native50_reference_is_not_universally_wrong) ... ok
+test_nonfinite_bool_and_nonpositive_reference_rejected (test_clock_audit.ClockTests.test_nonfinite_bool_and_nonpositive_reference_rejected) ... ok
+test_qualified_bypass_requires_boot_strap_not_lock_guess (test_clock_audit.ClockTests.test_qualified_bypass_requires_boot_strap_not_lock_guess) ... ok
+test_raw_second_snapshot_overrides_false_stability_claim (test_clock_audit.ClockTests.test_raw_second_snapshot_overrides_false_stability_claim) ... ok
+test_reference_evidence_conflict (test_clock_audit.ClockTests.test_reference_evidence_conflict) ... ok
+test_reported_rate_not_rewritten_to_fit (test_clock_audit.ClockTests.test_reported_rate_not_rewritten_to_fit) ... ok
+test_reset_and_powerdown_rejected (test_clock_audit.ClockTests.test_reset_and_powerdown_rejected) ... ok
+test_stable_bit_is_not_lock_bit (test_clock_audit.ClockTests.test_stable_bit_is_not_lock_bit) ... ok
+test_unknown_pynq_reference_remains_unknown (test_clock_audit.ClockTests.test_unknown_pynq_reference_remains_unknown) ... ok
+test_unstable_flag (test_clock_audit.ClockTests.test_unstable_flag) ... ok
+test_zero_divisors_rejected (test_clock_audit.ClockTests.test_zero_divisors_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.117s
+
+OK

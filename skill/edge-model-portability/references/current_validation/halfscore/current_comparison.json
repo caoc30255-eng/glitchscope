@@ -1,0 +1,27 @@
+{
+  "result": {
+    "passed": true,
+    "errors": [],
+    "changed_queries": [],
+    "queries": 470,
+    "absolute_tolerance": null,
+    "relative_tolerance": "per_field",
+    "field_policy": {
+      "/score": {
+        "abs": 2e-06,
+        "rel": 0,
+        "unit": "normalized_score",
+        "rationale": "Frozen double-model comparison tolerance"
+      },
+      "/uncertainty_entropy": {
+        "abs": 2e-06,
+        "rel": 0,
+        "unit": "bits",
+        "rationale": "Base-2 entropy output tolerance"
+      }
+    },
+    "scope": "Declared finite outputs only; not model accuracy, calibration, target identity or hardware speedup acceptance"
+  },
+  "original_report_sha256": "146392dbfe2f2cbaa4bfdd2d7aae5f232d0d92a2a952d45978cdc16badd9957f",
+  "comparator_sha256": "e4e3efa707b0739d5485dda0c1e25638fe1f2387e99120bc7d52aa9c4f818a61"
+}

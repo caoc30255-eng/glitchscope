@@ -1,0 +1,29 @@
+{
+  "source_archive": "glitchscope_source_20261029_clock_notes.zip",
+  "source_archive_sha256": "6806e3e8e01615a0bdd466a61329ac98897677b563adea2a113a6dfa673c1cd9",
+  "patches": [
+    {
+      "file": "build/rebuild_ax7010.tcl",
+      "before_sha256": "185dab4fc5d9014a054fc085d119275dff19616ca291dadb6c4e8a842c05a5bc",
+      "after_sha256": "dedd96213ebcdb058d3c8b1a971ce230c73aa33e9dc5665b74155b2ac7822264"
+    },
+    {
+      "file": "src/pl/ax7010/scripts/create_project.tcl",
+      "before_sha256": "1b12673d18457955e6bf724b7cd6705e6211403c02061f0105376d83bded41c3",
+      "after_sha256": "68c6faac8162c976fad2ad5e255d7e865ef360070406bc5c83a01908b9ea602a"
+    },
+    {
+      "file": "src/pl/ax7020/scripts/rebuild_project.tcl",
+      "before_sha256": "beb90f49b49ecb81d45ae26b4767be2b4acf955b7667b511634d48cd99048989",
+      "after_sha256": "8c002be3458fa24a081a41a6e4ade3410c3df0cc4589abf9f03b51a13075d4bf"
+    },
+    {
+      "file": "src/pl/ax7020/open_project.tcl",
+      "before_sha256": "ff631992a80043fdbdcdbeb61fd9cc041c6f5c1c479ad7b021fb11285fa48eb4",
+      "after_sha256": "a1b097b4d107d32cba71d662e1fff197ca347a36509123e296f597f69b719fb9"
+    }
+  ],
+  "rtl_changed": false,
+  "firmware_changed": false,
+  "workbench_execution_changed": false
+}

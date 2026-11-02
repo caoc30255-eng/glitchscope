@@ -1,0 +1,73 @@
+{
+  "decision": "PARTIAL_FUNCTIONAL_PASS_REVISION_REQUIRED",
+  "archive": {
+    "archive_sha256": "07996a8e0d3d141934d9a6587a1308219c79acd3e43805b2d3b90a5fb596002a",
+    "archive_bytes": 1198364,
+    "zip_crc": "PASS",
+    "manifest_files": 300,
+    "python38_syntax": "PASS",
+    "task_document_unchanged": true,
+    "hardware_access": false
+  },
+  "original_unit_tests_passed": 24,
+  "new_expected_regression_tests": {
+    "tests": 5,
+    "failures": 4,
+    "errors": 1
+  },
+  "real_raw_packets_replayed": 192,
+  "real_repair_error_pixels": {
+    "crc_select": 3174,
+    "crc_burst_B": 497,
+    "crc_burst_multi": 0,
+    "visual_median_B": 3102
+  },
+  "synthetic_algorithm_runs_reproduced": 10,
+  "model_numeric_reference_verified": true,
+  "browser_and_HTTP_tested": true,
+  "findings": [
+    {
+      "id": "F1",
+      "priority": 1,
+      "file": "images.py",
+      "line": 146,
+      "issue": "Missing block becomes falsely known zero placeholders"
+    },
+    {
+      "id": "F2",
+      "priority": 2,
+      "file": "scans.py",
+      "line": 85,
+      "issue": "Incomplete repeats classified as real hardware complete"
+    },
+    {
+      "id": "F3",
+      "priority": 2,
+      "file": "web/app.js",
+      "line": 10,
+      "issue": "Restored plan d4 while visible form reverts to d3"
+    },
+    {
+      "id": "F4",
+      "priority": 2,
+      "file": "scans.py",
+      "line": 40,
+      "issue": "Identity canonicalization/replay and diagnostic-only UNKNOWN handling"
+    },
+    {
+      "id": "F5",
+      "priority": 2,
+      "file": "scans.py",
+      "line": 9,
+      "issue": "Unsupported receiver profile accepted by plan validation"
+    }
+  ],
+  "incoming_fixed_files_unchanged": 300,
+  "live_hardware_executed": false,
+  "real_data_training_performed": false,
+  "ARM_execution_performed": false,
+  "actual_hardware_AI_speedup_accepted": false,
+  "final_live_demo_accepted": false,
+  "own_review_browser_closed": true,
+  "own_local_review_server_stopped": true
+}

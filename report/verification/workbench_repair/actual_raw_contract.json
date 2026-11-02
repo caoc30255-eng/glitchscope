@@ -1,0 +1,8 @@
+{
+  "status": "PASS_PRODUCTION_RAW_FEEDBACK_CONTRACT",
+  "session": "session_0000004e",
+  "records": 14,
+  "raw_MMIO_verified": true,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

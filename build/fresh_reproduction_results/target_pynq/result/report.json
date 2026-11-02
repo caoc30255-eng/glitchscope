@@ -1,0 +1,63 @@
+{
+  "schema": "FRESH_TARGET_SOFTWARE_REPRODUCTION_V1",
+  "status": "PASS_TARGET_SOFTWARE_AND_NATIVE_BUILD",
+  "source": "/home/xilinx/jupyter_notebooks/test_10_14/glitchscope_reproduce_zgYNAbam/glitchscope",
+  "python": "3.8.2 (default, Mar 13 2020, 10:14:16) \n[GCC 9.3.0]",
+  "machine": "armv7l",
+  "bits": 32,
+  "stages": [
+    {
+      "name": "release_check",
+      "returncode": 0,
+      "seconds": 16.12501541200004,
+      "log": "release_check.log"
+    },
+    {
+      "name": "dependencies",
+      "returncode": 0,
+      "seconds": 1.1759258969998427,
+      "log": "dependencies.log"
+    },
+    {
+      "name": "workbench_software",
+      "returncode": 0,
+      "seconds": 428.818679598,
+      "log": "workbench_software.log"
+    },
+    {
+      "name": "compiler_version",
+      "returncode": 0,
+      "seconds": 0.1850182330001644,
+      "log": "compiler_version.log"
+    },
+    {
+      "name": "native_build",
+      "returncode": 0,
+      "seconds": 14.57966663000002,
+      "log": "native_build.log"
+    },
+    {
+      "name": "native_load",
+      "returncode": 0,
+      "seconds": 0.3225857699999324,
+      "log": "native_load.log"
+    }
+  ],
+  "hardware_access": false,
+  "receiver_started": false,
+  "new_STARTs": 0,
+  "rebuilt_library_installed": false,
+  "native_sha256": "e3514adfe6aef5269d0ff833b18404ba27be8435c2c3f3631d3e475ef108bdd8",
+  "exports_checked": [
+    "uartlite_service_start",
+    "uartlite_service_start_rt",
+    "uartlite_service_scheduling",
+    "uartlite_service_pause",
+    "uartlite_service_close",
+    "uartlite_service_snapshot",
+    "uartlite_service_metrics",
+    "uartlite_service_exchange_metrics",
+    "uartlite_service_collect"
+  ],
+  "hardware_acceptance": false
+}

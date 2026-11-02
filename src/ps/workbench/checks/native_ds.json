@@ -1,0 +1,15 @@
+{
+  "status": "PASS_NATIVE_DS_CONTROLLER",
+  "real_item_profile_cases": 896,
+  "items": 64,
+  "profiles": 14,
+  "summary_candidate": [
+    {
+      "d": 4,
+      "s": -2
+    }
+  ],
+  "all_three_traces_populated": true,
+  "browser_started": false,
+  "hardware_access": false
+}

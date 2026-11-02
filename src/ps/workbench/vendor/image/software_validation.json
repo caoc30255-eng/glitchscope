@@ -1,0 +1,22 @@
+{
+  "status": "PC_TESTS_PASS_TARGET_IMAGE_RUN_PENDING",
+  "gateway_and_image_tests": 47,
+  "functional_tests": 34,
+  "source_binding_and_raw_archive_tests": 6,
+  "total_python_tests": 87,
+  "conversion_JS_tests": "PASS",
+  "actual_session24_repair_reproduced": {
+    "B_error_pixels": 497,
+    "multi_lane_error_pixels": 0,
+    "source_IO_disabled_during_repair": true
+  },
+  "new_arbitrary_source_protocol_modeled": true,
+  "browser_saved_upload_preview": true,
+  "browser_unlinked_send_disabled": true,
+  "shared_asset_repository_preserves_upload": true,
+  "no_new_physical_STARTs": 0,
+  "FPGA_access": false,
+  "real_hardware_upload_65_run_performed": false,
+  "browser_adjustment": "Do not rebuild upload selector or reload source PNG on every status poll",
+  "repair_scope": "Receiver data + received CONFIG checksums only; source pixels enter independent evaluation afterward"
+}

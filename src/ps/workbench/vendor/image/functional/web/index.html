@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>三板实验工作台</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><div><small>7010 发送/毛刺 · STM32 被测 · 7020 接收/分析</small><h1>三板实验工作台 <span>软件功能候选 v0.1.1</span></h1></div><div class="badge">硬件执行入口未连接</div></header>
+<div class="notice">当前支持：开发模拟、已审核真实证据回放、真实接收图片修复。模拟和预测均不代表新实测；真实数据训练关闭。</div>
+<nav><button data-tab="scan" class="on">扫描与热力图</button><button data-tab="algorithm">选点与算法对照</button><button data-tab="images">接收与图片修复</button><button data-tab="trace">证据与运行记录</button></nav>
+<main><section id="scan" class="tab">
+<div class="columns"><article><h2>1 · 不可变计划预览</h2><label>被测判据<select id="target"><option value="B_frame_correct,STM_business_success">B / STM 分别评估</option><option value="B_frame_correct">B 完整帧正确</option><option value="STM_business_success">STM 业务成功</option></select></label>
+<div class="twocol"><label>B 参数 d<input id="d" type="number" value="3"></label><label>s<input id="s" type="number" value="-1"></label><label>载荷帧字节<input id="byte" type="number" value="20"></label><label>位号<input id="bit" type="number" value="0"></label></div>
+<label>相位网格（tick）<input id="phases" value="5,15,25,35"></label><label>宽度网格（tick）<input id="widths" value="1,10,20,30,40"></label>
+<div class="twocol"><label>每点重复<input id="repeats" type="number" value="3"></label><label>显式总次数上限<input id="budget" type="number" value="44"></label></div>
+<p class="dim">固定 256 字节载荷 00…ff。phase ≥ 5、width ≥ 1、和 ≤ 45。发生器 tick 名义 20ns；CAP 样本名义 10ns。</p>
+<button id="preview" class="primary" disabled>生成预览，不执行</button><p id="draftState" role="status">正在恢复计划，启动已禁用</p><pre id="planSummary">正在加载…</pre></article>
+<article><h2>2 · 运行与停止</h2><label>开发模拟策略<select id="strategy"><option value="grid">全网格顺序</option><option value="active">更新后验的不确定度选点</option></select></label><div class="twocol"><label>模拟种子<input id="seed" type="number" value="11"></label><label>模拟 UNKNOWN 率<input id="unknownRate" type="number" value="0" min="0" max="0.5" step="0.1"></label></div>
+<button id="start" class="primary">启动明确标识的模拟</button> <button id="stop" class="danger">停止未执行项</button>
+<button id="replay">显示同条件真实回放（含 session25）</button><button id="submitMainline">检查主线执行器依赖</button>
+<div id="runState" class="state">未启动 · 不自动执行</div><p class="dim">同一操作键幂等；独占模拟运行。UNKNOWN 占用次数并阻断该运行，不退款、不重试。真实扫描需主线新执行器及另批预算。</p>
+<h3>主线补采建议</h3><p>默认 20 格中 14 个合法点，每点 3 次，另含 CONFIG 1 次、参照 1 次，共 <b>44 次</b>。d3、d4 分开计划，不能沿用旧四条或 65 条额度。</p></article></div>
+<article><div class="toolbar"><h2>3 · B / STM 独立热力图</h2><span id="origin" class="badge">真实回放</span><label><input id="prediction" type="checkbox">显示模拟模型预测层</label><button id="exportCSV">导出逐点 CSV</button></div>
+<div class="legend"><span>🟩 成功比例 ≥ 0.5</span><span>🟥 成功比例 &lt; 0.5</span><span>🟨 UNKNOWN</span><span>⬛ 未测</span><span>▧ 非法</span><span>🟣 预测（非测量）</span></div>
+<div class="twocol"><div><h3>B 完整帧正确 <button class="downloadSVG" data-target="B_frame_correct">SVG</button></h3><div id="Bheat"></div></div><div><h3>STM 业务成功 <button class="downloadSVG" data-target="STM_business_success">SVG</button></h3><div id="Sheat"></div></div></div><p id="coverage" class="dim"></p><h3>格点追溯（点击格点）</h3><pre id="pointTrace">未测不补零；UNKNOWN 不变成失败；不同 d/s 或载荷分图。</pre></article></section>
+<section id="algorithm" class="tab hidden"><article><h2>实际选点算法与开发对照</h2><p>RBF 核后验估计器：合成数据拟合 → 每批更新 → 不确定度与边界分数选点 → 内部停止规则。支持模型保存、加载及 ARM 推理入口。</p><div class="notice">本页数据为开发合成实验。没有真实训练、实板加速成绩或用隐藏真值决定在线停止。</div><div id="algorithmReport"></div><p>推理命令、真实训练申请与分组方案见交付说明。计算开销和硬件端到端耗时分别记录，未采硬件耗时显示为空。</p></article></section>
+<section id="images" class="tab hidden"><article><div class="toolbar"><h2>session24 · 真帧接收、重组与修复</h2><a href="/api/images.zip">导出全部图片、掩码、指标及来源</a></div><p>模式：离线真实证据回放。输入来自 CH0 A/B 与 CH1 REPORT 的原包及样本，不是预造 PNG；实时接收通道尚待主线确认。</p>
+<label>修复处理<select id="imageMethod"><option value="crc_burst_B">仅 B · CRC 约束连续位突发候选 + 空间排序</option><option value="crc_select">基线 · 按接收端 CRC 从 B/A/STM 择优，无修复</option><option value="crc_burst_multi">多路 · CRC 约束突发修复</option><option value="visual_median_B">仅 B · 5×5 选择性中值视觉估计</option></select></label>
+<div class="imagegrid"><figure><img src="/artifacts/image_repair/B_received.png"><figcaption>未修复单路 B</figcaption></figure><figure><img id="repairImage"><figcaption>实际算法输出</figcaption></figure><figure><img src="/artifacts/image_repair/evaluation_reference.png"><figcaption>源图：独立评估参考，不输入算法</figcaption></figure><figure><img id="modifiedImage"><figcaption>修改掩码</figcaption></figure><figure><img id="uncertainImage"><figcaption>不确定掩码</figcaption></figure><figure><img id="missingImage"><figcaption>缺失掩码</figcaption></figure></div><div id="imageReport"></div>
+<p class="dim">CRC16 通过不单独等于无损。仅完整图片匹配已接收 CONFIG 中 SHA256 时标为校验恢复；否则明确标为估计。算法不接收源图或精确毛刺计划。</p></article></section>
+<section id="trace" class="tab hidden"><article><h2>证据与依赖</h2><pre id="traceReport"></pre><h3>模拟运行与状态</h3><div id="runs"></div><p>浏览器刷新不会启动新运行。进程重启时原 RUNNING 进入 BLOCKED_RESTART，不自动续跑。</p></article></section>
+<div id="error" role="alert"></div></main><script src="/app.js"></script></body></html>

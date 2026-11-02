@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/path/to/glitchscope_source/B_RX_RTL_Vivado_v0_2_2026-10-22/rtl/uart_rx_b_7020_observe_v0_1.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_rx_b_7020_observe_v0_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/path/to/glitchscope_source/B_RX_RTL_Vivado_v0_2_2026-10-22/rtl/rx_ce_gen_7020_v2_2.v" into library work
+INFO: [VRFC 10-311] analyzing module rx_ce_gen_7020_v2_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/path/to/glitchscope_source/B_RX_RTL_Vivado_v0_2_2026-10-22/rtl/tb_b_receiver_cosim.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_b_receiver_cosim
+osim

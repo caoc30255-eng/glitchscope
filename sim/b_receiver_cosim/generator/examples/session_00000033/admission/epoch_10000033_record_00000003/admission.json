@@ -1,0 +1,79 @@
+{
+  "CH0_binding": {
+    "deadline": 10012129475,
+    "epoch": 268435507,
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "kind": 1,
+    "peer_epoch": 536870963,
+    "record_id": 3,
+    "request_length": 278,
+    "start": 9012129475
+  },
+  "START_executed": false,
+  "binding": {
+    "deadline": 12698776711,
+    "epoch": 268435507,
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "kind": 1,
+    "record_id": 3,
+    "start": 8698776711
+  },
+  "context": {
+    "epoch": 268435507,
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "kind": 1,
+    "record_id": 3
+  },
+  "flight_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000033/flight/epoch_10000033_record_00000003",
+  "mark_arm_receipt": {
+    "arm_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000033/MARK/epoch_10000033_record_00000003/arm",
+    "epoch": 268435507,
+    "expected_bit": 0,
+    "hardware_identity_embedded": false,
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "profile": {
+      "bit": 0,
+      "byte": 20,
+      "phase": 15,
+      "width": 1
+    },
+    "record_id": 3,
+    "source_sha256": "f8de749c860153e68e97030786bd75be5c2aec8307167c57d37450c0384ebfea"
+  },
+  "peer_archive": {
+    "cached": false,
+    "capture_generation": 4,
+    "crc": 22348,
+    "directory": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_00000033/peer/epoch_20000033_session_30000033_seq_00000003",
+    "epoch": 536870963,
+    "kind": 3,
+    "len": 278,
+    "peer_store_verified": true,
+    "route": 0,
+    "seq": 3,
+    "session": 805306419,
+    "store_record_id": 3,
+    "ticket": 4
+  },
+  "peer_snapshot": {
+    "current": true,
+    "identity": 157968447506966670962124278701716052102583064699908541040300195840,
+    "kind": 3,
+    "length": 278,
+    "next_generation": 3,
+    "peer_epoch": 536870963,
+    "session": 805306419,
+    "snapshot_seq": 6,
+    "source": "HPQ1 actual W19 core snapshot"
+  },
+  "phase": "SEALED_WAIT_FOR_LOCAL_WINDOWS",
+  "profile": {
+    "RX_profile_verified": true,
+    "complete_START_admission": false,
+    "d": 3,
+    "profile_seq": 3,
+    "s": -1,
+    "source": "HRP1 applied d/s + actual RX idle"
+  },
+  "token": "4d818133449242a093cb0c29568d44bc"
+}

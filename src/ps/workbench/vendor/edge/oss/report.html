@@ -1,0 +1,111 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>GLITCHSCOPE OSS EdgeAI</title><style>body{max-width:1200px;margin:32px auto;padding:20px;font-family:system-ui;line-height:1.7}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccd4df;padding:8px}pre{white-space:pre-wrap;overflow-wrap:anywhere}aside{background:#fff0d4;padding:16px}</style><h1>GLITCHSCOPE · 边缘AI开源增强 v1.1</h1><aside>软件候选；以下为公开历史数据回顾性比较，非新实板提效验收。未学习配置可安排采样，不能冒充模型预测。所有分数均未校准，不作自动通过判定。</aside><h2>同预算14条回放</h2><table><tr><th>会话</th><th>目标</th><th>策略</th><th>预算</th><th>边界触达</th><th>混合发现</th></tr><tr><td>session_0000003a</td><td>B_frame_correct</td><td>boundary_rule_v02</td><td>14</td><td>2</td><td>0</td></tr><tr><td>session_0000003a</td><td>B_frame_correct</td><td>edge_ai</td><td>14</td><td>2</td><td>0</td></tr><tr><td>session_0000003a</td><td>B_frame_correct</td><td>upstream_entropy</td><td>14</td><td>2</td><td>0</td></tr><tr><td>session_0000003a</td><td>B_frame_correct</td><td>oss_hybrid</td><td>14</td><td>2</td><td>0</td></tr><tr><td>session_0000003a</td><td>STM_payload_correct</td><td>boundary_rule_v02</td><td>14</td><td>1</td><td>0</td></tr><tr><td>session_0000003a</td><td>STM_payload_correct</td><td>edge_ai</td><td>14</td><td>2</td><td>0</td></tr><tr><td>session_0000003a</td><td>STM_payload_correct</td><td>upstream_entropy</td><td>14</td><td>2</td><td>1</td></tr><tr><td>session_0000003a</td><td>STM_payload_correct</td><td>oss_hybrid</td><td>14</td><td>2</td><td>1</td></tr><tr><td>session_0000003a</td><td>STM_business_success</td><td>boundary_rule_v02</td><td>14</td><td>2</td><td>0</td></tr><tr><td>session_0000003a</td><td>STM_business_success</td><td>edge_ai</td><td>14</td><td>3</td><td>0</td></tr><tr><td>session_0000003a</td><td>STM_business_success</td><td>upstream_entropy</td><td>14</td><td>3</td><td>1</td></tr><tr><td>session_0000003a</td><td>STM_business_success</td><td>oss_hybrid</td><td>14</td><td>3</td><td>1</td></tr><tr><td>session_0000003b</td><td>B_frame_correct</td><td>boundary_rule_v02</td><td>14</td><td>3</td><td>1</td></tr><tr><td>session_0000003b</td><td>B_frame_correct</td><td>edge_ai</td><td>14</td><td>3</td><td>1</td></tr><tr><td>session_0000003b</td><td>B_frame_correct</td><td>upstream_entropy</td><td>14</td><td>3</td><td>1</td></tr><tr><td>session_0000003b</td><td>B_frame_correct</td><td>oss_hybrid</td><td>14</td><td>3</td><td>1</td></tr><tr><td>session_0000003b</td><td>STM_payload_correct</td><td>boundary_rule_v02</td><td>14</td><td>1</td><td>0</td></tr><tr><td>session_0000003b</td><td>STM_payload_correct</td><td>edge_ai</td><td>14</td><td>2</td><td>1</td></tr><tr><td>session_0000003b</td><td>STM_payload_correct</td><td>upstream_entropy</td><td>14</td><td>2</td><td>2</td></tr><tr><td>session_0000003b</td><td>STM_payload_correct</td><td>oss_hybrid</td><td>14</td><td>2</td><td>1</td></tr><tr><td>session_0000003b</td><td>STM_business_success</td><td>boundary_rule_v02</td><td>14</td><td>2</td><td>0</td></tr><tr><td>session_0000003b</td><td>STM_business_success</td><td>edge_ai</td><td>14</td><td>3</td><td>0</td></tr><tr><td>session_0000003b</td><td>STM_business_success</td><td>upstream_entropy</td><td>14</td><td>3</td><td>0</td></tr><tr><td>session_0000003b</td><td>STM_business_success</td><td>oss_hybrid</td><td>14</td><td>3</td><td>0</td></tr></table><h2>完整诊断指标</h2><pre>{
+  &quot;historical_used_for_fit&quot;: false,
+  &quot;targets&quot;: {
+    &quot;B_frame_correct&quot;: {
+      &quot;grouped_CV&quot;: {
+        &quot;accuracy_at_half&quot;: 0.85,
+        &quot;brier&quot;: 0.1301326059355533,
+        &quot;coverage&quot;: 0.7142857142857143,
+        &quot;false_PASS&quot;: 1,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 60,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 84
+      },
+      &quot;historical&quot;: {
+        &quot;accuracy_at_half&quot;: 0.8333333333333334,
+        &quot;brier&quot;: 0.07857352516327686,
+        &quot;coverage&quot;: 1.0,
+        &quot;false_PASS&quot;: 0,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 30,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 30
+      },
+      &quot;validation&quot;: {
+        &quot;accuracy_at_half&quot;: 0.775,
+        &quot;brier&quot;: 0.1255798585354881,
+        &quot;coverage&quot;: 1.0,
+        &quot;false_PASS&quot;: 2,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 40,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 40
+      }
+    },
+    &quot;STM_business_success&quot;: {
+      &quot;grouped_CV&quot;: {
+        &quot;accuracy_at_half&quot;: 0.65,
+        &quot;brier&quot;: 0.2674921971786979,
+        &quot;coverage&quot;: 0.7142857142857143,
+        &quot;false_PASS&quot;: 9,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 60,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 84
+      },
+      &quot;historical&quot;: {
+        &quot;accuracy_at_half&quot;: 0.9,
+        &quot;brier&quot;: 0.03145149797032643,
+        &quot;coverage&quot;: 1.0,
+        &quot;false_PASS&quot;: 3,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 30,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 30
+      },
+      &quot;validation&quot;: {
+        &quot;accuracy_at_half&quot;: 1.0,
+        &quot;brier&quot;: 0.003921655368944124,
+        &quot;coverage&quot;: 1.0,
+        &quot;false_PASS&quot;: 0,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 40,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 40
+      }
+    },
+    &quot;STM_payload_correct&quot;: {
+      &quot;grouped_CV&quot;: {
+        &quot;accuracy_at_half&quot;: 0.6833333333333333,
+        &quot;brier&quot;: 0.2438980076073463,
+        &quot;coverage&quot;: 0.7142857142857143,
+        &quot;false_PASS&quot;: 13,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 60,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 84
+      },
+      &quot;historical&quot;: {
+        &quot;accuracy_at_half&quot;: 1.0,
+        &quot;brier&quot;: 0.002329501346150669,
+        &quot;coverage&quot;: 1.0,
+        &quot;false_PASS&quot;: 0,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 30,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 30
+      },
+      &quot;validation&quot;: {
+        &quot;accuracy_at_half&quot;: 0.85,
+        &quot;brier&quot;: 0.11674292105181598,
+        &quot;coverage&quot;: 1.0,
+        &quot;false_PASS&quot;: 6,
+        &quot;scores_are_uncalibrated&quot;: true,
+        &quot;supported&quot;: 40,
+        &quot;threshold_is_diagnostic_not_execution_permission&quot;: true,
+        &quot;total&quot;: 40
+      }
+    }
+  },
+  &quot;upstream_versions&quot;: {
+    &quot;emlearn&quot;: &quot;0.23.2&quot;,
+    &quot;makefun&quot;: &quot;1.16.0&quot;,
+    &quot;numpy&quot;: &quot;2.3.5&quot;,
+    &quot;scikit-activeml&quot;: &quot;1.0.1&quot;,
+    &quot;scikit-learn&quot;: &quot;1.7.2&quot;,
+    &quot;scipy&quot;: &quot;1.16.3&quot;
+  },
+  &quot;validation_used_for_fit&quot;: false
+}</pre><h2>代码导出验证</h2><pre>{&quot;C_cross_compiled_for_ARM&quot;:false,&quot;C_max_abs_score_error&quot;:8.033467252532844e-08,&quot;actual_ARM_run&quot;:false,&quot;compiled_export_sha256&quot;:&quot;96186b7476366fad633c7ce1a3838fda0708b3aece1a91446140063547e6c35f&quot;,&quot;compiler&quot;:&quot;C:/AMDDesignTools/2026.1/Vivado/tps/mingw/10.0.0/win64.o/nt/bin/gcc.exe&quot;,&quot;entropy_max_abs_error&quot;:1.1102230246251565e-16,&quot;hardware_access&quot;:false,&quot;integer_domain_queries&quot;:37440,&quot;new_STARTs&quot;:0,&quot;sklearn_entropy_checks&quot;:37440,&quot;sklearn_max_abs_score_error&quot;:2.220446049250313e-16,&quot;status&quot;:&quot;PASS_SKLEARN_PORTABLE_EMLEARN_C_AND_UPSTREAM_ENTROPY&quot;,&quot;unsupported_raw_score_test_is_not_prediction_permission&quot;:true,&quot;upstream_directly_imported&quot;:true}
+</pre><p>新版模型SHA 677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194</p></html>

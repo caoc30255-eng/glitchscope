@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>四条真实联调 · PYNQ</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><div><small>沿用当前 7010 / 7020 比特流 · 固定刺激 · B 路目标</small><h1>四条真实联调</h1></div><a href="/">模拟、历史热力图与图片修复 →</a></header>
+<main><article><h2 id="connection">正在读取连接状态…</h2><p id="mode">尚未发起实验</p><div class="notice">本页独立于模拟。固定最多四条：CONFIG → 无扰动 ITEM → 毛刺参照 d=3 → 候选 d=4。s=-1，毛刺 byte20 / bit0 / phase15 / width20。基线异常或参照 B 已正确可提前停止；不自动重试。</div>
+<p>“停止剩余项”不打断已进入执行的记录：待该记录保存原件、严格退役后停止。若出现异常，则保留现场并阻断，不能刷新后续跑。</p>
+<div class="toolbar"><button id="pilotStart" class="primary" disabled>开始本会话四条真实联调</button><button id="pilotStop" class="danger" disabled>停止剩余项</button><a id="export" hidden href="/api/pilot/evidence.zip">下载本会话完整证据</a></div>
+<div id="pilotState" class="state">未连接硬件</div><p id="progress"></p><pre id="plan"></pre></article>
+<article><h2>逐条实际反馈</h2><p>新采集结果待独立来源审核，不覆盖历史正式账簿。B 接收正确与 STM32 业务成功分别展示。无结果或 UNKNOWN 不填成失败。</p>
+<table><thead><tr><th>记录</th><th>类型</th><th>实际 B 参数</th><th>A 帧正确</th><th>B 帧正确</th><th>STM 业务成功</th><th>严格退役</th></tr></thead><tbody id="records"></tbody></table>
+<h3>完整结果与原件摘要</h3><pre id="details">未执行</pre></article><div id="error" role="alert"></div></main><script src="/pilot.js"></script></body></html>

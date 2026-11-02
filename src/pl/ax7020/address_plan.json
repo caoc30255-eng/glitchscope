@@ -1,0 +1,58 @@
+{
+  "status": "CANDIDATE_BD_MAPPING_NOT_LOADED_HWH",
+  "clock_hz": 100000000,
+  "control_UARTLite": {
+    "base": "0x42c00000",
+    "baud": 230400
+  },
+  "banks": {
+    "h1": {
+      "interface": "S_H1",
+      "base": "0x43c30000",
+      "range": "0x1000"
+    },
+    "ctrl": {
+      "interface": "S_CTRL",
+      "base": "0x43c40000",
+      "range": "0x1000"
+    },
+    "main": {
+      "interface": "S_MAIN",
+      "base": "0x43c50000",
+      "range": "0x4000"
+    },
+    "aux": {
+      "interface": "S_AUX",
+      "base": "0x43c60000",
+      "range": "0x1000"
+    },
+    "map": {
+      "interface": "S_MAP",
+      "base": "0x43c70000",
+      "range": "0x1000"
+    },
+    "ch0": {
+      "interface": "S_CH0",
+      "base": "0x43c80000",
+      "range": "0x8000"
+    },
+    "profile": {
+      "interface": "S_PROFILE",
+      "base": "0x43c90000",
+      "range": "0x1000"
+    },
+    "sys": {
+      "interface": "S_SYS",
+      "base": "0x43ca0000",
+      "range": "0x1000"
+    }
+  },
+  "physical_H1": {
+    "tx": "T16",
+    "rx": "U17",
+    "source": "previous pin/preflight/route-reviewed candidate;no new board connection inspection"
+  },
+  "CH0": "raw_snapshot_async_i[0]=R14",
+  "CH1": "raw_snapshot_async_i[1]=U13",
+  "retirement_capacity": "SYS defaults0;explicit one-flight grant required;actual retire clears grant"
+}

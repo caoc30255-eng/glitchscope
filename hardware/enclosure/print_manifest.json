@@ -1,0 +1,107 @@
+{
+  "version": "v16",
+  "unit": "mm",
+  "scale_percent": 100,
+  "installed_printed_parts": 29,
+  "separate_test_coupon": 1,
+  "parts": [
+    {
+      "file": "stl/stage_1_frame/01_hole_coupon_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_coupon",
+      "bytes": 60884,
+      "sha256": "3f6e3e434a9cccc2dd691aa24e6c3b9d99c805ed25022a925f36645e3d30aa8d"
+    },
+    {
+      "file": "stl/stage_1_frame/02_7020_acrylic_cradle_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_base",
+      "bytes": 106084,
+      "sha256": "1697ca8b9798ed32cf868cbf94f05462844d1007f8e3576ef87234a754a3bbe5"
+    },
+    {
+      "file": "stl/stage_1_frame/03_load_column_qty4.stl",
+      "quantity": 4,
+      "openscad_part": "print_column",
+      "bytes": 12884,
+      "sha256": "d4761253c3692b3c8343461ff039ba86468c59b5febbc7c0fac034fc9ca1e01b"
+    },
+    {
+      "file": "stl/stage_1_frame/04_7010_upper_frame_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_upper",
+      "bytes": 53284,
+      "sha256": "a17ad95d190e7e6ec117c80aa89e95a1c6b8901f67c398acd552b34b6e0b9b02"
+    },
+    {
+      "file": "stl/stage_1_frame/05_adjustable_beam_qty2.stl",
+      "quantity": 2,
+      "openscad_part": "print_beam",
+      "bytes": 20884,
+      "sha256": "60f0db007558a62f7f45ff1688855d853f7a94f497a1f80e99c6544b6849b0b8"
+    },
+    {
+      "file": "stl/stage_1_frame/06_foot_qty4.stl",
+      "quantity": 4,
+      "openscad_part": "print_foot",
+      "bytes": 19284,
+      "sha256": "f684e1cc8ce2522b87c16c0f6cd95ffaf404a87ac595e17de7af74a3164da555"
+    },
+    {
+      "file": "stl/stage_1_frame/07_7020_edge_clamp_qty4.stl",
+      "quantity": 4,
+      "openscad_part": "print_edge_clamp",
+      "bytes": 7684,
+      "sha256": "acee8b121b9beb027ea45e549e3efa4bd90ee62d57c10f3d4f38896208dfc3eb"
+    },
+    {
+      "file": "stl/stage_2_cover/01_lower_corner_clip_qty4.stl",
+      "quantity": 4,
+      "openscad_part": "print_corner_clip",
+      "bytes": 14284,
+      "sha256": "098e4fb9fb458c0780bc136bac9219b5fba41c6c216e3b0fcc542b04c546031e"
+    },
+    {
+      "file": "stl/stage_2_cover/02_roof_corner_clip_qty4.stl",
+      "quantity": 4,
+      "openscad_part": "print_roof_clip",
+      "bytes": 21884,
+      "sha256": "c9418a48d9a251cdb801b441462103428b7edc57941792e9eef1502c633266d6"
+    },
+    {
+      "file": "stl/stage_2_cover/03_left_panel_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_side_left",
+      "bytes": 41284,
+      "sha256": "06ca12bf99919d7b0b00c5a7796daddf7fcba37d66e71e4526130ba718a2b6ca"
+    },
+    {
+      "file": "stl/stage_2_cover/04_right_panel_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_side_right",
+      "bytes": 41284,
+      "sha256": "2f1b71a9e7c2859125538c0e47a3049e0b99d43cb18556348ed4f7d1039b6147"
+    },
+    {
+      "file": "stl/stage_2_cover/05_front_service_panel_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_front",
+      "bytes": 29084,
+      "sha256": "7ac1667f6bf6944520d9f27df38f769b7fadcabc3045d4c682ed3c045942131d"
+    },
+    {
+      "file": "stl/stage_2_cover/06_rear_service_panel_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_back",
+      "bytes": 36084,
+      "sha256": "41dfa839e14660d1314399525d7679a653762682d304c07c08b8bc43cb10221a"
+    },
+    {
+      "file": "stl/stage_2_cover/07_roof_qty1.stl",
+      "quantity": 1,
+      "openscad_part": "print_roof",
+      "bytes": 38484,
+      "sha256": "44c9ebcd5e52a339fda314c379cde9364bfa3f4fd9dbb4bec419ddd30554e0d1"
+    }
+  ]
+}

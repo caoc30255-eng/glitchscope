@@ -1,0 +1,7 @@
+{
+  "source_relative_to_project": "src/ps/workbench/vendor/image/runtime/host/ch1_control_session.py",
+  "sha256": "e517ffff13a10cc090826e526a950a407bf4b06e2ba203e98252242089699e0d",
+  "contract": "frame/decode_frame/PeerControlSession._mmio READ32 and decode_event",
+  "source_is_existing_project": true,
+  "new_peer_is_emulator": true
+}

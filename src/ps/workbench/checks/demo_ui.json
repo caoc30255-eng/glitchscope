@@ -1,0 +1,11 @@
+{
+  "status": "PASS_FORMAL_DEMO_UI_CONTRACT",
+  "right_floating_quota_hud": true,
+  "no_automatic_consent": true,
+  "consumption_rules_visible": true,
+  "real_session_before_alias_in_task_dock": true,
+  "source_session_for_free_analysis": true,
+  "no_per_plan_approval_export_in_normal_flow": true,
+  "browser_started": false,
+  "hardware_access": false
+}

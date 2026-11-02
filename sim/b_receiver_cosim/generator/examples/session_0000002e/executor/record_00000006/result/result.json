@@ -1,0 +1,128 @@
+{
+  "CH0_classification": {
+    "a_reception_success": false,
+    "a_source_match": false,
+    "b_reception_success": false,
+    "b_source_match": false,
+    "faulted": false,
+    "source_provided": true
+  },
+  "CH0_evidence_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_0000002e/CH0/epoch_1000002e_record_00000006",
+  "CH1_classification": {
+    "business_success": false,
+    "capture_valid": true,
+    "kind": 1,
+    "raw_frame_crc_and_format_valid": true,
+    "reason": 1,
+    "source_bytes_match": false,
+    "wire_identity_match": true
+  },
+  "CH1_evidence_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_0000002e/CH1/main/epoch_1000002e_record_00000006",
+  "MPG1_pre_retirement": {
+    "CAP06_scope": "FIRST_POINT_ONLY",
+    "actual_DONE_fenced": true,
+    "all_points_waveform_verified": false,
+    "configured_points": 1,
+    "count_status_after": [
+      513,
+      1
+    ],
+    "count_status_before": [
+      513,
+      1
+    ],
+    "emitted_points": 1,
+    "epoch": 268435502,
+    "identity_hex": "0000000001800001700000003100000170000000061000002e0101ec00040000",
+    "native_identity_words": [
+      0,
+      1024,
+      3959488814,
+      4102,
+      0,
+      771751968,
+      100663296,
+      771751984
+    ],
+    "record_id": 6,
+    "schema": "BOUNDED_AUTOTUNE_PRE_RETIREMENT_COUNT_V0_1",
+    "source_fault": false,
+    "verified_before_retirement": true
+  },
+  "STM_business_success": false,
+  "actual_receiver_B": {
+    "RX_profile_verified": true,
+    "complete_START_admission": false,
+    "d": 3,
+    "profile_seq": 6,
+    "s": -1,
+    "source": "HRP1 applied d/s + actual RX idle"
+  },
+  "business_success": false,
+  "client_request_id": "reference_d3_r3",
+  "decoded_report": {
+    "attempt_id": 0,
+    "frame_crc": 6213,
+    "image_id": 1,
+    "item_index": 4,
+    "recvd_len": 256,
+    "result_status": 1,
+    "route_mode": 0,
+    "run_id": 268435502,
+    "status": "OK",
+    "trial_id": 492,
+    "uart_flags": 0,
+    "valid": true,
+    "version": 2
+  },
+  "evidence_quality": "VALID",
+  "identity_hex": "0000000001800001700000003100000170000000061000002e0101ec00040000",
+  "kind": "ITEM",
+  "next_credit": {
+    "last_seq": 6,
+    "next_item_allowed": true
+  },
+  "next_trial_allowed_by_plan": true,
+  "physical_mark": {
+    "epoch": 268435502,
+    "evidence_dir": "/home/xilinx/jupyter_notebooks/test_10_14/board_runs/session_0000002e/MARK/epoch_1000002e_record_00000006/saved",
+    "identity": 157968446526169524944971187798976983477512460364018500605690773504,
+    "mark_record_id": 6,
+    "physical_mark_snapshot_saved": true
+  },
+  "physical_waveform": {
+    "expected_nominal_samples": 40,
+    "expected_source_bit": 0,
+    "inversion_start_sample": 2048,
+    "inverted_samples": 41,
+    "mark_high_samples": 2,
+    "mark_sample": 2048,
+    "mark_to_inversion_samples": 0,
+    "nominal_sample_clock_hz": 100000000,
+    "physical_inversion_verified": true
+  },
+  "production_billing_finalized": false,
+  "profile": {
+    "bit": 0,
+    "byte": 20,
+    "phase": 15,
+    "width": 20
+  },
+  "raw_report_bytes": 276,
+  "receiver_A_frame_correct": false,
+  "receiver_B_frame_correct": false,
+  "record_id": 6,
+  "requested_receiver_B": {
+    "d": 3,
+    "s": -1
+  },
+  "retirement": {
+    "CH0_release_verified": true,
+    "CH1_retirement_verified": true,
+    "next_item_allowed": false,
+    "peer_retirement_verified": true
+  },
+  "schema": "CONTROLLED_TRIAL_RESULT_V0_2",
+  "training_authorized": false,
+  "trial_id": 492
+}

@@ -1,0 +1,247 @@
+{
+  "status": "PASS_RELOCATED_OFFLINE_EXAMPLES",
+  "commands": [
+    {
+      "skill": "pynq-bringup",
+      "args": [
+        "scripts/preflight.py",
+        "--profile",
+        "examples/counter/profile.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\counter.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "4ebba852544d2f1a72c8b7c3b008728dbcca3683e5ad10df3c143597890c9ecd"
+    },
+    {
+      "skill": "pynq-bringup",
+      "args": [
+        "scripts/preflight.py",
+        "--profile",
+        "examples/fir/profile.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\fir.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "ae169cfdbe1ee1139b8e989e7ed7af651553c4c4645cd44ee115471f121750ad"
+    },
+    {
+      "skill": "pynq-bringup",
+      "args": [
+        "scripts/check_notebook.py",
+        "--reference",
+        "examples/reference.ipynb",
+        "--candidate",
+        "examples/reformatted.ipynb"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "73a85e04d60398cf31bb943b7a88f7e5864770a813bb20176536c5434d68ca79"
+    },
+    {
+      "skill": "axi-lite-contract-check",
+      "args": [
+        "scripts/contract.py",
+        "--contract",
+        "examples/counter.json",
+        "--words",
+        "examples/counter_words.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\counter_registers.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "3d1b68752de6b6efdde8fa1bdf8f0e0ae6a3dd6b6e80a57ae81ab30c360b1d3d"
+    },
+    {
+      "skill": "axi-lite-contract-check",
+      "args": [
+        "scripts/contract.py",
+        "--contract",
+        "examples/fir.json",
+        "--words",
+        "examples/fir_words.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\fir_registers.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "3b456a1ec2869bf0749ccf07bdd2855e41410394c0049bae2344c27dcfe13a3c"
+    },
+    {
+      "skill": "axi-lite-contract-check",
+      "args": [
+        "scripts/generate_driver.py",
+        "--contract",
+        "examples/fir.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\generated"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "2d87b86e73b8e94e64be0ab71db96d8a5fec4cf5098c31e12a40103afa17f02a"
+    },
+    {
+      "skill": "axi-lite-contract-check",
+      "args": [
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\generated\\test_generated.py"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "28464b0f48336c29190108f3310e84354bda82d6e6cef7d722199ea46bf22640"
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "args": [
+        "scripts/make_demo_reference.py",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\reference"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "d72ff31540eef31aad7d1914169f47ffabed8b14a561bf8d67651d6bb0ea0a21"
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "args": [
+        "scripts/compare_trace.py",
+        "--reference",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\reference\\reference.csv",
+        "--actual",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\synthetic_trace.csv",
+        "--spec",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\reference\\spec.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\trace_compare.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "c4a305db7a82f0f10158225781e2f664f87ea46f4e79a236c88c4d2a6d3123ab"
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "args": [
+        "scripts/compare_trace.py",
+        "--reference",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\reference\\reference.csv",
+        "--actual",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\short_synthetic_trace.csv",
+        "--spec",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\reference\\spec.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\short_trace_rejected.json"
+      ],
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "passed": true,
+      "log_sha256": "2a679fbfbd6b1a12b54921335dad9d962ad2b5ff00a6ddf5b050d1b1a6ddb0d2"
+    },
+    {
+      "skill": "hardware-session-evidence",
+      "args": [
+        "scripts/run_demo.py",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\session"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "be7b5d0b6a5528245efdd642033187edaf1b9642011e6f82ddebfff37c1bed11"
+    },
+    {
+      "skill": "hardware-session-evidence",
+      "args": [
+        "scripts/session_ledger.py",
+        "audit",
+        "--root",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\session"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "be7b5d0b6a5528245efdd642033187edaf1b9642011e6f82ddebfff37c1bed11"
+    },
+    {
+      "skill": "edge-model-portability",
+      "args": [
+        "scripts/export_predictions.py",
+        "--runner",
+        "examples/demo_runner.py",
+        "--queries",
+        "examples/queries.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\actual.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "ae3325d770192323f8c5a013e540e557079e754e5fe0b8145ff93e57311e4a7a"
+    },
+    {
+      "skill": "edge-model-portability",
+      "args": [
+        "scripts/golden_check.py",
+        "--golden",
+        "examples/golden.json",
+        "--actual",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\actual.json",
+        "--spec",
+        "examples/tolerance.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\golden.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "332a0765ab97f2fecbb0a6769386a0b8b33b3de60e42a6c23b8a29e350e2b3bb"
+    },
+    {
+      "skill": "edge-model-portability",
+      "args": [
+        "scripts/inference_bench.py",
+        "--runner",
+        "examples/demo_runner.py",
+        "--queries",
+        "examples/queries.json",
+        "--calls",
+        "50",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\bench.json"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "5628f8b16c8d9dee9b356a5dbf2fab821c85031150684e381235e2e515dab7de"
+    },
+    {
+      "skill": "bounded-active-benchmark",
+      "args": [
+        "scripts/benchmark.py",
+        "--experiment",
+        "examples/experiment.json",
+        "--output",
+        "C:/workspace\\Desktop\\claude_code\\GLITCHSCOPE_Skills_v1_1_20261028\\work\\frozen_core_examples\\results\\policies"
+      ],
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "passed": true,
+      "log_sha256": "1fd8c42d739703c105b427eec090ff7bbf06efffbb6515a17fd7d51744288a13"
+    }
+  ],
+  "command_count": 16,
+  "hardware_access": false,
+  "physical_cross_board_validation": false,
+  "new_generic_rtl_simulated": false,
+  "scope": "Documented commands on copied skills; synthetic CSV comparison is not RTL simulation"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS_TWO_RAW_DISABLED_POLICY_ACK_BINDINGS",
+  "records": [
+    {
+      "session": "session_0000003c",
+      "disabled_request_crc_valid": true,
+      "exact_ACK7A_crc_payload_match": true,
+      "actual_RX_capture_bound": true,
+      "source_journal": "application_segments/before_record_00000002_f487791521954cd18d9f4565b30615c1/application_1000003c.jsonl",
+      "journal_index": 250,
+      "request_hex": "a55a013a203000003c000000022000003c1000003c0102b70000000000000000000000000043d8",
+      "ack_hex": "a55a017a203000003c000000022000003c1000003c0102b7000000000000000000000000001e1d",
+      "physical_mask_state_measured": false
+    },
+    {
+      "session": "session_0000003d",
+      "disabled_request_crc_valid": true,
+      "exact_ACK7A_crc_payload_match": true,
+      "actual_RX_capture_bound": true,
+      "source_journal": "application_segments/before_record_00000002_d9f3657750c74fe48abb3c0d9f179390/application_1000003d.jsonl",
+      "journal_index": 250,
+      "request_hex": "a55a013a203000003d000000022000003d1000003d0102b800000000000000000000000000ed47",
+      "ack_hex": "a55a017a203000003d000000022000003d1000003d0102b800000000000000000000000000b082",
+      "physical_mask_state_measured": false
+    }
+  ],
+  "RTL_simulation_status": "PENDING_GUI_RUN",
+  "hardware_access": false
+}

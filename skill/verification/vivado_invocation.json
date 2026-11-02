@@ -1,0 +1,27 @@
+{
+  "status": "PASS_VIVADO_AND_REFERENCE",
+  "returncode": 0,
+  "process_wall_seconds": 15.733641399998305,
+  "injected_bug": false,
+  "source_sha256": {
+    "run_vivado.tcl": "674da0df9f943b0ac777143d7f150a380412ece54c155e1003f827005ecf9317",
+    "accumulator.sv": "76fc41cd83c9657295ecdc3868844aa81318e9174e3980effa9950b75c5189c4",
+    "tb_accumulator.sv": "16665b51096b7630af2b9c2ab519156a815701deb7541760a1b0dd05291697d4"
+  },
+  "environment_adjustments": [
+    "PROCESSOR_ARCHITECTURE set from actual platform.machine",
+    "removed conda entries from child PATH only"
+  ],
+  "hardware_access": false,
+  "scope": "Behavioral simulation of bundled ready/valid accumulator, not implementation/timing/hardware proof",
+  "comparison": {
+    "passed": true,
+    "compared_cycles": 384,
+    "cases": 6,
+    "mismatched_cycles": 0,
+    "first_mismatches": [],
+    "reference_sha256": "00a5a1bb01481c611df41dfd1f2471b77d39380c167a89755a3586fac9fe4710",
+    "actual_sha256": "00a5a1bb01481c611df41dfd1f2471b77d39380c167a89755a3586fac9fe4710",
+    "scope": "Finite digital traces, not formal proof, timing signoff or hardware acceptance"
+  }
+}

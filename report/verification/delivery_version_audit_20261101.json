@@ -1,0 +1,34 @@
+{
+  "status": "PASS_LOCAL_DELIVERY_VERSION_AUDIT",
+  "checks": [
+    {
+      "check": "all_existing_source_bindings",
+      "files": 3442,
+      "passed": true,
+      "recorded_build_patch_hashes_refreshed": [
+        "src/pl/ax7010/scripts/create_project.tcl",
+        "src/pl/ax7020/scripts/rebuild_project.tcl",
+        "src/pl/ax7020/open_project.tcl"
+      ]
+    },
+    {
+      "check": "formal_workbench_matches_fresh_sd_session7_binding",
+      "passed": true
+    },
+    {
+      "check": "v16_print_meshes_byte_identical",
+      "files": 14,
+      "passed": true
+    },
+    {
+      "check": "historical_design_report_and_other_required_empty_directories_preserved",
+      "passed": true
+    }
+  ],
+  "runtime_code_changed": false,
+  "firmware_changed": false,
+  "skills_changed": false,
+  "cad_rebuilt": false,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

@@ -1,0 +1,19 @@
+{
+  "actual_START_confirmed": false,
+  "attempt_ordinal": 4,
+  "client_request_id": "dynamic_04_p15_w1_r2",
+  "d": 3,
+  "fault": {
+    "bit": 0,
+    "byte": 20,
+    "phase": 15,
+    "width": 1
+  },
+  "inner_sha256": "a99e08e844641fbc9e4fdf103d1f66d3ee3cb06f1a94f0471133ffbbf20758c4",
+  "kind": "ITEM",
+  "production_cost_finalized": false,
+  "record_id": 4,
+  "s": -1,
+  "schema": "CONTROLLED_TRIAL_ATTEMPT_V0_2",
+  "trial_id": 529
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "B_RECEIVER_XSIM_COSIM_V0_2",
+  "status": "FAIL",
+  "hardware_access": false,
+  "physical_STARTs": 0,
+  "AI_used": false,
+  "global_settings_modified": false,
+  "process_environment_repairs": {
+    "PROCESSOR_ARCHITECTURE": "AMD64"
+  },
+  "model_sha256": "323e857ac0394168a5976cf351c68024e9542d76b7d86ae0d19399c8f4310a3a",
+  "rtl_sha256": {
+    "uart_rx_b_7020_observe_v0_1.v": "38c16b9be6b8f59392d894589d01603719d53effb80987fdbb713bd1839c304c",
+    "rx_ce_gen_7020_v2_2.v": "2bf88b67041b7a0f0241ee745e1c84c52c322f19823a72fc991cadfa68e27535",
+    "tb_b_receiver_cosim.sv": "e34711a8d248ad9b961b8c9fd27eb8d05a9e2eb468f89a4529266d4034de63d8"
+  },
+  "scope": "Finite RTL-vs-Python cycle-output comparison; not hardware acceptance or all-input proof",
+  "expected_cases": 1125,
+  "expected_compared_clocks": 11389950,
+  "simulator": "Vivado Simulator v2026.1\nCopyright 1986-2026 Xilinx, Inc. All Rights Reserved.",
+  "error": "RuntimeError('RTL_SCOREBOARD_DID_NOT_PASS_EXACT_COUNTS')"
+}

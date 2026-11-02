@@ -1,0 +1,36 @@
+{
+  "result": "PASS",
+  "old_full_audits": [
+    "session_0000001d",
+    "session_0000001f",
+    "session_00000020"
+  ],
+  "new_full_audits": [
+    "session_00000022",
+    "session_00000023",
+    "session_00000024"
+  ],
+  "old_policy_decisions": {
+    "read_only": true,
+    "hardware_access": false,
+    "sessions": [
+      {
+        "session": "session_0000001d",
+        "saved_decisions_reproduced": 5,
+        "result": "PASS"
+      },
+      {
+        "session": "session_0000001f",
+        "saved_decisions_reproduced": 3,
+        "result": "PASS"
+      },
+      {
+        "session": "session_00000020",
+        "saved_decisions_reproduced": 2,
+        "result": "PASS"
+      }
+    ]
+  },
+  "original_audit_scripts_unchanged": true,
+  "hardware_access": false
+}

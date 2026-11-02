@@ -1,0 +1,56 @@
+Browser tab: 5, Title: "上传图片与板卡测试", URL: "http://127.0.0.1:18771/upload".
+1 AXWebArea 上传图片与板卡测试, URL: 127.0.0.1:18771/upload
+	2 container
+		3 text 图片上传 · 实际接收 · 修复对照
+		4 heading 用自己的图片做测试, Value: 1
+			5 text 用自己的图片做测试
+		6 link Description: 返回工作台 →, Value: 127.0.0.1:18771/
+	7 container
+		8 heading 1 · 选择图片并预览, Value: 2
+			9 text 1 · 选择图片并预览
+		10 text 支持 PNG、JPEG、WebP、BMP，文件不超过 8 MiB。转换为当前链路支持的 128×128 灰度图，以下预览对应板端实际保存、将要发送的 16384 字节。
+		11 container
+			12 text 选择图片
+			13 button 选择图片, ID: file
+		14 container
+			15 text 画幅处理
+			16 pop up button (collapsed, settable) 画幅处理, Value: 保留完整图片，空白填白, ID: fit, Secondary Actions: Expand
+				17 menu
+					18 (selected) 保留完整图片，空白填白
+					19 居中裁剪填满
+		20 button (disabled) 转换并上传预览，不发送, ID: upload
+		53 text 真实图片预览示例.png · 128×128 灰度 · 16384 字节 SHA256 6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330
+		54 image Description: 实际保存的待发送灰度图, ID: preview
+		22 container
+			23 text 已保存的上传图片
+			24 pop up button (collapsed, settable) 已保存的上传图片, Value: 真实图片预览示例.png · 6192177385d8, ID: assets, Secondary Actions: Expand
+				25 menu
+					26 请选择
+					27 (selected) 真实图片预览示例.png · 6192177385d8
+		28 heading 2 · 真实板卡发送测试, Value: 2
+			29 text 2 · 真实板卡发送测试
+		55 text 未连接整图执行器：可以上传预览，发送按钮禁用
+		31 text 独立整图上限为 65 条：1 CONFIG＋64 ITEM。B 路固定 d=3、s=-1。每块随机连续位置、数量 0～255，随机位号 0～7，每块共用一组合法宽度和相位；随机计划先保存，实际误码不按计划数量假定。
+		32 container
+			33 text 随机种子
+			34 stepper (settable, integer) 随机种子, Value: 20261018, ID: seed
+		35 button (disabled) 封存此图的65条计划，不发送, ID: prepare
+		36 button (disabled) 开始真实发送，最多65条, ID: send
+		37 button (disabled) 停止剩余图片块, ID: stop
+		38 text 上传和封存不自动发送。停止在当前记录保存原件并严格退役后生效；异常保留 UNKNOWN 并阻断，不自动重试。每个初始化会话只接收一份封存图片计划。
+		39 text 未封存
+		40 text 尚未执行
+		41 heading 3 · 实际接收和修复结果, Value: 2
+			42 text 3 · 实际接收和修复结果
+		43 text 真实采集后生成结果，尚未生成受损图片。
+		44 container
+			45 text 修复方法
+			46 pop up button (collapsed, settable) 修复方法, Value: 单 B 路：CRC 约束突发修复, ID: method, Secondary Actions: Expand
+				47 menu
+					48 (selected) 单 B 路：CRC 约束突发修复
+					49 A/B/STM 多路融合突发修复
+					50 CRC 择优基线
+					51 B 路视觉中值估计
+		52 text 修复算法不读取上传源图像素或毛刺计划。CRC 碰撞可能存在，只有完整图匹配接收 CONFIG 的 SHA256 才标为校验恢复；未完成的图片保留缺失掩码。
+
+The focused UI element is 1 AXWebArea 上传图片与板卡测试, URL: 127.0.0.1:18771/upload

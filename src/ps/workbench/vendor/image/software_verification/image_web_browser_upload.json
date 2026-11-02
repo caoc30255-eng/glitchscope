@@ -1,0 +1,19 @@
+{
+  "asset_id": "d08cc40241e133517a5dc897a97d58e1a71886321a5577040bcf65e423439d1a",
+  "bytes": 16384,
+  "conversion_location": "browser; stored GRAY8 bytes are authoritative for preview/send",
+  "filename": "真实图片预览示例.png",
+  "height": 128,
+  "original_bytes": 5542,
+  "original_sha256": "14acf984a4d642fb7b7341ecc5db57e12b18a6dbb0a35ff4d4e2ad32c08ab578",
+  "source_sha256": "6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330",
+  "transform": {
+    "conversion": "BROWSER_CANVAS_BT601_ROUND",
+    "fit": "contain",
+    "height": 128,
+    "original_height": 128,
+    "original_width": 128,
+    "width": 128
+  },
+  "width": 128
+}

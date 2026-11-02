@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "/score": {
+      "abs": 2e-06,
+      "rel": 0,
+      "unit": "normalized_score",
+      "rationale": "Frozen double-model comparison tolerance"
+    },
+    "/uncertainty_entropy": {
+      "abs": 2e-06,
+      "rel": 0,
+      "unit": "bits",
+      "rationale": "Base-2 entropy output tolerance"
+    }
+  }
+}

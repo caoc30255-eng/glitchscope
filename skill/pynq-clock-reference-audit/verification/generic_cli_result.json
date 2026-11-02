@@ -1,0 +1,37 @@
+{
+  "schema": "CLOCK_TREE_DIAGNOSIS_V1",
+  "device": "Independent 24MHz-reference example (synthetic)",
+  "status": "CONFIGURATION_AND_READBACK_CONSISTENT",
+  "clocks": [
+    {
+      "id": "bus",
+      "status": "CONFIGURATION_AND_READBACK_CONSISTENT",
+      "issues": [],
+      "next_actions": [],
+      "reference_id": "osc",
+      "reference_source": "synthetic reference specification",
+      "reference_hz": 24000000,
+      "hardware_ratio": {
+        "numerator": 25,
+        "denominator": 6
+      },
+      "software_ratio": {
+        "numerator": 25,
+        "denominator": 6
+      },
+      "register_tree_derived_hz": 100000000.0,
+      "software_getter_expected_hz": 100000000.0,
+      "reported_hz": 100000000,
+      "requested_hz": 100000000,
+      "declaration_hz": 100000000,
+      "tolerance_ppm": 1.0,
+      "tolerance_basis": "synthetic exact-frequency arithmetic",
+      "physical_measurement": false
+    }
+  ],
+  "hardware_access": false,
+  "hardware_writes": 0,
+  "automatic_repair_performed": false,
+  "physical_measurement": false,
+  "scope": "Conditional diagnosis of user/adapter-supplied clock facts; the graph and reference provenance are not independently certified by this calculator"
+}

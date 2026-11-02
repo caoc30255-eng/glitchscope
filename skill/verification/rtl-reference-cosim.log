@@ -1,0 +1,21 @@
+test_case_initial_cycle_required (test_skill.TraceTests.test_case_initial_cycle_required) ... ok
+test_duplicate_cycle (test_skill.TraceTests.test_duplicate_cycle) ... ok
+test_fail_overrides_pass (test_skill.TraceTests.test_fail_overrides_pass) ... ok
+test_finite_trace_passes (test_skill.TraceTests.test_finite_trace_passes) ... ok
+test_hold_value_compared_when_invalid (test_skill.TraceTests.test_hold_value_compared_when_invalid) ... ok
+test_pass_substring_is_not_exact_marker (test_skill.TraceTests.test_pass_substring_is_not_exact_marker) ... ok
+test_schema_bool_refused (test_skill.TraceTests.test_schema_bool_refused) ... ok
+test_short_trace_refused (test_skill.TraceTests.test_short_trace_refused) ... ok
+test_unknown_logic_value_refused (test_skill.TraceTests.test_unknown_logic_value_refused) ... ok
+test_width_violation (test_skill.TraceTests.test_width_violation) ... ok
+test_wrong_expected_count (test_skill.TraceTests.test_wrong_expected_count) ... ok
+test_backpressure_holds_data_and_state (test_streaming_scenarios.ScenarioTests.test_backpressure_holds_data_and_state) ... ok
+test_continuous_valid_and_overflow (test_streaming_scenarios.ScenarioTests.test_continuous_valid_and_overflow) ... ok
+test_hashing_does_not_read_whole_file (test_streaming_scenarios.ScenarioTests.test_hashing_does_not_read_whole_file) ... ok
+test_midstream_reset (test_streaming_scenarios.ScenarioTests.test_midstream_reset) ... ok
+test_reset_during_stall (test_streaming_scenarios.ScenarioTests.test_reset_during_stall) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.116s
+
+OK

@@ -1,0 +1,66 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Wed Oct 28 20:41:46 2026
+| Host         : arhi running 64-bit major release  (build 9200)
+| Command      : report_clocks -file C:/workspace/Desktop/claude_code/release_signoff_20261028/ax7010_flow3_reports/clocks_before.txt
+| Design       : h1_ax7010_uart_cdc_sync_board_top_v0_7
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock           Period(ns)  Waveform(ns)    Attributes  Sources
+PL_INPUT_50     20.000      {0.000 10.000}  P           {pl_clk_50m}
+ctrl_unbuf      10.000      {0.000 5.000}   P,G,A       {u_mmcm/CLKOUT0}
+feedback_unbuf  20.000      {0.000 10.000}  P,G,A       {u_mmcm/CLKFBOUT}
+life_unbuf      20.000      {0.000 10.000}  P,G,A       {u_mmcm/CLKOUT1}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : ctrl_unbuf
+Master Source       : u_mmcm/CLKIN1
+Master Clock        : PL_INPUT_50
+Multiply By         : 2
+Generated Sources   : {u_mmcm/CLKOUT0}
+
+Generated Clock     : feedback_unbuf
+Master Source       : u_mmcm/CLKIN1
+Master Clock        : PL_INPUT_50
+Multiply By         : 1
+Generated Sources   : {u_mmcm/CLKFBOUT}
+
+Generated Clock     : life_unbuf
+Master Source       : u_mmcm/CLKIN1
+Master Clock        : PL_INPUT_50
+Multiply By         : 1
+Generated Sources   : {u_mmcm/CLKOUT1}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+

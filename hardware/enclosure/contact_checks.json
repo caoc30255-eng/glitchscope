@@ -1,0 +1,32 @@
+{
+  "lower_acrylic": {
+    "intersection_volume_mm3": 0.0,
+    "tolerance_mm3": 0.01,
+    "passed": true,
+    "scope": "Nominal solid interference check; intentional touching faces allowed, CAD boundary roundoff below 0.01mm3 tolerated; not physical fit or screw clearance proof"
+  },
+  "lower_screws": {
+    "intersection_volume_mm3": 0.0,
+    "tolerance_mm3": 0.01,
+    "passed": true,
+    "scope": "Nominal solid interference check; intentional touching faces allowed, CAD boundary roundoff below 0.01mm3 tolerated; not physical fit or screw clearance proof"
+  },
+  "lower_clamps": {
+    "intersection_volume_mm3": 0.0,
+    "tolerance_mm3": 0.01,
+    "passed": true,
+    "scope": "Nominal solid interference check; intentional touching faces allowed, CAD boundary roundoff below 0.01mm3 tolerated; not physical fit or screw clearance proof"
+  },
+  "upper_sd": {
+    "intersection_volume_mm3": 0.0,
+    "tolerance_mm3": 0.01,
+    "passed": true,
+    "scope": "Nominal solid interference check; intentional touching faces allowed, CAD boundary roundoff below 0.01mm3 tolerated; not physical fit or screw clearance proof"
+  },
+  "roof_clips": {
+    "intersection_volume_mm3": 0.0,
+    "tolerance_mm3": 0.01,
+    "passed": true,
+    "scope": "Nominal solid interference check; intentional touching faces allowed, CAD boundary roundoff below 0.01mm3 tolerated; not physical fit or screw clearance proof"
+  }
+}

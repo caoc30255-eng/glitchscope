@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>上传图片与板卡测试</title><link rel="stylesheet" href="/style.css"></head><body>
+<header><div><small>图片上传 · 实际接收 · 修复对照</small><h1>用自己的图片做测试</h1></div><a href="/">返回工作台 →</a></header>
+<main><article><h2>1 · 选择图片并预览</h2><p>支持 PNG、JPEG、WebP、BMP，文件不超过 8 MiB。转换为当前链路支持的 128×128 灰度图，以下预览对应板端实际保存、将要发送的 16384 字节。</p>
+<label>选择图片<input id="file" type="file" accept="image/png,image/jpeg,image/webp,image/bmp"></label>
+<label>画幅处理<select id="fit"><option value="contain">保留完整图片，空白填白</option><option value="cover">居中裁剪填满</option></select></label>
+<button id="upload" class="primary" disabled>转换并上传预览，不发送</button><p id="assetInfo">尚未上传图片</p><img id="preview" hidden width="256" height="256" alt="实际保存的待发送灰度图">
+<label>已保存的上传图片<select id="assets"><option value="">请选择</option></select></label></article>
+<article><h2>2 · 真实板卡发送测试</h2><div id="connection" class="state">正在检查连接</div>
+<p>独立整图上限为 65 条：1 CONFIG＋64 ITEM。B 路固定 d=3、s=-1。每块随机连续位置、数量 0～255，随机位号 0～7，每块共用一组合法宽度和相位；随机计划先保存，实际误码不按计划数量假定。</p>
+<label>随机种子<input id="seed" type="number" value="20261018" min="0" max="4294967295" step="1"></label>
+<div class="toolbar"><button id="prepare" disabled>封存此图的65条计划，不发送</button><button id="send" class="primary" disabled>开始真实发送，最多65条</button><button id="stop" class="danger" disabled>停止剩余图片块</button></div>
+<p>上传和封存不自动发送。停止在当前记录保存原件并严格退役后生效；异常保留 UNKNOWN 并阻断，不自动重试。每个初始化会话只接收一份封存图片计划。</p>
+<pre id="plan">未封存</pre><div id="progress" class="state">尚未执行</div><a id="download" href="/api/images/session.zip" hidden>下载本会话源图、完整原件和修复结果</a></article>
+<article><h2>3 · 实际接收和修复结果</h2><p id="artifactState">真实采集后生成结果，尚未生成受损图片。</p>
+<label>修复方法<select id="method"><option value="crc_burst_B">单 B 路：CRC 约束突发修复</option><option value="crc_burst_multi">A/B/STM 多路融合突发修复</option><option value="crc_select">CRC 择优基线</option><option value="visual_median_B">B 路视觉中值估计</option></select></label>
+<div id="results" hidden><div class="imagegrid"><figure><img id="sourceResult"><figcaption>发送源图：只用于发送和独立对照</figcaption></figure><figure><img id="bReceived"><figcaption>B 路实际接收图</figcaption></figure><figure><img id="stmReceived"><figcaption>STM32 实际返回载荷</figcaption></figure><figure><img id="repaired"><figcaption>实际接收数据的修复结果</figcaption></figure><figure><img id="missing"><figcaption>缺失掩码：白色表示缺失</figcaption></figure><figure><img id="uncertain"><figcaption>修复不确定掩码</figcaption></figure></div><pre id="metrics"></pre></div>
+<p>修复算法不读取上传源图像素或毛刺计划。CRC 碰撞可能存在，只有完整图匹配接收 CONFIG 的 SHA256 才标为校验恢复；未完成的图片保留缺失掩码。</p></article><div id="error" role="alert"></div></main><script src="/upload.js"></script></body></html>

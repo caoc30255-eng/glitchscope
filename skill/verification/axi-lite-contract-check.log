@@ -1,0 +1,34 @@
+test_overlapping_fields_rejected (test_fields.FieldTests.test_overlapping_fields_rejected) ... ok
+test_plain_rw_not_silently_masked (test_fields.FieldTests.test_plain_rw_not_silently_masked) ... ok
+test_pulse_is_event_not_persistent_bit (test_fields.FieldTests.test_pulse_is_event_not_persistent_bit) ... ok
+test_raw_mixed_write_checks_constant_policy (test_fields.FieldTests.test_raw_mixed_write_checks_constant_policy) ... ok
+test_read_clear_mixed_needs_explicit_rw_values (test_fields.FieldTests.test_read_clear_mixed_needs_explicit_rw_values) ... ok
+test_read_clear_model_and_driver (test_fields.FieldTests.test_read_clear_model_and_driver) ... ok
+test_real_mmio_example_with_fake_backend_no_implicit_write (test_fields.FieldTests.test_real_mmio_example_with_fake_backend_no_implicit_write) ... ok
+test_register_w1c_model (test_fields.FieldTests.test_register_w1c_model) ... ok
+test_ro_status_not_echoed_into_write (test_fields.FieldTests.test_ro_status_not_echoed_into_write) ... ok
+test_undocumented_ro_write_policy_rejected (test_fields.FieldTests.test_undocumented_ro_write_policy_rejected) ... ok
+test_update_cannot_target_w1c (test_fields.FieldTests.test_update_cannot_target_w1c) ... ok
+test_w1c_clear_preserves_rw_and_ro (test_fields.FieldTests.test_w1c_clear_preserves_rw_and_ro) ... ok
+test_absolute_other_ip (test_skill.ContractTests.test_absolute_other_ip) ... ok
+test_ambiguous_binding_refused (test_skill.ContractTests.test_ambiguous_binding_refused) ... ok
+test_bool_is_not_integer_data (test_skill.ContractTests.test_bool_is_not_integer_data) ... ok
+test_clear_requires_intent (test_skill.ContractTests.test_clear_requires_intent) ... ok
+test_constructor_does_not_touch_bus (test_skill.ContractTests.test_constructor_does_not_touch_bus) ... ok
+test_contract_snapshot_isolation (test_skill.ContractTests.test_contract_snapshot_isolation) ... ok
+test_duplicate_offset (test_skill.ContractTests.test_duplicate_offset) ... ok
+test_generated_alternate_bus_names (test_skill.ContractTests.test_generated_alternate_bus_names) ... ok
+test_generated_driver_runs_and_refuses_overwrite (test_skill.ContractTests.test_generated_driver_runs_and_refuses_overwrite) ... ok
+test_generator_refuses_vacuous_identity_test (test_skill.ContractTests.test_generator_refuses_vacuous_identity_test) ... ok
+test_identity_mismatch_is_not_success (test_skill.ContractTests.test_identity_mismatch_is_not_success) ... ok
+test_offset_bank (test_skill.ContractTests.test_offset_bank) ... ok
+test_read32_binding (test_skill.ContractTests.test_read32_binding) ... ok
+test_read_only_write (test_skill.ContractTests.test_read_only_write) ... ok
+test_reserved_write_bits (test_skill.ContractTests.test_reserved_write_bits) ... ok
+test_schema_and_word_width_types (test_skill.ContractTests.test_schema_and_word_width_types) ... ok
+test_w1c_is_not_read_modify_write (test_skill.ContractTests.test_w1c_is_not_read_modify_write) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.352s
+
+OK

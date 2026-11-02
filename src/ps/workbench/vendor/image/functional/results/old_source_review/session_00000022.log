@@ -1,0 +1,259 @@
+{
+  "result": "PASS_FIRST_TYPE3C_FOUR_POINT_HARDWARE_CLOSED_LOOP_ORIGINALS_AUDIT",
+  "session": "session_00000022",
+  "manifest_count": 47,
+  "manifest_file_hashes_checked": 122,
+  "original_file_count": 350,
+  "application_files": 4,
+  "application_rows": 3190,
+  "completion_rows": 53,
+  "source_files_verified": 60,
+  "completed_records": 4,
+  "START_DONE_RETIRED_each": 4,
+  "actual_START_trial_ids_including_CONFIG": [
+    0,
+    159,
+    160,
+    161
+  ],
+  "actual_profiles": [
+    {
+      "record_id": 2,
+      "type": "0x3a",
+      "exact_ACK_verified": true,
+      "suffix_hex": "000000000000000000"
+    },
+    {
+      "record_id": 3,
+      "type": "0x3a",
+      "exact_ACK_verified": true,
+      "suffix_hex": "01001400000f001400"
+    },
+    {
+      "record_id": 4,
+      "type": "0x3c",
+      "exact_ACK_verified": true,
+      "suffix_hex": "01001400000f001403"
+    }
+  ],
+  "records": [
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 3,
+        "profile_seq": 1,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 1,
+      "business_success": true,
+      "payload_differences": [],
+      "CH0_differences": {
+        "a": [],
+        "b": []
+      }
+    },
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 3,
+        "profile_seq": 2,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 2,
+      "business_success": true,
+      "payload_differences": [],
+      "CH0_differences": {
+        "a": [],
+        "b": []
+      }
+    },
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 3,
+        "profile_seq": 3,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 3,
+      "business_success": false,
+      "payload_differences": [
+        {
+          "payload_offset": 0,
+          "expected": 0,
+          "actual": 1,
+          "xor": 1
+        }
+      ],
+      "CH0_differences": {
+        "a": [
+          {
+            "frame_offset": 20,
+            "expected": 0,
+            "actual": 1,
+            "xor": 1
+          }
+        ],
+        "b": [
+          {
+            "frame_offset": 20,
+            "expected": 0,
+            "actual": 1,
+            "xor": 1
+          }
+        ]
+      }
+    },
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 3,
+        "profile_seq": 4,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 4,
+      "business_success": false,
+      "payload_differences": [
+        {
+          "payload_offset": 0,
+          "expected": 0,
+          "actual": 1,
+          "xor": 1
+        },
+        {
+          "payload_offset": 1,
+          "expected": 1,
+          "actual": 0,
+          "xor": 1
+        },
+        {
+          "payload_offset": 2,
+          "expected": 2,
+          "actual": 3,
+          "xor": 1
+        },
+        {
+          "payload_offset": 3,
+          "expected": 3,
+          "actual": 2,
+          "xor": 1
+        }
+      ],
+      "CH0_differences": {
+        "a": [
+          {
+            "frame_offset": 20,
+            "expected": 0,
+            "actual": 1,
+            "xor": 1
+          },
+          {
+            "frame_offset": 21,
+            "expected": 1,
+            "actual": 0,
+            "xor": 1
+          },
+          {
+            "frame_offset": 22,
+            "expected": 2,
+            "actual": 3,
+            "xor": 1
+          },
+          {
+            "frame_offset": 23,
+            "expected": 3,
+            "actual": 2,
+            "xor": 1
+          }
+        ],
+        "b": [
+          {
+            "frame_offset": 20,
+            "expected": 0,
+            "actual": 1,
+            "xor": 1
+          },
+          {
+            "frame_offset": 21,
+            "expected": 1,
+            "actual": 0,
+            "xor": 1
+          },
+          {
+            "frame_offset": 22,
+            "expected": 2,
+            "actual": 3,
+            "xor": 1
+          },
+          {
+            "frame_offset": 23,
+            "expected": 3,
+            "actual": 2,
+            "xor": 1
+          }
+        ]
+      }
+    }
+  ],
+  "physical_snapshots": [
+    {
+      "record_id": 3,
+      "inverted_samples": 40,
+      "mark_high_samples": 2,
+      "samples_sha256": "b0d850e5a4cc20c0f55672c773570283f25f6e196d56030abde9beb23139914e"
+    },
+    {
+      "record_id": 4,
+      "inverted_samples": 40,
+      "mark_high_samples": 2,
+      "samples_sha256": "e9e723cefd7546ee5a7827f96d0df92c5b1bab3ec4201952e0f53d18393713c5"
+    }
+  ],
+  "MPG1_count_proofs": [
+    {
+      "record_id": 1,
+      "configured_points": 0,
+      "emitted_points": 0,
+      "actual_counter_identity_replies": 13,
+      "DONE_fence_before_retirement": 1,
+      "matches_actual_START_payload": true
+    },
+    {
+      "record_id": 2,
+      "configured_points": 0,
+      "emitted_points": 0,
+      "actual_counter_identity_replies": 13,
+      "DONE_fence_before_retirement": 1,
+      "matches_actual_START_payload": true
+    },
+    {
+      "record_id": 3,
+      "configured_points": 1,
+      "emitted_points": 1,
+      "actual_counter_identity_replies": 13,
+      "DONE_fence_before_retirement": 1,
+      "matches_actual_START_payload": true
+    },
+    {
+      "record_id": 4,
+      "configured_points": 4,
+      "emitted_points": 4,
+      "actual_counter_identity_replies": 13,
+      "DONE_fence_before_retirement": 1,
+      "matches_actual_START_payload": true
+    }
+  ],
+  "actual_counter_identity_replies_verified": 52,
+  "retired_snapshot_successor_links": 1,
+  "fifth_record_denied_saved": true,
+  "original_files_unchanged": true,
+  "all_four_external_waveforms_verified": false,
+  "scope": "First single-session four-contiguous-byte Direct TYPE3C execution, exact ACK, internal count/identity/DONE fence, four received payload bit flips, first-point waveform and full retirement; not arbitrary ranges, all 256 points, repeatability or general search acceptance"
+}

@@ -1,0 +1,665 @@
+{
+  "scope": "CAD solid-volume estimate only; not sliced, weighed or strength-tested",
+  "printed_cm3": 183.9495512345003,
+  "pp_cm3": 0,
+  "petg_assumed_g_cm3": 1.27,
+  "pp_assumed_g_cm3": 0.91,
+  "printed_solid_g": 233.61593006781538,
+  "pp_g": 0.0,
+  "plastic_total_g": 233.61593006781538,
+  "metal_allowance_g": [
+    20,
+    35
+  ],
+  "boards_fan_wires_excluded": true,
+  "parts": {
+    "base": {
+      "volume_cm3": 27.12728096704875,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -1.7999992370605469,
+          -0.5,
+          0.0
+        ],
+        [
+          181.8000030517578,
+          140.5,
+          10.0
+        ]
+      ]
+    },
+    "feet": {
+      "volume_cm3": 1.824614627803052,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          -0.5,
+          -0.5,
+          -6.0
+        ],
+        [
+          180.5,
+          140.5,
+          0.0
+        ]
+      ]
+    },
+    "columns": {
+      "volume_cm3": 10.6208934024956,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          0.5,
+          0.5,
+          3.0
+        ],
+        [
+          179.5,
+          139.5,
+          52.0
+        ]
+      ]
+    },
+    "upper": {
+      "volume_cm3": 15.832729878363878,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -0.5,
+          -0.5,
+          52.0
+        ],
+        [
+          180.5,
+          140.5,
+          55.0
+        ]
+      ]
+    },
+    "beams": {
+      "volume_cm3": 7.781624494268505,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 2,
+      "bounds_mm": [
+        [
+          0.0,
+          24.0,
+          55.0
+        ],
+        [
+          180.0,
+          116.0,
+          58.0
+        ]
+      ]
+    },
+    "clamps": {
+      "volume_cm3": 4.1212703211719095,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          38.0,
+          1.0,
+          3.0
+        ],
+        [
+          142.0,
+          139.0,
+          11.699999809265137
+        ]
+      ]
+    },
+    "clips": {
+      "volume_cm3": 5.528730838176693,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 8,
+      "bounds_mm": [
+        [
+          -1.7999999523162842,
+          -4.0,
+          12.0
+        ],
+        [
+          181.8000030517578,
+          174.0,
+          108.0
+        ]
+      ]
+    },
+    "side_left": {
+      "volume_cm3": 22.733914604514723,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.75,
+          0.0
+        ],
+        [
+          -1.7999992370605469,
+          173.75,
+          107.75
+        ]
+      ]
+    },
+    "side_right": {
+      "volume_cm3": 21.298645985294872,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          181.8000030517578,
+          -3.75,
+          0.0
+        ],
+        [
+          183.0,
+          173.75,
+          107.75
+        ]
+      ]
+    },
+    "roof": {
+      "volume_cm3": 39.755815884759805,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -3.0,
+          -5.199999809265137,
+          106.0
+        ],
+        [
+          183.0,
+          175.1999969482422,
+          109.19999694824219
+        ]
+      ]
+    },
+    "front": {
+      "volume_cm3": 13.796431220134657,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -3.0,
+          -5.199999809265137,
+          0.0
+        ],
+        [
+          183.0,
+          -4.0,
+          107.75
+        ]
+      ]
+    },
+    "back": {
+      "volume_cm3": 13.527599010467858,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -3.0,
+          174.0,
+          0.0
+        ],
+        [
+          183.0,
+          175.1999969482422,
+          107.75
+        ]
+      ]
+    },
+    "pcb7020": {
+      "volume_cm3": 54.127970703125,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          10.0,
+          10.0,
+          15.0
+        ],
+        [
+          170.0,
+          130.0,
+          30.599998474121094
+        ]
+      ]
+    },
+    "pcb7010": {
+      "volume_cm3": 23.735982147216795,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          25.0,
+          25.0,
+          68.0
+        ],
+        [
+          155.0,
+          115.0,
+          72.5999984741211
+        ]
+      ]
+    },
+    "lettering": {
+      "volume_cm3": 0.014969238463579311,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 11,
+      "bounds_mm": [
+        [
+          183.1199951171875,
+          28.341751098632812,
+          73.91864013671875
+        ],
+        [
+          183.22000122070312,
+          86.58255004882812,
+          79.81831359863281
+        ]
+      ]
+    },
+    "metal7020": {
+      "volume_cm3": 20.120255454422434,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 15,
+      "bounds_mm": [
+        [
+          20.68000030517578,
+          9.0,
+          16.600000381469727
+        ],
+        [
+          158.75,
+          131.0,
+          30.600000381469727
+        ]
+      ]
+    },
+    "metal7010": {
+      "volume_cm3": 7.250866992501076,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 7,
+      "bounds_mm": [
+        [
+          30.0,
+          24.0,
+          69.5999984741211
+        ],
+        [
+          154.0,
+          116.0,
+          83.19999694824219
+        ]
+      ]
+    },
+    "plastic7020": {
+      "volume_cm3": 7.792873474074299,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 16,
+      "bounds_mm": [
+        [
+          11.0,
+          12.09999942779541,
+          16.599998474121094
+        ],
+        [
+          171.0,
+          131.0,
+          29.5
+        ]
+      ]
+    },
+    "plastic7010": {
+      "volume_cm3": 3.0011205425816465,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 9,
+      "bounds_mm": [
+        [
+          26.0,
+          27.099998474121094,
+          69.5999984741211
+        ],
+        [
+          153.0,
+          116.0,
+          82.0999984741211
+        ]
+      ]
+    },
+    "accent7020": {
+      "volume_cm3": 2.8012796008300502,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 6,
+      "bounds_mm": [
+        [
+          19.0,
+          118.0,
+          16.599998474121094
+        ],
+        [
+          110.19999694824219,
+          131.0,
+          26.599998474121094
+        ]
+      ]
+    },
+    "accent7010": {
+      "volume_cm3": 0.03780004119873047,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          91.25,
+          113.0,
+          71.69999694824219
+        ],
+        [
+          95.75,
+          116.0,
+          74.5
+        ]
+      ]
+    },
+    "gold7020": {
+      "volume_cm3": 0.05088007537842723,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 52,
+      "bounds_mm": [
+        [
+          12.0,
+          25.0,
+          17.799999237060547
+        ],
+        [
+          148.5,
+          130.8000030517578,
+          22.099998474121094
+        ]
+      ]
+    },
+    "gold7010": {
+      "volume_cm3": 0.09240039062500045,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 88,
+      "bounds_mm": [
+        [
+          27.0,
+          38.0,
+          70.80000305175781
+        ],
+        [
+          152.13999938964844,
+          115.80000305175781,
+          75.0999984741211
+        ]
+      ]
+    },
+    "sd7020": {
+      "volume_cm3": 0.2955599077606239,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          9.0,
+          84.0,
+          16.599998474121094
+        ],
+        [
+          24.0,
+          99.0,
+          18.599998474121094
+        ]
+      ]
+    },
+    "sd7010": {
+      "volume_cm3": 0.34055870040884473,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          77.0,
+          24.0,
+          65.80000305175781
+        ],
+        [
+          92.0,
+          39.0,
+          68.0
+        ]
+      ]
+    },
+    "acrylic7020": {
+      "volume_cm3": 38.327832214252304,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          10.0,
+          10.0,
+          7.0
+        ],
+        [
+          170.0,
+          130.0,
+          9.0
+        ]
+      ]
+    },
+    "acrylic7010": {
+      "volume_cm3": 28.480677274661158,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          25.5,
+          25.5,
+          83.80000305175781
+        ],
+        [
+          154.5,
+          114.5,
+          86.5999984741211
+        ]
+      ]
+    },
+    "acrylic_edge7020": {
+      "volume_cm3": 2.208,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          10.0,
+          10.0,
+          7.0
+        ],
+        [
+          170.0,
+          130.0,
+          9.0
+        ]
+      ]
+    },
+    "acrylic_edge7010": {
+      "volume_cm3": 1.3461197289175761,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 3,
+      "bounds_mm": [
+        [
+          25.5,
+          25.5,
+          83.80000305175781
+        ],
+        [
+          154.5,
+          114.5,
+          86.5999984741211
+        ]
+      ]
+    },
+    "original_posts7020": {
+      "volume_cm3": 0.30299257514308103,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          11.149999618530273,
+          11.81843090057373,
+          9.0
+        ],
+        [
+          169.0500030517578,
+          128.4815673828125,
+          15.0
+        ]
+      ]
+    },
+    "original_posts7010": {
+      "volume_cm3": 0.7170831510527322,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          26.25,
+          26.618431091308594,
+          69.5999984741211
+        ],
+        [
+          153.75,
+          113.3815689086914,
+          83.80000305175781
+        ]
+      ]
+    },
+    "new_isolators7010": {
+      "volume_cm3": 0.5049879717518343,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          26.25,
+          26.618431091308594,
+          58.0
+        ],
+        [
+          153.75,
+          113.3815689086914,
+          68.0
+        ]
+      ]
+    },
+    "top_screws7010": {
+      "volume_cm3": 0.18884743029115642,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          26.25,
+          26.25,
+          86.5999984741211
+        ],
+        [
+          153.75,
+          113.75,
+          88.5999984741211
+        ]
+      ]
+    },
+    "bottom_screws7020": {
+      "volume_cm3": 0.18884743517894823,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          11.149999618530273,
+          11.449999809265137,
+          5.0
+        ],
+        [
+          169.0500030517578,
+          128.85000610351562,
+          7.0
+        ]
+      ]
+    },
+    "beam_screws7010": {
+      "volume_cm3": 0.33568023263863145,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 4,
+      "bounds_mm": [
+        [
+          26.25,
+          26.25,
+          53.0
+        ],
+        [
+          153.75,
+          113.75,
+          61.0
+        ]
+      ]
+    },
+    "speaker7020": {
+      "volume_cm3": 2.2982028178218794,
+      "watertight": true,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "bounds_mm": [
+        [
+          33.5,
+          38.5,
+          11.0
+        ],
+        [
+          62.5,
+          67.5,
+          15.0
+        ]
+      ]
+    }
+  }
+}

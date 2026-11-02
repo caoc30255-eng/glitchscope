@@ -1,0 +1,53 @@
+1/4 Verify repair files and original frozen package
+2/4 Verify prior110 contracts (when bound), then8 repair-specific checks
+3/4 Native45-query comparison; only score/entropy allow absolute1e-12 drift
+4/4 Compile/run original emlearn C; no FPGA or hardware service
+{
+  "status": "PASS_ARM_OSS_PYTHON_AND_C_SOFTWARE",
+  "report": "/home/xilinx/jupyter_notebooks/test_10_14/edgeai_oss_compat_zRGEmawD/result/report.json",
+  "reused_contract_tests": 110,
+  "repair_specific_tests": 8,
+  "golden_queries": 45,
+  "golden_passed": true,
+  "changed_queries": [
+    {
+      "index": 10,
+      "comparison": {
+        "passed": true,
+        "errors": [],
+        "numeric_differences": [
+          {
+            "field": "score",
+            "expected": 0.9069764464925755,
+            "actual": 0.9069764464925757,
+            "abs_difference": 2.220446049250313e-16
+          },
+          {
+            "field": "uncertainty_entropy",
+            "expected": 0.44648232493883555,
+            "actual": 0.44648232493883483,
+            "abs_difference": 7.216449660063518e-16
+          }
+        ]
+      }
+    }
+  ],
+  "C_check": {
+    "status": "PASS_EMLEARN_C_MATCH",
+    "queries": 450,
+    "max_abs_error": 7.450742434134128e-08,
+    "binary_sha256": "d2320d5ceb22889ebc086a24a5ef8ba2793f909b4fc5f8249ea9ba1800e5342e",
+    "total_process_seconds": 0.014952854000512161,
+    "time_includes_process_start_and_IO": true
+  },
+  "benchmark": {
+    "calls": 300,
+    "mean_seconds": 0.01094657211337714,
+    "p95_seconds": 0.018992901000274287,
+    "inference_only": true
+  },
+  "error": null,
+  "actual_ARM_run": true,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

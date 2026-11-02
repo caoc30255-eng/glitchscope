@@ -1,0 +1,190 @@
+{
+  "result": "PASS_SHARED_CALLBACK_AND_FEATURE_PILOT_ORIGINALS",
+  "scope": "Independent original-archive audit of frozen teammate policy callback and pending untrained feature projections; no formal live ingest, training, acceleration or general search acceptance",
+  "manifest_count": 59,
+  "manifest_file_hashes_checked": 154,
+  "application_files": 4,
+  "application_rows": 3160,
+  "completion_rows": 53,
+  "records": [
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 3,
+        "profile_seq": 1,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 1,
+      "business_success": true,
+      "payload_differences": [],
+      "CH0_differences": {
+        "a": [],
+        "b": []
+      }
+    },
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 3,
+        "profile_seq": 2,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 2,
+      "business_success": true,
+      "payload_differences": [],
+      "CH0_differences": {
+        "a": [],
+        "b": []
+      }
+    },
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 3,
+        "profile_seq": 3,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 3,
+      "business_success": false,
+      "payload_differences": [
+        {
+          "payload_offset": 0,
+          "expected": 0,
+          "actual": 1,
+          "xor": 1
+        }
+      ],
+      "CH0_differences": {
+        "a": [
+          {
+            "frame_offset": 20,
+            "expected": 0,
+            "actual": 1,
+            "xor": 1
+          }
+        ],
+        "b": [
+          {
+            "frame_offset": 20,
+            "expected": 0,
+            "actual": 1,
+            "xor": 1
+          }
+        ]
+      }
+    },
+    {
+      "actual_B_profile": {
+        "RX_profile_verified": true,
+        "complete_START_admission": false,
+        "d": 4,
+        "profile_seq": 4,
+        "s": -1,
+        "source": "HRP1 applied d/s + actual RX idle"
+      },
+      "record_id": 4,
+      "business_success": false,
+      "payload_differences": [
+        {
+          "payload_offset": 0,
+          "expected": 0,
+          "actual": 1,
+          "xor": 1
+        }
+      ],
+      "CH0_differences": {
+        "a": [
+          {
+            "frame_offset": 20,
+            "expected": 0,
+            "actual": 1,
+            "xor": 1
+          }
+        ],
+        "b": []
+      }
+    }
+  ],
+  "physical_snapshots": [
+    {
+      "record_id": 3,
+      "inverted_samples": 41,
+      "mark_high_samples": 2,
+      "samples_sha256": "6d90b37e9ea26b576351b83df0f95f9f5413c755d080763d215af9f9844ad5d4"
+    },
+    {
+      "record_id": 4,
+      "inverted_samples": 40,
+      "mark_high_samples": 2,
+      "samples_sha256": "72f5511df31a3f2da532e72d3911cbfd3ed5a4bd3c6ae4dad0ed5141ae4720e1"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": 1,
+      "after_record_id": 0,
+      "action": "CONTINUE_PREDECLARED_NEXT",
+      "reason": "BOOTSTRAP_CONFIG",
+      "after_result_sha256": null
+    },
+    {
+      "decision": 2,
+      "after_record_id": 1,
+      "action": "CONTINUE_PREDECLARED_NEXT",
+      "reason": "CONFIG_VERIFIED_RUN_UNMARKED_CONTROL",
+      "after_result_sha256": "6827f1c5708167be85ad1ff4be2cf69fa0b4cad1122408576d94140acd487bf6"
+    },
+    {
+      "decision": 3,
+      "after_record_id": 2,
+      "action": "CONTINUE_PREDECLARED_NEXT",
+      "reason": "CONTROL_VERIFIED_RUN_REFERENCE",
+      "after_result_sha256": "b51686f3a0aed3722cfa04a420328ebe7e8fd1b592ff5ed3f11acdd03644515f"
+    },
+    {
+      "decision": 4,
+      "after_record_id": 3,
+      "action": "CONTINUE_PREDECLARED_NEXT",
+      "reason": "REFERENCE_B_FALSE_TRY_PREDECLARED_CANDIDATE",
+      "after_result_sha256": "f26f6232d77235ca4fa712b55a62fd36354654ac51b8b297b0930b9e662a2821"
+    },
+    {
+      "decision": 5,
+      "after_record_id": 4,
+      "action": "STOP",
+      "reason": "FOUR_RECORD_PLAN_COMPLETE",
+      "after_result_sha256": "341ce0496ffd1465eea897a0122d7a216248a05fdbbf7a83f91bac8b34ecbebc"
+    }
+  ],
+  "decision_inputs_match_saved_actual_feedback": true,
+  "all_decisions_precede_corresponding_execution_intents": true,
+  "four_record_limit_respected": true,
+  "fourth_record_selected_after_actual_reference_B_failure": true,
+  "fifth_decision_STOP_no_fifth_record": true,
+  "snapshot_successor_permissions": 1,
+  "START_DONE_RETIRED_each": 4,
+  "FAULT_MARK_events": 2,
+  "MARK_STORED_transfers": 2,
+  "trial_ids": [
+    229,
+    230,
+    231
+  ],
+  "original_files_unchanged": true,
+  "teammate_algorithm_called": true,
+  "AI_training_run": false,
+  "production_billing_finalized": false,
+  "teammate_callbacks_reproduced": 5,
+  "feature_API_calls_reproduced": 5,
+  "new_ITEM_feature_projections": 3,
+  "source_review_status_in_originals": "PENDING_SOURCE_REVIEW",
+  "formal_feedback_ingested": false,
+  "original_file_count": 464,
+  "prior_trial_registry_preserved": true
+}

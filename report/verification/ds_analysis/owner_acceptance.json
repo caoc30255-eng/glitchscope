@@ -1,0 +1,66 @@
+{
+  "status": "PASS_AGREED_THIRD_CORE_SCOPE",
+  "date": "2026-10-26",
+  "scope": "第三核心功能：局部波形分析、统一d/s软件推荐、完整图像实板配对验证、交互报告及导出",
+  "valid_completed_new_records": 260,
+  "raw_audits_passed": 4,
+  "decision_reproductions": 2,
+  "uniform_profile_per_64_ITEMs": true,
+  "comparisons": [
+    {
+      "case": "人物图",
+      "baseline_session": "session_00000049",
+      "selected_session": "session_0000004a",
+      "baseline_ds": {
+        "d": 3,
+        "s": -1
+      },
+      "selected_ds": {
+        "d": 4,
+        "s": -2
+      },
+      "baseline_bit_errors": 2398,
+      "selected_bit_errors": 1672,
+      "reduction_percent": 30.275229357798164,
+      "baseline_correct_frames": 44,
+      "selected_correct_frames": 50,
+      "ITEMs_per_group": 64,
+      "passed_fixed_benefit_rule": true
+    },
+    {
+      "case": "小恐龙图",
+      "baseline_session": "session_0000004b",
+      "selected_session": "session_0000004c",
+      "baseline_ds": {
+        "d": 3,
+        "s": -1
+      },
+      "selected_ds": {
+        "d": 4,
+        "s": -2
+      },
+      "baseline_bit_errors": 1855,
+      "selected_bit_errors": 1199,
+      "reduction_percent": 35.36388140161725,
+      "baseline_correct_frames": 45,
+      "selected_correct_frames": 49,
+      "ITEMs_per_group": 64,
+      "passed_fixed_benefit_rule": true
+    }
+  ],
+  "UI_confirmed_by_user": true,
+  "cumulative_occupied": 635,
+  "old_session48_unknown_preserved": 1,
+  "no_additional_hardware_acceptance_rounds_required_for_agreed_scope": true,
+  "edge_AI_status": "STOPPED_BY_USER",
+  "hardware_access_by_this_review": false,
+  "new_STARTs": 0,
+  "original_producer_pending_flags_preserved": true,
+  "limitations": [
+    "软件推演比较14组合法d/s，每幅图的64个ITEM统一采用一组；仅两组推荐配置进行了本轮配对硬件复核，未证明14组硬件全局最优。",
+    "CAP为局部4096个标称10ns采样；每ITEM通常仅2个完整字节用于局部评分，全图共1024评分位。参考前缀是明确的软件假设，不是实测的完整波形。",
+    "保留接收初相不确定性和未测区域；未逐个采样验证全部34002个毛刺的外部物理波形。",
+    "两幅图、两个固定种子的结果不等于任意图片、随机条件或统计普遍泛化证明；相同计划不意味着每次物理初相相同。",
+    "本功能使用固定软件分析规则，不涉及AI训练。资源关闭核验范围为主机返回状态，非独立操作系统存活测量。"
+  ]
+}

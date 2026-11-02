@@ -1,0 +1,18 @@
+test_01_manifest_and_python38 (__main__.Integration.test_01_manifest_and_python38) ... ok
+test_01b_notebook_output_changes_do_not_change_code (__main__.Integration.test_01b_notebook_output_changes_do_not_change_code) ... ok
+test_02_real_samples_and_inline_report_csp (__main__.Integration.test_02_real_samples_and_inline_report_csp) ... ok
+test_02b_native_viewer_and_fonts (__main__.Integration.test_02b_native_viewer_and_fonts) ... ok
+test_03_csrf_and_host_refusal (__main__.Integration.test_03_csrf_and_host_refusal) ... ok
+test_04_scan_preview_and_changed_illegal (__main__.Integration.test_04_scan_preview_and_changed_illegal) ... ok
+test_05_native_model_predict_and_refusal (__main__.Integration.test_05_native_model_predict_and_refusal) ... ok
+test_06_upload_and_all_fourteen_uniform_profiles (__main__.Integration.test_06_upload_and_all_fourteen_uniform_profiles) ... ok
+test_07_live_has_no_implicit_permission (__main__.Integration.test_07_live_has_no_implicit_permission) ... ok
+test_08_session_and_path_boundaries (__main__.Integration.test_08_session_and_path_boundaries) ... ok
+test_09_raw_feedback_history_is_not_accepted_from_http (__main__.Integration.test_09_raw_feedback_history_is_not_accepted_from_http) ... ok
+test_10_budget_reservation_cannot_reuse_or_overlap (__main__.Integration.test_10_budget_reservation_cannot_reuse_or_overlap) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 8.065s
+
+OK
+Retained software test artifacts: /path/to/glitchscope_source\unified_http_test_ax1t_8l4

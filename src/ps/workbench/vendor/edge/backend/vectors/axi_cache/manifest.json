@@ -1,0 +1,42 @@
+{
+  "hardware_executed": false,
+  "cases": {
+    "normal": {
+      "raw_count": 276,
+      "descriptor_sha256": "cce4a688c1d4ec89707c871e522f9ccb15c525356c6c0d84745e73039276cdd1",
+      "samples_sha256": "2d32835cc64593f184d07141a11a645f85f851e9b3b7733ce7277215d9f9c4cd",
+      "footer": "92d70a70",
+      "scope": "synthetic timestamps around frozen protocol bytes; AXI cache unit test"
+    },
+    "max": {
+      "raw_count": 532,
+      "descriptor_sha256": "49c1a766880a23653dc9aba2093604177d8ab421dec8b1c6d732b11dd9d76d99",
+      "samples_sha256": "9816a6c2ed1ef3abf17565dadaf1eb18dad9e9844c2f6d16f3f818f1e11a9834",
+      "footer": "9c466b31",
+      "scope": "synthetic timestamps around frozen protocol bytes; AXI cache unit test"
+    },
+    "config_ack": {
+      "raw_count": 12,
+      "descriptor_sha256": "187872160bcf61be1a7ae4d79b6c146a8339411846396e4d117cdaf18a42534c",
+      "samples_sha256": "bd6e5801901f510386f89fba8e9d4d6625a1429e46ec1c23d81aba8bc8ec50de",
+      "footer": "4d246dfe",
+      "scope": "synthetic timestamps around frozen protocol bytes; AXI cache unit test"
+    },
+    "empty": {
+      "raw_count": 0,
+      "descriptor_sha256": "8d6142aaa7e73059fc936d71bbc88bc34e62dbad2114e993ab48f14bdd610a28",
+      "samples_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "footer": "9385ffff",
+      "scope": "synthetic timestamps around frozen protocol bytes; AXI cache unit test"
+    },
+    "config_ack_epoch2": {
+      "raw_count": 12,
+      "epoch": 2,
+      "record_id": 18,
+      "descriptor_sha256": "fdbc16ecc7634c6570085184c56ec461777308d653143dab0ebac093c5741fd6",
+      "samples_sha256": "bd6e5801901f510386f89fba8e9d4d6625a1429e46ec1c23d81aba8bc8ec50de",
+      "footer": "45096dfe",
+      "scope": "synthetic epoch2 context; frozen management ACK bytes"
+    }
+  }
+}

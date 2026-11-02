@@ -1,0 +1,96 @@
+Browser tab: 1, Title: "三板实验工作台", URL: "http://127.0.0.1:18765/".
+1 AXWebArea 三板实验工作台, URL: 127.0.0.1:18765/
+	2 container
+		3 text 7010 发送/毛刺 · STM32 被测 · 7020 接收/分析
+		4 heading 三板实验工作台 软件功能候选 v0.1, Value: 1
+			5 text 三板实验工作台  软件功能候选 v0.1
+		6 text 硬件执行入口未连接
+	7 text 当前支持：开发模拟、已审核真实证据回放、真实接收图片修复。模拟和预测均不代表新实测；真实数据训练关闭。
+	8 container
+		9 button 扫描与热力图
+		10 button 选点与算法对照
+		11 button 接收与图片修复
+		12 button 证据与运行记录
+	13 container
+		14 heading session24 · 真帧接收、重组与修复, Value: 2
+			15 text session24 · 真帧接收、重组与修复
+		16 link Description: 导出全部图片、掩码、指标及来源, Value: 127.0.0.1:18765/api/images.zip
+		17 text 模式：离线真实证据回放。输入来自 CH0 A/B 与 CH1 REPORT 的原包及样本，不是预造 PNG；实时接收通道尚待主线确认。 修复处理
+		18 pop up button (collapsed, settable) 修复处理, Value: 多路 · CRC 约束突发修复, ID: imageMethod, Secondary Actions: Expand
+			19 menu
+				20 仅 B · CRC 约束连续位突发候选 + 空间排序
+				21 基线 · 按接收端 CRC 从 B/A/STM 择优，无修复
+				22 (selected) 多路 · CRC 约束突发修复
+				23 仅 B · 5×5 选择性中值视觉估计
+		24 image
+		25 text 未修复单路 B
+		26 image repairImage
+		27 text 实际算法输出
+		28 image
+		29 text 源图：独立评估参考，不输入算法
+		30 image modifiedImage
+		31 text 修改掩码
+		32 image uncertainImage
+		33 text 不确定掩码
+		34 image missingImage
+		35 text 缺失掩码
+		36 container imageReport
+			94 table
+				95 row
+					96 cell
+						97 text 输入/处理
+					98 cell
+						99 text 错误像素
+					100 cell
+						101 text MAE
+					102 cell
+						103 text 整图 CONFIG SHA
+				104 row
+					105 cell
+						106 text 未修复 B
+					107 cell
+						108 text 3174
+					109 cell
+						110 text 6.64899
+					111 cell
+						112 text —
+				113 row
+					114 cell
+						115 text 未修复 A
+					116 cell
+						117 text 4402
+					118 cell
+						119 text 10.52991
+					120 cell
+						121 text —
+				122 row
+					123 cell
+						124 text 未修复 STM
+					125 cell
+						126 text 4296
+					127 cell
+						128 text 11.22601
+					129 cell
+						130 text —
+				131 row
+					132 cell
+						133 text 无修复 CRC 择优
+					134 cell
+						135 text 3174
+					136 cell
+						137 text 6.64899
+					138 cell
+						139 text 未匹配
+				140 row
+					141 cell
+						142 text crc_burst_multi
+					143 cell
+						144 text 0
+					145 cell
+						146 text 0.00000
+					147 cell
+						148 text 匹配
+			149 text 相对 B 错误和 MAE 同时改善：是；优于无修复择优基线：是
+		93 text CRC16 通过不单独等于无损。仅完整图片匹配已接收 CONFIG 中 SHA256 时标为校验恢复；否则明确标为估计。算法不接收源图或精确毛刺计划。
+
+The focused UI element is 1 AXWebArea 三板实验工作台, URL: 127.0.0.1:18765/

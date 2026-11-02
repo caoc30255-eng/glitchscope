@@ -1,0 +1,21 @@
+{
+  "status": "PASS_FRESH_SOURCE_100MHZ_TIMING_AND_ROUTE",
+  "timing": {
+    "wns_ns": 0.048,
+    "tns_ns": 0.0,
+    "setup_failing": 0.0,
+    "setup_total": 63875.0,
+    "whs_ns": 0.057,
+    "ths_ns": 0.0,
+    "hold_failing": 0.0,
+    "hold_total": 63875.0,
+    "wpws_ns": 3.87,
+    "tpws_ns": 0.0,
+    "pulse_failing": 0.0,
+    "pulse_total": 20805.0
+  },
+  "clock_mhz": 100,
+  "scope": "Full source rebuild with corrected module-reference discovery and short external output; no hardware access. The extra 150MHz analysis wrapper later stopped on a precision assertion, after the complete 100MHz implementation reports were saved.",
+  "hardware_access": false,
+  "bitstream_generated": false
+}

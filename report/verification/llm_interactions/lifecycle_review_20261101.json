@@ -1,0 +1,24 @@
+{
+  "status": "PASS_LIFECYCLE_RECORDS_SOURCES_AND_VISUAL_REVIEW",
+  "date": "2026-11-01",
+  "pages": 19,
+  "cases": 16,
+  "stages": [
+    "方案设计",
+    "开发联调",
+    "功能验证",
+    "交付复现"
+  ],
+  "unique_referenced_source_messages": 123,
+  "mainline_visible_messages": 4750,
+  "teammate_visible_messages": 739,
+  "cross_source_unique_total_claimed": false,
+  "source_hashes_verified": true,
+  "all_19_pages_visually_reviewed": true,
+  "font": "SimSun embedded",
+  "colors": "black body, black table header with white text, white body cells",
+  "renderer": "Native Microsoft Word PDF export and Poppler page rendering; LibreOffice unavailable",
+  "historical_tests_rerun": false,
+  "runtime_changed": false,
+  "new_STARTs": 0
+}

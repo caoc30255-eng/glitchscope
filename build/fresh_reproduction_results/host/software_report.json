@@ -1,0 +1,37 @@
+{
+  "bits": 64,
+  "browser_automation_used": false,
+  "fixed_files": 995,
+  "hardware_access": false,
+  "machine": "AMD64",
+  "new_STARTs": 0,
+  "new_UI_hardware_acceptance": false,
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "real_demo_consent_created": false,
+  "status": "PASS_LOCAL_DEMO_SOFTWARE",
+  "test_scope": "Synthetic PREVIEW ledgers, fake devices and local HTTP contracts; not physical measurements",
+  "tests": [
+    {
+      "returncode": 0,
+      "test": "tests_feedback_fix.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_demo_authority.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_live_accounting_models.py"
+    },
+    {
+      "returncode": 0,
+      "test": "tests_integration.py"
+    },
+    {
+      "returncode": 0,
+      "test": "test_forwarded_host.py"
+    }
+  ],
+  "training_performed": false,
+  "ui_manifest_sha256": "726effa260c43769b160bfa6a753c10d63f5c918cd0279d375a91da4198601a2"
+}

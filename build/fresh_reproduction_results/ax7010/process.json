@@ -1,0 +1,9 @@
+{
+  "returncode": 0,
+  "completion_marker_present": true,
+  "status": "REPORTS_READY_FOR_REVIEW",
+  "wall_seconds": 369.67264223098755,
+  "tool": "C:/AMDDesignTools/2026.1/Vivado/bin/vivado.bat",
+  "tcl": "C:/workspace\\Desktop\\claude_code\\release_signoff_20261028\\ax7010_resume.tcl",
+  "hardware_access": false
+}

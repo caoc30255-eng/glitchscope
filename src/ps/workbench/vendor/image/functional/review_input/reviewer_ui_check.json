@@ -1,0 +1,23 @@
+{
+  "status": "BROWSER_TESTED_WITH_CONFIRMED_PARAMETER_REFRESH_BUG",
+  "restored_plan_d": 4,
+  "displayed_form_d_after_reload": 3,
+  "hash": "28997981653f329eb59f8c6b4d9ea720b268dfabe76af690be8922770f62e762",
+  "hardware_execution_available": false,
+  "active_simulated_runs": 0,
+  "http_checks": {
+    "status": "PASS",
+    "exports": [
+      "SVG",
+      "CSV",
+      "image ZIP"
+    ],
+    "idempotent_start": true,
+    "stop_cancelled_unstarted": 44,
+    "UNKNOWN_blocks_and_consumes": true,
+    "live_entry_rejected": true,
+    "target": "http://127.0.0.1:18765",
+    "hardware_access": false
+  },
+  "source": "Browser accessibility states plus loopback API lookup of the observed plan"
+}

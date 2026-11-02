@@ -1,0 +1,13 @@
+{
+  "source": "accepted_workbench_v2_0_1",
+  "original_manifest_sha256": "0eddc3d3d2e9545b10718785466a071dd1d2be0cdc09f6020428595a3b6a51fd",
+  "derived_manifest_sha256": "726effa260c43769b160bfa6a753c10d63f5c918cd0279d375a91da4198601a2",
+  "changes": [
+    "ASCII/lowercase repository paths and corresponding references",
+    "Public media omissions",
+    "Fresh packaging inventories; original evidence hashes are not rewritten",
+    "Old session50 maintenance CLI omitted"
+  ],
+  "hardware_retested": false,
+  "normalized_software_checks_passed": 46
+}

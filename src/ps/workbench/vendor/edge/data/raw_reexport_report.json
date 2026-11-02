@@ -1,0 +1,29 @@
+{
+  "status": "PASS_OFFLINE_RAW_REEXPORT",
+  "total_records": 170,
+  "marked_records": 154,
+  "controls": 16,
+  "original_files_rechecked": 8491,
+  "splits": {
+    "controls_only": 16,
+    "train": 84,
+    "validation": 40,
+    "historical_test": 30
+  },
+  "condition_count": 28,
+  "train_B_counts": {
+    "True": 55,
+    "False": 29
+  },
+  "validation_B_counts": {
+    "True": 25,
+    "False": 15
+  },
+  "historical_test_B_counts": {
+    "False": 10,
+    "True": 20
+  },
+  "hardware_access": false,
+  "artificial_labels_added": false,
+  "source_bytes_rewritten": false
+}

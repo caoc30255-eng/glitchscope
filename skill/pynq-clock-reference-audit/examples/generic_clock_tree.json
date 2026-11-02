@@ -1,0 +1,41 @@
+{
+  "schema": "CLOCK_TREE_REFERENCE_SNAPSHOT_V1",
+  "device": "Independent 24MHz-reference example (synthetic)",
+  "snapshot_stable": true,
+  "references": [
+    {
+      "id": "osc",
+      "hz": 24000000,
+      "source": "synthetic reference specification"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "pll",
+      "parent": "osc",
+      "numerator": 125,
+      "denominator": 3,
+      "kind": "fractional_pll"
+    },
+    {
+      "id": "bus",
+      "parent": "pll",
+      "numerator": 1,
+      "denominator": 10,
+      "kind": "divider"
+    }
+  ],
+  "clocks": [
+    {
+      "id": "bus",
+      "hardware_node": "bus",
+      "enabled": true,
+      "software_reference_hz": 24000000,
+      "reported_hz": 100000000,
+      "requested_hz": 100000000,
+      "declaration_hz": 100000000,
+      "tolerance_ppm": 1,
+      "tolerance_basis": "synthetic exact-frequency arithmetic"
+    }
+  ]
+}

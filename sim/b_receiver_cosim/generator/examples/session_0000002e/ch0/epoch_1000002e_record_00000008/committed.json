@@ -1,0 +1,58 @@
+{
+  "complete_orphan_journal": false,
+  "files": {
+    "a_raw.bin": {
+      "bytes": 278,
+      "sha256": "f310369f97552723542e2a14265b208c9c5e346ed75a2450f4bfc7cd9eb41c61"
+    },
+    "a_samples.bin": {
+      "bytes": 2780,
+      "sha256": "a4f0630278d0394cf1e923fe99bcf9755e101c8a7427e89d91b05ff68bcb361b"
+    },
+    "b_raw.bin": {
+      "bytes": 278,
+      "sha256": "112cab1d7fa6acb4b61c8ca07d3da5469607ebfa4c0889d782c515a78b23ec6e"
+    },
+    "b_samples.bin": {
+      "bytes": 2780,
+      "sha256": "1c19849fbb47fac3599772dcf88eba5d6c71f28281f7662ae0d8221271050cdf"
+    },
+    "classification.json": {
+      "bytes": 166,
+      "sha256": "9a6faf1ee36715730425b85126db2260ef0dc81a408c6b4762e1d9ba34d7a720"
+    },
+    "descriptor.json": {
+      "bytes": 491,
+      "sha256": "2d95af299186b3b312274c4148116d2e9548901abb642550e3335c47e022f286"
+    },
+    "expected_request.bin": {
+      "bytes": 278,
+      "sha256": "112cab1d7fa6acb4b61c8ca07d3da5469607ebfa4c0889d782c515a78b23ec6e"
+    }
+  },
+  "format": "H0R2_EVIDENCE_V1",
+  "hardware_export_crc": "NOT_PROVIDED",
+  "metadata": {
+    "a_count": 278,
+    "a_errors": 0,
+    "a_first_error": 0,
+    "b_count": 278,
+    "b_errors": 0,
+    "b_first_error": 0,
+    "binding": {
+      "deadline": 21781393904,
+      "epoch": 268435502,
+      "identity": 157968446526169525036315040132158415865861732428428879480226185216,
+      "kind": 1,
+      "peer_epoch": 536870958,
+      "record_id": 8,
+      "request_length": 278,
+      "start": 20781393904
+    },
+    "first_fault": 0,
+    "rejected_tick": 0,
+    "rejected_word": 0,
+    "release_count": 7,
+    "status": 3
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema": "B_LOCAL_PARAMETER_REPLAY_V0_1",
+  "session": "session_00000049",
+  "record_id": 10,
+  "actual_profile": {
+    "d": 3,
+    "s": -1
+  },
+  "scope": "LOCAL_REFERENCE_ASSISTED_SOFTWARE_REPLAY_NOT_FULL_FRAME_OR_HARDWARE_RECOMMENDATION",
+  "model_validation": "FROZEN_RTL_COSIM_1125_CASE_MODEL; NEW_REFERENCE_PREFIX_ALIGNMENT_SOFTWARE_CHECKS_ONLY",
+  "nominal_sample_ns": 10,
+  "samples": 4096,
+  "full_ITEM_CRC_evaluated": false,
+  "hardware_verified_recommendation": false,
+  "AI_used": false,
+  "new_STARTs": 0,
+  "alignment_uses": [
+    "MARK_WINDOW",
+    "SAVED_TARGET_BYTE_AND_BIT",
+    "NON_TARGET_B_BYTES_FLAGS",
+    "ACTUAL_B_RELATIVE_TIMESTAMPS"
+  ],
+  "target_byte_value_held_out_of_phase_fit": true,
+  "assumed_byte_clock_count": 100,
+  "capture_input_path_phase_measured": false,
+  "target_byte": 167,
+  "target_bit": 1,
+  "target_start_index": 1774,
+  "byte_period_clocks": 1006,
+  "compared_byte_indices": [
+    167,
+    168
+  ],
+  "matching_NCO_accumulators": [
+    11,
+    15,
+    19,
+    23
+  ],
+  "inference_limit": "UNKNOWN_RELATIVE_CE_PHASE_ENUMERATED; MODEL_INITIAL_IDLE_WITH_WARMUP; ALIGNMENT_CONDITIONAL_ON_LAB_METADATA_AND_ACTUAL_B_MATCH",
+  "state": "LOCAL_CURRENT_B_MATCHED",
+  "held_out_target_validation": "ALL_RETAINED_PHASES_MATCH_HELD_OUT_TARGET",
+  "held_out_target_matched_phases": 4,
+  "actual_target_byte": 79,
+  "actual_compared_bit_errors": 0,
+  "software_candidate_region": [
+    {
+      "d": 1,
+      "s": -2
+    },
+    {
+      "d": 1,
+      "s": -1
+    },
+    {
+      "d": 1,
+      "s": 0
+    },
+    {
+      "d": 1,
+      "s": 1
+    },
+    {
+      "d": 1,
+      "s": 2
+    },
+    {
+      "d": 2,
+      "s": -2
+    },
+    {
+      "d": 2,
+      "s": -1
+    },
+    {
+      "d": 2,
+      "s": 0
+    },
+    {
+      "d": 2,
+      "s": 1
+    },
+    {
+      "d": 3,
+      "s": -2
+    },
+    {
+      "d": 3,
+      "s": -1
+    },
+    {
+      "d": 3,
+      "s": 0
+    },
+    {
+      "d": 4,
+      "s": -2
+    },
+    {
+      "d": 4,
+      "s": -1
+    }
+  ],
+  "warmup": {
+    "prefix_samples": 1244,
+    "prior_character_starts": 3,
+    "byte_period_clocks": 1006,
+    "reconstructed_prefix_measured": false,
+    "prefix_before_first_scheduled_fault": true,
+    "prefix_sha256": "a7567f393b753128d484f034f920e2f19cf4bc31207740ae52beef63db1aa8f9",
+    "assumption": "Unobserved prefix follows source UART encoding with100 clocks/bit and measured median character period",
+    "prefix_used_for_receiver_state_only": true,
+    "prefix_in_scoring": false,
+    "target_value_used_to_choose_phase": false
+  }
+}

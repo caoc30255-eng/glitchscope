@@ -1,0 +1,10 @@
+{
+  "status": "PASS_SOFTWARE_CONTRACTS",
+  "tests": 95,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "fixture_scope": "Retained synthetic state and register models; not observed hardware records"
+}

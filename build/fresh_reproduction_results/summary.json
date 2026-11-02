@@ -1,0 +1,32 @@
+{
+  "schema": "SOURCE_REPRODUCTION_SCOPE_V1",
+  "recorded_date": "2026-10-29",
+  "local_source_rebuild": {
+    "ax7010": "PASS_INTERNAL_TIMING_WITH_17_RECORDED_DRC_WARNINGS",
+    "ax7020": "PASS_100MHZ_TIMING",
+    "stm32": "PASS_HEX_IDENTICAL",
+    "ps": "PASS_HOST_ISOLATED_ENVIRONMENT"
+  },
+  "target_software_and_native": "PASS_TARGET_SOFTWARE_AND_NATIVE_BUILD",
+  "target_final_release_hardware": "PASS_RETURNED_FRESH_SD_DECLARED_CORE_SCOPE",
+  "fresh_SD_bootstrap": "PASS_IMPLEMENTED_AND_RETURNED_OPERATOR_COLD_BOOT_FLOW",
+  "source_builds_were_completed_in_stages": true,
+  "new_integrated_fpga_launchers_not_yet_rerun_end_to_end": true,
+  "clock_note": "PYNQ readback150 corresponds to approximately100MHz from board reference and registers; not physically measured",
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "target_receipt": "target_pynq/result/report.json",
+  "target_source_archive": "glitchscope_source_20261029_reproduction.zip",
+  "target_runtime_manifest_matches_formal_release": false,
+  "target_native_rebuild_matches_accepted": true,
+  "target_deployment_note": "Startup stdout previously supplied; original deployment binding files not included in this result directory",
+  "original_recorded_date": "2026-10-29",
+  "updated_date": "2026-11-01",
+  "historical_target_receipt_scope": "target_pynq/result/report.json remains the original2026-10-29 runtime report; not rewritten as new proof",
+  "current_fresh_runtime_manifest_matches_successful_session7": true,
+  "current_fresh_workbench_manifest_sha256": "ce7727382aa51c2d33898fbd30a21fc2ee4bcaad4bd4494db58e77cb19df70b8",
+  "current_fresh_acceptance_reference": "report/verification/ui_software/fresh_sd_session7_20261101.json",
+  "current_fresh_target_receipt_file": "Independent original software report pending separate retrieval; task grant preserves its hash",
+  "summary_update_hardware_access": false,
+  "summary_update_new_STARTs": 0
+}

@@ -1,0 +1,22 @@
+{
+  "crc_select": {
+    "original_four_outputs_unchanged": true,
+    "output_sha256": "f90af7d8b8ed795b634446d5e322bd44b2d2be6b9c2ea1cc6d1bf1b20a9d6134",
+    "repair_file_IO_disabled": true
+  },
+  "crc_burst_B": {
+    "original_four_outputs_unchanged": true,
+    "output_sha256": "5a0b243e61e541faa68c45d605f8c4e1a1426293af5a8aed840f2d867ab138de",
+    "repair_file_IO_disabled": true
+  },
+  "crc_burst_multi": {
+    "original_four_outputs_unchanged": true,
+    "output_sha256": "6192177385d8d6a5513d80d5a53a45c891fb34f8f8603fcda53fb91172215330",
+    "repair_file_IO_disabled": true
+  },
+  "visual_median_B": {
+    "original_four_outputs_unchanged": true,
+    "output_sha256": "74f1e1704cb7e21a9fe4ece20062bb3e759e9066671c713feb6aa8ff64f764ef",
+    "repair_file_IO_disabled": true
+  }
+}

@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Fatal: SKILL_RTL_FAIL case=3 cycle=5
+Time: 1976 ns  Iteration: 0  Process: /tb_accumulator/Initial6_1  Scope: tb_accumulator  File: C:/workspace/Desktop/claude_code/GLITCHSCOPE_Skills_v1_1_20261028/work/release_integrations/relocated/rtl-reference-cosim/examples/tb_accumulator.sv Line: 23
+$finish called at time : 1976 ns

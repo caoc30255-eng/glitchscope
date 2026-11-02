@@ -1,0 +1,441 @@
+{
+  "status": "PASS_ARM_OSS_PYTHON_AND_C_SOFTWARE",
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "training_performed": false,
+  "original_files_modified": false,
+  "board_session_created": false,
+  "real_scan_speedup_accepted": false,
+  "fixed_original_files": 275,
+  "original_manifest_sha256": "27aba4c84fc2f554cd6f27ec96438b6e90344a86cb2866b53b2910d7f052e5ae",
+  "contract_checks": {
+    "reused": true,
+    "source": "/home/xilinx/jupyter_notebooks/test_10_14/edgeai_oss_check_5ce6YNhw",
+    "tests": 110,
+    "files": {
+      "console.log": {
+        "bytes": 769,
+        "sha256": "d3d0257fd414f9febb066b617745f7e76a6b07a0430ee926e1a6a7da7fe672d2"
+      },
+      "result/contracts_console.log": {
+        "bytes": 251,
+        "sha256": "671903c1bd43ba9067546c469a1a13fcc2417cd05dd1f8b7254fb63b085cf2a8"
+      },
+      "result/contracts/test_summary.json": {
+        "bytes": 251,
+        "sha256": "671903c1bd43ba9067546c469a1a13fcc2417cd05dd1f8b7254fb63b085cf2a8"
+      },
+      "result/contracts/tests.log": {
+        "bytes": 8057,
+        "sha256": "b7f2819d9242fd9d352edab9721c9cf7185bdc4f3c449f7ac1550dbf4f99e69d"
+      }
+    }
+  },
+  "repair_specific_tests": 8,
+  "golden_comparison": {
+    "passed": true,
+    "queries": 45,
+    "results": [
+      {
+        "index": 0,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 1,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 2,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 3,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 4,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 5,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 6,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 7,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 8,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 9,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 10,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": [
+            {
+              "field": "score",
+              "expected": 0.9069764464925755,
+              "actual": 0.9069764464925757,
+              "abs_difference": 2.220446049250313e-16
+            },
+            {
+              "field": "uncertainty_entropy",
+              "expected": 0.44648232493883555,
+              "actual": 0.44648232493883483,
+              "abs_difference": 7.216449660063518e-16
+            }
+          ]
+        }
+      },
+      {
+        "index": 11,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 12,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 13,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 14,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 15,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 16,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 17,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 18,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 19,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 20,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 21,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 22,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 23,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 24,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 25,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 26,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 27,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 28,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 29,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 30,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 31,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 32,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 33,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 34,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 35,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 36,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 37,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 38,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 39,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 40,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 41,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 42,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 43,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      },
+      {
+        "index": 44,
+        "comparison": {
+          "passed": true,
+          "errors": [],
+          "numeric_differences": []
+        }
+      }
+    ],
+    "numeric_fields": [
+      "score",
+      "uncertainty_entropy"
+    ],
+    "absolute_tolerance": 1e-12,
+    "relative_tolerance": 0,
+    "all_non_numeric_fields_and_types_exact": true
+  },
+  "actual_ARM_run": true,
+  "python": "3.8.2 (default, Mar 13 2020, 10:14:16) \n[GCC 9.3.0]",
+  "machine": "armv7l",
+  "pointer_bits": 32,
+  "model_sha256": "677ad593a3827176764f7e24df1efb7d00c0f9c39fc2bd91585aa13bc076f194",
+  "model_file_sha256": "e4aad6913776c6886547639f88451502f96bfdd452d485ba7ff42e44b0440764",
+  "C_check": {
+    "status": "PASS_EMLEARN_C_MATCH",
+    "queries": 450,
+    "max_abs_error": 7.450742434134128e-08,
+    "binary_sha256": "d2320d5ceb22889ebc086a24a5ef8ba2793f909b4fc5f8249ea9ba1800e5342e",
+    "total_process_seconds": 0.014952854000512161,
+    "time_includes_process_start_and_IO": true
+  },
+  "benchmark": {
+    "calls": 300,
+    "mean_seconds": 0.01094657211337714,
+    "p95_seconds": 0.018992901000274287,
+    "inference_only": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "GLITCHSCOPE_DS_WORKBENCH_V0_2",
+  "session_path": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\third_core_final49_4c_20261025\\incoming\\session_00000049",
+  "alignment_policy": "reference_prefix",
+  "max_local_bit_errors": 0,
+  "max_local_framing_errors": 0,
+  "one_ds_for_all_ITEMS": true,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

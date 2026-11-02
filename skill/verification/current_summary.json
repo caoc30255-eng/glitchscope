@@ -1,0 +1,49 @@
+{
+  "version": "1.2.1",
+  "skills": 7,
+  "offline_tests": 195,
+  "offline_tests_passed": true,
+  "skill_metadata_checks": [
+    {
+      "skill": "axi-lite-contract-check",
+      "passed": true
+    },
+    {
+      "skill": "bounded-active-benchmark",
+      "passed": true
+    },
+    {
+      "skill": "edge-model-portability",
+      "passed": true
+    },
+    {
+      "skill": "hardware-session-evidence",
+      "passed": true
+    },
+    {
+      "skill": "pynq-bringup",
+      "passed": true
+    },
+    {
+      "skill": "pynq-clock-reference-audit",
+      "passed": true
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "passed": true
+    }
+  ],
+  "original_six_directories_byte_identical": true,
+  "original_six_offline_tests": 155,
+  "clock_skill_tests": 40,
+  "original_six_prior_commands": 25,
+  "new_relocated_clock_commands": 2,
+  "original_six_cross_board_record": "verification/cross_board_experiment.json",
+  "clock_cross_board_scope": "Read-only collection on Navigator7020/PYNQ2.7 and AX7010/PYNQ2.4; frequency conclusions derived from reference sources and clock configuration",
+  "clock_generic_scope": "Platform-neutral normalized clock-tree arithmetic and software discovery; unknown/raw hardware adapters require device documentation",
+  "clock_ax7010_strict_declaration_review": "DT33333000Hz vs configured33333333Hz, about10ppm; original mismatch retained",
+  "physical_clock_measurement": false,
+  "automatic_clock_repair": false,
+  "hardware_access_by_merge": false,
+  "new_STARTs": 0
+}

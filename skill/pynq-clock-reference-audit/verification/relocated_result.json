@@ -1,0 +1,30 @@
+{
+  "schema": "ZYNQ_CLOCK_REFERENCE_RESULT_V1",
+  "status": "PYNQ_REFERENCE_MISMATCH",
+  "reference_mhz": 33.333333,
+  "reference_source": "case schematic PS reference",
+  "pynq_reference_mhz": 50.0,
+  "reported_fclk0_mhz": 150.0,
+  "expected_pynq_getter_mhz": 150.0,
+  "register_derived_fclk0_mhz": 99.99999900000002,
+  "source_selector": 0,
+  "selected_pll": "IO_PLL_CTRL",
+  "pll_fbdiv": 30,
+  "pll_locked": true,
+  "pll_bypass": false,
+  "divisor0": 5,
+  "divisor1": 2,
+  "formula": "reference_mhz * (1 if bypass else PLL_FDIV) / DIVISOR0 / DIVISOR1",
+  "device_tree_comparisons": [
+    {
+      "declared_hz": 33333333,
+      "agrees_with_selected_reference": true,
+      "physical_measurement": false
+    }
+  ],
+  "physical_measurement": false,
+  "hardware_access": false,
+  "hardware_writes": 0,
+  "clock_configuration_changed": false,
+  "scope": "Offline register/reference calculation, not frequency measurement, timing closure or board acceptance"
+}

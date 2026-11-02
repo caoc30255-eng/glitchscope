@@ -1,0 +1,21 @@
+{
+  "status": "PASS_RECEIVED_ARCHIVE_INTEGRITY_AND_VISIBLE_MESSAGE_INDEX",
+  "archive_sha256": "29e32a7da8ce3820e13b5291a9961d7bcf04c5b1815986b4ad22b767ff11345c",
+  "archive_bytes": 580518,
+  "archive_members": 17,
+  "manifest_entries_checked": 16,
+  "threads": 2,
+  "turns": 179,
+  "visible_messages": 739,
+  "first_turn_utc": "2026-09-27T02:59:33+00:00",
+  "last_turn_utc": "2026-11-01T03:14:43+00:00",
+  "time_scope": "Per-turn start timestamp; individual message times unavailable",
+  "model_metadata": "Not supplied; kept 未记录",
+  "original_hardware_or_build_logs_reverified": false,
+  "cross_source_deduplication_performed": false,
+  "source_F_drive_files_retrieved": false,
+  "original_tools_outputs_or_binary_attachments_included": false,
+  "original_archive_changed": false,
+  "source_entry_sha256": "7440a050c4dbe845d1a5479739ababcf01da946ab898d1fcf5650154479d8041",
+  "new_STARTs": 0
+}

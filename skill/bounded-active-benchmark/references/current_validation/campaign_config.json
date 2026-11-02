@@ -1,0 +1,150 @@
+{
+  "origin": "SYNTHETIC_ONLY",
+  "domain": [
+    {
+      "id": "p0",
+      "coordinates": [
+        0
+      ]
+    },
+    {
+      "id": "p1",
+      "coordinates": [
+        1
+      ]
+    },
+    {
+      "id": "p2",
+      "coordinates": [
+        2
+      ]
+    },
+    {
+      "id": "p3",
+      "coordinates": [
+        3
+      ]
+    },
+    {
+      "id": "p4",
+      "coordinates": [
+        4
+      ]
+    },
+    {
+      "id": "p5",
+      "coordinates": [
+        5
+      ]
+    },
+    {
+      "id": "p6",
+      "coordinates": [
+        6
+      ]
+    },
+    {
+      "id": "p7",
+      "coordinates": [
+        7
+      ]
+    },
+    {
+      "id": "p8",
+      "coordinates": [
+        8
+      ]
+    }
+  ],
+  "budget": 14,
+  "setup_records": 2,
+  "repeats": 3,
+  "schema": 2,
+  "context": {
+    "target": "noisy_synthetic_sensor",
+    "condition": "frozen_v1"
+  },
+  "max_groups_per_point": 2,
+  "seeds": [
+    202610280,
+    202610281,
+    202610282,
+    202610283,
+    202610284,
+    202610285,
+    202610286,
+    202610287,
+    202610288,
+    202610289,
+    202610290,
+    202610291,
+    202610292,
+    202610293,
+    202610294,
+    202610295,
+    202610296,
+    202610297,
+    202610298,
+    202610299,
+    202610300,
+    202610301,
+    202610302,
+    202610303,
+    202610304,
+    202610305,
+    202610306,
+    202610307,
+    202610308,
+    202610309
+  ],
+  "truth_probabilities": {
+    "p0": 0.99,
+    "p1": 0.98,
+    "p2": 0.95,
+    "p3": 0.8,
+    "p4": 0.5,
+    "p5": 0.2,
+    "p6": 0.05,
+    "p7": 0.02,
+    "p8": 0.01
+  },
+  "unknown_probability": 0.02,
+  "bootstrap_resamples": 2000,
+  "adjacency": [
+    [
+      "p0",
+      "p1"
+    ],
+    [
+      "p1",
+      "p2"
+    ],
+    [
+      "p2",
+      "p3"
+    ],
+    [
+      "p3",
+      "p4"
+    ],
+    [
+      "p4",
+      "p5"
+    ],
+    [
+      "p5",
+      "p6"
+    ],
+    [
+      "p6",
+      "p7"
+    ],
+    [
+      "p7",
+      "p8"
+    ]
+  ],
+  "confidence_level": 0.95,
+  "fail_probability_le": 0.1,
+  "pass_probability_ge": 0.9
+}

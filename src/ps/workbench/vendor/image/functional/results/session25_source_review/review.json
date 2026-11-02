@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED",
+  "adapter_id": "reviewed_session25_v1",
+  "source_manifest_sha256": "60fd230c8c8f3d74d71fcf613d3ac5d3de988e1d5a06af4e07bee3494e45f2cb",
+  "records": 4,
+  "decisions": 5,
+  "original_files_unchanged": true,
+  "original_pending_feature_flags_unchanged": true,
+  "live_execution_authorized": false,
+  "training_authorized": false,
+  "production_billing_finalized": false
+}

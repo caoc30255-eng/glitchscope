@@ -1,0 +1,90 @@
+{
+  "schema": "GLITCHSCOPE_ENCLOSURE_ASSEMBLY_INSPECTION_V1",
+  "archive_date": "2026-11-02",
+  "photo_capture_date_verified": false,
+  "design_version": "v16_retained_acrylic",
+  "status": "PASS_ASSEMBLY_AND_MANUAL_FIT_CHECK",
+  "basis": [
+    "Eight user-provided original photographs",
+    "User-reported hands-on assembly and connector checks"
+  ],
+  "user_report_original": "无修改  无顶碰无松动 正常插拔 一切完好",
+  "checks": {
+    "printed_parts_modified": false,
+    "reported_interference": false,
+    "reported_looseness": false,
+    "ethernet_insertion_removal": "PASS_USER_REPORTED",
+    "power_insertion_removal": "PASS_USER_REPORTED",
+    "usb_insertion_removal": "PASS_USER_REPORTED",
+    "overall_assembly": "PASS_PHOTOS_AND_USER_REPORTED_INSPECTION"
+  },
+  "scope": "Visual assembly and user hands-on fit checks",
+  "hardware_trial_started_by_archiving": false,
+  "new_STARTs": 0,
+  "photos": [
+    {
+      "file": "photos/01_assembled_top_oblique.jpg",
+      "title": "总装斜视一",
+      "caption": "外罩、顶盖通风槽、面板螺钉及引出线。",
+      "original_filename": "33f2d91dba22e8570ca31a74ee2a1a62.jpg",
+      "bytes": 164672,
+      "sha256": "c86b9c35904d39c58951837953479a34932df8ebb7c07d4ae324b1b4f2514bd3"
+    },
+    {
+      "file": "photos/02_assembled_overview.jpg",
+      "title": "总装斜视二",
+      "caption": "外壳完成状态、顶盖与相邻面板。",
+      "original_filename": "ea018d683337dfd3a32baef86e708b0c.jpg",
+      "bytes": 208969,
+      "sha256": "071cae191759499a52fe12254eb82623071b8f3aaee09ae2c66ce2f364350022"
+    },
+    {
+      "file": "photos/03_side_interface_window.jpg",
+      "title": "侧面接口窗口",
+      "caption": "侧面开口与下层板卡接口。",
+      "original_filename": "7c32ab9c7f07653ad6d7612aa0e55bbd.jpg",
+      "bytes": 151230,
+      "sha256": "8814838ec4514766a91063b851fbbeaae81f99a7a920a757c1baf2ab6f41d9b6"
+    },
+    {
+      "file": "photos/04_board_stack_and_wiring.jpg",
+      "title": "双层板卡与引出线",
+      "caption": "上下叠放布局、亚克力与外引线束。",
+      "original_filename": "c50525d7a34ee31173073f796d416981.jpg",
+      "bytes": 190193,
+      "sha256": "96856636419c84de9562e10f9b9bab65b9110773e28b8edc89bf07d221f13e72"
+    },
+    {
+      "file": "photos/05_opposite_side_panel.jpg",
+      "title": "另一侧面板",
+      "caption": "面板固定、下部开口及底脚。",
+      "original_filename": "22e7c7864f6abf3e534499555da99e1c.jpg",
+      "bytes": 180602,
+      "sha256": "62b1a81568d108efa1ca2a18428ea1c4002af2996b8eb68c5d52cd89c5581f61"
+    },
+    {
+      "file": "photos/06_rear_ports_and_mounts.jpg",
+      "title": "双层接口与下层固定",
+      "caption": "上层7010与下层7020接口窗口、下层亚克力及压块可见。",
+      "original_filename": "ebe4a9295b7dc5139752ca133f141162.jpg",
+      "bytes": 209358,
+      "sha256": "ca4bbe7895e22644cdec5eb2f789aa0aaf331da300b1d68013931d5648fa1a06"
+    },
+    {
+      "file": "photos/07_open_top_upper_mount.jpg",
+      "title": "拆盖内部布局",
+      "caption": "上层AX7010、安装梁、螺钉和线束；下层板卡被部分遮挡。",
+      "original_filename": "94a447937e18c2c11da8b1474178151a.jpg",
+      "bytes": 304984,
+      "sha256": "c21d0cf3139f730da42ea7622358440a75c5b8cc02e70ac1c698ccaf35b20b1e"
+    },
+    {
+      "file": "photos/08_powered_workbench_setup.jpg",
+      "title": "通电展示环境",
+      "caption": "外壳装置、壳外STM32、电脑及网页工作台；此照片本身不证明全部功能验收。",
+      "original_filename": "5aad1a573d66d6fbf1088107282f6b3a.jpg",
+      "bytes": 225063,
+      "sha256": "c35f3967a56f4753d3cadc3c51d94488a073d61c1cb5c92c7937d9135bafed89"
+    }
+  ]
+}

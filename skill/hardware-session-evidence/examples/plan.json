@@ -1,0 +1,11 @@
+{
+  "max_records": 3,
+  "record_ids": [
+    "setup",
+    "reference",
+    "measurement"
+  ],
+  "origin": "SYNTHETIC",
+  "target": "generic_sensor_fixture",
+  "no_hardware_effects": true
+}

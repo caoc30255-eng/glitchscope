@@ -1,0 +1,23 @@
+{
+  "status": "PASS_JOURNAL_AND_FILE_INTEGRITY",
+  "state": "STOPPED_BUDGET",
+  "session_id": "315284c6e4d0459c955f7b50436289b4",
+  "origin": "ADAPTER_REPORTED",
+  "plan_sha256": "6104f0c6834979f7c4ae88a311e0740b27afae1f781c72013add9f83b6bec549",
+  "occupied": 3,
+  "recorded_completions": 3,
+  "unknown_or_unresolved": 0,
+  "reserved_unstarted": 0,
+  "cancelled_unstarted": 0,
+  "cleanup_adapter_reported": true,
+  "hardware_authenticity_verified": false,
+  "physical_starts_not_inferred": true,
+  "scope": "Actual frozen READ32 wire contract plus local OS cooperative lease; transport/caller owns board, epoch and transaction namespace; no independent board acceptance",
+  "protocol": "H5E1_READ32",
+  "physical_START_commands_sent": 0,
+  "transport_close_reported": true,
+  "device_quarantined": false,
+  "transport_origin": "LOCAL_TCP_PEER_EMULATOR_NOT_BOARD",
+  "hardware_access": false,
+  "corrupt_fixture": false
+}

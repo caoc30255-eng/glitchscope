@@ -1,0 +1,43 @@
+1/6 Fixed code and Python3.8 syntax
+2/6 tests_feedback_fix.py (temporary PREVIEW state/models only; no FPGA)
+3/6 tests_demo_authority.py (temporary PREVIEW state/models only; no FPGA)
+4/6 tests_live_accounting_models.py (temporary PREVIEW state/models only; no FPGA)
+5/6 tests_integration.py (temporary PREVIEW state/models only; no FPGA)
+6/6 test_forwarded_host.py (temporary PREVIEW state/models only; no FPGA)
+{
+  "status": "PASS_LOCAL_DEMO_SOFTWARE",
+  "fixed_files": 995,
+  "tests": [
+    {
+      "test": "tests_feedback_fix.py",
+      "returncode": 0
+    },
+    {
+      "test": "tests_demo_authority.py",
+      "returncode": 0
+    },
+    {
+      "test": "tests_live_accounting_models.py",
+      "returncode": 0
+    },
+    {
+      "test": "tests_integration.py",
+      "returncode": 0
+    },
+    {
+      "test": "test_forwarded_host.py",
+      "returncode": 0
+    }
+  ],
+  "ui_manifest_sha256": "726effa260c43769b160bfa6a753c10d63f5c918cd0279d375a91da4198601a2",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "machine": "AMD64",
+  "bits": 64,
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "real_demo_consent_created": false,
+  "training_performed": false,
+  "browser_automation_used": false,
+  "new_UI_hardware_acceptance": false,
+  "test_scope": "Synthetic PREVIEW ledgers, fake devices and local HTTP contracts; not physical measurements"
+}

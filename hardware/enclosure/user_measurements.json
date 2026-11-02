@@ -1,0 +1,53 @@
+{
+  "7020": {
+    "source": "User ruler estimates supplied 2026-10-28",
+    "precision": "RULER_ESTIMATE_NOT_CALIPER_OR_FIT_ACCEPTANCE",
+    "retain_back_acrylic": true,
+    "acrylic_length_mm": 160,
+    "acrylic_width_mm": 120,
+    "acrylic_thickness_mm": 2,
+    "pcb_underside_to_acrylic_bottom_mm": 8,
+    "pcb_top_to_tallest_component_mm": 14,
+    "pcb_thickness_mm": {
+      "value": 1.6,
+      "status": "UNVERIFIED_DESIGN_ASSUMPTION"
+    },
+    "derived_height_acrylic_bottom_to_component_top_mm": 23.6,
+    "derived_clear_gap_pcb_underside_to_acrylic_top_mm": 6,
+    "derivation_scope": "Approximate only; bottom screw heads and other protrusions not confirmed included",
+    "design_direction": "Support retained acrylic assembly; remove direct PCB mounting posts in next geometry revision; allow adjustable retention and dimensional margin",
+    "geometry_updated": false,
+    "pending": [
+      "Lowest screw-head protrusion below acrylic",
+      "Actual fit of cradle and retention",
+      "7010 dimensions and upper/lower protrusions"
+    ],
+    "screw_head_below_acrylic_mm": 2,
+    "derived_total_lowest_screw_to_highest_component_mm": 25.6,
+    "derived_total_scope": "Ruler estimate; 2mm head + 8mm to PCB underside + assumed 1.6mm PCB + 14mm component height",
+    "initial_design_height_envelope_mm": 30
+  },
+  "7010": {
+    "source": "User ruler estimates and photos supplied 2026-10-28; acrylic thickness explicitly corrected to 2.8mm",
+    "precision": "RULER_ESTIMATE_NOT_CALIPER_OR_FIT_ACCEPTANCE",
+    "retain_front_acrylic": true,
+    "acrylic_length_mm": 129,
+    "acrylic_width_mm": 89,
+    "acrylic_thickness_mm": 2.8,
+    "pcb_top_to_top_screw_head_mm": 19,
+    "pcb_underside_to_lowest_protrusion_mm": 4.5,
+    "pcb_thickness_mm": {
+      "value": 1.6,
+      "status": "UNVERIFIED_DESIGN_ASSUMPTION"
+    },
+    "derived_total_lowest_protrusion_to_top_screw_head_mm": 25.1,
+    "derivation_scope": "4.5 + assumed 1.6 PCB + 19. Acrylic thickness already inside the 19mm dimension and must not be added again.",
+    "initial_design_height_envelope_mm": 30,
+    "front_acrylic_not_support_tray": true,
+    "geometry_updated": false,
+    "pending": [
+      "Retention/clamp locations avoiding connectors and TF-card access",
+      "Physical print fit; no final release"
+    ]
+  }
+}

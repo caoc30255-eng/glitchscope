@@ -1,0 +1,44 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Wed Oct 28 21:00:10 2026
+| Host         : arhi running 64-bit major release  (build 9200)
+| Command      : report_exceptions -file C:/workspace/Desktop/claude_code/rs28_v4/qualified_controlled_route_1793191124739/02_postroute_opt_exceptions.txt
+| Design       : system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  From                                   Through         To                                                                                Setup           Hold            Status           
+--------  -------------------------------------  --------------  --------------------------------------------------------------------------------  --------------  --------------  -----------------
+4         [get_ports {raw_snapshot_async_i[0]}]  *               [get_pins {system_i/receiver_axi_lite_0/inst/core/core/frontend/rx_sync_ff1_reg/  false           false           
+                                                                 D {system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_tester/u_capt                                  
+                                                                 ure_frontend/sync_stage1_reg[0]/D} system_i/h1_evidence_system_0/inst/receiver/f                                  
+                                                                 rontend/rx_sync_ff1_reg/D}]                                                                                       
+5         [get_ports {raw_snapshot_async_i[1]}]  *               [get_pins {{system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_test  false           false           
+                                                                 er/u_capture_frontend/sync_stage1_reg[1]/D} system_i/dut_response_axi_lite_0/ins                                  
+                                                                 t/u_dut_response_axi_lite/u_dut_response_receiver/u_dut_uart_rx/rx_ff1_reg/D sys                                  
+                                                                 tem_i/dut_response_axi_lite_0/inst/u_dut_response_axi_lite/live_sync1_reg/D syst                                  
+                                                                 em_i/h1_evidence_system_0/inst/evidence/core/chain/core/receiver/rx_ff1_reg/D}]                                   
+6         [get_ports {raw_snapshot_async_i[2]}]  *               [get_pins {system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_teste  false           false           
+                                                                 r/u_capture_frontend/sync_stage1_reg[2]/D}]                                                                       
+7         [get_ports {raw_snapshot_async_i[3]}]  *               [get_pins {system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_teste  false           false           
+                                                                 r/u_capture_frontend/sync_stage1_reg[3]/D}]                                                                       
+8         [get_ports {raw_snapshot_async_i[4]}]  *               [get_pins {system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_teste  false           false           
+                                                                 r/u_capture_frontend/sync_stage1_reg[4]/D}]                                                                       
+9         [get_ports {raw_snapshot_async_i[5]}]  *               [get_pins {system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_teste  false           false           
+                                                                 r/u_capture_frontend/sync_stage1_reg[5]/D}]                                                                       
+10        [get_ports {raw_snapshot_async_i[6]}]  *               [get_pins {system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_teste  false           false           
+                                                                 r/u_capture_frontend/sync_stage1_reg[6]/D}]                                                                       
+11        [get_ports {raw_snapshot_async_i[7]}]  *               [get_pins {system_i/raw_snapshot_axi_lite_0/inst/u_axi_snapshot/u_snapshot_teste  false           false           
+                                                                 r/u_capture_frontend/sync_stage1_reg[7]/D}]                                                                       
+12        [get_ports h1_rx_pin]                  *               [get_pins system_i/h1_evidence_system_0/inst/evidence/core/transport/rx/u_rx/rx_  false           false           
+                                                                 ff1_reg/D]                                                                                                        
+13        [get_ports uart_rtl_0_rxd]             *               [get_pins {system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_RX_I/INPUT_DOUBLE  false           false           
+                                                                 _REGS3/syncstages_ff_reg[0]/D}]                                                                                   
+14        *                                      *               [get_ports h1_tx_pin]                                                             false           false           
+15        *                                      *               [get_ports uart_rtl_0_txd]                                                        false           false           
+

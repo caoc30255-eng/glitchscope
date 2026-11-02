@@ -1,0 +1,188 @@
+[
+  {
+    "session": "session_0000002e",
+    "record_id": 4,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 5,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 6,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 7,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 8,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 9,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 10,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 11,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_0000002e",
+    "record_id": 12,
+    "parent_review": "session2e_autotune_2026-10-20",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session2e_autotune_2026-10-20\\incoming\\session_0000002e"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 3,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 4,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 5,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 6,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 7,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 8,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 9,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 10,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 11,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 12,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 13,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000033",
+    "record_id": 14,
+    "parent_review": "session33_boundary_rule14_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session33_boundary_rule14_2026-10-21\\incoming\\session_00000033"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 3,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 4,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 5,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 6,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 7,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 8,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 9,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 10,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 11,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  },
+  {
+    "session": "session_00000034",
+    "record_id": 12,
+    "parent_review": "session34_p15w10_repeat12_2026-10-21",
+    "original_session": "C:/workspace\\Desktop\\claude_code\\release_artifacts\\reviews\\session34_p15w10_repeat12_2026-10-21\\incoming\\session_00000034"
+  }
+]

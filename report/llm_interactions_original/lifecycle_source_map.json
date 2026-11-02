@@ -1,0 +1,1995 @@
+{
+  "schema": "LLM_LIFECYCLE_CASE_SOURCE_MAP_V1",
+  "date": "2026-11-01",
+  "stages": {
+    "1": "方案设计",
+    "2": "开发联调",
+    "3": "功能验证",
+    "4": "交付复现"
+  },
+  "cases": [
+    {
+      "id": "l01",
+      "stage": 1,
+      "title": "明确三板职责与图片主线",
+      "first_date_beijing": "2026-09-23",
+      "last_date_beijing": "2026-09-23",
+      "records": [
+        {
+          "record_id": "m00061",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-23T14:15:58.093000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "4e5cbd54e65c4cb6d55ed15c9e1b232882af11d50db24f8425022defc5ea270c",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00061"
+          }
+        },
+        {
+          "record_id": "m00069",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-09-23T14:27:37.489000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "6da27629b7b6bb105588d2fe2f143a35fceafd798f18d40031a55c41b9daace2",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00069"
+          }
+        },
+        {
+          "record_id": "m00073",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-09-23T14:29:52.940000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "2389306cbb6b5c77ff3b50038d0728acc6e7ff7555cf13515aa7bf2de9131d2c",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00073"
+          }
+        },
+        {
+          "record_id": "m00074",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-23T14:30:05.291000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "aab8bcbbbc13bc59c81ae63213563d6b49cdcbfc788833aa73b835346cdf5215",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00074"
+          }
+        },
+        {
+          "record_id": "m00075",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-23T14:31:01.140000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "676b6de400c583b0cd7cbf84bd4cdca2b4d569feb6518f557224302f0479be7a",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00075"
+          }
+        },
+        {
+          "record_id": "m00078",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-23T14:34:23.365000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "d8e984baef41c8fcc4f5d51e42e2feee7c18243303e7ea3030ec8cf40da2a793",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00078"
+          }
+        },
+        {
+          "record_id": "m00089",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-09-23T14:40:05.616000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "ca2a9ec07696302b035e220bca4baa8a9a5b94b2f6296d15c018d869134ecef1",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00089"
+          }
+        },
+        {
+          "record_id": "m00091",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-23T14:41:38.158000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "9eb103b6725b6c0a8818c924ccb4e35a4e9cde8998acd67aa08133a8b4dde08c",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00091"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "formal",
+          "path": "docs/project_overview.md",
+          "bytes": 3528,
+          "sha256": "460c9cb2518fd4a0e780f64cdb81924623abc8f40161b54ba3ccb7f4da60de97"
+        },
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/roadmap/full_project_roadmap_2026-09-23.md",
+          "bytes": 9615,
+          "sha256": "8cb79f51bf5746554f2e4677d6aa64dab6bc4ee7d975c34b48d0ce3f947ea195"
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "stage": 1,
+      "title": "用短回报反例修正图片协议契约",
+      "first_date_beijing": "2026-09-29",
+      "last_date_beijing": "2026-09-29",
+      "records": [
+        {
+          "record_id": "m00230",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-29T05:21:19.075000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "619ddd9863f97e1724cc096ed9a258d22d402d982c7278b41bb3a3469d10446f",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260929.md#m00230"
+          }
+        },
+        {
+          "record_id": "m00232",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-29T05:22:18.980000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "ca1278884738f92fab7b3fe9cb15b0854f1d606904c7fcca6d00e25a02aed022",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260929.md#m00232"
+          }
+        },
+        {
+          "record_id": "m00245",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-29T05:30:12.845000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "2c953f71a9e40de2b66c63655305eb1774c08c872412aed14aa8ac32898396d2",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260929.md#m00245"
+          }
+        },
+        {
+          "record_id": "m00319",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-29T08:39:49.363000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "24008a4ccf7a5fc877a1ba7d260f960e2952511b1197c4f41804dbc9623415e2",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260929.md#m00319"
+          }
+        },
+        {
+          "record_id": "m00320",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-29T08:40:37.791000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "54bb10e85b35fe30430e146b7a48b9f7babe880443ce0c14ea3e7d3cbfb79f54",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260929.md#m00320"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/reviews/image_stream_v0_6_3_acceptance_2026-09-29.md",
+          "bytes": 5042,
+          "sha256": "9cf394624df656d1ebece6e326bedae0ec97d68760470b3b1681222242fb9036"
+        },
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/design/image_stream_v0_6/contract.md",
+          "bytes": 12778,
+          "sha256": "7aef73d50bb43dfa94b215deb97baaab9c50aedbb59998f444a32d08c4ad5aa9"
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "stage": 2,
+      "title": "固化控制链原始字节与溢出诊断",
+      "first_date_beijing": "2026-09-23",
+      "last_date_beijing": "2026-09-24",
+      "records": [
+        {
+          "record_id": "m00094",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-23T15:58:35.070000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "2f2a844c9a6a01e4e54bcbd2436dc9ad53c2fae81f6ed8c67fe7c8aa1bf2b709",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260923.md#m00094"
+          }
+        },
+        {
+          "record_id": "m00107",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T05:24:49.380000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "48c2fd0834f4a61a38499c27925f245e2363535325683b528d2d8d29d832dd05",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00107"
+          }
+        },
+        {
+          "record_id": "m00115",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T05:37:58.756000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "b0712e996e1ff8d711192f56a876bb4c84c6d4d8ded34d4c8bb46ab2353cec89",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00115"
+          }
+        },
+        {
+          "record_id": "m00116",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-09-24T05:38:20.257000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "803d09019d19cba11ef5d680828f5b7c2f313b83662d99b8ca8ea6c28f906668",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00116"
+          }
+        },
+        {
+          "record_id": "m00117",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T05:38:27.814000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "f10986363e9b760ca7026c825bd60fb791a7817df139683876e6da55f8cf9112",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00117"
+          }
+        },
+        {
+          "record_id": "m00118",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-09-24T05:39:17.280000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "211e1547b937382433f2b2fe3a0d09d80778d62764a1f591581a52e351ff32c1",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00118"
+          }
+        },
+        {
+          "record_id": "m00124",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T05:42:59.996000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "e108d5ddcc038826b2c845948daf8a07c4e04ef01dc3fa6c80d619568d967923",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00124"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/evidence/control_rx_m0/m0_control_rx_acceptance_2026-09-24.md",
+          "bytes": 2471,
+          "sha256": "271c9225946161ba0b1c7ac88989017b6658d91828d4afd8d6ececd314f03d9c"
+        },
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/evidence/control_rx_m0/m0_control_rx_acceptance_2026-09-24.json",
+          "bytes": 3085,
+          "sha256": "09e3f1e666c0f89fe1d0a802d06b3b0f751c7828fa029c696257c869e3ade91c"
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "stage": 2,
+      "title": "按模块验证波特率偏差与零偏差兼容",
+      "first_date_beijing": "2026-09-24",
+      "last_date_beijing": "2026-09-24",
+      "records": [
+        {
+          "record_id": "m00132",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T05:56:23.249000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "ef1388997a49531df35d06e532c0d84238307b8bbb4e9479e61f60eac6d51b45",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00132"
+          }
+        },
+        {
+          "record_id": "m00136",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T06:03:52.647000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "759f47bd838e8ab2f2830b7da37fd3d2621ae472cd745eb9decd03029a135b55",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00136"
+          }
+        },
+        {
+          "record_id": "m00151",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T06:21:14.036000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "e0960dd673179577e30a7a4ebc56ff193d80fb9d41c821eca4297ebff6a5c4ad",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00151"
+          }
+        },
+        {
+          "record_id": "m00158",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-09-24T11:07:26.967000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "35fbc5cb9c6b4a3b69b4eb87e590ad1593f2afb7eb68942c1e16d284f5239ea9",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00158"
+          }
+        },
+        {
+          "record_id": "m00160",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T11:08:43.543000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "4195094b2239eab56ce4d4efbda8deea22e0df1feeb4b84ae65defdbc02cbd6b",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00160"
+          }
+        },
+        {
+          "record_id": "m00162",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T11:15:43.275000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "9eb7fcde9b94afb334499034b4e4ecf5c16b4c1864f9b6140f91cef6008e651e",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00162"
+          }
+        },
+        {
+          "record_id": "m00163",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T11:18:57.153000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "3d2d30bb99d29be2d78a195ffe62d6d8a9b9dc1d22bcb71310ac0a20840c2801",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00163"
+          }
+        },
+        {
+          "record_id": "m00178",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-24T11:40:08.283000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "a21ebf1b22de1f2ff65639b1faf7f74400bd43dca002ac4144185862116ee255",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20260924.md#m00178"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/design/faultstim_v2_1/evidence/m1c_frame_tx_acceptance_2026-09-24.md",
+          "bytes": 1711,
+          "sha256": "0ebca8a80e88dc4bd546e95ffe68a3872db9c573b3c1dd20914b8ac2c865d6fc"
+        },
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/design/faultstim_v2_1/evidence/m1c_payload_tap_acceptance_2026-09-24.md",
+          "bytes": 1369,
+          "sha256": "dfbd1bdaa6ddf7cf6ef206e2519d3dd14d62e19f0aef32c4a2c18f39b8951b83"
+        }
+      ]
+    },
+    {
+      "id": "p01",
+      "stage": 2,
+      "title": "迁移已有接收器并验证7020数字顶层",
+      "first_date_beijing": "2026-09-27",
+      "last_date_beijing": "2026-09-27",
+      "records": [
+        {
+          "record_id": "peer_R018_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-09-27T09:07:38+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "444c4a60b45ee0aeaa6466c9e129dbb39b49b65aa49505e48c9ddc44adc177fc",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a0e21e-b682-7b63-b680-e9fe0f08090f",
+            "record_id": "R018",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R018_M02",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-27T09:07:38+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "26236bce97edc23429328bf6cc3c11cbdf0df68f41d6bf741a1f1900607441e9",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a0e21e-b682-7b63-b680-e9fe0f08090f",
+            "record_id": "R018",
+            "message_ordinal": 2,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R021_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-09-27T09:32:46+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "9ccd9fe66255f40d29602229785b5da59a20684ff53353a042aaecd2319153ec",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a0e235-b6f4-78d2-8044-cdb551df6e03",
+            "record_id": "R021",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R021_M04",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-09-27T09:32:46+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "784ef15500af060cdba82f8abaaadee2ad7b4f541a736f079ea9654fc4213607",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a0e235-b6f4-78d2-8044-cdb551df6e03",
+            "record_id": "R021",
+            "message_ordinal": 4,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "peer",
+          "archive": "submission_evidence/teammate_llm_interactions_20261101.zip",
+          "entry": "附录/对话可见消息与操作索引.json",
+          "bytes": 1057969,
+          "sha256": "7440a050c4dbe845d1a5479739ababcf01da946ab898d1fcf5650154479d8041"
+        },
+        {
+          "scope": "peer",
+          "archive": "submission_evidence/teammate_llm_interactions_20261101.zip",
+          "entry": "完整协作记录.md",
+          "bytes": 28345,
+          "sha256": "6974c4f09c274bafe7a00d94b70e1a64a97516b79a51bd794fea9c0aabf4003b"
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "stage": 2,
+      "title": "完善STM32实收回报与短脉冲处理",
+      "first_date_beijing": "2026-10-08",
+      "last_date_beijing": "2026-10-12",
+      "records": [
+        {
+          "record_id": "peer_R103_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-10-08T11:30:20+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "958df1eccf671499144fcafc9989995af628e83e67d3823624616f4c4e94ee3c",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a11b47-4eaa-75e0-a725-6821cebf7e2b",
+            "record_id": "R103",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R103_M06",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-08T11:30:20+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "1e878dc04bf0331db50ff2d8663b97f8a7be9e7c0ae85330ab10559745575b8c",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a11b47-4eaa-75e0-a725-6821cebf7e2b",
+            "record_id": "R103",
+            "message_ordinal": 6,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R105_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-10-09T09:36:34+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "56fbb9d2837b6bd76548f1983b977fc3b13839d2d69313980044d144147f4b66",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a12005-813d-7690-af75-61f70ae4e2c1",
+            "record_id": "R105",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R105_M06",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-09T09:36:34+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "6ddc2632f074b03d762651b3652d9013ac3653bb70fa301812e6c10f9e7623e8",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a12005-813d-7690-af75-61f70ae4e2c1",
+            "record_id": "R105",
+            "message_ordinal": 6,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R108_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-10-12T05:47:39+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "1b95e4439d1198d127658db98b3379fcf902faf47d475fb5908afbce49aa569f",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a12ea7-03bd-7bc1-ad37-63224ba2bc88",
+            "record_id": "R108",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R108_M02",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-12T05:47:39+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "da2bf9e332e8a29ee16cc314429f3ba3f2f2b6b4d5e9b8013d3d9818cafb8c8f",
+          "locator": {
+            "thread_id": "01a0e0cd-1c4b-7892-98dc-dca6e79b7f81",
+            "turn_id": "01a12ea7-03bd-7bc1-ad37-63224ba2bc88",
+            "record_id": "R108",
+            "message_ordinal": 2,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "peer",
+          "archive": "submission_evidence/teammate_llm_interactions_20261101.zip",
+          "entry": "附录/对话可见消息与操作索引.json",
+          "bytes": 1057969,
+          "sha256": "7440a050c4dbe845d1a5479739ababcf01da946ab898d1fcf5650154479d8041"
+        },
+        {
+          "scope": "peer",
+          "archive": "submission_evidence/teammate_llm_interactions_20261101.zip",
+          "entry": "来源与整理说明.md",
+          "bytes": 2621,
+          "sha256": "5b6dbfda37c240c8a0ebcfca371672c93e4edb513225c5db9aeda8d53bb96d5d"
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "stage": 2,
+      "title": "从轮询溢出推进到原生实时接收服务",
+      "first_date_beijing": "2026-10-14",
+      "last_date_beijing": "2026-10-16",
+      "records": [
+        {
+          "record_id": "m01346",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-14T14:14:02.078000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "c2b56fb686c0d47a019ac2dc370f7b5d677bc6d92c365fa61d280c5b77be62c5",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261014.md#m01346"
+          }
+        },
+        {
+          "record_id": "m01444",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-15T05:42:58.302000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "055b6bade179977787b7b142748300109b2bde45377678e57d501795b73921fa",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261015.md#m01444"
+          }
+        },
+        {
+          "record_id": "m01448",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-15T05:45:43.050000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "2389ef02f20917a39fffd51c949f9ee3535d9cc166bb5d7d81f09353b16ea164",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261015.md#m01448"
+          }
+        },
+        {
+          "record_id": "m01519",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-15T06:34:46.732000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "f2cf5f1fe89a531b4870dfb52d73ad921c36fc329dfa887192eb9111794ce9f2",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261015.md#m01519"
+          }
+        },
+        {
+          "record_id": "m01776",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-15T14:54:56.489000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "7a87f4667a6b04935e7f15426e0f3360328df2dd168bdbebfc872d079e5cea2d",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261015.md#m01776"
+          }
+        },
+        {
+          "record_id": "m01778",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-15T14:56:59.998000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "479d0bdef26e7491e41fea6992b29c19374f92b58e377cb4d4d9bc8e768b97bd",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261015.md#m01778"
+          }
+        },
+        {
+          "record_id": "m01779",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-15T14:58:44.016000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "7b69989d962cff6d9889764fb6dfb21a81f6d71a5a5a1140eb09637bba73c0bb",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261015.md#m01779"
+          }
+        },
+        {
+          "record_id": "m01799",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-16T03:21:45.921000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "ccd6de67774402e23b311b93838c3c17bd2211b80cb59a6bf36c0444a50046dc",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261016.md#m01799"
+          }
+        },
+        {
+          "record_id": "m01801",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-16T03:23:58.380000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "497e1300a09e7c20ebea94514219a3b407a2ee0cfae8d3e949bbf51243cc3156",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261016.md#m01801"
+          }
+        },
+        {
+          "record_id": "m01803",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-16T03:25:38.691000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "ea47735e242485bb9554542afd9aca6804d4e9bdb35c3fcf64222452d6eb1f4e",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261016.md#m01803"
+          }
+        },
+        {
+          "record_id": "m01805",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-16T03:26:48.251000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "9c72385cc817f33bda7bbe86247d2bd762a53c4cd68d17159a738e1d619c0b67",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261016.md#m01805"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "workspace",
+          "path": "PS_UART_RT_v5_2026-10-15/README_先读.md",
+          "bytes": 1922,
+          "sha256": "257ced64fec77e1a18f92f5369478381cf7c144294c653ee7047390bfca5052a"
+        },
+        {
+          "scope": "formal",
+          "path": "src/ps/native/uartlite_service_v5.c",
+          "bytes": 12727,
+          "sha256": "b93cbe675e465e00b09819c32085dac4d8d470355cbb616e7db7c498e04f13ea"
+        }
+      ]
+    },
+    {
+      "id": "l06",
+      "stage": 3,
+      "title": "用实际受损图片验证CRC约束修复",
+      "first_date_beijing": "2026-10-18",
+      "last_date_beijing": "2026-10-19",
+      "records": [
+        {
+          "record_id": "m02378",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-18T09:29:14.569000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "314f8c915e9896b5153bdbdf26d4c4e00a2dbeabc0fe36eecdaa5a3280ccdb34",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261018.md#m02378"
+          }
+        },
+        {
+          "record_id": "m02379",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-18T09:30:33.799000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "dc0fffb285d292b6fbd132e4d78fe9b6f47d4f80d3202ce07fdddd52b46a04d0",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261018.md#m02379"
+          }
+        },
+        {
+          "record_id": "m02515",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-19T03:47:19.844000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "70fc833ef2063ada81069c07537015808fc6baa0c5e7dd7c4cb8cf87a4c7a7c0",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261019.md#m02515"
+          }
+        },
+        {
+          "record_id": "m02635",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-19T15:03:56.788000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "757fdddc17e0498fc8bb6acf140626abe5643ae7f1ca32da4b368aeccbc4ff1f",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261019.md#m02635"
+          }
+        },
+        {
+          "record_id": "m02636",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-19T15:05:06.584000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "c7adf60899deb2285875bded391ec9c799d115774a8ff511ff8aeafe278204d6",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261019.md#m02636"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/reviews/random_image_session_00000024_2026-10-18/核验结论.md",
+          "bytes": 2962,
+          "sha256": "0936114808eb1228f326921ab4c5d28dcc1081ca9829d4c3238d4958bc8b3540"
+        },
+        {
+          "scope": "formal",
+          "path": "report/verification/workbench_repair/repair_delivery_review.json",
+          "bytes": 1804,
+          "sha256": "977086c009e9ab0110155b3aadd2da3e98c1c0de086066392e70a60e574d218c"
+        },
+        {
+          "scope": "formal",
+          "path": "report/verification/workbench_repair/actual_raw_contract.json",
+          "bytes": 188,
+          "sha256": "42c51e52f4653ddbc2b60e09a348495ecfe5e5e4e2b4ea4d90b809ec860aa77a"
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "stage": 3,
+      "title": "从模拟网格走到真实容错热力图",
+      "first_date_beijing": "2026-10-19",
+      "last_date_beijing": "2026-10-20",
+      "records": [
+        {
+          "record_id": "m02561",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-19T10:35:34.558000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "f67680b1594be1d14005f6f8a62f3d575205c5f91bc298febaae2bbef72386ab",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261019.md#m02561"
+          }
+        },
+        {
+          "record_id": "m02640",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-19T15:13:36.287000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "4a6e2cd8a01664e308a74c52a04bb7b78c8f62f2c5397b1a85b92fd02b99d774",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261019.md#m02640"
+          }
+        },
+        {
+          "record_id": "m02642",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-19T15:19:44.344000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "916b7cd5e1646a3c219f5504575abbbe6cbe215993ffd7503ed118ba304dc75e",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261019.md#m02642"
+          }
+        },
+        {
+          "record_id": "m02643",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-19T15:22:32.827000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "5311bb2759bf8c6dfe7bcf2185ed1aabec17a4248f74c3940968591c6e430ae6",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261019.md#m02643"
+          }
+        },
+        {
+          "record_id": "m02701",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-20T06:20:39.432000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "f4fe53b76c4413c083b7e30ef08522f118fd379fb8271aebdde4cad7309da7eb",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261020.md#m02701"
+          }
+        },
+        {
+          "record_id": "m02703",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-20T06:34:20.048000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "4693a34b901d2525971acce5e791c6b901e27e7bda4072a2fd5ad271c51fc121",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261020.md#m02703"
+          }
+        },
+        {
+          "record_id": "m02705",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-20T06:38:03.146000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "d98adfd45381956eb57570419aff94395ffdbf99a746066a8fc7ebc3afd02a57",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261020.md#m02705"
+          }
+        },
+        {
+          "record_id": "m02706",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-20T06:39:33.754000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "f40678942c5e9245a9bf3ce322e7727cac066aaed300d40dc5e2aaa7d92fb610",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261020.md#m02706"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "workspace",
+          "path": "release_artifacts/reviews/session29_real_scan_2026-10-20/核验结论与下一步.md",
+          "bytes": 5293,
+          "sha256": "30f81265b9e191e95fdec4b8b61570e475dbc9c6abc8c07200e6641d2dd854f1"
+        },
+        {
+          "scope": "workspace",
+          "path": "STM_B_Real_Heatmaps_Baseline_2026-10-21/实测基准报告.md",
+          "bytes": 2752,
+          "sha256": "c1e245cd31419b35add3ae7273727f49c50ca400ad34393fec88fc6cd2ac2316"
+        },
+        {
+          "scope": "formal",
+          "path": "report/verification/scan_backend/owner_review.json",
+          "bytes": 30785,
+          "sha256": "ae41ea1f5127dc9a7afb66b4fb0ecd2b72b9f7b7962c4fc5b64cd121ef3d6eed"
+        }
+      ]
+    },
+    {
+      "id": "l08",
+      "stage": 3,
+      "title": "把参数推荐限定为同波形的可验证比较",
+      "first_date_beijing": "2026-10-21",
+      "last_date_beijing": "2026-10-26",
+      "records": [
+        {
+          "record_id": "m03082",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-21T12:57:59.691000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "4ace6017c8cdc37db8eedcbaff8d72c1a0b93b30df83b35f0bdc15146a116478",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261021.md#m03082"
+          }
+        },
+        {
+          "record_id": "m03086",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-21T13:00:06.041000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "b2e40fed80f024229165cbe5d374bba306591e752dbef0d9f2811e42c0ed7974",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261021.md#m03086"
+          }
+        },
+        {
+          "record_id": "m03158",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-21T14:38:48.455000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "2ba3de60181a3803e10452301de73e7d379471b5a8f00f46203cc2c43a52ed57",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261021.md#m03158"
+          }
+        },
+        {
+          "record_id": "m03162",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-21T14:41:34.791000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "b0c5db60dd497a8fac9954c3a80c046441a97be54b426efedf7b4ea6a9d0fcdd",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261021.md#m03162"
+          }
+        },
+        {
+          "record_id": "m03163",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-21T14:42:17.577000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "8dfcdf81325e615262f5dc2423743d7b4b9a8c31ffbf565fec2bb7bf1dbe0989",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261021.md#m03163"
+          }
+        },
+        {
+          "record_id": "m03165",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-21T14:44:24.092000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "8dcc9d0f8132a61d27982e943122444259e0de4f7b53357e4ab48e02df603d83",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261021.md#m03165"
+          }
+        },
+        {
+          "record_id": "m03171",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-21T15:02:18.846000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "293d60fb7786f960bd96dcb349cd372b953d92d16e521806bce886b011d119da",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261021.md#m03171"
+          }
+        },
+        {
+          "record_id": "m03201",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-22T03:00:31.488000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "f70ce718e1f007a2397d4d31de0baeae295f7f8c3f23593911413e927cb24962",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261022.md#m03201"
+          }
+        },
+        {
+          "record_id": "m03202",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-22T03:00:38.428000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "cc8e42f7828ba7c5d51475dad6d7ebaf66d321aa3075c6a7a68a7c2bb999a582",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261022.md#m03202"
+          }
+        },
+        {
+          "record_id": "m03893",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T02:21:22.037000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "16b6ffd2f1f897d98e14a40cdcae8b62a7b128f3278e9ff082543dbdc31829cd",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03893"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "formal",
+          "path": "src/ps/workbench/vendor/ds/rtl_cosim_receipt.json",
+          "bytes": 627,
+          "sha256": "ca97e92119034c132258014583af3a691bd6a5be1a9004d227fff11279e255c4"
+        },
+        {
+          "scope": "formal",
+          "path": "report/verification/ds_analysis/owner_acceptance.json",
+          "bytes": 2638,
+          "sha256": "b1d7a006ebd431c7636e6edeb8b921d760209713f6ae98c57b0f66ae75298cb7"
+        }
+      ]
+    },
+    {
+      "id": "l09",
+      "stage": 3,
+      "title": "验收边缘AI的运行闭环与选点范围",
+      "first_date_beijing": "2026-10-26",
+      "last_date_beijing": "2026-10-26",
+      "records": [
+        {
+          "record_id": "m03904",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T02:29:19.533000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "3bebd4b2de3a300d5594283f9cc52fafcd753e6f97cdc4778229e6c147908bd0",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03904"
+          }
+        },
+        {
+          "record_id": "m03908",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T02:33:14.222000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "c21e74866085864c704cca3b7b7caa361e8cb5eaeab823ecb324c42b3b83ea16",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03908"
+          }
+        },
+        {
+          "record_id": "m03913",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T02:58:03.768000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "ea8ffa080d43e7c255a24651494391247825f3c066b376abda76b293c5043d45",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03913"
+          }
+        },
+        {
+          "record_id": "m03962",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-26T08:16:43.168000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "9eeff964c2aac53a9e77378bedc2ecee8b52003b1573904dc4eabe06e26dc8c3",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03962"
+          }
+        },
+        {
+          "record_id": "m03964",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T08:23:21.137000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "bb3a55956ced7711cef112a9620169a3d918f53312b3c006f9849e54118a1f15",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03964"
+          }
+        },
+        {
+          "record_id": "m03966",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-26T08:34:26.432000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "6fe626a9db615e77c31b63187f5a22e204ee70a7f2c67e4cc48f5ab86c9e2f16",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03966"
+          }
+        },
+        {
+          "record_id": "m03990",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T11:55:05.090000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "5911ee4e2bc132a9bce0b90a6a4b7e38ab317f6ad22ef9339a6d85768dcf8a73",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03990"
+          }
+        },
+        {
+          "record_id": "m03994",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T12:41:11.669000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "2f3bb1dc6923be250d74d0eb438d82286063b47f3ad0212708e616db730f6ae4",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03994"
+          }
+        },
+        {
+          "record_id": "m03995",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T12:41:53.354000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "7e29054e077b3f1a9351b424c8f6d07f6a6dc95276660b32de1741f8e05f3cc0",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03995"
+          }
+        },
+        {
+          "record_id": "m03996",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-26T13:04:13.824000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "93c2321978eee2f5a168893383d04787e538d696efb5436615c02ccb89b7da6f",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03996"
+          }
+        },
+        {
+          "record_id": "m03997",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T13:04:16.928000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "35ff74c3d14d5afb84e9c7e66376064d58b10a9403206a6a4791ad5c99ecb09a",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m03997"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "formal",
+          "path": "report/verification/edgeai_arm/owner_review.json",
+          "bytes": 2110,
+          "sha256": "d456438730210a470bb347aca0b7ae95c0173117cd604a8a95accef0fa37417e"
+        },
+        {
+          "scope": "formal",
+          "path": "report/verification/edgeai/owner_final_comparison.json",
+          "bytes": 1898,
+          "sha256": "832fcc15b24adc703d39f1c2285d640133203d7794a8a8898eb2bbf8ba93e516"
+        },
+        {
+          "scope": "formal",
+          "path": "docs/selection_methods.md",
+          "bytes": 2621,
+          "sha256": "6b493e9bbed50bf89c041f51badd67455eb996f550fff2a40bcf523de3c1bac4"
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "stage": 4,
+      "title": "从UI审批原型到可演示的交互要求",
+      "first_date_beijing": "2026-10-23",
+      "last_date_beijing": "2026-10-26",
+      "records": [
+        {
+          "record_id": "peer_R175_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-10-23T10:42:35+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "852e939f6b3c9cf04735eee519a39a45a338be94eb3c47ed27bf708a2b2981a3",
+          "locator": {
+            "thread_id": "01a14561-6afe-7231-8668-8cf5b4f8706f",
+            "turn_id": "01a1685a-fb23-7bd2-8636-62e40ac4a913",
+            "record_id": "R175",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R175_M09",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-23T10:42:35+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "68b45c2d18df5be16ae71aeb2d08980e97452da4a87a4ecf44b200c31bb9a1a4",
+          "locator": {
+            "thread_id": "01a14561-6afe-7231-8668-8cf5b4f8706f",
+            "turn_id": "01a1685a-fb23-7bd2-8636-62e40ac4a913",
+            "record_id": "R175",
+            "message_ordinal": 9,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R176_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-10-23T11:59:04+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "cafeb247cb46f526170f751e20fda6df3a03a2b4fe0c31a18dcee36ac885383f",
+          "locator": {
+            "thread_id": "01a14561-6afe-7231-8668-8cf5b4f8706f",
+            "turn_id": "01a168a1-0059-7880-9f79-3a5d9799e50d",
+            "record_id": "R176",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R176_M05",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-23T11:59:04+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "f2edf008a704f5a986d57007c1bc3ed5803e22655094e450eba38ad206447b8b",
+          "locator": {
+            "thread_id": "01a14561-6afe-7231-8668-8cf5b4f8706f",
+            "turn_id": "01a168a1-0059-7880-9f79-3a5d9799e50d",
+            "record_id": "R176",
+            "message_ordinal": 5,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R177_M01",
+          "source": "teammate",
+          "role": "user",
+          "timestamp_utc": "2026-10-23T13:02:37+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "ed1e4f0dce77a0f88875cb46f023bfe25cab82754669dedecc8457053200cf15",
+          "locator": {
+            "thread_id": "01a14561-6afe-7231-8668-8cf5b4f8706f",
+            "turn_id": "01a168db-3156-7bf1-9768-fa7613cf949e",
+            "record_id": "R177",
+            "message_ordinal": 1,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R177_M05",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-23T13:02:37+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "97d0eded57ab34ced5f1f446b8d0176a5057ccd637197a56428f117bdd0b4874",
+          "locator": {
+            "thread_id": "01a14561-6afe-7231-8668-8cf5b4f8706f",
+            "turn_id": "01a168db-3156-7bf1-9768-fa7613cf949e",
+            "record_id": "R177",
+            "message_ordinal": 5,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "peer_R178_M12",
+          "source": "teammate",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-25T10:28:29+00:00",
+          "timestamp_scope": "source_turn_start_only_not_individual_message_time",
+          "model": "未记录",
+          "original_text_sha256": "3f02255123aa2a96b9fd983884a3b6189a18ebf420a459993f6d3115de8c8dad",
+          "locator": {
+            "thread_id": "01a14561-6afe-7231-8668-8cf5b4f8706f",
+            "turn_id": "01a1729a-c974-7f10-af86-f384d1388727",
+            "record_id": "R178",
+            "message_ordinal": 12,
+            "entry": "附录/对话可见消息与操作索引.json"
+          }
+        },
+        {
+          "record_id": "m04013",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T14:14:00.445000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "6875dfa4df491cb676eb8897ea1d8aca730dd39f28be32cc1bc1d3e605612ee5",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m04013"
+          }
+        },
+        {
+          "record_id": "m04019",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-26T14:46:37.461000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "cb02b28b269ea19e7008aa41098d2666cdecf850ba1b4c09ac87b045de9e99ac",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261026.md#m04019"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "peer",
+          "archive": "submission_evidence/teammate_llm_interactions_20261101.zip",
+          "entry": "附录/对话可见消息与操作索引.json",
+          "bytes": 1057969,
+          "sha256": "7440a050c4dbe845d1a5479739ababcf01da946ab898d1fcf5650154479d8041"
+        },
+        {
+          "scope": "formal",
+          "path": "src/ps/workbench/verification_record.json",
+          "bytes": 3041,
+          "sha256": "fd30f4fd6bf5ec5d922b3b91780724df7059cc994cc9ad8d0c74fbd0a10f50d1"
+        }
+      ]
+    },
+    {
+      "id": "l10",
+      "stage": 4,
+      "title": "把外部评审转化为Skill缺陷修订",
+      "first_date_beijing": "2026-10-28",
+      "last_date_beijing": "2026-10-28",
+      "records": [
+        {
+          "record_id": "m04298",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-28T07:37:17.402000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "29cf27adb5d78675549350c775ecb9932883a181eef7fd1a04ad84f794594a2d",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261028.md#m04298"
+          }
+        },
+        {
+          "record_id": "m04299",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-28T07:38:08.732000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "6ac8e1e915ca322a45574048178e9333c31c18a0639cff38193fb52183c1e343",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261028.md#m04299"
+          }
+        },
+        {
+          "record_id": "m04300",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-28T07:41:01.181000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "628e64df243968f24ce12a804f0d4fde92c2e457895e378c9216b8e2b85eca31",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261028.md#m04300"
+          }
+        },
+        {
+          "record_id": "m04301",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-28T07:44:06.913000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "d07b1c9d83b04feaceb3c614a62651c4fb5224a9334b851f39e1263d78caf921",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261028.md#m04301"
+          }
+        },
+        {
+          "record_id": "m04303",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-28T07:54:59.257000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "388d8208eeaf4f6c968ca6aac03ddd1541f66fab6b5116d0349d28c75cc40ff2",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261028.md#m04303"
+          }
+        },
+        {
+          "record_id": "m04304",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-28T07:59:55.474000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "d3fe62f33c758f4fc480c00cdfecb01ba1566858991b5eeb45954e4473ef0e35",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261028.md#m04304"
+          }
+        },
+        {
+          "record_id": "m04305",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-28T08:12:53.313000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "7bd36cf43ead0db0a9a95535674f10db6b74b864819939fa51565cdb182437cd",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261028.md#m04305"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "formal",
+          "path": "skill/verification/current_summary.json",
+          "bytes": 1560,
+          "sha256": "0073a88d235daa50ea104d52a9dd740a354980c19a28edc74b4a301117ff2465"
+        },
+        {
+          "scope": "formal",
+          "path": "skill/verification/current_unit_report.json",
+          "bytes": 1962,
+          "sha256": "96f44bf04324c0df3975df057477b90a4cdc693c2d472cd94a02c43cee0d2b74"
+        },
+        {
+          "scope": "formal",
+          "path": "skill/verification/cross_board_experiment.json",
+          "bytes": 966,
+          "sha256": "72343386875ab7dddc3a239d81d1460480dccc47e7a408fd19fa0fedd8c7d29e"
+        }
+      ]
+    },
+    {
+      "id": "l11",
+      "stage": 4,
+      "title": "核对名义频率与板载参考时钟",
+      "first_date_beijing": "2026-10-29",
+      "last_date_beijing": "2026-10-29",
+      "records": [
+        {
+          "record_id": "m04343",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-29T02:15:32.684000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "f7c3fab9a4bc31576d0b555634eea189748c72ec121b9cb54f5938ec2a11b9d7",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261029.md#m04343"
+          }
+        },
+        {
+          "record_id": "m04362",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-29T05:53:52.109000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "c0a4ba1eba159419a3426ee39016661dae4c2d894b43824749a96a6acfa00763",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261029.md#m04362"
+          }
+        },
+        {
+          "record_id": "m04363",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-29T05:53:57.050000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "269a7ea0f9e86c22be087db0700ea1e3f388ef0eb46fb6d386958d44772d476e",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261029.md#m04363"
+          }
+        },
+        {
+          "record_id": "m04400",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-29T09:15:33.934000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "5be2fd5115ae40c184b07a9908baad2d8f212d01bfe7de8055b7a0a135eb7cfc",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261029.md#m04400"
+          }
+        },
+        {
+          "record_id": "m04422",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-29T09:38:32.974000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "45e4ce16f7dc7badc7451c1e5e526edfd40e09866246412a8b00c410cd68d7cb",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261029.md#m04422"
+          }
+        },
+        {
+          "record_id": "m04423",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-29T09:40:03.558000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "d4b0941a171370aee1caafac45a258aa831861b30c6d3822c1febb6bd6729ca6",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261029.md#m04423"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "formal",
+          "path": "docs/clock_reference.md",
+          "bytes": 3307,
+          "sha256": "62ebc171aebf5ddaec416c85a89f7e3efea154d7015e4a22af8c210eaf96d228"
+        },
+        {
+          "scope": "formal",
+          "path": "report/verification/clock_reference/board_readonly_excerpt.json",
+          "bytes": 1054,
+          "sha256": "9a6e1b231215828e0261dce6d48247ba2a237a9716b0664b858fefe569a6850e"
+        },
+        {
+          "scope": "formal",
+          "path": "skill/pynq-clock-reference-audit/SKILL.md",
+          "bytes": 5115,
+          "sha256": "64d32394c0fe13d78035fe7649617fa8746ee32a91eb28eab5dd0456edfb4fd4"
+        }
+      ]
+    },
+    {
+      "id": "l12",
+      "stage": 4,
+      "title": "修复冻结文件并保留部分证据的用途",
+      "first_date_beijing": "2026-10-31",
+      "last_date_beijing": "2026-11-01",
+      "records": [
+        {
+          "record_id": "m04684",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T15:53:47.410000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "0eea3584678adf514ffe3d20eba55530ca103d3b4736134defd36df19ba23b6a",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04684"
+          }
+        },
+        {
+          "record_id": "m04686",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-31T15:55:22.145000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "489bcb8ca02f38b43880be25d6a1ca239bed6b80b88ab46bb7adb0584f9e4273",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04686"
+          }
+        },
+        {
+          "record_id": "m04688",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-31T16:00:19.511000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "d2f150978bf3e06399f108bc3b708ffadc2e87e0ba80f152a9a013531d907b08",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04688"
+          }
+        },
+        {
+          "record_id": "m04689",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T16:08:30.734000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "dbf4f9c7d58ce39cb2e536c55e9a04a5326a1bf5ef47111264f9edc2532430de",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04689"
+          }
+        },
+        {
+          "record_id": "m04699",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T16:32:56.208000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "b42c5a8d79975013ae8bbd9ed78d10517eedc7f3997687b165d525f2b3438234",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04699"
+          }
+        },
+        {
+          "record_id": "m04701",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T16:34:21.337000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "05415c894399d609777b9faeae8f6c33ee1f2c5c462631119a3976c695e77b1e",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04701"
+          }
+        },
+        {
+          "record_id": "m04702",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-31T16:35:18.727000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "eb260c271b77e88b703a465336dd50ad1edadf54b3128a7ce4676623d79e7e42",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04702"
+          }
+        },
+        {
+          "record_id": "m04706",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-31T16:57:07.957000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "ff7eae3a0521a0549d845ef8fcc349fff3fb6f0a95fb1ff9984dfa29152c74a2",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04706"
+          }
+        },
+        {
+          "record_id": "m04707",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-11-01T00:48:10.777000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "083b4e65be50354edfc034f15425f50039e2ec42f5e1c936bdf731cc7fbcfe5e",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04707"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "formal",
+          "path": "src/ps/workbench/tests_ds_frozen_model.py",
+          "bytes": 2144,
+          "sha256": "328638441a90f6d8f37872ba7af280be63902751942f353c72e076b1cc71ac7d"
+        },
+        {
+          "scope": "formal",
+          "path": "src/ps/workbench/vendor/ds/tests_local_reference.py",
+          "bytes": 3080,
+          "sha256": "7ee3c5916bf931fb134be9cda1ec8cdef0b1736540def6bfd3c9baa2e8502608"
+        },
+        {
+          "scope": "formal",
+          "path": "docs/ui_update_20261101.md",
+          "bytes": 2909,
+          "sha256": "ffe5a0a7c511380dc815137d841fe8cc6248cea00307825b14f789616ccbeeb7"
+        }
+      ]
+    },
+    {
+      "id": "l13",
+      "stage": 4,
+      "title": "备用SD冷启动与真实记录复现",
+      "first_date_beijing": "2026-10-31",
+      "last_date_beijing": "2026-11-01",
+      "records": [
+        {
+          "record_id": "m04567",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T11:03:04.129000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "b82d364585a077a887d9b74814304803daef0899191fdcff649b4b9bc1cf08db",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04567"
+          }
+        },
+        {
+          "record_id": "m04568",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-31T11:03:22.932000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "18640319d4b220751c0a04de8a6e7f4cf7a2c7ddbd5a1bebe13139d5de9eca2d",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04568"
+          }
+        },
+        {
+          "record_id": "m04574",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T11:15:21.255000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "74c26a06f3be234eeda078118db8850c651e34c22ffdbc9d7f7ba73e06f027bd",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04574"
+          }
+        },
+        {
+          "record_id": "m04576",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T11:16:22.974000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "49b4d92e39452f653e59b2d0706202eedc3479f38d10618980ee13fabf937f72",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04576"
+          }
+        },
+        {
+          "record_id": "m04577",
+          "source": "mainline",
+          "role": "assistant",
+          "timestamp_utc": "2026-10-31T11:16:43.696000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "gpt-6.1-sol",
+          "original_text_sha256": "738b690a00f61e0bd9eae33828e553e41800e45345252d1c0d55430c9a35f28b",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04577"
+          }
+        },
+        {
+          "record_id": "m04626",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T13:01:36.842000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "6e084a6eaad4c359b4c28449d625b597a880ef1674c9424ca0cec6cd14da35d5",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04626"
+          }
+        },
+        {
+          "record_id": "m04673",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T15:06:17.716000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "9cc44ffa71e63bad4e5ea90304f084dfdad032ea89d8642e31aff70bc394e0f9",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04673"
+          }
+        },
+        {
+          "record_id": "m04676",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-10-31T15:47:40.201000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "bc21dea6063b0e464089d13ad35fb961de89733ddee1d1659aab394116ed15a0",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261031.md#m04676"
+          }
+        },
+        {
+          "record_id": "m04720",
+          "source": "mainline",
+          "role": "user",
+          "timestamp_utc": "2026-11-01T01:52:25.549000+00:00",
+          "timestamp_scope": "individual_source_message",
+          "model": "未记录",
+          "original_text_sha256": "12bef5d643d575aae4759750af87ed46b39d40fd5dde75d6261d6a9be0accac6",
+          "locator": {
+            "archive_markdown": "raw/dialogue_20261101.md#m04720"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "scope": "formal",
+          "path": "docs/first_installation.md",
+          "bytes": 4319,
+          "sha256": "8a1f8c5e6ed9dc91cf004c1cc078616624d32e2dbf41fd3690b0959ec95446af"
+        },
+        {
+          "scope": "formal",
+          "path": "docs/fresh_sd_acceptance_20261101.md",
+          "bytes": 2741,
+          "sha256": "fcf00501d56961a632b6475ca703796977f374226283a342cd2136684f66bcd5"
+        },
+        {
+          "scope": "formal",
+          "path": "report/verification/ui_software/fresh_sd_session7_20261101.json",
+          "bytes": 3379,
+          "sha256": "23132c35a63465660d8e4acf2daee7ee7634b38ed61d533cb836b8e17222305c"
+        }
+      ]
+    }
+  ],
+  "teammate_archive_review": {
+    "status": "PASS_RECEIVED_ARCHIVE_INTEGRITY_AND_VISIBLE_MESSAGE_INDEX",
+    "archive_sha256": "29e32a7da8ce3820e13b5291a9961d7bcf04c5b1815986b4ad22b767ff11345c",
+    "archive_bytes": 580518,
+    "archive_members": 17,
+    "manifest_entries_checked": 16,
+    "threads": 2,
+    "turns": 179,
+    "visible_messages": 739,
+    "first_turn_utc": "2026-09-27T02:59:33+00:00",
+    "last_turn_utc": "2026-11-01T03:14:43+00:00",
+    "time_scope": "Per-turn start timestamp; individual message times unavailable",
+    "model_metadata": "Not supplied; kept 未记录",
+    "original_hardware_or_build_logs_reverified": false,
+    "cross_source_deduplication_performed": false,
+    "source_F_drive_files_retrieved": false,
+    "original_tools_outputs_or_binary_attachments_included": false,
+    "original_archive_changed": false,
+    "source_entry_sha256": "7440a050c4dbe845d1a5479739ababcf01da946ab898d1fcf5650154479d8041",
+    "new_STARTs": 0
+  },
+  "original_snapshot_modified": false,
+  "cross_source_deduplication_performed": false,
+  "new_STARTs": 0
+}

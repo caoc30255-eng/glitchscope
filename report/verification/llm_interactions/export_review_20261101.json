@@ -1,0 +1,39 @@
+{
+  "status": "PASS_SCOPED_VISIBLE_RECORDS_EXPORTED",
+  "export_date": "2026-11-01",
+  "record_source": "Read-only local project history projections and available rollout prefixes",
+  "first_timestamp_utc": "2026-09-23T04:58:59.386000+00:00",
+  "last_timestamp_utc": "2026-11-01T02:41:36.204000+00:00",
+  "visible_user_messages": 1648,
+  "visible_assistant_messages": 3102,
+  "tool_records_not_independent_call_count": 10177,
+  "case_count": 6,
+  "recovered_attachment_files": 277,
+  "models_observed": [
+    "gpt-6-astra",
+    "gpt-6.1-sol"
+  ],
+  "missing_model_policy": "未记录",
+  "full_project_history_claimed": false,
+  "known_limitations": [
+    "Local history projections and available rollout segments only; completeness before earliest recovered date not established",
+    "Other tools/accounts and teammate chats not included unless explicitly present in selected project records",
+    "Some text/image references may be unavailable or only recoverable as metadata",
+    "Export snapshot may end before the current conversation turn completes",
+    "Record dates are source timestamps, not old2021 board clock; model unknown remains 未记录"
+  ],
+  "original_internal_logs_copied": false,
+  "internal_reasoning_or_system_instructions_exported": false,
+  "credential_pattern_scan": "PASS",
+  "image_manual_privacy_review_complete": false,
+  "assessment_archive": {
+    "path": "submission_evidence/llm_interactions_20261101.zip",
+    "bytes": 29656476,
+    "sha256": "71bcdf57eba150c965bc32ba51418be90867640db84127c28ce4a65c6d99fa51"
+  },
+  "source_index": "report/llm_interactions_original/index.json",
+  "source_contains_only_index_and_case_excerpts": true,
+  "source_databases_modified": false,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

@@ -1,0 +1,187 @@
+{
+  "status": "COMPLETE_FIRST_FIT_DESIGN_NOT_PHYSICALLY_ACCEPTED",
+  "measured_values_are_ruler_estimates": true,
+  "physical_fit_verified": false,
+  "thread_and_stud_lengths_verified": false,
+  "slicer_run": false,
+  "units": "mm",
+  "scale_percent": 100,
+  "material": "PETG",
+  "installed_print_pieces": 29,
+  "extra_coupon": 1,
+  "print_types": 13,
+  "parts": {
+    "back.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 13.527631800399249,
+      "print_envelope_mm": [
+        186.0,
+        107.75,
+        1.199999856948864
+      ],
+      "flat_build_orientation": true
+    },
+    "base.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 27.12728096704875,
+      "print_envelope_mm": [
+        183.60000228881836,
+        141.0,
+        10.0
+      ],
+      "flat_build_orientation": true
+    },
+    "beam.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 3.890811017798482,
+      "print_envelope_mm": [
+        180.0,
+        10.0,
+        3.0
+      ],
+      "flat_build_orientation": true
+    },
+    "column.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 2.655225554072127,
+      "print_envelope_mm": [
+        9.0,
+        9.0,
+        49.0
+      ],
+      "flat_build_orientation": true
+    },
+    "corner_clip.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 0.5034169941537534,
+      "print_envelope_mm": [
+        12.0,
+        12.0,
+        10.0
+      ],
+      "flat_build_orientation": true
+    },
+    "coupon.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 7.959149588832527,
+      "print_envelope_mm": [
+        74.0,
+        36.0,
+        11.0
+      ],
+      "flat_build_orientation": true
+    },
+    "edge_clamp.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 1.030317522780484,
+      "print_envelope_mm": [
+        14.0,
+        12.0,
+        8.699999809265137
+      ],
+      "flat_build_orientation": true
+    },
+    "foot.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 0.4561538644477343,
+      "print_envelope_mm": [
+        11.0,
+        11.0,
+        6.0
+      ],
+      "flat_build_orientation": true
+    },
+    "front.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 13.796431768355635,
+      "print_envelope_mm": [
+        186.0,
+        107.75,
+        1.1999998569488497
+      ],
+      "flat_build_orientation": true
+    },
+    "roof.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 39.755907466909555,
+      "print_envelope_mm": [
+        186.0,
+        180.39999370574952,
+        3.1999998569488497
+      ],
+      "flat_build_orientation": true
+    },
+    "roof_clip.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 0.8787654504929728,
+      "print_envelope_mm": [
+        12.0,
+        12.0,
+        10.0
+      ],
+      "flat_build_orientation": true
+    },
+    "side_left.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 22.73391460451472,
+      "print_envelope_mm": [
+        177.5,
+        107.75,
+        1.2000007629394531
+      ],
+      "flat_build_orientation": true
+    },
+    "side_right.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 21.29871369203914,
+      "print_envelope_mm": [
+        177.5,
+        107.75,
+        1.2000007629394531
+      ],
+      "flat_build_orientation": true
+    },
+    "upper.stl": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "solid_volume_cm3": 15.832729878363889,
+      "print_envelope_mm": [
+        181.0,
+        141.0,
+        3.0
+      ],
+      "flat_build_orientation": true
+    }
+  },
+  "design_dimensions_mm": {
+    "case": [
+      186,
+      180.4,
+      115.2
+    ],
+    "lower_pcb_z": 15,
+    "upper_pcb_z": 68,
+    "lower_acrylic_bottom_z": 7,
+    "lower_original_screw_bottom_z": 5,
+    "base_top_z": 3,
+    "upper_new_isolator_height": 10,
+    "upper_back_lowest_estimated_z": 63.5,
+    "beam_top_z": 58,
+    "upper_back_clearance": 5.5,
+    "lower_locator_clear_width": 163,
+    "lower_front_back_stop_clearance": 122
+  }
+}

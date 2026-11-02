@@ -1,0 +1,61 @@
+{
+  "status": "PASS_OFFLINE_SKILL_TESTS",
+  "results": [
+    {
+      "skill": "axi-lite-contract-check",
+      "returncode": 0,
+      "tests": 29,
+      "seconds": 0.5801385000013397,
+      "log_sha256": "3547213ad5d01a654a9258006f903228d20663bc1f12f8b7a64527cd6352d670"
+    },
+    {
+      "skill": "bounded-active-benchmark",
+      "returncode": 0,
+      "tests": 28,
+      "seconds": 0.19671419999940554,
+      "log_sha256": "bba0ff28e6685a2f61b25e74b3447ef1d8b04b512825083955fb6343fa2cfd22"
+    },
+    {
+      "skill": "edge-model-portability",
+      "returncode": 0,
+      "tests": 25,
+      "seconds": 0.43979079999917303,
+      "log_sha256": "8d1e3edffa3714ba0700675954ca0530a200a7ee43ff0fe344147fb40801e54d"
+    },
+    {
+      "skill": "hardware-session-evidence",
+      "returncode": 0,
+      "tests": 31,
+      "seconds": 0.8165043000008154,
+      "log_sha256": "e1e48d3e6e8627270f2072ba928159173c866abf2407f8666450b591842cc673"
+    },
+    {
+      "skill": "pynq-bringup",
+      "returncode": 0,
+      "tests": 26,
+      "seconds": 0.34432839999863063,
+      "log_sha256": "049fe0b4f2387b1463250d122b1fb17e226075e2fba669141ef755b4ec6a8ad6"
+    },
+    {
+      "skill": "pynq-clock-reference-audit",
+      "returncode": 0,
+      "tests": 40,
+      "seconds": 0.24413979999735602,
+      "log_sha256": "891d62fdf38a119153638c78120d053080cbe5cc2542061edc8e1db032ae67f5"
+    },
+    {
+      "skill": "rtl-reference-cosim",
+      "returncode": 0,
+      "tests": 16,
+      "seconds": 0.35401310000088415,
+      "log_sha256": "d55f8f569ecda6fc8a694a7245c654964d3c00827c3c47b383c17baf269eb246"
+    }
+  ],
+  "total_tests": 195,
+  "python38_syntax_files": 45,
+  "hardware_access": false,
+  "new_physical_STARTs": 0,
+  "models_trained": false,
+  "physical_cross_board_portability_verified": false,
+  "scope": "Temporary-file, fake-bus and synthetic policy tests; historical project artifacts are separate"
+}

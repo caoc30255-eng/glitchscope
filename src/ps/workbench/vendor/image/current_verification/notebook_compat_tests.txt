@@ -1,0 +1,16 @@
+test_CRLF_and_source_arrays (__main__.Compatibility.test_CRLF_and_source_arrays) ... ok
+test_added_command_rejected (__main__.Compatibility.test_added_command_rejected) ... ok
+test_changed_clock_rejected (__main__.Compatibility.test_changed_clock_rejected) ... ok
+test_changed_string_literal_rejected (__main__.Compatibility.test_changed_string_literal_rejected) ... ok
+test_comments_and_empty_lines (__main__.Compatibility.test_comments_and_empty_lines) ... ok
+test_jupyter_trailing_newline_stripping (__main__.Compatibility.test_jupyter_trailing_newline_stripping) ... ok
+test_original_matches (__main__.Compatibility.test_original_matches) ... ok
+test_outputs_ignored (__main__.Compatibility.test_outputs_ignored) ... ok
+test_removed_initialization_rejected (__main__.Compatibility.test_removed_initialization_rejected) ... ok
+test_reordered_commands_rejected (__main__.Compatibility.test_reordered_commands_rejected) ... ok
+test_syntax_error_rejected (__main__.Compatibility.test_syntax_error_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.140s
+
+OK

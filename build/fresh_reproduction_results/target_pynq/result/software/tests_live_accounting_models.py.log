@@ -1,0 +1,11 @@
+test_ai_selection_boundary_without_execution_costs_nothing (__main__.LoopModels) ... ok
+test_complete44_claims_exactly44 (__main__.LoopModels) ... ok
+test_image_wrapper_calls_credit_guard_before_writer (__main__.LoopModels) ... ok
+test_operator_stop_releases_only_unstarted (__main__.LoopModels) ... ok
+test_original_scan_dispatch_calls_credit_guard_before_writer (__main__.LoopModels) ... ok
+test_unknown_attempt_not_refunded (__main__.LoopModels) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 117.166s
+
+OK

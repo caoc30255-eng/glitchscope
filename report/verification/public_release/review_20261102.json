@@ -1,0 +1,74 @@
+{
+  "schema": "ANONYMOUS_GITHUB_PREPUBLICATION_REVIEW_V1",
+  "date": "2026-11-02",
+  "provided_identity_fields_checked": true,
+  "private_keywords_published": false,
+  "team_identifier_matches": 0,
+  "team_name_matches": 0,
+  "member_name_matches": 0,
+  "affiliated_school_matches": 0,
+  "personal_local_paths_in_public_copy": 0,
+  "guideline_basis": "AMD2026 autonomous track3.3, supplied PDF SHA matches guide_reference.json",
+  "anonymous_scope": "User-provided registration identity and multilingual school keywords; public source/document metadata; local account paths; images visually reviewed",
+  "source_code_firmware_and_model_scope": "RTL, runtime HEX/bitstreams/native libraries and trained weights unchanged. Public UI keeps withheld reference positions blank. Directory spelling normalized.",
+  "historical_evidence_policy": "Originals retained privately. Public redactions have an explicit projection map; old receipts are not re-signed as new experiments.",
+  "license_policy": "MIT project contributions; upstream license/copyright notices preserved; full uncleared demonstration image bytes omitted",
+  "git_history_included": false,
+  "github_publication_performed": false,
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "remaining_checks": [],
+  "status": "PASS_ANONYMOUS_PUBLIC_PACKAGE_REVIEW",
+  "privacy_validation": {
+    "status": "PASS_PROVIDED_IDENTITY_AND_PUBLIC_PROJECTION_CHECKS",
+    "provided_identity_keywords_not_embedded_in_report": true,
+    "identity_keyword_hits": 0,
+    "personal_account_path_hits": 0,
+    "nonconforming_names": 0,
+    "coincidental_hash_substrings": 0,
+    "execution_and_firmware_files_byte_identical": 485,
+    "history_windows": 64,
+    "history_CAP_samples_and_profile_results_unchanged": true,
+    "reference_samples_equal": 262144,
+    "published_local_bytes_total": 320,
+    "full_image_payloads_in_history_viewer": false,
+    "github_push_performed": false,
+    "new_hardware_trials": 0
+  },
+  "software_regression": {
+    "test_programs": 7,
+    "top_level_tests": 70,
+    "all_passed": true,
+    "target": "Windows AMD64 Python3.12",
+    "new_hardware_acceptance": false,
+    "incremental_after_metadata_projection": {
+      "program": "tests_integration.py",
+      "tests": 13,
+      "passed": true
+    }
+  },
+  "browser_validation": {
+    "status": "PASS_ANONYMOUS_PUBLIC_VIEWER_BROWSER",
+    "items_switched": 64,
+    "profiles_switched": 14,
+    "retained_phases_switched": 14,
+    "CSV_downloaded": true,
+    "page_errors": [],
+    "identity_keywords_visible": 0,
+    "hardware_access": false,
+    "new_STARTs": 0
+  },
+  "git_tracking": {
+    "status": "PASS_NO_REQUIRED_FILE_IGNORED",
+    "checked_files": 3745,
+    "ignored_required_files": [],
+    "commit_created": false,
+    "remote_contacted": false
+  },
+  "limitations": [
+    "Existing hardware acceptance belongs to the preserved original execution artifacts; this review does not add board trials.",
+    "FPGA/STM32/PS source reproduction has staged existing evidence. A fresh full unified build was not rerun during this publication review."
+  ],
+  "publication_identity_policy_updated_on": "2026-11-03",
+  "publication_identity_policy": "Normal owner account, commit author and email authorized. Source contents retain the original identity restrictions."
+}

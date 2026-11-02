@@ -1,0 +1,970 @@
+{
+  "CONFIG_height": 344,
+  "CONFIG_width": 32,
+  "automatic_retry": false,
+  "coarse_condition_ids": [
+    "c_6f2a5e30a0480197",
+    "c_d7e17cc1cec28e90",
+    "c_a342a1e2c3bfb4ac",
+    "c_321f9f6d413ce369",
+    "c_aba2e285682c0785",
+    "c_261ba4b3a9160117",
+    "c_3541cf01c018c0a1",
+    "c_b93626ef5acb5da5",
+    "c_b211dc3746f5877b",
+    "c_e9bb2f02be1043d1",
+    "c_e5d759bd5be16539",
+    "c_52dab8c2fff4b125",
+    "c_77469a76ad1d8e82",
+    "c_de61e6b3b9d907f8"
+  ],
+  "conditions": [
+    {
+      "condition_id": "c_6f2a5e30a0480197",
+      "condition_sha256": "6f2a5e30a0480197da3740b09c203756669ce359ee636ccf52c18b39158ba2a5",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 5,
+        "width": 1
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_d7e17cc1cec28e90",
+      "condition_sha256": "d7e17cc1cec28e9060f0d2987151bc1dc4ece7ae0e4199e91650e80a73dd986c",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 5,
+        "width": 10
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_a342a1e2c3bfb4ac",
+      "condition_sha256": "a342a1e2c3bfb4ac495505f1407246f43224714b331911e3e12683eb76f99166",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 5,
+        "width": 20
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_321f9f6d413ce369",
+      "condition_sha256": "321f9f6d413ce369d08d8eb44713e479bb12fbf6ebbbec3f26a13e06a2510679",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 5,
+        "width": 30
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_aba2e285682c0785",
+      "condition_sha256": "aba2e285682c07856d34f2b6cd85e1c48b5b1794bc3a967fc2433a31da98dd12",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 5,
+        "width": 40
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_261ba4b3a9160117",
+      "condition_sha256": "261ba4b3a9160117706ec391e4a150e91c5b33381e46a4e3eb6fa1ec02612286",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 15,
+        "width": 1
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_3541cf01c018c0a1",
+      "condition_sha256": "3541cf01c018c0a1126d24632add674f3493d4131a51bc88bd4563201b6b696f",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 15,
+        "width": 10
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_b93626ef5acb5da5",
+      "condition_sha256": "b93626ef5acb5da5f40106bba0b82c7e90f459521982eeae4650841d1e501dbc",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 15,
+        "width": 20
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_b211dc3746f5877b",
+      "condition_sha256": "b211dc3746f5877b43c7e1af9aab82a8a9fea4c0d0d19ac974d1473b4583b399",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 15,
+        "width": 30
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_e9bb2f02be1043d1",
+      "condition_sha256": "e9bb2f02be1043d1e1b43d92e3d84f5e367e69e959e62ed073a6876534944e9a",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 25,
+        "width": 1
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_e5d759bd5be16539",
+      "condition_sha256": "e5d759bd5be165398acf75e6bd5ef0ae2d3e61e31bb3ea9ce36bc7a7f70fd502",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 25,
+        "width": 10
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_52dab8c2fff4b125",
+      "condition_sha256": "52dab8c2fff4b125490201bebad275c87361042162e74ec0b8bce977ddc696e0",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 25,
+        "width": 20
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_77469a76ad1d8e82",
+      "condition_sha256": "77469a76ad1d8e827b026317743ff70acc008c13fa2c2759095adb2799219926",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 35,
+        "width": 1
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    },
+    {
+      "condition_id": "c_de61e6b3b9d907f8",
+      "condition_sha256": "de61e6b3b9d907f8c212c36757afb4380961c2661693633d3943b3e35a8788c5",
+      "count": 1,
+      "fault": {
+        "bit": 0,
+        "byte": 20,
+        "phase": 35,
+        "width": 10
+      },
+      "mode": "TYPE3C_CONTIGUOUS",
+      "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "protocol": "TYPE3C",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      },
+      "route_mode": 0
+    }
+  ],
+  "initial_queue": [
+    {
+      "condition_id": "c_6f2a5e30a0480197",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_6f2a5e30a0480197",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_6f2a5e30a0480197",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_d7e17cc1cec28e90",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_d7e17cc1cec28e90",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_d7e17cc1cec28e90",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_a342a1e2c3bfb4ac",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_a342a1e2c3bfb4ac",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_a342a1e2c3bfb4ac",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_321f9f6d413ce369",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_321f9f6d413ce369",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_321f9f6d413ce369",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_aba2e285682c0785",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_aba2e285682c0785",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_aba2e285682c0785",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_261ba4b3a9160117",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_261ba4b3a9160117",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_261ba4b3a9160117",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_3541cf01c018c0a1",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_3541cf01c018c0a1",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_3541cf01c018c0a1",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_b93626ef5acb5da5",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_b93626ef5acb5da5",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_b93626ef5acb5da5",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_b211dc3746f5877b",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_b211dc3746f5877b",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_b211dc3746f5877b",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_e9bb2f02be1043d1",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_e9bb2f02be1043d1",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_e9bb2f02be1043d1",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_e5d759bd5be16539",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_e5d759bd5be16539",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_e5d759bd5be16539",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_52dab8c2fff4b125",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_52dab8c2fff4b125",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_52dab8c2fff4b125",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_77469a76ad1d8e82",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_77469a76ad1d8e82",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_77469a76ad1d8e82",
+      "repeat": 3
+    },
+    {
+      "condition_id": "c_de61e6b3b9d907f8",
+      "repeat": 1
+    },
+    {
+      "condition_id": "c_de61e6b3b9d907f8",
+      "repeat": 2
+    },
+    {
+      "condition_id": "c_de61e6b3b9d907f8",
+      "repeat": 3
+    }
+  ],
+  "item_total": 43,
+  "items": [
+    {
+      "profile": null,
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "profile": {
+        "dynamic_committed_profile": true
+      },
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    }
+  ],
+  "live_execution_authorized": false,
+  "max_records": 44,
+  "mode": "TYPE3C_CONTIGUOUS",
+  "new_physical_STARTs_authorized": 0,
+  "payload_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+  "payload_sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+  "preparation": [
+    {
+      "kind": "CONFIG",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    },
+    {
+      "kind": "CONTROL",
+      "receiver_B": {
+        "d": 3,
+        "s": -1
+      }
+    }
+  ],
+  "preparation_records": 2,
+  "receiver_B": {
+    "d": 3,
+    "s": -1
+  },
+  "refinement": {
+    "candidates": [],
+    "confirmation_repeats": 3,
+    "enabled": false
+  },
+  "repeats": 3,
+  "request": {
+    "fault": {
+      "bit": 0,
+      "byte": 20,
+      "count": 1
+    },
+    "max_records": 44,
+    "mode": "TYPE3C_CONTIGUOUS",
+    "payload_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+    "receiver_B": {
+      "d": 3,
+      "s": -1
+    },
+    "refinement": {
+      "candidates": [],
+      "confirmation_repeats": 3,
+      "enabled": false
+    },
+    "repeats": 3,
+    "scan": {
+      "points": [
+        {
+          "phase": 5,
+          "width": 1
+        },
+        {
+          "phase": 5,
+          "width": 10
+        },
+        {
+          "phase": 5,
+          "width": 20
+        },
+        {
+          "phase": 5,
+          "width": 30
+        },
+        {
+          "phase": 5,
+          "width": 40
+        },
+        {
+          "phase": 15,
+          "width": 1
+        },
+        {
+          "phase": 15,
+          "width": 10
+        },
+        {
+          "phase": 15,
+          "width": 20
+        },
+        {
+          "phase": 15,
+          "width": 30
+        },
+        {
+          "phase": 25,
+          "width": 1
+        },
+        {
+          "phase": 25,
+          "width": 10
+        },
+        {
+          "phase": 25,
+          "width": 20
+        },
+        {
+          "phase": 35,
+          "width": 1
+        },
+        {
+          "phase": 35,
+          "width": 10
+        }
+      ]
+    },
+    "target": "B_frame_correct"
+  },
+  "required_records": 44,
+  "reserved_refinement_records": 0,
+  "resume_allowed": false,
+  "route_mode": 0,
+  "schema": "CUSTOM_FIXED_PROFILE_SCAN_PLAN_V0_1",
+  "sha256": "e71d723da8050fce6fe4e81797eea3f68de3c450241cb67be1e36023e6500e75",
+  "source_bytes": 11008,
+  "source_sha256": "441fe7758a2754f8696ee6318560c255efcd57e6aefd486509b6c9df843a44a9",
+  "target": "B_frame_correct"
+}
