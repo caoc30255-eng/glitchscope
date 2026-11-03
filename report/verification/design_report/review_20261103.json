@@ -1,0 +1,34 @@
+{
+  "schema": "DESIGN_REPORT_PDF_REVIEW_V2",
+  "date": "2026-11-03",
+  "status": "PASS_CONTENT_LAYOUT_AND_PUBLIC_IDENTITY_REVIEW",
+  "document": "report/design_report/design_report.pdf",
+  "source_filename": "design_report_final_ai_heading_20261103.pdf",
+  "source_sha256": "e5e749851a9245c437cee5c15dffdf7f2bd9ed0c68f9be93ca6bd1d26532d78b",
+  "accepted_pdf_sha256": "dc36dc5973539d16826396a65d12b41bd2d78b20cf69377bd60e2d8ec02c033a",
+  "replaced_public_pdf_sha256": "8227cc94668287c1332af3029b5c876da1ced9f161e8a2e5d25b73843d9d7c91",
+  "pages": 39,
+  "numbered_tables": 14,
+  "figures": 11,
+  "references": 10,
+  "checks": {
+    "normalized_text_matches_latest_reviewed_document": true,
+    "all_39_pages_rendered_and_visually_reviewed": true,
+    "tables_centered": true,
+    "parallel_rule_and_edge_ai_subheadings": true,
+    "core_numbers_preserved": true,
+    "forbidden_competition_identity_absent_from_text_and_metadata": true,
+    "metadata_only_edit_all_pages_pixel_identical_to_user_pdf": true
+  },
+  "metadata_normalization": {
+    "field": "Subject",
+    "reason": "Use a neutral competition-track description without an unconfirmed grade label",
+    "visible_text_changed": false
+  },
+  "publication_scope": "User-supplied revised report including figure8 received/recovered illustration. Standalone source images and full raw session archives remain excluded.",
+  "historical_receipts_modified": false,
+  "runtime_code_modified": false,
+  "hardware_access": false,
+  "new_STARTs": 0,
+  "scope": "Document content, current code contracts, recorded numerical claims, conversion and public identity review; no new hardware trial or rerun of EDA."
+}

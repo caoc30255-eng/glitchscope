@@ -222,13 +222,13 @@
       "path": "report/design_report/README.md",
       "source_sha256": "5ccea25604e62b3e0a54bd82cc85dd9de3a9c1982cd8c777d51e602bccec26b4",
       "reason": "Documented anonymous public projection; original preserved privately",
-      "public_sha256": "ba65896e4a7ac6ed844a349fa7dba98503b871e998622ddc66a8ddc8ab4deef4"
+      "public_sha256": "4d9df85cf836fea5c8770e801a38e918b79f06a0769c8f187afd2badd1c48e80"
     },
     {
       "path": "report/design_report/design_report.pdf",
       "source_sha256": "dcd7cd29ba4a5d355a9896d71c680e43dc08a5caccd0da222086793cd3c02d6b",
       "reason": "Documented anonymous public projection; original preserved privately",
-      "public_sha256": "8227cc94668287c1332af3029b5c876da1ced9f161e8a2e5d25b73843d9d7c91"
+      "public_sha256": "dc36dc5973539d16826396a65d12b41bd2d78b20cf69377bd60e2d8ec02c033a"
     },
     {
       "path": "report/llm_interactions_original/README.md",
@@ -935,13 +935,13 @@
     {
       "path": "docs/github_readiness.md",
       "source_sha256": "c80fe06eb5a8cc7c8b8ca4ff3e12677a4f762de45283ea5cfa832009fd9c23b0",
-      "public_sha256": "299ff24a678e9acfe643cd6a0f6bd07a6feafa46fc820752026cb44ea2ac9893",
+      "public_sha256": "1e03eeb1908206f39d1ce7dc6d9a0acb1b1045512b1d3d04d37a69ce4601d18f",
       "reason": "GitHub publishing metadata and checkout compatibility"
     },
     {
       "path": "docs/public_release.md",
       "source_sha256": "c8b96abdddcf6ab7b7ae66a54774e68f1425d4969fa302caa63dba13504ac323",
-      "public_sha256": "87c3f1abe033d188dfdd69c1804fbf28537fd0b03624b39bd682847eb2013526",
+      "public_sha256": "5ec1b2ce89c0224cd5e50334779ee53d9df547e7932ca3f99823a446a078c217",
       "reason": "GitHub publishing metadata and checkout compatibility"
     },
     {
@@ -949,6 +949,18 @@
       "source_sha256": "599dc37970860d18df2e4e630b4e7c17f5032290f24b71ee33a452271253a522",
       "public_sha256": "06191be9158d5c85f9d7511bcc2b86e2d5893aa46e101b54abdf2b636e81053d",
       "reason": "GitHub publishing metadata and checkout compatibility"
+    },
+    {
+      "path": "docs/publishing.md",
+      "source_sha256": "477bc401d6515c630a96a5fafdcc9d40d1738aa54f2bf51c2d1b8334e886eb2c",
+      "public_sha256": "661b51a63673b2488c3178e2ea5a374dbc0da4f98a8d0adc284d931ea8ddb602",
+      "reason": "Design report revision and current document review"
+    },
+    {
+      "path": "report/verification/design_report/review_20261103.json",
+      "source_sha256": null,
+      "public_sha256": "0697523593fe500bd8962d1f84beffed8519efc96612742ed583d58587350944",
+      "reason": "Design report revision and current document review"
     }
   ],
   "omitted": [
@@ -2084,5 +2096,16 @@
   "identity_keywords_included": false,
   "new_hardware_trials": 0,
   "software_check_receipt": "report/verification/public_release/review_20261102.json",
-  "public_repository": "https://github.com/caoc30255-eng/glitchscope"
+  "public_repository": "https://github.com/caoc30255-eng/glitchscope",
+  "document_updates": [
+    {
+      "date": "2026-11-03",
+      "document": "report/design_report/design_report.pdf",
+      "previous_public_sha256": "8227cc94668287c1332af3029b5c876da1ced9f161e8a2e5d25b73843d9d7c91",
+      "supplied_pdf_sha256": "e5e749851a9245c437cee5c15dffdf7f2bd9ed0c68f9be93ca6bd1d26532d78b",
+      "accepted_pdf_sha256": "dc36dc5973539d16826396a65d12b41bd2d78b20cf69377bd60e2d8ec02c033a",
+      "review": "report/verification/design_report/review_20261103.json",
+      "historical_source_hashes_retained": true
+    }
+  ]
 }

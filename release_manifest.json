@@ -522,8 +522,8 @@
       "sha256": "f4ee029505ffaf63888507257182df61046334f65ee0586a527034f9cdeb82cf"
     },
     "docs/github_readiness.md": {
-      "bytes": 3754,
-      "sha256": "299ff24a678e9acfe643cd6a0f6bd07a6feafa46fc820752026cb44ea2ac9893"
+      "bytes": 4073,
+      "sha256": "1e03eeb1908206f39d1ce7dc6d9a0acb1b1045512b1d3d04d37a69ce4601d18f"
     },
     "docs/llm_collaboration.md": {
       "bytes": 1161,
@@ -538,12 +538,12 @@
       "sha256": "460c9cb2518fd4a0e780f64cdb81924623abc8f40161b54ba3ccb7f4da60de97"
     },
     "docs/public_release.md": {
-      "bytes": 3171,
-      "sha256": "87c3f1abe033d188dfdd69c1804fbf28537fd0b03624b39bd682847eb2013526"
+      "bytes": 3442,
+      "sha256": "5ec1b2ce89c0224cd5e50334779ee53d9df547e7932ca3f99823a446a078c217"
     },
     "docs/publishing.md": {
-      "bytes": 902,
-      "sha256": "477bc401d6515c630a96a5fafdcc9d40d1738aa54f2bf51c2d1b8334e886eb2c"
+      "bytes": 1011,
+      "sha256": "661b51a63673b2488c3178e2ea5a374dbc0da4f98a8d0adc284d931ea8ddb602"
     },
     "docs/release_notes.md": {
       "bytes": 2624,
@@ -738,20 +738,20 @@
       "sha256": "7e9fe7255bd8e326e2ed1423040dfb97081789d97ff142aa381313b47bdc3134"
     },
     "public_projection_manifest.json": {
-      "bytes": 134909,
-      "sha256": "2281791894e5f661fedfa9897b45aa8ea67972a4de7b6b928156ba513484b187"
+      "bytes": 136051,
+      "sha256": "86d1b7706a90223844d91d9c1b5c996913a1a93b84f72b330b43f065ebdec0da"
     },
     "README.md": {
       "bytes": 9747,
       "sha256": "b08289e93352692a6fa8d5807a2fda0f886bed08099442a9265f3162e6a70106"
     },
     "report/design_report/design_report.pdf": {
-      "bytes": 1740018,
-      "sha256": "8227cc94668287c1332af3029b5c876da1ced9f161e8a2e5d25b73843d9d7c91"
+      "bytes": 2089802,
+      "sha256": "dc36dc5973539d16826396a65d12b41bd2d78b20cf69377bd60e2d8ec02c033a"
     },
     "report/design_report/README.md": {
-      "bytes": 472,
-      "sha256": "ba65896e4a7ac6ed844a349fa7dba98503b871e998622ddc66a8ddc8ab4deef4"
+      "bytes": 881,
+      "sha256": "4d9df85cf836fea5c8770e801a38e918b79f06a0769c8f187afd2badd1c48e80"
     },
     "report/llm_interactions_original/cases/case01_clock_reference.md": {
       "bytes": 3725,
@@ -14988,6 +14988,10 @@
     "third_party_notices.md": {
       "bytes": 1825,
       "sha256": "5f08b1cb7ce01a53ee1ff0c8f3b4706bda0ec8fa037a729d0d6fa6b6ab2a9229"
+    },
+    "report/verification/design_report/review_20261103.json": {
+      "bytes": 1694,
+      "sha256": "0697523593fe500bd8962d1f84beffed8519efc96612742ed583d58587350944"
     }
   },
   "empty_directories": [
