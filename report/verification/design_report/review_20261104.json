@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04",
+  "document": "report/design_report/design_report.pdf",
+  "accepted_pdf_sha256": "3b2fd684900bdbac10ad7bead2403bed32cad544dc664cb170e850da168ebbf8",
+  "previous_public_sha256": "dc36dc5973539d16826396a65d12b41bd2d78b20cf69377bd60e2d8ec02c033a",
+  "pages": 40,
+  "collaboration_record": "report/llm_interactions_original/llm_collaboration_with_v1.md",
+  "collaboration_sha256": "2ac0206885610d05492875104af9e33efa6b88c3e6dccbbe99867b491a351d79",
+  "cases": 22,
+  "scope": "Documentation update: AI assistance, adopted and withdrawn suggestions, retrospective lessons; contents and rendered layout reviewed. No new hardware validation.",
+  "runtime_code_modified": false,
+  "hardware_access": false,
+  "new_STARTs": 0
+}

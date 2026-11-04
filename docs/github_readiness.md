@@ -10,7 +10,7 @@
 |仿真及功能验证|sim、report/verification、软件自测|分层记录齐备；不混合软件测试与实板试次|
 |性能与资源对比|设计报告第5章、build/reports、fresh_reproduction_results|有配对基线、记录消耗和覆盖、资源及时序；不声称150MHz通过|
 |可复现脚本|build与board入口、部署文档|已提供；本次未重新执行整轮EDA构建或实板验证|
-|设计报告|report/design_report/design_report.pdf|2026-11-03修订PDF，39页；14张编号表、11幅图、10条参考文献；见当日核验凭据|
+|设计报告|report/design_report/design_report.pdf|2026-11-04修订PDF，40页；补充AI建议取舍与人工复盘，见当日核验凭据|
 |大模型协作|report/llm_interactions_original|26页PDF、案例及来源索引；原始私有材料不上传|
 |技能包|skill|七项技能及已归档195项回归、适用范围和失效条件|
 |目录与命名|src、sim、build、board、data、skill、report及README映射|名称规范化；RTE目录已改为小写；gitignore未遗漏必需文件|

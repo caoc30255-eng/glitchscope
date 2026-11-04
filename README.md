@@ -78,7 +78,7 @@ flowchart LR
 
 这些结果对应各自的固定条件和证据范围。稀疏选点不等于重建完整地图；CRC 候选恢复具有明确错误模型；局部 d/s 候选不等于 14 组参数的硬件全局最优。
 
-查看[设计报告](report/design_report/design_report.pdf)、[新 SD 验收记录](docs/fresh_sd_acceptance_20261101.md)、[选点方法](docs/selection_methods.md)及 [verification](report/verification/) 了解条件、分母与来源。
+查看[设计报告](report/design_report/design_report.pdf)、[新 SD 验收记录](docs/fresh_sd_acceptance_20261101.md)、[选点方法](docs/selection_methods.md)、[大模型协作记录](report/llm_interactions_original/llm_collaboration_with_v1.md)及 [verification](report/verification/) 了解条件、分母与来源。
 
 ## 快速上手
 
@@ -121,7 +121,7 @@ python -B build/create_empty_directories.py
 
 | 内容 | 入口 |
 | --- | --- |
-| 原理、算法、实测与复现 | [39 页设计报告](report/design_report/design_report.pdf) |
+| 原理、算法、实测与复现 | [40 页设计报告](report/design_report/design_report.pdf) |
 | 架构及指标定义 | [项目说明](docs/project_overview.md) |
 | 工具链与构建 | [复现指南](docs/fresh_reproduction.md) |
 | 目标板首次安装 | [首次部署](docs/first_installation.md) |

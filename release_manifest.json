@@ -522,12 +522,12 @@
       "sha256": "f4ee029505ffaf63888507257182df61046334f65ee0586a527034f9cdeb82cf"
     },
     "docs/github_readiness.md": {
-      "bytes": 4073,
-      "sha256": "1e03eeb1908206f39d1ce7dc6d9a0acb1b1045512b1d3d04d37a69ce4601d18f"
+      "bytes": 4022,
+      "sha256": "5bff451101c647e9d1d7bd2a24c20b7163dbcfe216e669e92ece8ef059857e95"
     },
     "docs/llm_collaboration.md": {
-      "bytes": 1161,
-      "sha256": "ba04b509faae797341151a913874b124d34baa6d4e750687e162353ba088d347"
+      "bytes": 921,
+      "sha256": "906da2add40c6c75ad67e1e5290cdcc6031b0c41bdc5cc1d22c5e89bd0f99ebb"
     },
     "docs/package_review_20261102.md": {
       "bytes": 1820,
@@ -738,20 +738,20 @@
       "sha256": "7e9fe7255bd8e326e2ed1423040dfb97081789d97ff142aa381313b47bdc3134"
     },
     "public_projection_manifest.json": {
-      "bytes": 136051,
-      "sha256": "86d1b7706a90223844d91d9c1b5c996913a1a93b84f72b330b43f065ebdec0da"
+      "bytes": 134741,
+      "sha256": "6cf43626886c267be4fd5f280c378ef1bbabac02c0d843b1184ec928ba44be21"
     },
     "README.md": {
-      "bytes": 9747,
-      "sha256": "b08289e93352692a6fa8d5807a2fda0f886bed08099442a9265f3162e6a70106"
+      "bytes": 9675,
+      "sha256": "c6fd50eda91a642215fff23ca61751942a83d2a6320476a3febfbb34c825430b"
     },
     "report/design_report/design_report.pdf": {
-      "bytes": 2089802,
-      "sha256": "dc36dc5973539d16826396a65d12b41bd2d78b20cf69377bd60e2d8ec02c033a"
+      "bytes": 1798283,
+      "sha256": "3b2fd684900bdbac10ad7bead2403bed32cad544dc664cb170e850da168ebbf8"
     },
     "report/design_report/README.md": {
-      "bytes": 881,
-      "sha256": "4d9df85cf836fea5c8770e801a38e918b79f06a0769c8f187afd2badd1c48e80"
+      "bytes": 596,
+      "sha256": "9a06f06fd7112d5c7ea00275d6252fb20991c873aeae5571b63d9db46c03d0f8"
     },
     "report/llm_interactions_original/cases/case01_clock_reference.md": {
       "bytes": 3725,
@@ -849,13 +849,17 @@
       "bytes": 78684,
       "sha256": "f794373bfc322fd33d6f2e21c22ca959e078d6143dffc5b33283fe4085b45f58"
     },
+    "report/llm_interactions_original/llm_collaboration_with_v1.md": {
+      "bytes": 38472,
+      "sha256": "2ac0206885610d05492875104af9e33efa6b88c3e6dccbbe99867b491a351d79"
+    },
     "report/llm_interactions_original/llm_collaboration_with_v1.pdf": {
       "bytes": 327210,
       "sha256": "c6cb793f76845e725e23afb5c1c574b4fe0f7bdb092523c4ce62d047eb0d9712"
     },
     "report/llm_interactions_original/README.md": {
-      "bytes": 1625,
-      "sha256": "1bd50ed901fcd777f491a0062fcbc04859d299d072f87a2274e1d4b1972ce3f8"
+      "bytes": 1815,
+      "sha256": "15d3eec445468a920840ae83b22d85cb2c688368d75832f884e44d4654a23e25"
     },
     "report/llm_interactions_original/v1_cases/v1_01.md": {
       "bytes": 1284,
@@ -904,6 +908,14 @@
     "report/verification/design_report/review_20261102.json": {
       "bytes": 4012,
       "sha256": "0f51a4f5e09e7b43f074810717e9413010e03a85cd13433214692825cf9f2bd1"
+    },
+    "report/verification/design_report/review_20261103.json": {
+      "bytes": 1694,
+      "sha256": "0697523593fe500bd8962d1f84beffed8519efc96612742ed583d58587350944"
+    },
+    "report/verification/design_report/review_20261104.json": {
+      "bytes": 744,
+      "sha256": "2370761e5a210441954b0949807363e5fd652e14e957608ec0f021757048184f"
     },
     "report/verification/ds_analysis/binding_audit.json": {
       "bytes": 2841,
@@ -14982,16 +14994,12 @@
       "sha256": "f65f253c759299b308e4d0887c7fb565528f0410242dcfa0470471d051337563"
     },
     "submission_checklist.md": {
-      "bytes": 4060,
-      "sha256": "ffaf5d4b1efcffde0502969629482ce78794298d216e207565931cfd06629ba9"
+      "bytes": 4059,
+      "sha256": "2ba5c36c02d2c671750fe9d1372530f45e6d4cde7cb7e115af9a316762212ba7"
     },
     "third_party_notices.md": {
       "bytes": 1825,
       "sha256": "5f08b1cb7ce01a53ee1ff0c8f3b4706bda0ec8fa037a729d0d6fa6b6ab2a9229"
-    },
-    "report/verification/design_report/review_20261103.json": {
-      "bytes": 1694,
-      "sha256": "0697523593fe500bd8962d1f84beffed8519efc96612742ed583d58587350944"
     }
   },
   "empty_directories": [
