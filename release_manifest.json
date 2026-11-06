@@ -3847,7 +3847,7 @@
     },
     "sim/b_receiver_cosim/generator/run_rtl_cosim.py": {
       "bytes": 5978,
-      "sha256": "5180c3902d20856c1d279c2a4499bd48760ad44f8b0f517e4a961435d58121a7"
+      "sha256": "2cd7b5666aae0b43a853688321054783fcf5865040dcb03432ff7da13f7afb12"
     },
     "sim/b_receiver_cosim/generator/window_audit.py": {
       "bytes": 11972,
@@ -3875,7 +3875,7 @@
     },
     "sim/b_receiver_cosim/sha256_manifest.json": {
       "bytes": 300851,
-      "sha256": "bf9ffa34c0d0881ddaeca804832262772b63dcdab11b32f8799c967c73372cc0"
+      "sha256": "17910752a4cc24ba708b0ab346c78569dd380019dbcc30107d5ec6215835e3ae"
     },
     "sim/b_receiver_cosim/vector_manifest.json": {
       "bytes": 307823,

@@ -70,11 +70,12 @@ def generate(root, out):
 
 def run(directory, simulator):
     root=Path(__file__).resolve().parent;out=Path(directory).resolve()
+    rtl=root.parent/'rtl'
     if out==root or root in out.parents:raise ValueError('OUTPUT_OUTSIDE_FROZEN_PACKAGE_REQUIRED')
     out.mkdir(parents=True,exist_ok=False)
     report=dict(schema='B_RECEIVER_RTL_COSIM_V0_2',status='RUNNING',hardware_access=False,
                 physical_STARTs=0,scope='RTL_vs_Python_outputs_and_NCO_each_clock; not new hardware evidence',
-                model_sha256=sha(root/'b_receiver.py'),rtl_sha256={n:sha(root/'reference'/n) for n in
+                model_sha256=sha(root/'b_receiver.py'),rtl_sha256={n:sha(rtl/n) for n in
                 ('uart_rx_b_7020_observe_v0_1.v','rx_ce_gen_7020_v2_2.v','tb_b_receiver_cosim.sv')})
     def command(args,name):
         with (out/(name+'.log')).open('w',encoding='utf-8') as log:
@@ -88,7 +89,7 @@ def run(directory, simulator):
         version=subprocess.run([exe('vsim'),'-version'],capture_output=True,text=True,timeout=30)
         report['simulator']=version.stdout.strip() or version.stderr.strip()
         command([exe('vlib'),'work'],'vlib')
-        command([exe('vlog'),'-sv','-work','work']+[str(root/'reference'/n) for n in
+        command([exe('vlog'),'-sv','-work','work']+[str(rtl/n) for n in
                 ('uart_rx_b_7020_observe_v0_1.v','rx_ce_gen_7020_v2_2.v','tb_b_receiver_cosim.sv')],'vlog')
         (out/'run.do').write_text('onerror {quit -code 2}\nonfinish stop\nrun -all\nquit -f\n',encoding='ascii')
         command([exe('vsim'),'-c','-l',str(out/'transcript.log'),'-wlf',str(out/'wave.wlf'),
